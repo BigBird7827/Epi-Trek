@@ -1,93 +1,266 @@
 [
   {
-    "Name": "James T. Kirk",
-    "Alias": ["Kirk", "Captain Kirk", "Jim Kirk"],
+    "ID": "toss1e1",
     "Series": "TOS",
-    "Role": "Commanding officer, USS Enterprise (NCC-1701)",
-    "Summary": "Human Starfleet captain known for decisive command, tactical creativity, and strong personal loyalty to his crew. In early missions such as those to M-113 and with Charlie Evans aboard, he is forced to balance compassion with the safety of his ship when facing lonely, dangerous beings."
+    "Season": 1,
+    "Episode": 1,
+    "Title": "The Man Trap",
+    "Summary": "On planet M-113, a shape-shifting creature that craves salt infiltrates the Enterprise and preys on the crew."
   },
   {
-    "Name": "Spock",
-    "Alias": ["Mr. Spock"],
+    "ID": "toss1e2",
     "Series": "TOS",
-    "Role": "First officer and science officer, USS Enterprise",
-    "Summary": "Half-Vulcan, half-human Starfleet officer who serves as Kirk's first officer and chief scientist. His Vulcan discipline, logic, and analytical approach often counterbalance human emotional responses, helping the crew understand unknown life-forms like the M-113 creature and the Thasian influence on Charlie Evans."
+    "Season": 1,
+    "Episode": 2,
+    "Title": "Charlie X",
+    "Summary": "The Enterprise transports teenage castaway Charlie Evans, only to discover he wields terrifying psychic powers he cannot control."
   },
   {
-    "Name": "Leonard McCoy",
-    "Alias": ["Dr. McCoy", "Bones"],
+    "ID": "toss1e14",
     "Series": "TOS",
-    "Role": "Chief medical officer, USS Enterprise",
-    "Summary": "Human physician whose blunt manner and deep empathy make him both a moral conscience and a critic of cold logic. His past relationship with Nancy Crater complicates the M-113 mission, and his medical expertise is central in recognizing patterns in unusual deaths and psychological strain."
+    "Season": 1,
+    "Episode": 14,
+    "Title": "Balance of Terror",
+    "Summary": "The Enterprise confronts a Romulan Bird-of-Prey testing the Federation–Romulan Neutral Zone, echoing a submarine duel in space."
   },
   {
-    "Name": "Nyota Uhura",
-    "Alias": ["Uhura"],
-    "Series": "TOS",
-    "Role": "Communications officer, USS Enterprise",
-    "Summary": "Human Starfleet officer specializing in linguistics, communications, and signal analysis. She maintains critical contact with other ships and interprets incoming messages, providing a calm, professional presence on the bridge during crises such as the Antares disaster and Charlie Evans's disruptions."
+    "ID": "tass1e1",
+    "Series": "TAS",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Beyond the Farthest Star",
+    "Summary": "The animated Enterprise encounters a derelict ancient starship and a malevolent entity seeking escape from a dead star."
   },
   {
-    "Name": "Hikaru Sulu",
-    "Alias": ["Sulu"],
-    "Series": "TOS",
-    "Role": "Helmsman, USS Enterprise",
-    "Summary": "Human Starfleet helmsman responsible for navigation and ship handling at the Enterprise helm. Known for his professionalism and occasional dry humor, he helps keep the ship on course while the command crew deals with threats like the M-113 creature and Charlie's escalating powers."
+    "ID": "tass1e2",
+    "Series": "TAS",
+    "Season": 1,
+    "Episode": 2,
+    "Title": "Yesteryear",
+    "Summary": "Spock must travel back into his own childhood on Vulcan to correct a timeline where he died as a boy."
   },
   {
-    "Name": "Janice Rand",
-    "Alias": ["Yeoman Rand"],
-    "Series": "TOS",
-    "Role": "Captain's yeoman, USS Enterprise",
-    "Summary": "Human Starfleet yeoman who serves closely with Captain Kirk, handling reports, messages, and personal logistics. In the case of Charlie Evans, she becomes the focus of his adolescent fixation, unintentionally drawing the emotional center of the crisis toward issues of boundaries, consent, and unwanted attention."
+    "ID": "tass1e3",
+    "Series": "TAS",
+    "Season": 1,
+    "Episode": 3,
+    "Title": "The Lorelei Signal",
+    "Summary": "The women of the Enterprise must rescue the male crew from siren-like aliens draining their life-force."
   },
   {
-    "Name": "Professor Robert Crater",
-    "Alias": ["Robert Crater"],
-    "Series": "TOS",
-    "Role": "Archaeologist and research scientist on M-113",
-    "Summary": "Federation archaeologist stationed on M-113 with his wife Nancy to study the planet's ruins. After Nancy's death, he shelters the last surviving native creature, allowing it to imitate her and relying on its companionship, even as its need for salt leads to lethal encounters with visiting crews."
+    "ID": "tngs1e1",
+    "Series": "TNG",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Encounter at Farpoint",
+    "Summary": "The new Enterprise-D faces judgment from Q while investigating the mysterious Farpoint Station."
   },
   {
-    "Name": "Nancy Crater",
-    "Alias": ["Nancy"],
-    "Series": "TOS",
-    "Role": "Wife of Professor Robert Crater, former acquaintance of Dr. McCoy",
-    "Summary": "Human woman who lived with her husband Robert Crater on M-113 and was once romantically involved with Dr. McCoy. By the time the Enterprise arrives, she has already died; the M-113 creature assumes her appearance to interact with Crater and the landing party, turning Nancy into a haunting, reconstructed memory."
+    "ID": "tngs3e26",
+    "Series": "TNG",
+    "Season": 3,
+    "Episode": 26,
+    "Title": "The Best of Both Worlds, Part I",
+    "Summary": "Picard is captured and assimilated by the Borg, leaving Riker to face an impossible tactical choice."
   },
   {
-    "Name": "M-113 creature",
-    "Alias": ["salt vampire", "M-113 creature (\"salt vampire\")"],
-    "Series": "TOS",
-    "Role": "Last surviving native life-form of planet M-113",
-    "Summary": "Shape-shifting alien that survives by extracting salt from other beings, leaving victims drained and marked. It takes on familiar forms, including Nancy Crater, to gain trust and access to salt, forcing the Enterprise crew into a dilemma between preserving a unique species and protecting themselves."
+    "ID": "tngs5e25",
+    "Series": "TNG",
+    "Season": 5,
+    "Episode": 25,
+    "Title": "The Inner Light",
+    "Summary": "A probe causes Picard to live an entire lifetime in minutes as a man on a long-dead world."
   },
   {
-    "Name": "Charlie Evans",
-    "Alias": ["Charlie", "Charlie X", "Charlie Evans (empowered by the Thasians)"],
-    "Series": "TOS",
-    "Role": "Human adolescent with Thasian-granted psionic powers",
-    "Summary": "Seventeen-year-old human and sole survivor of the SS Columbia crash, raised in isolation by incorporeal Thasians who gave him vast psychic abilities. Emotionally immature and desperate to belong, he lashes out when rejected or mocked, warping reality on the Enterprise and proving too dangerous to remain among humans."
+    "ID": "ds9s1e1",
+    "Series": "DS9",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Emissary",
+    "Summary": "Commander Sisko takes command of Deep Space 9 and encounters the Bajoran Prophets inside the Celestial Temple."
   },
   {
-    "Name": "Captain Ramart",
-    "Alias": ["Ramart"],
-    "Series": "TOS",
-    "Role": "Commanding officer of the cargo vessel Antares",
-    "Summary": "Human captain of the Antares, the ship that first transports Charlie Evans from Thasus toward Federation space. Nervous and eager to pass Charlie to the Enterprise, he withholds the full truth about the boy's abilities, and his freighter is later destroyed under circumstances linked to Charlie's powers."
+    "ID": "ds9s1e19",
+    "Series": "DS9",
+    "Season": 1,
+    "Episode": 19,
+    "Title": "Duet",
+    "Summary": "Kira confronts a Cardassian who may have been a notorious war criminal from the Bajoran occupation."
   },
   {
-    "Name": "Tom Nellis",
-    "Alias": ["Nellis"],
-    "Series": "TOS",
-    "Role": "Officer aboard the cargo vessel Antares",
-    "Summary": "Member of the Antares crew who helps transfer Charlie Evans to the Enterprise. He shares his captain's unease and attempts to warn Kirk indirectly about Charlie's behavior, but the Antares is lost before a clear warning can reach the Enterprise."
+    "ID": "ds9s4e3",
+    "Series": "DS9",
+    "Season": 4,
+    "Episode": 3,
+    "Title": "The Visitor",
+    "Summary": "An accident seemingly kills Sisko, but Jake spends a lifetime trying to bring his father back from subspace."
   },
   {
-    "Name": "Thasian commander",
-    "Alias": ["Thasian", "Thasian ship commander"],
-    "Series": "TOS",
-    "Role": "Representative of the incorporeal Thasian species",
-    "Summary": "Non-corporeal being from the planet Thasus who speaks for its people when their ship intercepts the Enterprise. The Thasians granted Charlie Evans his powers so he could survive alone, but ultimately reclaim him when it becomes clear he cannot live safely among humans, restoring the Enterprise and its crew in the process."
+    "ID": "voys1e1",
+    "Series": "VOY",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Caretaker",
+    "Summary": "Voyager is stranded in the Delta Quadrant while investigating a powerful entity known as the Caretaker."
+  },
+  {
+    "ID": "voys4e8",
+    "Series": "VOY",
+    "Season": 4,
+    "Episode": 8,
+    "Title": "Year of Hell, Part I",
+    "Summary": "An alien with a temporal weapon ship relentlessly attacks Voyager, erasing people and events from history."
+  },
+  {
+    "ID": "voys6e12",
+    "Series": "VOY",
+    "Season": 6,
+    "Episode": 12,
+    "Title": "Blink of an Eye",
+    "Summary": "Voyager becomes trapped above a planet where time passes far more quickly on the surface than in orbit."
+  },
+  {
+    "ID": "ents1e1",
+    "Series": "ENT",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Broken Bow",
+    "Summary": "Captain Archer takes Enterprise NX-01 on its first mission amid tensions with the Klingon Empire and the Temporal Cold War."
+  },
+  {
+    "ID": "ents1e26",
+    "Series": "ENT",
+    "Season": 1,
+    "Episode": 26,
+    "Title": "Shockwave, Part I",
+    "Summary": "A disastrous accident threatens to cancel the Enterprise mission as Archer is drawn deeper into the Temporal Cold War."
+  },
+  {
+    "ID": "ents3e8",
+    "Series": "ENT",
+    "Season": 3,
+    "Episode": 8,
+    "Title": "Twilight",
+    "Summary": "A temporal parasite leaves Archer unable to form new memories while Earth faces destruction by the Xindi."
+  },
+  {
+    "ID": "diss1e1",
+    "Series": "DIS",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "The Vulcan Hello",
+    "Summary": "First Officer Michael Burnham’s actions during a tense encounter with the Klingons ignite a devastating war."
+  },
+  {
+    "ID": "diss1e7",
+    "Series": "DIS",
+    "Season": 1,
+    "Episode": 7,
+    "Title": "Magic to Make the Sanest Man Go Mad",
+    "Summary": "Mudd traps Discovery in a deadly time loop, repeatedly killing the crew to learn the ship’s secrets."
+  },
+  {
+    "ID": "diss2e14",
+    "Series": "DIS",
+    "Season": 2,
+    "Episode": 14,
+    "Title": "Such Sweet Sorrow, Part 2",
+    "Summary": "Discovery travels through a wormhole to the far future to save all sentient life from Control."
+  },
+  {
+    "ID": "pics1e1",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Remembrance",
+    "Summary": "Retired Admiral Picard meets a mysterious young woman linked to Data and uncovers a conspiracy on Earth."
+  },
+  {
+    "ID": "pics1e7",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 7,
+    "Title": "Nepenthe",
+    "Summary": "Picard and Soji seek refuge with Riker and Troi on the world of Nepenthe while pursued by Romulans."
+  },
+  {
+    "ID": "pics3e4",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 4,
+    "Title": "No Win Scenario",
+    "Summary": "Picard and his former crew confront a seemingly hopeless situation aboard the Titan, echoing the Kobayashi Maru."
+  },
+  {
+    "ID": "snws1e1",
+    "Series": "SNW",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Strange New Worlds",
+    "Summary": "Captain Pike returns to command the Enterprise and answers a distress call from a first-contact mission gone wrong."
+  },
+  {
+    "ID": "snws1e10",
+    "Series": "SNW",
+    "Season": 1,
+    "Episode": 10,
+    "Title": "A Quality of Mercy",
+    "Summary": "Pike confronts his fate when shown an alternate timeline version of the classic Romulan encounter from TOS."
+  },
+  {
+    "ID": "snws2e3",
+    "Series": "SNW",
+    "Season": 2,
+    "Episode": 3,
+    "Title": "Tomorrow and Tomorrow and Tomorrow",
+    "Summary": "La’An is pulled into an altered timeline and must work with a younger Kirk to protect the Federation’s future."
+  },
+  {
+    "ID": "lds1e1",
+    "Series": "LD",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Second Contact",
+    "Summary": "The Lower Decks ensigns of the Cerritos juggle personal chaos while supporting a routine second-contact mission."
+  },
+  {
+    "ID": "lds1e9",
+    "Series": "LD",
+    "Season": 1,
+    "Episode": 9,
+    "Title": "Crisis Point",
+    "Summary": "Mariner turns a holodeck movie into therapeutic revenge fantasy targeting her mother, Captain Freeman."
+  },
+  {
+    "ID": "lds2e9",
+    "Series": "LD",
+    "Season": 2,
+    "Episode": 9,
+    "Title": "wej Duj",
+    "Summary": "Parallel lower-decks crews on Starfleet, Klingon, and Vulcan ships all play roles in a looming threat."
+  },
+  {
+    "ID": "pros1e1",
+    "Series": "PRO",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "Lost & Found, Part I",
+    "Summary": "Young prisoners on Tars Lamora discover a derelict Federation starship and escape into the stars."
+  },
+  {
+    "ID": "pros1e6",
+    "Series": "PRO",
+    "Season": 1,
+    "Episode": 6,
+    "Title": "Kobayashi",
+    "Summary": "Dal runs the Kobayashi Maru holodeck scenario with legendary Starfleet officers to learn what it means to be a captain."
+  },
+  {
+    "ID": "pros1e20",
+    "Series": "PRO",
+    "Season": 1,
+    "Episode": 20,
+    "Title": "Supernova, Part 2",
+    "Summary": "The Protostar crew makes a desperate sacrifice to stop a weapon that could tear Starfleet apart."
   }
 ]
