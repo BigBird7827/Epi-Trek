@@ -1,1 +1,191 @@
 
+[
+  {
+    "ID": "toss1e1",
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 1,
+    "Title": "The Man Trap",
+    "StardateOrYear": "1513.1–1513.8 (c. 2266)",
+    "ProductionCode": "6149-06",
+    "AirDate": "1966-09-08",
+    "OneLineSummary": "On planet M-113, a shape-shifting creature that craves salt infiltrates the Enterprise and preys on the crew.",
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Enterprise arrives at planet M-113 so Dr. McCoy can perform routine medical examinations on Professor Robert Crater and his wife, Nancy, whom McCoy once loved. McCoy is unsettled when he sees Nancy exactly as she appeared years earlier, while Kirk and Darnell each see a different woman. After Darnell wanders off and is found dead with mysterious marks on his face, the mission turns from routine checkup to potential murder investigation."
+      },
+      {
+        "Header": "Act One",
+        "Text": "Kirk orders an investigation into Darnell’s death as Crater insists it was an accident and urges the Enterprise to leave. The autopsy reveals that Darnell’s body is completely drained of salt. Back on M-113, tensions rise when Crater resists further exams and Nancy’s behavior remains inconsistent. The landing party’s suspicion grows that the Craters may be hiding something about the planet and its dangers."
+      },
+      {
+        "Header": "Act Two",
+        "Text": "Crater disappears into the ruins, and a search party is dispatched. During the search, the woman who appears as Nancy reveals herself—unseen by the others—to be a shape-shifting creature. It kills another crewman to obtain more salt, assuming his form to escape detection. The creature ultimately makes its way aboard the Enterprise by mimicking someone trusted, taking advantage of the crew’s familiarity and emotions."
+      },
+      {
+        "Header": "Act Three",
+        "Text": "Aboard the Enterprise, the creature, now concealed in a new form, moves through the ship in search of salt, attacking crew members when cornered. Meanwhile, Spock and Kirk piece together the pattern of salt depletion and the victims’ symptoms. Interrogated on the ship, Crater finally admits that his wife died some time ago and that the last surviving native creature of M-113 has been living with him, taking Nancy’s form to keep him company while relying on salt from visiting parties."
+      },
+      {
+        "Header": "Act Four",
+        "Text": "Crater pleads for the life of the creature, arguing that it is the last of its kind and only dangerous when starving. The creature, now often appearing as Nancy, becomes increasingly desperate and attacks again, nearly killing more crew to reach salt. In Sickbay, it turns on Kirk, torn between its need to survive and its connection to Crater and McCoy. Spock is forced to strike it repeatedly with a phaser-resistant attack to expose its true form, and McCoy ultimately kills the creature with his phaser to save Kirk. The Enterprise leaves M-113, its last native species now extinct, and Kirk reflects on the tragic necessity of their actions."
+      }
+    ],
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Nyota Uhura",
+      "Hikaru Sulu"
+    ],
+    "GuestCharacters": [
+      "Professor Robert Crater",
+      "Nancy Crater"
+    ],
+    "Antagonists": [
+      "M-113 creature (\"salt vampire\")"
+    ],
+    "EthicalIssues": [
+      "Duty to protect a starving but intelligent lifeform versus crew safety",
+      "Physician’s emotional involvement with a former lover",
+      "Extinction of an endangered species as an unintended consequence of survival"
+    ],
+    "ContinuityNotes": [
+      {
+        "Header": "First Aired Episode of TOS",
+        "Text": "Although produced later in the first season’s schedule, The Man Trap was chosen as the first Star Trek episode to air on network television, establishing Dr. McCoy’s importance and the series’ blend of horror and science fiction."
+      },
+      {
+        "Header": "Stardate and Timeline Placement",
+        "Text": "The story is set across stardates 1513.1–1513.8, placing it early in Captain Kirk’s recorded missions aboard the Enterprise and around the year 2266 in most official chronologies."
+      },
+      {
+        "Header": "Unique Alien Species",
+        "Text": "The M-113 creature is presented as the last of its species, making the events on M-113 a rare instance in which Starfleet officers directly witness the extinction of an intelligent lifeform."
+      }
+    ],
+    "ThematicNotes": [
+      {
+        "Header": "Monsters and Perception",
+        "Text": "The episode complicates the idea of a monster by presenting the M-113 creature as both predator and victim. It kills to survive, yet it is also the last representative of a species wiped out by ecological collapse and dwindling resources. The story challenges the crew and the audience to recognize how desperation and loneliness blur the line between villain and victim."
+      },
+      {
+        "Header": "Memory, Love, and Illusion",
+        "Text": "McCoy’s lingering feelings for Nancy Crater allow the creature to exploit his memories, demonstrating how emotional attachments can cloud judgment in dangerous situations. The alien’s ability to appear as whatever the viewer most wants to see underscores the theme that personal longing can be weaponized against even experienced Starfleet officers."
+      },
+      {
+        "Header": "Responsibility and Extinction",
+        "Text": "Kirk and McCoy ultimately choose the safety of the crew over the survival of the last M-113 creature. The ending is framed as tragic rather than triumphant, reinforcing Star Trek’s recurring concern with the moral cost of decisions that, while necessary, extinguish a unique form of life."
+      }
+    ],
+    "BehindTheScenes": [
+      {
+        "Header": "Broadcast vs. Production Order",
+        "Text": "The Man Trap was the first episode of Star Trek: The Original Series to be broadcast, but it was the fifth regular episode produced. It was selected as the premiere in part because its horror elements and creature effects were thought likely to attract a broad audience to the new series."
+      },
+      {
+        "Header": "Design of the M-113 Creature",
+        "Text": "The M-113 creature’s distinctive design, with its shaggy fur, suction-cup fingers, and large, staring eyes, became one of the most recognizable early Star Trek monsters and has been referenced in later franchise materials, including reference books and merchandising."
+      }
+    ]
+  },
+  {
+    "ID": "toss1e2",
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 2,
+    "Title": "Charlie X",
+    "StardateOrYear": "1533.6–1533.8 (c. 2266)",
+    "ProductionCode": "6149-08",
+    "AirDate": "1966-09-15",
+    "OneLineSummary": "The Enterprise transports teenage castaway Charlie Evans, only to discover he wields terrifying psychic powers he cannot control.",
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Enterprise rendezvouses with the cargo vessel Antares to receive a passenger, seventeen-year-old Charlie Evans, the sole survivor of a crash on the remote world Thasus fourteen years earlier. Captain Ramart and his first officer seem nervous yet eager to transfer Charlie to the Enterprise and depart. Charlie, who has never lived among other humans, fixates immediately on Yeoman Janice Rand as he is overwhelmed by new faces, emotions, and social expectations."
+      },
+      {
+        "Header": "Act One",
+        "Text": "Kirk orders McCoy to give Charlie a thorough physical and begins the process of integrating him into shipboard life. Charlie tries to imitate adult behavior he observes but misunderstands boundaries and personal space, especially with Rand. He presents her with an inappropriate gift and struggles when crew members laugh or correct him. While Charlie seems desperate to please, there are subtle hints of something more: people sense unease around him, and the Antares crew’s earlier tension remains unexplained."
+      },
+      {
+        "Header": "Act Two",
+        "Text": "News arrives that the Antares has been destroyed soon after leaving the Enterprise. Charlie claims to know it was due to a mechanical problem, even though he could not logically have that information. When a crewman teases him in the gym, Charlie makes the man's legs vanish for a moment and then restores them, treating the act as a lesson rather than an attack. He begins altering reality around him: silencing people, manipulating objects, and making anyone who embarrasses him simply disappear. Kirk and Spock grow increasingly certain that Charlie has formidable psionic abilities tied to his emotional outbursts."
+      },
+      {
+        "Header": "Act Three",
+        "Text": "Kirk tries to teach Charlie discipline, setting limits and insisting that he cannot always get what he wants, particularly where Rand is concerned. Charlie resents any restriction and becomes more controlling, seizing voice functions, transforming food in the galley, and twisting crew members' bodies and faces as punishment. After Rand gently rejects his romantic advances, Charlie lashes out and makes her vanish altogether. With fear spreading through the ship, Kirk realizes that conventional force cannot stop Charlie and looks instead for a way to overtax his abilities or appeal to some authority greater than his."
+      },
+      {
+        "Header": "Act Four",
+        "Text": "Kirk attempts to overload Charlie by forcing him to juggle the full systems load of the Enterprise while the crew resists him, hoping the strain will weaken his control. Instead, Charlie doubles down, declaring that he owns the ship and everyone on it. A mysterious alien vessel then appears: a Thasian ship, whose non-corporeal inhabitants gave Charlie his powers so he could survive alone on their harsh world. They restore the Enterprise and her crew to normal and insist that Charlie must return with them because he is too dangerous to live among humans. Charlie pleads desperately to stay, terrified of losing the human contact he has only just discovered, but the Thasians remove him. The Enterprise resumes course, leaving behind a sense of tragic inevitability rather than triumph."
+      }
+    ],
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Nyota Uhura",
+      "Hikaru Sulu",
+      "Janice Rand"
+    ],
+    "GuestCharacters": [
+      "Charlie Evans",
+      "Captain Ramart",
+      "Tom Nellis",
+      "Thasian commander"
+    ],
+    "Antagonists": [
+      "Charlie Evans (empowered by the Thasians)"
+    ],
+    "EthicalIssues": [
+      "Whether a person with uncontrollable, godlike power can be allowed to live freely among others",
+      "The responsibility of Starfleet toward someone whose abilities were granted by another species",
+      "Balancing compassion for a troubled adolescent against the safety of an entire crew",
+      "The morality of returning Charlie to the Thasians, condemning him to a life without human contact"
+    ],
+    "ContinuityNotes": [
+      {
+        "Header": "Early Exploration of Godlike Beings",
+        "Text": "Charlie X is one of the earliest Star Trek stories to focus on an individual with overwhelming, quasi-godlike abilities, anticipating later encounters with powerful entities and setting a template for ethical dilemmas involving power and responsibility."
+      },
+      {
+        "Header": "Broadcast and Production Order",
+        "Text": "Although it was the eighth regular episode produced, Charlie X was the second episode broadcast in the first season of Star Trek: The Original Series, following The Man Trap. This early placement helped establish Star Trek’s interest in psychological and moral conflicts rather than purely external threats."
+      },
+      {
+        "Header": "Introduction of the Thasians",
+        "Text": "The episode introduces the Thasians, incorporeal aliens capable of granting immense powers but apparently unable to revoke them. They are rarely referenced again in the franchise, making this story a largely self-contained exploration of their influence through Charlie."
+      }
+    ],
+    "ThematicNotes": [
+      {
+        "Header": "Power Without Maturity",
+        "Text": "Charlie’s childlike emotional development combined with virtually unlimited power dramatizes the danger of authority divorced from maturity or empathy. The episode suggests that power without the capacity to handle rejection, boundaries, and responsibility is inherently catastrophic."
+      },
+      {
+        "Header": "Adolescence and Identity",
+        "Text": "The story uses Charlie’s crush on Rand and his interactions with the crew as a metaphor for adolescence: discovering attraction, testing limits, and reacting badly to embarrassment. His inability to cope with being told no turns everyday teenage frustrations into life-or-death stakes."
+      },
+      {
+        "Header": "Belonging and Isolation",
+        "Text": "Charlie’s plea to stay with the Enterprise crew highlights a central Star Trek concern: the need for connection and belonging. The decision to send him back to the Thasians underscores the tragedy of someone who is human enough to want love and companionship but too dangerous to live among others."
+      }
+    ],
+    "BehindTheScenes": [
+      {
+        "Header": "From Pitch to Script",
+        "Text": "The premise for Charlie X originated in Gene Roddenberry’s early series pitch under the working title The Day Charlie Became God. The idea was later developed into a teleplay by D. C. Fontana, marking one of her key early contributions to Star Trek."
+      },
+      {
+        "Header": "Production Number and Air Date",
+        "Text": "Charlie X was produced with the number 6149-08 and first aired on 15 September 1966 on NBC, following The Man Trap in broadcast order even though several other episodes had already been filmed."
+      },
+      {
+        "Header": "Roddenberry’s Voice Cameo",
+        "Text": "Gene Roddenberry makes an uncredited audio cameo in this episode as the voice of the galley cook who reacts in surprise when the Thanksgiving-style meatloaf transforms into real turkeys, one of Charlie’s more playful reality alterations before events turn darker."
+      }
+    ]
+  }
+]
