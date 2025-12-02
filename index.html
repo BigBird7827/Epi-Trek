@@ -2,427 +2,740 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Star Trek Episode Companion</title>
+  <title>Star Trek Episode Companion - Episode-Build-5</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     :root {
-      --bg: #050814;
-      --bg-elevated: #0c1024;
-      --border-subtle: #242a4a;
-      --accent: #f2c94c;
-      --accent-soft: #f2c94c33;
-      --text-main: #f5f7ff;
-      --text-muted: #a5b0d6;
-      --text-soft: #7b84a8;
-      --pill: #141a33;
+      --bg: #02030a;
+      --bg-alt: #050818;
+      --bg-panel: #0b1024;
+      --bg-panel-soft: #101632;
+      --accent-gold: #f8c66a;
+      --accent-gold-soft: rgba(248,198,106,0.2);
+      --accent-blue: #64d3ff;
+      --accent-blue-soft: rgba(100,211,255,0.18);
+      --accent-rose: #ff7b9c;
+      --rail-a: #f2975c;
+      --rail-b: #f4d96d;
+      --rail-c: #8fd3ff;
+      --border-soft: #2a3556;
+      --border-strong: #475483;
+      --text-main: #f7f8ff;
+      --text-muted: #b3bee4;
+      --text-soft: #8c94b7;
     }
-
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top, #101633 0, #050814 55%, #02030a 100%);
+      background:
+        radial-gradient(circle at -10% 0%, rgba(255,123,156,0.28), transparent 55%),
+        radial-gradient(circle at 110% 100%, rgba(100,211,255,0.26), transparent 55%),
+        linear-gradient(155deg, #02030a 0%, #04061a 40%, #02030a 100%);
       color: var(--text-main);
       min-height: 100vh;
       display: flex;
       justify-content: center;
-      padding: 32px 16px;
+      align-items: stretch;
+      padding: 18px 12px;
+      font-size: 16px;
     }
-
-    .page {
-      max-width: 1100px;
+    .shell {
+      max-width: 1240px;
       width: 100%;
-      background: linear-gradient(145deg, rgba(13,18,46,0.98), rgba(5,8,20,0.98));
-      border-radius: 18px;
-      border: 1px solid rgba(242,201,76,0.12);
+      min-height: 640px;
+      background:
+        radial-gradient(circle at 0% 0%, rgba(100,211,255,0.16), transparent 60%),
+        radial-gradient(circle at 100% 100%, rgba(242,151,92,0.2), transparent 60%),
+        linear-gradient(145deg, #050920, #050717);
+      border-radius: 26px;
+      border: 2px solid rgba(112,138,235,0.85);
       box-shadow:
-        0 0 40px rgba(0,0,0,0.7),
-        0 0 60px rgba(3,169,244,0.12),
-        0 0 90px rgba(242,201,76,0.18);
-      padding: 22px 24px 26px;
-    }
-
-    .top-row {
+        0 26px 75px rgba(0,0,0,0.95),
+        0 0 0 1px rgba(7,9,22,0.95),
+        0 0 60px rgba(100,211,255,0.3),
+        0 0 80px rgba(242,151,92,0.4);
       display: flex;
-      flex-wrap: wrap;
-      gap: 18px;
-      margin-bottom: 20px;
-      align-items: center;
-      justify-content: space-between;
+      flex-direction: column;
+      overflow: hidden;
     }
-
-    .title-block {
-      max-width: 540px;
-    }
-
-    .pill-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 8px;
-    }
-
-    .pill {
-      background: var(--pill);
-      border-radius: 999px;
-      padding: 4px 10px;
-      font-size: 11px;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .pill-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 999px;
-      background: var(--accent);
-      box-shadow: 0 0 8px rgba(242,201,76,0.7);
-    }
-
-    h1 {
-      font-size: 26px;
-      line-height: 1.2;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-      background: linear-gradient(120deg, #fdf6e3 0%, #f2c94c 35%, #f39c12 60%, #ffeaa7 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      text-shadow:
-        0 0 2px rgba(0,0,0,0.85),
-        0 0 6px rgba(0,0,0,0.95),
-        0 0 18px rgba(0,0,0,1);
-      position: relative;
-      padding-bottom: 8px;
-    }
-
-    h1::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 96px;
-      height: 3px;
-      border-radius: 999px;
-      background: linear-gradient(90deg, rgba(242,201,76,0.95), rgba(255,255,255,0.7), rgba(242,201,76,0.2));
-      box-shadow:
-        0 0 10px rgba(242,201,76,0.9),
-        0 0 24px rgba(242,201,76,0.7);
-    }
-
-    .subtitle {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-bottom: 4px;
-    }
-
-    .data-source {
-      font-size: 11px;
-      color: var(--text-soft);
-    }
-
-    .data-source a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .data-source a:hover {
-      text-decoration: underline;
-    }
-
-    .series-menu {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .series-button {
-      background: #141933;
-      color: var(--text-main);
-      border-radius: 999px;
-      border: 1px solid rgba(140,149,255,0.7);
-      padding: 7px 14px;
-      font-size: 13px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
-    }
-
-    .series-button.active {
-      background: linear-gradient(120deg, #f2c94c, #f39c12);
-      color: #050814;
-      box-shadow: 0 0 12px rgba(242,201,76,0.6);
-    }
-
-    .series-button:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 0 10px rgba(140,149,255,0.5);
-    }
-
-    .layout {
+    .shell-header {
       display: grid;
-      grid-template-columns: minmax(0, 1.15fr) minmax(0, 2fr);
+      grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);
       gap: 18px;
+      padding: 14px 18px 10px;
+      border-bottom: 1px solid rgba(71,84,135,0.85);
+      background:
+        linear-gradient(180deg, rgba(10,14,39,0.96), rgba(6,8,24,0.96));
     }
-
     @media (max-width: 900px) {
-      .layout {
+      .shell-header {
         grid-template-columns: minmax(0, 1fr);
       }
     }
-
-    .panel {
-      background: var(--bg-elevated);
-      border-radius: 14px;
-      border: 1px solid var(--border-subtle);
-      padding: 14px 14px 16px;
-      min-height: 120px;
-    }
-
-    .panel-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 10px;
-      gap: 8px;
-    }
-
-    .panel-title {
-      font-size: 12px;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--accent);
-    }
-
-    .panel-subtitle {
-      font-size: 11px;
-      color: var(--text-soft);
-    }
-
-    .episodes-list {
+    .brand-block {
       display: flex;
       flex-direction: column;
       gap: 6px;
-      max-height: 380px;
-      overflow: auto;
     }
-
-    .episode-item {
-      border-radius: 9px;
-      padding: 8px 9px;
-      background: #111633;
-      border: 1px solid rgba(99,110,190,0.7);
-      cursor: pointer;
-      transition: background 0.1s ease, transform 0.08s ease, box-shadow 0.1s ease;
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
-
-    .episode-item:hover {
-      background: #171d40;
-      transform: translateY(-1px);
-      box-shadow: 0 0 10px rgba(119,132,220,0.6);
+    .brand-pill {
+      padding: 4px 13px;
+      border-radius: 999px;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(248,198,106,0.3), #151a3a);
+      border: 1px solid rgba(166,141,255,0.9);
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      box-shadow:
+        0 0 0 1px rgba(7,9,27,0.96),
+        0 0 16px rgba(248,198,106,0.75);
     }
-
-    .episode-item.active {
-      background: radial-gradient(circle at top left, rgba(242,201,76,0.2), #171d40);
-      border-color: rgba(242,201,76,0.8);
+    .brand-dot {
+      width: 18px;
+      height: 18px;
+      border-radius: 12px;
+      background:
+        conic-gradient(from 0deg, #f2975c, #f4d96d, #8fd3ff, #ff7b9c, #f2975c);
+      box-shadow:
+        0 0 18px rgba(242,151,92,1),
+        0 0 28px rgba(100,211,255,0.85);
     }
-
-    .episode-item-title {
+    .brand-caption {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--accent-blue);
+    }
+    .brand-title {
+      font-size: 24px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      text-shadow:
+        0 0 2px rgba(0,0,0,0.9),
+        0 0 12px rgba(0,0,0,0.9);
+    }
+    .brand-sub {
       font-size: 13px;
+      color: var(--text-muted);
+    }
+    .data-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4px;
+      font-size: 12px;
+      color: var(--text-soft);
+      text-align: right;
+    }
+    .data-block a {
+      color: var(--accent-blue);
+      text-decoration: none;
+    }
+    .data-block a:hover {
+      text-decoration: underline;
+    }
+    .data-label {
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .strip {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 10px 18px 10px;
+      background:
+        linear-gradient(180deg, rgba(10,14,38,0.96), rgba(6,9,30,0.96));
+      border-bottom: 1px solid rgba(65,79,131,0.9);
+    }
+    .strip-label-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+    .strip-label-main {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--text-muted);
+    }
+    .strip-label-sub {
+      font-size: 12px;
+      color: var(--text-soft);
+    }
+    .series-strip {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      scrollbar-width: thin;
+    }
+    .series-chip {
+      position: relative;
+      flex-shrink: 0;
+      min-width: 120px;
+      padding: 8px 14px 9px;
+      border-radius: 999px;
+      background:
+        linear-gradient(90deg, rgba(10,10,28,0.95), rgba(24,27,64,0.95));
+      border: 1px solid rgba(158,134,255,0.9);
+      color: var(--text-main);
+      font-size: 13px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow:
+        0 2px 10px rgba(0,0,0,0.9),
+        0 0 16px rgba(158,134,255,0.55);
+      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
+      text-align: center;
+    }
+    .series-chip span {
+      display: block;
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-soft);
+      margin-top: 2px;
+    }
+    .series-chip::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: radial-gradient(circle at 0 0, rgba(100,211,255,0.3), transparent 60%);
+      opacity: 0;
+      transition: opacity 0.08s ease;
+    }
+    .series-chip:hover::before {
+      opacity: 1;
+    }
+    .series-chip:hover {
+      transform: translateY(-1px);
+      border-color: rgba(199,178,255,1);
+      box-shadow:
+        0 4px 14px rgba(0,0,0,0.95),
+        0 0 20px rgba(158,134,255,0.8);
+    }
+    .series-chip.active {
+      background:
+        linear-gradient(90deg, #f2975c, #f4d96d);
+      border-color: rgba(10,10,26,0.95);
+      color: #190b23;
+      box-shadow:
+        0 0 0 1px rgba(248,198,106,0.9),
+        0 0 24px rgba(248,198,106,0.9);
+    }
+    .series-chip.active span {
+      color: #251021;
+    }
+    .episodes-strip {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding: 4px 2px 2px;
+      scrollbar-width: thin;
+    }
+    .episode-card {
+      position: relative;
+      flex-shrink: 0;
+      min-width: 220px;
+      max-width: 320px;
+      padding: 9px 11px;
+      border-radius: 18px;
+      background:
+        linear-gradient(135deg, #101633, #060b20);
+      border: 1px solid rgba(109,128,214,0.95);
+      cursor: pointer;
+      box-shadow:
+        0 3px 12px rgba(0,0,0,0.95),
+        0 0 18px rgba(109,128,214,0.6);
+      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
+      font-size: 14px;
+    }
+    .episode-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: radial-gradient(circle at 0 0, rgba(100,211,255,0.26), transparent 65%);
+      opacity: 0;
+      transition: opacity 0.08s ease;
+    }
+    .episode-card:hover::before {
+      opacity: 1;
+    }
+    .episode-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(139,158,234,1);
+      box-shadow:
+        0 5px 18px rgba(0,0,0,0.98),
+        0 0 24px rgba(109,128,214,0.9);
+      background:
+        linear-gradient(135deg, #141c3d, #070e24);
+    }
+    .episode-card.active {
+      background:
+        radial-gradient(circle at 0 0, rgba(248,198,106,0.32), transparent 70%),
+        linear-gradient(135deg, #192143, #0b112a);
+      border-color: var(--accent-gold);
+      box-shadow:
+        0 0 0 1px rgba(248,198,106,0.9),
+        0 0 26px rgba(248,198,106,0.95);
+    }
+    .episode-line-1 {
+      font-size: 15px;
       margin-bottom: 3px;
     }
-
-    .episode-item-meta {
+    .episode-line-2 {
+      display: flex;
+      justify-content: space-between;
+      gap: 6px;
       font-size: 11px;
       color: var(--text-soft);
     }
-
-    .meta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      font-size: 12px;
-      color: var(--text-soft);
-      margin-bottom: 10px;
-    }
-
-    .meta-chip {
-      background: rgba(11,16,42,0.9);
-      border-radius: 999px;
-      padding: 4px 10px;
-      border: 1px solid rgba(110,120,180,0.32);
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .meta-label {
+    .episode-tag {
+      font-size: 11px;
       text-transform: uppercase;
-      letter-spacing: 0.14em;
-      font-size: 10px;
+      letter-spacing: 0.16em;
+      color: var(--accent-blue);
+    }
+    .episode-meta {
+      font-size: 11px;
       color: var(--text-soft);
     }
-
-    .meta-value {
-      font-weight: 500;
-      color: var(--text-main);
+    .console {
+      flex: 1;
+      padding: 10px 18px 16px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1.1fr);
+      gap: 14px;
     }
-
-    .summary-text {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-bottom: 10px;
+    @media (max-width: 980px) {
+      .console {
+        grid-template-columns: minmax(0, 1fr);
+      }
     }
-
-    .story-sections {
-      margin-top: 8px;
+    .console-main {
+      background:
+        radial-gradient(circle at -10% 0%, var(--accent-blue-soft), transparent 70%),
+        radial-gradient(circle at 110% 100%, var(--accent-gold-soft), transparent 65%),
+        linear-gradient(145deg, #080d24, #050716);
+      border-radius: 22px;
+      border: 1px solid rgba(76,93,158,0.95);
+      box-shadow:
+        0 14px 34px rgba(0,0,0,0.98),
+        0 0 22px rgba(100,211,255,0.35);
+      padding: 12px 13px 13px;
       display: flex;
       flex-direction: column;
       gap: 8px;
     }
-
-    .story-section {
-      background: radial-gradient(circle at top left, var(--accent-soft), transparent 60%);
-      border-radius: 10px;
-      padding: 9px 10px;
-      border: 1px solid rgba(242,201,76,0.12);
+    .console-side {
+      background:
+        radial-gradient(circle at 100% 0%, rgba(255,123,156,0.26), transparent 70%),
+        linear-gradient(145deg, #0a0f26, #050717);
+      border-radius: 22px;
+      border: 1px solid rgba(90,102,170,0.95);
+      box-shadow:
+        0 14px 34px rgba(0,0,0,0.98),
+        0 0 20px rgba(255,123,156,0.35);
+      padding: 12px 13px 13px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     }
-
-    .story-section h3 {
-      font-size: 12px;
-      margin-bottom: 3px;
-      letter-spacing: 0.08em;
+    .console-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+      border-bottom: 1px solid rgba(84,96,156,0.95);
+      padding-bottom: 4px;
+    }
+    .console-title {
+      font-size: 17px;
       text-transform: uppercase;
-      color: #ffeaa7;
+      letter-spacing: 0.22em;
+      color: var(--accent-gold);
     }
-
-    .story-section p {
+    .console-sub {
+      font-size: 13px;
+      color: var(--text-soft);
+    }
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      font-size: 13px;
+    }
+    .meta-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background:
+        linear-gradient(135deg, #111735, #070d22);
+      border: 1px solid rgba(118,133,212,0.9);
+      box-shadow:
+        0 2px 9px rgba(0,0,0,0.9),
+        0 0 14px rgba(100,211,255,0.32);
+    }
+    .meta-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--text-soft);
+    }
+    .meta-value {
+      font-size: 13px;
+      color: var(--text-main);
+      font-weight: 500;
+    }
+    .summary {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .story-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-top: 2px;
+    }
+    .story-card {
+      border-radius: 14px;
+      padding: 8px 10px;
+      background:
+        radial-gradient(circle at 0 0, rgba(248,198,106,0.28), transparent 70%),
+        linear-gradient(145deg, #141933, #080d22);
+      border: 1px solid rgba(248,198,106,0.4);
+      box-shadow:
+        0 3px 12px rgba(0,0,0,0.98),
+        0 0 18px rgba(248,198,106,0.45);
+    }
+    .story-card h3 {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--accent-gold);
+      margin-bottom: 3px;
+    }
+    .story-card p {
       font-size: 13px;
       line-height: 1.5;
       color: var(--text-muted);
     }
-
-    .chip-list {
+    .block-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--text-soft);
+      margin-bottom: 3px;
+    }
+    .chip-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
+      gap: 7px;
     }
-
     .chip {
-      background: #1a2040;
+      padding: 6px 11px;
       border-radius: 999px;
-      padding: 5px 10px;
-      font-size: 12px;
-      border: 1px solid rgba(118,131,196,0.6);
+      background:
+        linear-gradient(135deg, #181f3c, #10152d);
+      border: 1px solid rgba(126,141,220,0.95);
+      font-size: 14px;
       color: var(--text-main);
+      cursor: pointer;
       white-space: nowrap;
+      box-shadow:
+        0 3px 11px rgba(0,0,0,0.98),
+        0 0 16px rgba(100,211,255,0.45);
+      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
     }
-
+    .chip:hover {
+      transform: translateY(-1px);
+      background:
+        linear-gradient(135deg, #242d4f, #151c35);
+      border-color: var(--accent-gold);
+      box-shadow:
+        0 4px 16px rgba(0,0,0,0.98),
+        0 0 22px rgba(248,198,106,0.8);
+    }
     .text-list {
       display: flex;
       flex-direction: column;
-      gap: 5px;
+      gap: 4px;
       font-size: 13px;
       color: var(--text-muted);
     }
-
-    .note-card {
-      border-radius: 9px;
-      border: 1px solid rgba(85,95,155,0.7);
-      background: radial-gradient(circle at top left, rgba(129,140,248,0.12), rgba(12,16,40,0.9));
-      padding: 8px 9px 9px;
-      margin-bottom: 8px;
+    .notes-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
     }
-
+    .note-card {
+      border-radius: 12px;
+      border: 1px solid rgba(107,124,215,0.95);
+      padding: 7px 9px 8px;
+      background:
+        radial-gradient(circle at 0 0, rgba(100,211,255,0.26), transparent 70%),
+        linear-gradient(135deg, #111730, #080f22);
+      box-shadow:
+        0 3px 12px rgba(0,0,0,0.98),
+        0 0 18px rgba(100,211,255,0.5);
+    }
     .note-card h4 {
-      font-size: 12px;
+      font-size: 11px;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #c3d0ff;
+      letter-spacing: 0.2em;
+      color: #cfd6ff;
       margin-bottom: 3px;
     }
-
     .note-card p {
       font-size: 12px;
       line-height: 1.5;
       color: var(--text-muted);
     }
-
     .placeholder {
-      font-size: 13px;
+      font-size: 14px;
       color: var(--text-soft);
     }
-
     .error-text {
-      font-size: 13px;
+      font-size: 14px;
       color: #ffb3b3;
+    }
+    .bio-modal {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    .bio-modal.active {
+      display: flex;
+    }
+    .bio-backdrop {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 0 0, rgba(0,0,0,0.9), rgba(0,0,0,0.98));
+    }
+    .bio-frame {
+      position: relative;
+      max-width: 540px;
+      width: calc(100% - 40px);
+      padding: 1px;
+      border-radius: 22px;
+      background:
+        conic-gradient(from 0deg, rgba(242,151,92,0.9), rgba(244,217,109,0.9), rgba(100,211,255,0.9), rgba(255,123,156,0.9), rgba(242,151,92,0.9));
+      box-shadow:
+        0 0 0 1px rgba(6,10,30,0.95),
+        0 20px 44px rgba(0,0,0,0.98),
+        0 0 40px rgba(100,211,255,0.9),
+        0 0 52px rgba(242,151,92,0.9);
+      z-index: 1001;
+    }
+    .bio-panel {
+      border-radius: 21px;
+      background:
+        radial-gradient(circle at 0 0, rgba(248,198,106,0.26), transparent 70%),
+        linear-gradient(145deg, #050814, #050712);
+      border: 1px solid rgba(248,198,106,0.8);
+      box-shadow:
+        inset 0 0 0 1px rgba(8,11,30,0.96),
+        inset 0 18px 38px rgba(255,255,255,0.03);
+      padding: 14px 15px 15px;
+    }
+    .bio-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 6px;
+      border-bottom: 1px solid rgba(93,107,180,0.95);
+      padding-bottom: 5px;
+    }
+    .bio-name {
+      font-size: 17px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #fff5df;
+    }
+    .bio-role {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 7px;
+    }
+    .bio-summary {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .bio-close-btn {
+      border: none;
+      border-radius: 999px;
+      width: 26px;
+      height: 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background:
+        linear-gradient(135deg, #181f35, #0b1023);
+      color: #f5f7ff;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow:
+        0 0 0 1px rgba(90,106,183,0.95),
+        0 2px 8px rgba(0,0,0,0.85);
+    }
+    .bio-close-btn:hover {
+      background:
+        linear-gradient(135deg, #212a46, #101735);
+    }
+    .bio-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--text-soft);
+      margin-bottom: 2px;
+    }
+    .bio-name-raw {
+      font-size: 13px;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+    .bio-fallback {
+      margin-top: 8px;
+      display: none;
+      border-top: 1px dashed rgba(82,94,154,0.95);
+      padding-top: 7px;
     }
   </style>
 </head>
 <body>
-  <div class="page">
-    <div class="top-row">
-      <div class="title-block">
-        <div class="pill-row">
-          <div class="pill">
-            <span class="pill-dot"></span>
-            <span>Star Trek Episode Companion</span>
-          </div>
+  <div class="shell">
+    <header class="shell-header">
+      <div class="brand-block">
+        <div class="brand-row">
+          <div class="brand-dot"></div>
+          <div class="brand-pill">Star Trek Episode Companion</div>
         </div>
-        <h1>Episode Viewer</h1>
-        <p class="subtitle">Select a series, then an episode to load its JSON details.</p>
-        <p class="data-source">
-          Data input is loaded from:
+        <div class="brand-caption">LCARS-inspired episode console</div>
+        <div class="brand-title">Episode console</div>
+        <div class="brand-sub">Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.</div>
+      </div>
+      <div class="data-block">
+        <div class="data-label">Data feeds</div>
+        <div>Episodes JSON<br>
           <a href="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek" target="_blank" rel="noopener noreferrer">
             https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek
           </a>
-        </p>
+        </div>
+        <div>Summaries JSON<br>
+          <a href="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json" target="_blank" rel="noopener noreferrer">
+            https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json
+          </a>
+        </div>
       </div>
-      <div class="series-menu" id="series-menu"></div>
-    </div>
+    </header>
 
-    <div class="layout">
-      <section class="panel">
-        <div class="panel-header">
-          <div class="panel-title">Episodes</div>
-          <div class="panel-subtitle" id="episodes-panel-subtitle">Loading data…</div>
-        </div>
-        <div class="episodes-list" id="episodes-list">
-          <div class="placeholder">Waiting for data from the JSON file.</div>
-        </div>
-      </section>
+    <section class="strip">
+      <div class="strip-label-row">
+        <div class="strip-label-main">Series</div>
+        <div id="series-status" class="strip-label-sub">Waiting for data…</div>
+      </div>
+      <div id="series-strip" class="series-strip"></div>
+    </section>
 
-      <section class="panel">
-        <div class="panel-header">
-          <div class="panel-title" id="detail-panel-title">Details</div>
-          <div class="panel-subtitle" id="detail-panel-subtitle">No episode selected</div>
+    <section class="strip">
+      <div class="strip-label-row">
+        <div class="strip-label-main">Episodes</div>
+        <div id="episodes-panel-subtitle" class="strip-label-sub">Loading data…</div>
+      </div>
+      <div id="episodes-strip" class="episodes-strip">
+        <div class="placeholder">Waiting for data from the JSON file.</div>
+      </div>
+    </section>
+
+    <section class="console">
+      <div class="console-main">
+        <div class="console-header">
+          <div id="console-title" class="console-title">No episode selected</div>
+          <div id="console-sub" class="console-sub">Choose a series and an episode above.</div>
         </div>
-        <div id="episode-detail">
-          <div class="placeholder">
-            Once you select an episode, its metadata, story sections, characters, ethical issues, continuity notes, themes, and behind-the-scenes notes will appear here.
-          </div>
+        <div id="episode-meta" class="meta-row"></div>
+        <div id="episode-summary" class="summary">
+          <div class="placeholder">When you select an episode, an overview and story structure will appear here.</div>
         </div>
-      </section>
+        <div id="episode-story" class="story-stack"></div>
+      </div>
+      <div class="console-side">
+        <div>
+          <div class="block-label">Key Characters</div>
+          <div id="chip-key" class="chip-row"></div>
+        </div>
+        <div>
+          <div class="block-label">Guest Characters</div>
+          <div id="chip-guest" class="chip-row"></div>
+        </div>
+        <div>
+          <div class="block-label">Antagonists</div>
+          <div id="chip-ant" class="chip-row"></div>
+        </div>
+        <div id="ethical-block">
+          <div class="block-label">Ethical Issues</div>
+          <ul id="ethical-list" class="text-list"></ul>
+        </div>
+        <div id="notes-block" class="notes-stack"></div>
+      </div>
+    </section>
+  </div>
+
+  <div id="bio-modal" class="bio-modal">
+    <div id="bio-backdrop" class="bio-backdrop"></div>
+    <div class="bio-frame">
+      <div class="bio-panel">
+        <div class="bio-header-row">
+          <div id="bio-name" class="bio-name"></div>
+          <button id="bio-close" class="bio-close-btn" type="button">×</button>
+        </div>
+        <div id="bio-role" class="bio-role"></div>
+        <div id="bio-summary" class="bio-summary"></div>
+        <div id="bio-fallback" class="bio-fallback">
+          <div class="bio-label">Requested name</div>
+          <div id="bio-name-raw" class="bio-name-raw"></div>
+        </div>
+      </div>
     </div>
   </div>
 
   <script>
     const DATA_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek";
+    const BIO_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
 
     let allEpisodes = [];
     let episodesBySeries = {};
     let currentSeries = null;
     let currentEpisodeID = null;
+
+    let biosByKey = {};
+    let biosLoaded = false;
 
     function groupEpisodesBySeries(episodes) {
       const grouped = {};
@@ -444,77 +757,147 @@
       return grouped;
     }
 
-    function renderSeriesMenu() {
-      const container = document.getElementById("series-menu");
+    function renderSeriesStrip() {
+      const container = document.getElementById("series-strip");
+      const status = document.getElementById("series-status");
       container.innerHTML = "";
-      const seriesKeys = Object.keys(episodesBySeries).sort();
-      if (seriesKeys.length === 0) {
+      const keys = Object.keys(episodesBySeries).sort();
+      if (keys.length === 0) {
         const span = document.createElement("span");
         span.className = "placeholder";
         span.textContent = "No series found in data.";
         container.appendChild(span);
+        if (status) {
+          status.textContent = "No series available.";
+        }
         return;
       }
-      seriesKeys.forEach(key => {
-        const btn = document.createElement("button");
-        btn.className = "series-button";
-        btn.textContent = key;
-        btn.dataset.series = key;
-        btn.addEventListener("click", () => selectSeries(key));
-        container.appendChild(btn);
+      keys.forEach(key => {
+        const chip = document.createElement("button");
+        chip.className = "series-chip";
+        chip.dataset.series = key;
+        chip.innerHTML = key + "<span>Series</span>";
+        chip.addEventListener("click", () => selectSeries(key));
+        container.appendChild(chip);
       });
-      selectSeries(seriesKeys[0]);
+      if (status) {
+        status.textContent = "Loaded " + keys.length + " series. Select one to begin.";
+      }
+      selectSeries(keys[0]);
     }
 
     function selectSeries(seriesKey) {
       currentSeries = seriesKey;
       currentEpisodeID = null;
-      const buttons = document.querySelectorAll(".series-button");
-      buttons.forEach(btn => {
-        if (btn.dataset.series === seriesKey) {
-          btn.classList.add("active");
+
+      const chips = document.querySelectorAll(".series-chip");
+      chips.forEach(chip => {
+        if (chip.dataset.series === seriesKey) {
+          chip.classList.add("active");
         } else {
-          btn.classList.remove("active");
+          chip.classList.remove("active");
         }
       });
-      renderEpisodeList();
+
+      renderEpisodeStrip();
+
       const subtitle = document.getElementById("episodes-panel-subtitle");
-      subtitle.textContent = "Series: " + seriesKey;
-      const detailSubtitle = document.getElementById("detail-panel-subtitle");
-      detailSubtitle.textContent = "No episode selected";
-      const detail = document.getElementById("episode-detail");
-      detail.innerHTML = "";
-      const placeholder = document.createElement("div");
-      placeholder.className = "placeholder";
-      placeholder.textContent = "Select an episode from the list to view its details.";
-      detail.appendChild(placeholder);
+      if (subtitle) {
+        subtitle.textContent = "Series: " + seriesKey;
+      }
+
+      const consoleTitle = document.getElementById("console-title");
+      const consoleSub = document.getElementById("console-sub");
+      const metaRow = document.getElementById("episode-meta");
+      const summary = document.getElementById("episode-summary");
+      const storyStack = document.getElementById("episode-story");
+      const chipKey = document.getElementById("chip-key");
+      const chipGuest = document.getElementById("chip-guest");
+      const chipAnt = document.getElementById("chip-ant");
+      const ethicalList = document.getElementById("ethical-list");
+      const notesBlock = document.getElementById("notes-block");
+
+      if (consoleTitle) {
+        consoleTitle.textContent = "No episode selected";
+      }
+      if (consoleSub) {
+        consoleSub.textContent = "Series " + seriesKey + " loaded. Choose an episode above.";
+      }
+      if (metaRow) {
+        metaRow.innerHTML = "";
+      }
+      if (summary) {
+        summary.innerHTML = "";
+        const p = document.createElement("div");
+        p.className = "placeholder";
+        p.textContent = "Select an episode from the deck to view its structure.";
+        summary.appendChild(p);
+      }
+      if (storyStack) {
+        storyStack.innerHTML = "";
+      }
+      if (chipKey) {
+        chipKey.innerHTML = "";
+      }
+      if (chipGuest) {
+        chipGuest.innerHTML = "";
+      }
+      if (chipAnt) {
+        chipAnt.innerHTML = "";
+      }
+      if (ethicalList) {
+        ethicalList.innerHTML = "";
+      }
+      if (notesBlock) {
+        notesBlock.innerHTML = "";
+      }
+
+      const status = document.getElementById("series-status");
+      if (status) {
+        status.textContent = "Series " + seriesKey + " selected.";
+      }
     }
 
-    function renderEpisodeList() {
-      const list = document.getElementById("episodes-list");
-      list.innerHTML = "";
+    function renderEpisodeStrip() {
+      const strip = document.getElementById("episodes-strip");
+      strip.innerHTML = "";
       const seriesEpisodes = episodesBySeries[currentSeries] || [];
       if (seriesEpisodes.length === 0) {
         const div = document.createElement("div");
         div.className = "placeholder";
         div.textContent = "No episodes found for this series.";
-        list.appendChild(div);
+        strip.appendChild(div);
         return;
       }
       seriesEpisodes.forEach(ep => {
-        const item = document.createElement("div");
-        item.className = "episode-item";
-        item.dataset.id = ep.ID;
-        const title = document.createElement("div");
-        title.className = "episode-item-title";
-        title.textContent = "S" + ep.Season + "E" + ep.Episode + " – " + ep.Title;
+        const card = document.createElement("div");
+        card.className = "episode-card";
+        card.dataset.id = ep.ID;
+
+        const line1 = document.createElement("div");
+        line1.className = "episode-line-1";
+        line1.textContent = "S" + ep.Season + "E" + ep.Episode + " – " + ep.Title;
+
+        const line2 = document.createElement("div");
+        line2.className = "episode-line-2";
+
+        const tag = document.createElement("div");
+        tag.className = "episode-tag";
+        tag.textContent = ep.Series || "";
+
         const meta = document.createElement("div");
-        meta.className = "episode-item-meta";
-        meta.textContent = ep.StardateOrYear || "";
-        item.appendChild(title);
-        item.appendChild(meta);
-        item.addEventListener("click", () => selectEpisode(ep.ID));
-        list.appendChild(item);
+        meta.className = "episode-meta";
+        meta.textContent = ep.StardateOrYear || ep.AirDate || "";
+
+        line2.appendChild(tag);
+        line2.appendChild(meta);
+
+        card.appendChild(line1);
+        card.appendChild(line2);
+
+        card.addEventListener("click", () => selectEpisode(ep.ID));
+
+        strip.appendChild(card);
       });
     }
 
@@ -525,219 +908,196 @@
       if (!episode) {
         return;
       }
-      const items = document.querySelectorAll(".episode-item");
-      items.forEach(it => {
-        if (it.dataset.id === id) {
-          it.classList.add("active");
+      const cards = document.querySelectorAll(".episode-card");
+      cards.forEach(card => {
+        if (card.dataset.id === id) {
+          card.classList.add("active");
         } else {
-          it.classList.remove("active");
+          card.classList.remove("active");
         }
       });
       renderEpisodeDetail(episode);
     }
 
+    function makeCharacterChip(name) {
+      const chip = document.createElement("span");
+      chip.className = "chip";
+      chip.textContent = name;
+      chip.addEventListener("click", () => openBioModal(name));
+      return chip;
+    }
+
     function renderEpisodeDetail(ep) {
-      const detail = document.getElementById("episode-detail");
-      detail.innerHTML = "";
+      const consoleTitle = document.getElementById("console-title");
+      const consoleSub = document.getElementById("console-sub");
+      const metaRow = document.getElementById("episode-meta");
+      const summary = document.getElementById("episode-summary");
+      const storyStack = document.getElementById("episode-story");
+      const chipKey = document.getElementById("chip-key");
+      const chipGuest = document.getElementById("chip-guest");
+      const chipAnt = document.getElementById("chip-ant");
+      const ethicalBlock = document.getElementById("ethical-block");
+      const ethicalList = document.getElementById("ethical-list");
+      const notesBlock = document.getElementById("notes-block");
 
-      const metaRow = document.createElement("div");
-      metaRow.className = "meta-row";
-
-      function addMeta(label, value) {
-        if (value === undefined || value === null || value === "") {
-          return;
+      if (consoleTitle) {
+        consoleTitle.textContent = ep.Series + " • S" + ep.Season + "E" + ep.Episode;
+      }
+      if (consoleSub) {
+        consoleSub.textContent = ep.Title || "";
+      }
+      if (metaRow) {
+        metaRow.innerHTML = "";
+        function addMeta(label, value) {
+          if (value === undefined || value === null || value === "") {
+            return;
+          }
+          const chip = document.createElement("div");
+          chip.className = "meta-chip";
+          const spanLabel = document.createElement("span");
+          spanLabel.className = "meta-label";
+          spanLabel.textContent = label;
+          const spanValue = document.createElement("span");
+          spanValue.className = "meta-value";
+          spanValue.textContent = value;
+          chip.appendChild(spanLabel);
+          chip.appendChild(spanValue);
+          metaRow.appendChild(chip);
         }
-        const chip = document.createElement("div");
-        chip.className = "meta-chip";
-        const spanLabel = document.createElement("span");
-        spanLabel.className = "meta-label";
-        spanLabel.textContent = label;
-        const spanValue = document.createElement("span");
-        spanValue.className = "meta-value";
-        spanValue.textContent = value;
-        chip.appendChild(spanLabel);
-        chip.appendChild(spanValue);
-        metaRow.appendChild(chip);
+        addMeta("ID", ep.ID);
+        addMeta("Prod", ep.ProductionCode);
+        addMeta("Air date", ep.AirDate);
+        addMeta("Stardate/Year", ep.StardateOrYear);
       }
-
-      addMeta("ID", ep.ID);
-      addMeta("Series", ep.Series);
-      addMeta("Season", ep.Season);
-      addMeta("Episode", ep.Episode);
-      addMeta("Stardate/Year", ep.StardateOrYear);
-      addMeta("Prod", ep.ProductionCode);
-      addMeta("Air date", ep.AirDate);
-
-      const summary = document.createElement("div");
-      summary.className = "summary-text";
-      summary.textContent = ep.OneLineSummary || "";
-
-      const storyContainer = document.createElement("div");
-      storyContainer.className = "story-sections";
-      (ep.StorySections || []).forEach(section => {
-        const card = document.createElement("article");
-        card.className = "story-section";
-        const h = document.createElement("h3");
-        h.textContent = section.Header;
-        const p = document.createElement("p");
-        p.textContent = section.Text;
-        card.appendChild(h);
-        card.appendChild(p);
-        storyContainer.appendChild(card);
-      });
-
-      const charsTitle = document.createElement("div");
-      charsTitle.className = "panel-subtitle";
-      charsTitle.textContent = "Characters";
-
-      const keyListTitle = document.createElement("div");
-      keyListTitle.className = "panel-subtitle";
-      keyListTitle.textContent = "Key";
-
-      const keyList = document.createElement("ul");
-      keyList.className = "chip-list";
-      (ep.KeyCharacters || []).forEach(name => {
-        const li = document.createElement("li");
-        li.className = "chip";
-        li.textContent = name;
-        keyList.appendChild(li);
-      });
-
-      const guestListTitle = document.createElement("div");
-      guestListTitle.className = "panel-subtitle";
-      guestListTitle.style.marginTop = "6px";
-      guestListTitle.textContent = "Guests";
-
-      const guestList = document.createElement("ul");
-      guestList.className = "chip-list";
-      (ep.GuestCharacters || []).forEach(name => {
-        const li = document.createElement("li");
-        li.className = "chip";
-        li.textContent = name;
-        guestList.appendChild(li);
-      });
-
-      const antListTitle = document.createElement("div");
-      antListTitle.className = "panel-subtitle";
-      antListTitle.style.marginTop = "6px";
-      antListTitle.textContent = "Antagonists";
-
-      const antList = document.createElement("ul");
-      antList.className = "chip-list";
-      (ep.Antagonists || []).forEach(name => {
-        const li = document.createElement("li");
-        li.className = "chip";
-        li.textContent = name;
-        antList.appendChild(li);
-      });
-
-      const ethicsTitle = document.createElement("div");
-      ethicsTitle.className = "panel-subtitle";
-      ethicsTitle.style.marginTop = "10px";
-      ethicsTitle.textContent = "Ethical Issues";
-
-      const ethicsList = document.createElement("ul");
-      ethicsList.className = "text-list";
-      (ep.EthicalIssues || []).forEach(text => {
-        const li = document.createElement("li");
-        li.textContent = "• " + text;
-        ethicsList.appendChild(li);
-      });
-
-      const continuityTitle = document.createElement("div");
-      continuityTitle.className = "panel-subtitle";
-      continuityTitle.style.marginTop = "10px";
-      continuityTitle.textContent = "Continuity Notes";
-
-      const continuityContainer = document.createElement("div");
-      (ep.ContinuityNotes || []).forEach(note => {
-        const card = document.createElement("article");
-        card.className = "note-card";
-        const h = document.createElement("h4");
-        h.textContent = note.Header;
-        const p = document.createElement("p");
-        p.textContent = note.Text;
-        card.appendChild(h);
-        card.appendChild(p);
-        continuityContainer.appendChild(card);
-      });
-
-      const themesTitle = document.createElement("div");
-      themesTitle.className = "panel-subtitle";
-      themesTitle.style.marginTop = "10px";
-      themesTitle.textContent = "Themes";
-
-      const themesContainer = document.createElement("div");
-      (ep.ThematicNotes || []).forEach(note => {
-        const card = document.createElement("article");
-        card.className = "note-card";
-        const h = document.createElement("h4");
-        h.textContent = note.Header;
-        const p = document.createElement("p");
-        p.textContent = note.Text;
-        card.appendChild(h);
-        card.appendChild(p);
-        themesContainer.appendChild(card);
-      });
-
-      const btsTitle = document.createElement("div");
-      btsTitle.className = "panel-subtitle";
-      btsTitle.style.marginTop = "10px";
-      btsTitle.textContent = "Behind The Scenes";
-
-      const btsContainer = document.createElement("div");
-      (ep.BehindTheScenes || []).forEach(note => {
-        const card = document.createElement("article");
-        card.className = "note-card";
-        const h = document.createElement("h4");
-        h.textContent = note.Header;
-        const p = document.createElement("p");
-        p.textContent = note.Text;
-        card.appendChild(h);
-        card.appendChild(p);
-        btsContainer.appendChild(card);
-      });
-
-      const detailSubtitle = document.getElementById("detail-panel-subtitle");
-      detailSubtitle.textContent = ep.Series + " • S" + ep.Season + "E" + ep.Episode + " • " + ep.Title;
-
-      detail.appendChild(metaRow);
-      detail.appendChild(summary);
-      detail.appendChild(storyContainer);
-      detail.appendChild(charsTitle);
-      detail.appendChild(keyListTitle);
-      detail.appendChild(keyList);
-      detail.appendChild(guestListTitle);
-      detail.appendChild(guestList);
-      detail.appendChild(antListTitle);
-      detail.appendChild(antList);
-      if ((ep.EthicalIssues || []).length > 0) {
-        detail.appendChild(ethicsTitle);
-        detail.appendChild(ethicsList);
+      if (summary) {
+        summary.innerHTML = "";
+        const text = document.createElement("div");
+        text.className = "summary";
+        text.textContent = ep.OneLineSummary || "";
+        summary.appendChild(text);
       }
-      if ((ep.ContinuityNotes || []).length > 0) {
-        detail.appendChild(continuityTitle);
-        detail.appendChild(continuityContainer);
+      if (storyStack) {
+        storyStack.innerHTML = "";
+        (ep.StorySections || []).forEach(section => {
+          const card = document.createElement("article");
+          card.className = "story-card";
+          const h = document.createElement("h3");
+          h.textContent = section.Header;
+          const p = document.createElement("p");
+          p.textContent = section.Text;
+          card.appendChild(h);
+          card.appendChild(p);
+          storyStack.appendChild(card);
+        });
       }
-      if ((ep.ThematicNotes || []).length > 0) {
-        detail.appendChild(themesTitle);
-        detail.appendChild(themesContainer);
+      if (chipKey) {
+        chipKey.innerHTML = "";
+        (ep.KeyCharacters || []).forEach(name => {
+          chipKey.appendChild(makeCharacterChip(name));
+        });
       }
-      if ((ep.BehindTheScenes || []).length > 0) {
-        detail.appendChild(btsTitle);
-        detail.appendChild(btsContainer);
+      if (chipGuest) {
+        chipGuest.innerHTML = "";
+        (ep.GuestCharacters || []).forEach(name => {
+          chipGuest.appendChild(makeCharacterChip(name));
+        });
+      }
+      if (chipAnt) {
+        chipAnt.innerHTML = "";
+        (ep.Antagonists || []).forEach(name => {
+          chipAnt.appendChild(makeCharacterChip(name));
+        });
+      }
+      const ethics = ep.EthicalIssues || [];
+      if (ethicalBlock && ethicalList) {
+        ethicalList.innerHTML = "";
+        if (ethics.length === 0) {
+          ethicalBlock.style.display = "none";
+        } else {
+          ethicalBlock.style.display = "block";
+          ethics.forEach(text => {
+            const li = document.createElement("li");
+            li.textContent = "• " + text;
+            ethicalList.appendChild(li);
+          });
+        }
+      }
+      if (notesBlock) {
+        notesBlock.innerHTML = "";
+        const continuity = ep.ContinuityNotes || [];
+        const themes = ep.ThematicNotes || [];
+        const bts = ep.BehindTheScenes || [];
+        if (continuity.length > 0) {
+          const label = document.createElement("div");
+          label.className = "block-label";
+          label.textContent = "Continuity Notes";
+          notesBlock.appendChild(label);
+          continuity.forEach(note => {
+            const card = document.createElement("article");
+            card.className = "note-card";
+            const h = document.createElement("h4");
+            h.textContent = note.Header;
+            const p = document.createElement("p");
+            p.textContent = note.Text;
+            card.appendChild(h);
+            card.appendChild(p);
+            notesBlock.appendChild(card);
+          });
+        }
+        if (themes.length > 0) {
+          const label = document.createElement("div");
+          label.className = "block-label";
+          label.textContent = "Themes";
+          notesBlock.appendChild(label);
+          themes.forEach(note => {
+            const card = document.createElement("article");
+            card.className = "note-card";
+            const h = document.createElement("h4");
+            h.textContent = note.Header;
+            const p = document.createElement("p");
+            p.textContent = note.Text;
+            card.appendChild(h);
+            card.appendChild(p);
+            notesBlock.appendChild(card);
+          });
+        }
+        if (bts.length > 0) {
+          const label = document.createElement("div");
+          label.className = "block-label";
+          label.textContent = "Behind the Scenes";
+          notesBlock.appendChild(label);
+          bts.forEach(note => {
+            const card = document.createElement("article");
+            card.className = "note-card";
+            const h = document.createElement("h4");
+            h.textContent = note.Header;
+            const p = document.createElement("p");
+            p.textContent = note.Text;
+            card.appendChild(h);
+            card.appendChild(p);
+            notesBlock.appendChild(card);
+          });
+        }
       }
     }
 
     function showEpisodesError(message) {
       const subtitle = document.getElementById("episodes-panel-subtitle");
-      subtitle.textContent = "Error loading data";
-      const list = document.getElementById("episodes-list");
-      list.innerHTML = "";
-      const div = document.createElement("div");
-      div.className = "error-text";
-      div.textContent = message;
-      list.appendChild(div);
+      if (subtitle) {
+        subtitle.textContent = "Error loading data";
+      }
+      const strip = document.getElementById("episodes-strip");
+      if (strip) {
+        strip.innerHTML = "";
+        const div = document.createElement("div");
+        div.className = "error-text";
+        div.textContent = message;
+        strip.appendChild(div);
+      }
+      const status = document.getElementById("series-status");
+      if (status) {
+        status.textContent = "Error loading episode data.";
+      }
     }
 
     function fetchEpisodes() {
@@ -755,15 +1115,101 @@
           allEpisodes = data;
           episodesBySeries = groupEpisodesBySeries(allEpisodes);
           const subtitle = document.getElementById("episodes-panel-subtitle");
-          subtitle.textContent = "Data loaded (" + allEpisodes.length + " episode(s))";
-          renderSeriesMenu();
+          if (subtitle) {
+            subtitle.textContent = "Data loaded (" + allEpisodes.length + " episode(s))";
+          }
+          renderSeriesStrip();
         })
         .catch(err => {
           showEpisodesError(err.message);
         });
     }
 
-    document.addEventListener("DOMContentLoaded", fetchEpisodes);
+    function fetchBios() {
+      fetch(BIO_URL)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("HTTP " + response.status + " when fetching summaries.");
+          }
+          return response.json();
+        })
+        .then(data => {
+          biosByKey = {};
+          if (Array.isArray(data)) {
+            data.forEach(bio => {
+              if (bio.Name) {
+                const mainKey = bio.Name.toLowerCase();
+                biosByKey[mainKey] = bio;
+              }
+              (bio.Alias || []).forEach(alias => {
+                const key = alias.toLowerCase();
+                biosByKey[key] = bio;
+              });
+            });
+            biosLoaded = true;
+          }
+        })
+        .catch(err => {
+          biosLoaded = false;
+          console.error("Error loading summaries:", err);
+        });
+    }
+
+    function initBioModal() {
+      const modal = document.getElementById("bio-modal");
+      const backdrop = document.getElementById("bio-backdrop");
+      const closeBtn = document.getElementById("bio-close");
+      function close() {
+        modal.classList.remove("active");
+      }
+      backdrop.addEventListener("click", close);
+      closeBtn.addEventListener("click", close);
+      document.addEventListener("keydown", e => {
+        if (e.key === "Escape") {
+          close();
+        }
+      });
+    }
+
+    function openBioModal(name) {
+      const modal = document.getElementById("bio-modal");
+      const nameEl = document.getElementById("bio-name");
+      const roleEl = document.getElementById("bio-role");
+      const summaryEl = document.getElementById("bio-summary");
+      const fallbackWrapper = document.getElementById("bio-fallback");
+      const fallbackName = document.getElementById("bio-name-raw");
+
+      const key = name.toLowerCase();
+      const bio = biosByKey[key];
+
+      if (!biosLoaded) {
+        nameEl.textContent = name;
+        roleEl.textContent = "";
+        summaryEl.textContent = "Summary data is not loaded or unavailable.";
+        fallbackWrapper.style.display = "none";
+      } else if (!bio) {
+        nameEl.textContent = "No summary available";
+        roleEl.textContent = "";
+        summaryEl.textContent = "There is currently no summary entry for this name in the summaries JSON.";
+        fallbackWrapper.style.display = "block";
+        fallbackName.textContent = name;
+      } else {
+        nameEl.textContent = bio.Name || name;
+        roleEl.textContent = bio.Role || "";
+        summaryEl.textContent = bio.Summary || "";
+        fallbackWrapper.style.display = "none";
+      }
+
+      modal.classList.add("active");
+    }
+
+    function init() {
+      initBioModal();
+      fetchEpisodes();
+      fetchBios();
+    }
+
+    document.addEventListener("DOMContentLoaded", init);
   </script>
 </body>
 </html>
