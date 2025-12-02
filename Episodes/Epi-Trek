@@ -21,12 +21,20 @@
     "Episode": 1,
     "StorySections": [
       {
-        "Header": "Setup",
-        "Text": "The Enterprise arrives at planet M-113 for routine medical exams on Professor Crater and his wife Nancy, an old flame of Dr. McCoy."
+        "Header": "Act I",
+        "Text": "The Enterprise arrives at planet M-113 for routine medical exams on Professor Crater and his wife Nancy, an old flame of Dr."
       },
       {
-        "Header": "Crisis and Resolution",
-        "Text": "Crewmen die with all salt removed from their bodies, revealing a shape-shifting salt-hungry creature impersonating Nancy. McCoy must overcome his feelings and kill the being to save the ship."
+        "Header": "Act II",
+        "Text": "McCoy."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Crewmen die with all salt removed from their bodies, revealing a shape-shifting salt-hungry creature impersonating Nancy."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "McCoy must overcome his feelings and kill the being to save the ship."
       }
     ],
     "EthicalDilemmas": [
@@ -67,12 +75,20 @@
     "Episode": 2,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise transports teenage castaway Charlie Evans, sole survivor of a wreck, who struggles with social interaction and craves approval from Kirk and the crew."
       },
       {
-        "Header": "Crisis and Resolution",
-        "Text": "Charlie’s terrifying psychokinetic powers emerge as he punishes anyone who frustrates him and tries to possess Janice Rand. When his Thasian benefactors reclaim him, Kirk must give up the boy to keep the galaxy safe."
+        "Header": "Act II",
+        "Text": "Charlie’s terrifying psychokinetic powers emerge as he punishes anyone who frustrates him and tries to possess Janice Rand."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When his Thasian benefactors reclaim him, Kirk must give up the boy to keep the galaxy safe."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -113,12 +129,20 @@
     "Episode": 3,
     "StorySections": [
       {
-        "Header": "Setup",
-        "Text": "At the edge of the galaxy, the Enterprise encounters a strange barrier that transforms Gary Mitchell and Dr. Dehner, awakening dangerous ESP powers."
+        "Header": "Act I",
+        "Text": "At the edge of the galaxy, the Enterprise encounters a strange barrier that transforms Gary Mitchell and Dr."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
+        "Text": "Dehner, awakening dangerous ESP powers."
+      },
+      {
+        "Header": "Act III",
         "Text": "As Mitchell’s godlike abilities grow and his humanity erodes, Kirk lures him to Delta Vega, where with Dehner’s last-minute help he is forced to kill his oldest friend to protect the universe."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -158,12 +182,20 @@
     "Episode": 4,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "A landing party returns from a doomed research station carrying an infection that removes inhibitions, causing the Enterprise crew to behave as if drunk."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As chaos spreads and the ship spirals toward planetary destruction, Kirk and a tormented Spock work with Engineering to attempt a risky cold-start of the engines while out of control emotionally."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As chaos spreads and the ship spirals toward planetary destruction, Kirk and a tormented Spock work with Engineering to attempt a risky cold-start of the engines while out of control emotionally."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -201,12 +233,20 @@
     "Episode": 5,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "A transporter accident splits Kirk into two versions: one gentle but indecisive, the other aggressive and increasingly violent."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "With the landing party stranded on a freezing planet and the 'evil' Kirk attacking crew, Spock and McCoy risk recombining the halves, proving that leadership requires both strength and compassion."
+      },
+      {
+        "Header": "Act III",
+        "Text": "With the landing party stranded on a freezing planet and the 'evil' Kirk attacking crew, Spock and McCoy risk recombining the halves, proving that leadership requires both strength and compassion."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -248,12 +288,20 @@
     "Episode": 6,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise rescues con man Harry Mudd and three stunning women whose presence immediately distracts and fascinates the crew."
       },
       {
-        "Header": "Crisis and Resolution",
-        "Text": "Kirk discovers the women rely on an illegal beauty-enhancing drug and are being sold as wives to miners. The truth forces the characters, especially Eve, to confront the difference between illusion and self-respect."
+        "Header": "Act II",
+        "Text": "Kirk discovers the women rely on an illegal beauty-enhancing drug and are being sold as wives to miners."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The truth forces the characters, especially Eve, to confront the difference between illusion and self-respect."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -293,12 +341,20 @@
     "Episode": 7,
     "StorySections": [
       {
-        "Header": "Setup",
-        "Text": "Kirk and Chapel find Dr. Roger Korby alive on a frozen world, where he has mastered android duplication technology."
+        "Header": "Act I",
+        "Text": "Kirk and Chapel find Dr."
       },
       {
-        "Header": "Crisis and Resolution",
-        "Text": "Korby reveals plans to improve humanity by replacing people with androids, including a duplicate Kirk. As his own humanity fades, he chooses destruction over a future built on deception."
+        "Header": "Act II",
+        "Text": "Roger Korby alive on a frozen world, where he has mastered android duplication technology."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Korby reveals plans to improve humanity by replacing people with androids, including a duplicate Kirk."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "As his own humanity fades, he chooses destruction over a future built on deception."
       }
     ],
     "EthicalDilemmas": [
@@ -336,12 +392,20 @@
     "Episode": 8,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise finds an Earthlike world where only children have survived a plague that kills adults when they reach puberty."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk, Spock, and McCoy begin succumbing to the disease while trying to win the trust of the feral children through Miri, who must face the truth about growing up."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk, Spock, and McCoy begin succumbing to the disease while trying to win the trust of the feral children through Miri, who must face the truth about growing up."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -379,12 +443,20 @@
     "Episode": 9,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "An escaped inmate from the Tantalus V penal colony beams aboard, claiming that experimental treatments there are torture, not therapy."
       },
       {
-        "Header": "Crisis and Resolution",
-        "Text": "Kirk and Dr. Noel investigate and discover Dr. Adams abusing a neural neutralizer to rewrite personalities. Turning the device against him exposes the horrific cost of enforced 'rehabilitation'."
+        "Header": "Act II",
+        "Text": "Kirk and Dr."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Noel investigate and discover Dr."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "Adams abusing a neural neutralizer to rewrite personalities. Turning the device against him exposes the horrific cost of enforced 'rehabilitation'."
       }
     ],
     "EthicalDilemmas": [
@@ -424,12 +496,20 @@
     "Episode": 10,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise destroys a mysterious warning buoy and is confronted by a massive alien ship commanded by the intimidating Balok."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Outgunned, Kirk bluffs with the fictional 'corbomite' device, forcing a standoff that leads to cautious contact and ultimately an offer of friendship to a lonely alien child."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Outgunned, Kirk bluffs with the fictional 'corbomite' device, forcing a standoff that leads to cautious contact and ultimately an offer of friendship to a lonely alien child."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -468,12 +548,20 @@
     "Episode": 11,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Spock hijacks the Enterprise and abducts a disabled Captain Pike, heading toward the forbidden world of Talos IV under fake orders."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "At a court-martial, Spock presents classified records of Pike’s earlier Talosian encounter, slowly revealing that his mutiny is driven by loyalty and a chance to give Pike a meaningful life."
+      },
+      {
+        "Header": "Act III",
+        "Text": "At a court-martial, Spock presents classified records of Pike’s earlier Talosian encounter, slowly revealing that his mutiny is driven by loyalty and a chance to give Pike a meaningful life."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -512,12 +600,20 @@
     "Episode": 12,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The court-martial continues as the Enterprise remains locked on course for Talos IV, a capital offense destination under Starfleet law."
       },
       {
-        "Header": "Crisis and Resolution",
-        "Text": "The Talosians reveal their offer to Pike: a fully lived life in illusion rather than confinement in a broken body. Starfleet grudgingly grants an exception, and Spock submits to justice."
+        "Header": "Act II",
+        "Text": "The Talosians reveal their offer to Pike: a fully lived life in illusion rather than confinement in a broken body."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Starfleet grudgingly grants an exception, and Spock submits to justice."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -557,12 +653,20 @@
     "Episode": 13,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk suspects that actor Anton Karidian is actually Kodos the Executioner, a former governor responsible for a mass atrocity years earlier."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As witnesses die and Lenore Karidian tries to silence anyone who knows the truth, Kirk forces a final confrontation that exposes Kodos’s identity and Lenore’s madness."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As witnesses die and Lenore Karidian tries to silence anyone who knows the truth, Kirk forces a final confrontation that exposes Kodos’s identity and Lenore’s madness."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -604,12 +708,20 @@
     "Episode": 14,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Outposts along the Romulan Neutral Zone are destroyed, and the Enterprise engages a hidden Romulan ship in a tense cat-and-mouse pursuit."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and the Romulan commander test each other’s skill and resolve, but the battle ends with the Bird-of-Prey’s self-destruction and an unspoken mutual respect between enemies."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and the Romulan commander test each other’s skill and resolve, but the battle ends with the Bird-of-Prey’s self-destruction and an unspoken mutual respect between enemies."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -648,12 +760,20 @@
     "Episode": 15,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Exhausted crew members visit a seemingly idyllic planet for shore leave, only to encounter impossible manifestations of their thoughts."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As fantasies turn dangerous, Kirk demands answers, discovering an advanced 'amusement park' that can be safe only when visitors understand its nature and limits."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As fantasies turn dangerous, Kirk demands answers, discovering an advanced 'amusement park' that can be safe only when visitors understand its nature and limits."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -694,12 +814,20 @@
     "Episode": 16,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Spock leads the shuttlecraft Galileo on a survey mission that crash-lands on a hostile planet inhabited by powerful, primitive giants."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "While Kirk struggles to keep searching, Spock’s purely logical command style alienates the survivors until his risky flare gambit draws the Enterprise back in time."
+      },
+      {
+        "Header": "Act III",
+        "Text": "While Kirk struggles to keep searching, Spock’s purely logical command style alienates the survivors until his risky flare gambit draws the Enterprise back in time."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -735,12 +863,20 @@
     "Episode": 17,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise encounters Trelane, a flamboyant, seemingly omnipotent being who kidnaps crew to his mock-18th-century manor on Gothos."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk eventually realizes Trelane is an undisciplined child of powerful energy beings, who intervene and punish him for treating people as toys."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk eventually realizes Trelane is an undisciplined child of powerful energy beings, who intervene and punish him for treating people as toys."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -777,12 +913,20 @@
     "Episode": 18,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "After a Federation outpost is destroyed, the Enterprise pursues the attackers until Kirk and the reptilian Gorn captain are forced into a duel by the Metrons."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "On a harsh planet, Kirk improvises a crude cannon but ultimately refuses to kill the helpless Gorn, impressing the Metrons with his mercy."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On a harsh planet, Kirk improvises a crude cannon but ultimately refuses to kill the helpless Gorn, impressing the Metrons with his mercy."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -819,12 +963,20 @@
     "Episode": 19,
     "StorySections": [
       {
-        "Header": "Setup",
-        "Text": "A slingshot maneuver throws the Enterprise back to 20th-century Earth, where a U.S. Air Force pilot is accidentally brought aboard."
+        "Header": "Act I",
+        "Text": "A slingshot maneuver throws the Enterprise back to 20th-century Earth, where a U.S."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
+        "Text": "Air Force pilot is accidentally brought aboard."
+      },
+      {
+        "Header": "Act III",
         "Text": "Kirk, Spock, and crew must erase evidence of the future and return the pilot to his time without altering history, using a carefully choreographed time-loop."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -862,12 +1014,20 @@
     "Episode": 20,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk faces court-martial after an ion storm incident appears to show he jettisoned an observation pod prematurely, killing his friend Finney."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "With help from Spock and lawyer Samuel Cogley, tampering with the Enterprise computer is exposed and Finney is found alive, clearing Kirk's name."
+      },
+      {
+        "Header": "Act III",
+        "Text": "With help from Spock and lawyer Samuel Cogley, tampering with the Enterprise computer is exposed and Finney is found alive, clearing Kirk's name."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -905,12 +1065,20 @@
     "Episode": 21,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "On Beta III, the Enterprise finds a docile population controlled by the unseen Landru, enforced by robed Lawgivers and periodic orgiastic 'Festival' violence."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and Spock discover Landru is an ancient computer keeping society stagnant; Kirk convinces it that its programming violates its own purpose, causing it to shut down."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and Spock discover Landru is an ancient computer keeping society stagnant; Kirk convinces it that its programming violates its own purpose, causing it to shut down."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -949,12 +1117,20 @@
     "Episode": 22,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The crew discovers the sleeper ship Botany Bay and revives Khan Noonien Singh, a genetically engineered tyrant from Earth’s Eugenics Wars."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Khan seduces historian Marla McGivers and takes over the Enterprise, but Kirk retakes the ship and exiles Khan and his followers to Ceti Alpha V instead of executing them."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Khan seduces historian Marla McGivers and takes over the Enterprise, but Kirk retakes the ship and exiles Khan and his followers to Ceti Alpha V instead of executing them."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -993,12 +1169,20 @@
     "Episode": 23,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "On Eminiar VII, a centuries-long war is fought entirely by computer simulation, with 'casualties' dutifully reporting to disintegration chambers."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "When the Enterprise is declared destroyed in a simulated attack, Kirk destroys the war computers, forcing both sides to face the reality of actual combat or make peace."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When the Enterprise is declared destroyed in a simulated attack, Kirk destroys the war computers, forcing both sides to face the reality of actual combat or make peace."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1036,12 +1220,20 @@
     "Episode": 24,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise finds a colony on Omicron Ceti III thriving despite deadly radiation, their tranquility maintained by spores from alien plants."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Under the spores’ influence, Spock experiences rare happiness and romance, but Kirk fights free and provokes anger across the colony to break the spell."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Under the spores’ influence, Spock experiences rare happiness and romance, but Kirk fights free and provokes anger across the colony to break the spell."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1077,12 +1269,20 @@
     "Episode": 25,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Miners on Janus VI are being killed by a creature that tunnels through rock, leaving bodies horribly burned and production in crisis."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and Spock corner the Horta, a silicon-based lifeform protecting her eggs; through a mind meld, they negotiate peace and cooperation with the miners."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and Spock corner the Horta, a silicon-based lifeform protecting her eggs; through a mind meld, they negotiate peace and cooperation with the miners."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1119,12 +1319,20 @@
     "Episode": 26,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "As Federation–Klingon war looms, the Enterprise is sent to protect the 'primitive' planet Organia, which both sides see as a strategic prize."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Klingons occupy the planet, but the Organians reveal themselves as powerful energy beings who forcibly impose peace on both empires, forbidding open war."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Klingons occupy the planet, but the Organians reveal themselves as powerful energy beings who forcibly impose peace on both empires, forbidding open war."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1162,12 +1370,20 @@
     "Episode": 27,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "A cosmic 'blink' in reality coincides with the appearance of Lazarus, who rants about battling a murderous alternate version of himself."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk learns that matter and antimatter versions of Lazarus must be trapped together in a dimensional corridor, sacrificing their freedom to save both universes."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk learns that matter and antimatter versions of Lazarus must be trapped together in a dimensional corridor, sacrificing their freedom to save both universes."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1205,12 +1421,20 @@
     "Episode": 28,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "McCoy, delirious from an accidental overdose, escapes through the Guardian of Forever, changing history so the Federation never exists."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and Spock follow him to 1930s New York, where Kirk falls in love with Edith Keeler and must allow her to die to restore the original timeline."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and Spock follow him to 1930s New York, where Kirk falls in love with Edith Keeler and must allow her to die to restore the original timeline."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1247,12 +1471,20 @@
     "Episode": 29,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Following a trail of mass insanity, the Enterprise reaches a world where parasitic creatures have killed Kirk’s brother and infected Spock."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "McCoy and Kirk experiment with intense light to destroy the parasites, risking Spock’s eyesight before refining a cure that saves both him and the colonists."
+      },
+      {
+        "Header": "Act III",
+        "Text": "McCoy and Kirk experiment with intense light to destroy the parasites, risking Spock’s eyesight before refining a cure that saves both him and the colonists."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1276,12 +1508,20 @@
     "Episode": 1,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Spock begins acting strangely and demands to return to Vulcan, where he must undergo the secret mating ritual of pon farr or die."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk defies Starfleet orders to take the Enterprise to Vulcan, then discovers he must fight Spock to the death to resolve the blood fever."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk defies Starfleet orders to take the Enterprise to Vulcan, then discovers he must fight Spock to the death to resolve the blood fever."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1305,12 +1545,20 @@
     "Episode": 2,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise is seized by a giant energy hand and drawn to a planet where the crew meets Apollo, who claims to be the Greek god."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Apollo demands worship from the crew, but Kirk must challenge a being who draws his power from the planet to free his people."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Apollo demands worship from the crew, but Kirk must challenge a being who draws his power from the planet to free his people."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1334,12 +1582,20 @@
     "Episode": 3,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise encounters a powerful probe calling itself Nomad, which has wiped out billions yet reveres Kirk as its creator."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk discovers Nomad merged with another probe and misinterpreted its mission, and must convince it it is imperfect so it will self-destruct."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk discovers Nomad merged with another probe and misinterpreted its mission, and must convince it it is imperfect so it will self-destruct."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1363,12 +1619,20 @@
     "Episode": 4,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "A transporter accident sends Kirk, McCoy, Scotty, and Uhura into a savage parallel universe where Starfleet is a brutal Terran Empire."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk must impersonate his ruthless counterpart long enough to return home while planting the seeds of reform in the Mirror Spock."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk must impersonate his ruthless counterpart long enough to return home while planting the seeds of reform in the Mirror Spock."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1392,12 +1656,20 @@
     "Episode": 5,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise surveys a seemingly idyllic world whose primitive inhabitants worship a machine god called Vaal."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk destroys Vaal when it threatens the ship, forcing the natives to begin living without their controlling 'god'."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk destroys Vaal when it threatens the ship, forcing the natives to begin living without their controlling 'god'."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1421,12 +1693,20 @@
     "Episode": 6,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise finds the USS Constellation wrecked by a planet-killing weapon and rescues Commodore Decker, who is traumatized and obsessed."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As the machine threatens populated systems, Decker tries to sacrifice the Enterprise, forcing Kirk to outmaneuver both the weapon and Decker's guilt."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As the machine threatens populated systems, Decker tries to sacrifice the Enterprise, forcing Kirk to outmaneuver both the weapon and Decker's guilt."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1450,12 +1730,20 @@
     "Episode": 7,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "On a mission near a mysterious planet, crewmen vanish and Kirk leads a landing party into a gothic castle filled with bizarre illusions."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk discovers two alien explorers using technology to create horror imagery, and forces them to confront the cruelty of their experiment."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk discovers two alien explorers using technology to create horror imagery, and forces them to confront the cruelty of their experiment."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1479,12 +1767,20 @@
     "Episode": 8,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise is hijacked to a planet of androids ruled by Harry Mudd, who plans to strand the crew and keep the ship."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and his officers outwit the androids with illogic and performance, ultimately freeing themselves and leaving Mudd with his creations."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and his officers outwit the androids with illogic and performance, ultimately freeing themselves and leaving Mudd with his creations."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1508,12 +1804,20 @@
     "Episode": 9,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "A shuttle carrying Kirk, Spock, McCoy, and Commissioner Hedford is diverted to an asteroid where they meet Zefram Cochrane and a noncorporeal Companion."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "The Companion merges with Hedford to save her life, creating a new being who can share Cochrane's existence while letting the Enterprise leave."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The Companion merges with Hedford to save her life, creating a new being who can share Cochrane's existence while letting the Enterprise leave."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1537,12 +1841,20 @@
     "Episode": 10,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise transports Federation delegates, including Spock's parents, amid rising tension and sabotage."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Spock must choose between remaining at his post or donating blood to save his father's life while Kirk hunts a murderer and hostile ship."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Spock must choose between remaining at his post or donating blood to save his father's life while Kirk hunts a murderer and hostile ship."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1566,12 +1878,20 @@
     "Episode": 11,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise tries to secure mining rights on Capella IV, where a warlike culture is in the midst of a leadership struggle."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk, Spock, and McCoy must protect the pregnant widow of the deposed ruler while Klingons manipulate tribal politics."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk, Spock, and McCoy must protect the pregnant widow of the deposed ruler while Klingons manipulate tribal politics."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1595,12 +1915,20 @@
     "Episode": 12,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "After exposure to radiation, members of the landing party, including Kirk, begin to age rapidly and lose effectiveness."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As a senile Kirk faces removal from command, he must rally for one last risky maneuver to save the Enterprise from Romulan attack."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As a senile Kirk faces removal from command, he must rally for one last risky maneuver to save the Enterprise from Romulan attack."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1624,12 +1952,20 @@
     "Episode": 13,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk becomes fixated on destroying a cloud-like creature that once killed members of his crew years before."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As casualties mount, Kirk must confront whether his pursuit is driven by duty or personal guilt, and finally destroys the creature with antimatter."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As casualties mount, Kirk must confront whether his pursuit is driven by duty or personal guilt, and finally destroys the creature with antimatter."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1653,12 +1989,20 @@
     "Episode": 14,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "While on shore leave, Scotty is suspected of murdering women on a foggy planet that resembles old London."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and Spock uncover a noncorporeal entity behind the killings, possibly the source of the Jack the Ripper legend, and disperse it with tranquilizer gas."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and Spock uncover a noncorporeal entity behind the killings, possibly the source of the Jack the Ripper legend, and disperse it with tranquilizer gas."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1682,12 +2026,20 @@
     "Episode": 15,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk must protect a disputed space station and grain shipment while dealing with a local official and an infestation of rapidly breeding tribbles."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Tribbles expose a Klingon sabotage plot when they react violently to disguised Klingons, allowing the crew to save the grain."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Tribbles expose a Klingon sabotage plot when they react violently to disguised Klingons, allowing the crew to save the grain."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1711,12 +2063,20 @@
     "Episode": 16,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk, Uhura, and Chekov are abducted to a planet where they are forced to fight as gladiators for gambling alien brains."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk wagers on his own endurance and wins the right to free himself and the thralls, compelling the Providers to end their contests."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk wagers on his own endurance and wins the right to free himself and the thralls, compelling the Providers to end their contests."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1740,12 +2100,20 @@
     "Episode": 17,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise finds a world whose society has modeled itself on a 1920s Chicago gangster book left by an earlier Earth ship."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and Spock adopt gangster personas to outplay the mob bosses and set up a more stable, Federation-guided system."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and Spock adopt gangster personas to outplay the mob bosses and set up a more stable, Federation-guided system."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1769,12 +2137,20 @@
     "Episode": 18,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise encounters a huge single-celled organism in space that has destroyed a Vulcan-crewed ship."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk sends the Enterprise into the organism to deliver an antimatter 'injection', nearly sacrificing the ship to save the galaxy."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk sends the Enterprise into the organism to deliver an antimatter 'injection', nearly sacrificing the ship to save the galaxy."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1798,12 +2174,20 @@
     "Episode": 19,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk discovers that the Klingons are arming one side of a primitive world's conflict, destabilizing a once-peaceful society."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "He reluctantly agrees to arm the other side to restore a balance of power, effectively starting a proxy arms race."
+      },
+      {
+        "Header": "Act III",
+        "Text": "He reluctantly agrees to arm the other side to restore a balance of power, effectively starting a proxy arms race."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1827,12 +2211,20 @@
     "Episode": 20,
     "StorySections": [
       {
-        "Header": "Setup",
-        "Text": "Disembodied aliens ask to borrow the bodies of Kirk, Spock, and Dr. Mulhall to construct android forms and live again."
+        "Header": "Act I",
+        "Text": "Disembodied aliens ask to borrow the bodies of Kirk, Spock, and Dr."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
+        "Text": "Mulhall to construct android forms and live again."
+      },
+      {
+        "Header": "Act III",
         "Text": "As one alien abuses Spock's body, Kirk and the others must decide whether the risk of possession outweighs the hope of reviving a lost civilization."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1856,12 +2248,20 @@
     "Episode": 21,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise seeks a missing Federation historian and finds a planet whose government has modeled itself on Nazi Germany."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and Spock work undercover to expose the regime's manipulation and restore a less oppressive order."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and Spock work undercover to expose the regime's manipulation and restore a less oppressive order."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1885,12 +2285,20 @@
     "Episode": 22,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Powerful Kelvans hijack the Enterprise, reducing crew to small geometric shapes and planning to take the ship to Andromeda."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and his officers exploit the Kelvans' new human bodies and emotions to undermine their cold control."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and his officers exploit the Kelvans' new human bodies and emotions to undermine their cold control."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1914,12 +2322,20 @@
     "Episode": 23,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk finds a crazed Starfleet captain on a world locked in endless war between two factions with distorted echoes of Earth history."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk exposes the captain's betrayal and delivers a speech reinterpreting the planet's 'Yang' constitution in its original spirit."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk exposes the captain's betrayal and delivers a speech reinterpreting the planet's 'Yang' constitution in its original spirit."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1943,12 +2359,20 @@
     "Episode": 24,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise tests the M-5 computer, designed to automate starship functions and replace much of the crew."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "When M-5 begins destroying ships in war games, Kirk must prove that human judgment is still necessary in command."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When M-5 begins destroying ships in war games, Kirk must prove that human judgment is still necessary in command."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -1972,12 +2396,20 @@
     "Episode": 25,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise discovers a world patterned on the Roman Empire but with 20th-century technology and televised gladiatorial games."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk, Spock, and McCoy must survive the arena and encourage social change without open interference."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk, Spock, and McCoy must survive the arena and encourage social change without open interference."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2001,12 +2433,20 @@
     "Episode": 26,
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Investigating 20th-century Earth, the Enterprise intercepts Gary Seven, a mysterious agent using advanced technology to alter a rocket launch."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk must decide whether to stop Seven or help him, ultimately allowing him to prevent nuclear catastrophe and remain on Earth."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk must decide whether to stop Seven or help him, ultimately allowing him to prevent nuclear catastrophe and remain on Earth."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2043,12 +2483,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "After a mysterious intruder incapacitates the crew, Spock is found alive but with his brain surgically removed, and time is running out before his body dies."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Following a trail to a distant world, Kirk discovers an underground society that has turned Spock's brain into a computer control unit; McCoy must risk experimental surgery guided by alien technology to restore it."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Following a trail to a distant world, Kirk discovers an underground society that has turned Spock's brain into a computer control unit; McCoy must risk experimental surgery guided by alien technology to restore it."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2084,12 +2532,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk orders the Enterprise into the Romulan Neutral Zone on apparently irrational grounds, leading to its capture by a Romulan fleet commanded by a sharp, composed woman."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "The truth emerges that this is a covert Starfleet operation to steal a Romulan cloaking device; Kirk relies on Spock to seduce and misdirect the Romulan commander long enough to pull off the theft and escape."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The truth emerges that this is a covert Starfleet operation to steal a Romulan cloaking device; Kirk relies on Spock to seduce and misdirect the Romulan commander long enough to pull off the theft and escape."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2125,12 +2581,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise discovers a planet whose Native American–style inhabitants are threatened by a deflected asteroid; when Kirk suffers amnesia after an accident, he is taken in by the tribe and accepted as a holy man."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As Spock races against time to reprogram an ancient deflection device and divert the asteroid, Kirk builds a new life with Miramanee until his memories and the disaster collide with tragic results."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As Spock races against time to reprogram an ancient deflection device and divert the asteroid, Kirk builds a new life with Miramanee until his memories and the disaster collide with tragic results."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2165,12 +2629,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise responds to a distress call to find a colony's adults dead and the children seemingly unharmed and oddly cheerful."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk and Spock uncover that the children are being controlled by an alien entity named Gorgan, who uses their grief and chants to seize control of the ship until the crew breaks the spell by forcing the children to confront reality."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk and Spock uncover that the children are being controlled by an alien entity named Gorgan, who uses their grief and chants to seize control of the ship until the crew breaks the spell by forcing the children to confront reality."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2206,12 +2678,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise transports Kollos, a Medusan ambassador whose appearance is so alien that a human who sees it goes insane, along with the blind telepathic psychologist Miranda Jones."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "When a jealous crewmember tries to seize Kollos's navigation abilities and loses his mind, Spock must risk a mind meld with Kollos while blindfolded, and Miranda must confront her own fears and ambitions."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When a jealous crewmember tries to seize Kollos's navigation abilities and loses his mind, Spock must risk a mind meld with Kollos while blindfolded, and Miranda must confront her own fears and ambitions."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2247,12 +2727,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
-        "Text": "Ignoring a warning buoy, the Enterprise crew beams down to a Melkotian world and finds themselves forced to relive the gunfight at the O.K. Corral from the losing side."
+        "Header": "Act I",
+        "Text": "Ignoring a warning buoy, the Enterprise crew beams down to a Melkotian world and finds themselves forced to relive the gunfight at the O.K."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
+        "Text": "Corral from the losing side."
+      },
+      {
+        "Header": "Act III",
         "Text": "Trapped in an increasingly unreal Western town, Spock realizes the scenario is partly illusion; by mastering their own fear and refusing to believe in the bullets, the landing party survives and proves their peaceful intentions."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2289,12 +2777,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "After a Federation colony disappears, the Enterprise crew and a Klingon party led by Kang are trapped aboard the ship by an alien energy creature that feeds on violence."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "With both sides locked into seemingly endless sword combat, Kirk and Kang must recognize the manipulator and deliberately lay down arms, starving the entity of hatred."
+      },
+      {
+        "Header": "Act III",
+        "Text": "With both sides locked into seemingly endless sword combat, Kirk and Kang must recognize the manipulator and deliberately lay down arms, starving the entity of hatred."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2329,12 +2825,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise discovers that an asteroid on a collision course with a Federation world is actually a hollow generation ship whose people believe they live on a normal planet."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "McCoy, facing a terminal diagnosis, falls in love with Natira and considers staying, until the truth about the Oracle's control and Yonada's mission forces a rethinking of both his fate and the colony's future."
+      },
+      {
+        "Header": "Act III",
+        "Text": "McCoy, facing a terminal diagnosis, falls in love with Natira and considers staying, until the truth about the Oracle's control and Yonada's mission forces a rethinking of both his fate and the colony's future."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2369,12 +2873,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "While investigating the disappearance of the USS Defiant in an interphase region of space, Kirk vanishes with the drifting ship as the Enterprise begins to slip between dimensions."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Spock and McCoy clash over command decisions as the Tholians weave an energy web around the Enterprise, but they ultimately cooperate to hold the ship together long enough to retrieve Kirk from phased space."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Spock and McCoy clash over command decisions as the Tholians weave an energy web around the Enterprise, but they ultimately cooperate to hold the ship together long enough to retrieve Kirk from phased space."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2409,12 +2921,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "On a planet of telekinetic aristocrats who emulate ancient Greece, the Enterprise crew is forced to perform humiliating acts for their hosts' amusement."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "With the help of Alexander, a physically impaired member of the society who has no powers, Kirk and company manage to resist long enough for McCoy to devise a way to level the playing field."
+      },
+      {
+        "Header": "Act III",
+        "Text": "With the help of Alexander, a physically impaired member of the society who has no powers, Kirk and company manage to resist long enough for McCoy to devise a way to level the playing field."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2449,12 +2969,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Answering a distress call from Scalos, the Enterprise appears deserted to its own crew while an invisible, hyper-accelerated group secretly boards the ship."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk is pulled into the accelerated time stream and learns the Scalosians plan to sterilize his crew and use the ship to save their dying people, forcing him and Spock to sabotage equipment in two different time scales."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk is pulled into the accelerated time stream and learns the Scalosians plan to sterilize his crew and use the ship to save their dying people, forcing him and Spock to sabotage equipment in two different time scales."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2489,12 +3017,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk, Spock, and McCoy are captured with a silent woman named Gem by alien experimenters who inflict pain to test Gem's ability to absorb and heal others' injuries."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "McCoy volunteers to endure lethal torture so Gem can demonstrate self-sacrifice; his choice and Gem's compassion convince the Vians that this world is worth saving."
+      },
+      {
+        "Header": "Act III",
+        "Text": "McCoy volunteers to endure lethal torture so Gem can demonstrate self-sacrifice; his choice and Gem's compassion convince the Vians that this world is worth saving."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2530,12 +3066,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise transports Elaan, a temperamental noblewoman from Elas, to an arranged marriage on Troyius meant to end a long interplanetary feud."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk is struck by Elaan's biochemical 'tears', which impose irresistible love, even as Klingons attempt to sabotage the mission and exploit the political tensions."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk is struck by Elaan's biochemical 'tears', which impose irresistible love, even as Klingons attempt to sabotage the mission and exploit the political tensions."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2570,12 +3114,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk and Spock visit an asylum for the criminally insane to deliver a new treatment and find it under the control of Garth of Izar, a once-legendary starship captain turned madman."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Using shape-changing abilities he learned from aliens, Garth attempts to seize the Enterprise, forcing Kirk and Spock to outwit him in a tense battle of identities."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Using shape-changing abilities he learned from aliens, Garth attempts to seize the Enterprise, forcing Kirk and Spock to outwit him in a tense battle of identities."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2611,12 +3163,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise encounters Lokai, a fugitive whose half-black, half-white coloration reveals him as a member of a species divided along stark physical lines, soon pursued by the fanatical Bele."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As Bele seizes control of the ship to return Lokai to their homeworld, Kirk and Spock discover that their planet has already destroyed itself through racial hatred, yet the two enemies remain locked in their feud."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As Bele seizes control of the ship to return Lokai to their homeworld, Kirk and Spock discover that their planet has already destroyed itself through racial hatred, yet the two enemies remain locked in their feud."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2650,12 +3210,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Kirk apparently beams down to an empty version of the Enterprise and meets Odona, learning he has been abducted to help a world suffering from extreme overpopulation."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Gideon's leaders intend to infect their own people with a deadly disease Kirk carries so that a portion of the population will die, forcing him to oppose a genocidal 'solution' that Odona initially accepts."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Gideon's leaders intend to infect their own people with a deadly disease Kirk carries so that a portion of the population will die, forcing him to oppose a genocidal 'solution' that Odona initially accepts."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2691,12 +3259,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "A landing party beams down to a planet only to find the Enterprise flung a great distance away and a mysterious woman named Losira appearing to kill people with a touch."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As Kirk's team tries to survive Losira's repeated attacks, Spock and Scotty race to keep the failing Enterprise intact long enough to retrieve the away team."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As Kirk's team tries to survive Losira's repeated attacks, Spock and Scotty race to keep the failing Enterprise intact long enough to retrieve the away team."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2730,12 +3306,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise escorts Mira Romaine to Memory Alpha, the Federation's central data library, just as bizarre energy lights that can possess people attack the facility."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "When the lights merge with Mira, threatening to burn out her mind, Scotty must help separate her from the Zetarian consciousness without killing her."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When the lights merge with Mira, threatening to burn out her mind, Scotty must help separate her from the Zetarian consciousness without killing her."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2771,12 +3355,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "In search of a rare medical substance, the Enterprise encounters Flint, a reclusive genius living with a young woman named Rayna in an isolated estate."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Spock and McCoy uncover that Flint is an immortal who has lived many lives in Earth's history and engineered Rayna as an android companion, but her awakening emotions lead to her breakdown and Flint's renewed isolation."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Spock and McCoy uncover that Flint is an immortal who has lived many lives in Earth's history and engineered Rayna as an android companion, but her awakening emotions lead to her breakdown and Flint's renewed isolation."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2811,12 +3403,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise takes on a group of spacefaring dropouts led by Sevrin, a charismatic doctor seeking the mythical planet Eden as a pure, natural refuge."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Sevrin sabotages the ship and hijacks a shuttle, leading his followers to a world whose seemingly perfect environment proves lethally toxic."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Sevrin sabotages the ship and hijacks a shuttle, leading his followers to a world whose seemingly perfect environment proves lethally toxic."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2851,12 +3451,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "The Enterprise arrives on Ardana to secure zenite for stopping a plague, only to find a rigid society where elites live in a floating city and miners endure brutal conditions below."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Caught between the authorities and rebellious Troglytes, Kirk and Spock pressure both sides toward reform while securing the vital mineral."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Caught between the authorities and rebellious Troglytes, Kirk and Spock pressure both sides toward reform while securing the vital mineral."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2893,12 +3501,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "On a lava world, an alien presence creates likenesses of Abraham Lincoln and Surak to fight alongside Kirk and Spock in a staged battle of 'good' versus 'evil'."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Kirk realizes the test is designed to study the nature of morality through conflict, and he refuses to accept the simplistic dichotomy imposed by the Excalbians."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Kirk realizes the test is designed to study the nature of morality through conflict, and he refuses to accept the simplistic dichotomy imposed by the Excalbians."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2934,12 +3550,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "With a star about to go nova, the Enterprise finds that the people of Sarpeidon have escaped into their own world's past using a time-portal library, and Kirk, Spock, and McCoy are accidentally sent to different eras."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "Separated in hostile historical periods, the trio must find a way back before the star explodes, while Spock battles a reawakened emotional nature in an ice age with Zarabeth."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Separated in hostile historical periods, the trio must find a way back before the star explodes, while Spock battles a reawakened emotional nature in an ice age with Zarabeth."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
@@ -2975,12 +3599,20 @@
     ],
     "StorySections": [
       {
-        "Header": "Setup",
+        "Header": "Act I",
         "Text": "Responding to a distress call, Kirk reunites with former lover Janice Lester, who uses alien technology to swap bodies with him and takes command of the Enterprise."
       },
       {
-        "Header": "Crisis and Resolution",
+        "Header": "Act II",
         "Text": "As 'Kirk' behaves increasingly erratically, the crew slowly realizes something is wrong and must risk mutiny to restore the real captain to his body."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As 'Kirk' behaves increasingly erratically, the crew slowly realizes something is wrong and must risk mutiny to restore the real captain to his body."
+      },
+      {
+        "Header": "Act IV",
+        "Text": "In the aftermath, the Enterprise resumes her mission."
       }
     ],
     "EthicalDilemmas": [
