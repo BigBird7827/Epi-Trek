@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Star Trek Episode Companion - Episode-Build-5</title>
+  <title>Star Trek Episode Companion - Episode-Build 52</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     :root {
@@ -126,9 +126,16 @@
         0 0 12px rgba(0,0,0,0.9);
     }
     .brand-sub {
-      font-size: 13px;
-      color: var(--text-muted);
+      font-size: 17px;
+      color: #f5f5fa;
     }
+    .brand-nav {
+      margin-top: 6px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
     .data-block {
       display: flex;
       flex-direction: column;
@@ -138,6 +145,8 @@
       color: var(--text-soft);
       text-align: right;
     }
+    
+    
     .data-block a {
       color: var(--accent-blue);
       text-decoration: none;
@@ -176,33 +185,157 @@
       font-size: 12px;
       color: var(--text-soft);
     }
+    .back-link {
+      background: none;
+      border: none;
+      padding: 0;
+      margin-right: 10px;
+      font-size: 12px;
+      color: var(--accent-blue);
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    .console-nav {
+      margin-top: 6px;
+      display: flex;
+      gap: 8px;
+      font-size: 12px;
+    }
+    .console-back-link {
+      font-size: 12pt;
+      font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #f8c66a;
+      border: 1px solid rgba(255,255,255,0.85);
+      border-radius: 999px;
+      padding: 3px 12px 4px;
+      background: transparent;
+    }
+    .console-back-link:hover {
+      background: rgba(248,198,106,0.15);
+    }
+
+
+
     .series-strip {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
-      gap: 10px;
-      overflow-x: auto;
-      padding-bottom: 4px;
-      scrollbar-width: thin;
+      gap: 12px 16px;
+      padding: 10px 0 16px;
     }
+    .series-info-body {
+      margin-top: 8px;
+      font-size: 12pt;
+      color: #ffffff;
+      line-height: 1.5;
+      max-width: 960px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #series-info .strip-label-main {
+      font-size: 14pt;
+      color: #f8c66a;
+      text-align: center;
+    }
+    #series-info .strip-label-sub {
+      font-size: 12pt;
+      color: #ffffff;
+      text-align: center;
+    }
+    .search-body {
+      margin-top: 8px;
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .search-input {
+      width: 100%;
+      max-width: 520px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(248,198,106,0.8);
+      background: rgba(8,8,24,0.9);
+      color: var(--text-main);
+      font-size: 13px;
+    }
+    .search-input:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px rgba(248,198,106,0.9), 0 0 16px rgba(248,198,106,0.85);
+    }
+    .search-help {
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--text-soft);
+    }
+    .search-results {
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: center;
+    }
+    .search-result-item {
+      width: 100%;
+      max-width: 520px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      background: rgba(8,8,24,0.85);
+      border: 1px solid rgba(248,198,106,0.5);
+      color: var(--text-main);
+      font-size: 12px;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .search-result-main {
+      font-weight: 600;
+    }
+    .search-result-meta {
+      font-size: 11px;
+      color: var(--text-soft);
+      white-space: nowrap;
+    }
+
+
+
     .series-chip {
       position: relative;
       flex-shrink: 0;
-      min-width: 120px;
-      padding: 8px 14px 9px;
+      min-width: 130px;
+      padding: 9px 22px 11px;
       border-radius: 999px;
       background:
-        linear-gradient(90deg, rgba(10,10,28,0.95), rgba(24,27,64,0.95));
-      border: 1px solid rgba(158,134,255,0.9);
-      color: var(--text-main);
-      font-size: 13px;
-      letter-spacing: 0.2em;
+        radial-gradient(circle at 10% 0%, rgba(255,255,255,0.22), transparent 60%),
+        linear-gradient(145deg, #fff4c7, #f0c664 40%, #9b6518 100%);
+      border: 1px solid rgba(28,18,4,0.96);
+      color: #1f1204;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
       text-transform: uppercase;
       cursor: pointer;
       box-shadow:
-        0 2px 10px rgba(0,0,0,0.9),
-        0 0 16px rgba(158,134,255,0.55);
-      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
+        0 4px 14px rgba(0,0,0,0.9),
+        0 0 0 1px rgba(0,0,0,0.9),
+        0 0 24px rgba(248,198,106,0.9),
+        inset 0 0 0 1px rgba(255,255,255,0.45),
+        inset 0 16px 26px rgba(255,255,255,0.18);
+      transition:
+        transform 0.1s ease,
+        box-shadow 0.1s ease,
+        border-color 0.1s ease,
+        background 0.12s ease,
+        filter 0.12s ease;
       text-align: center;
+      backdrop-filter: blur(2px);
     }
     .series-chip span {
       display: block;
@@ -217,29 +350,39 @@
       position: absolute;
       inset: 0;
       border-radius: inherit;
-      background: radial-gradient(circle at 0 0, rgba(100,211,255,0.3), transparent 60%);
+      background:
+        linear-gradient(120deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.18) 18%, transparent 40%),
+        radial-gradient(circle at 0 0, rgba(100,211,255,0.35), transparent 60%);
       opacity: 0;
-      transition: opacity 0.08s ease;
+      transform: translateX(-40%);
+      transition: opacity 0.12s ease, transform 0.25s ease;
+      pointer-events: none;
+      mix-blend-mode: screen;
     }
     .series-chip:hover::before {
       opacity: 1;
+      transform: translateX(10%);
     }
     .series-chip:hover {
-      transform: translateY(-1px);
-      border-color: rgba(199,178,255,1);
+      transform: translateY(-3px) scale(1.02);
+      border-color: rgba(255,255,255,0.95);
       box-shadow:
-        0 4px 14px rgba(0,0,0,0.95),
-        0 0 20px rgba(158,134,255,0.8);
+        0 8px 22px rgba(0,0,0,0.98),
+        0 0 30px rgba(248,198,106,1);
+      filter: saturate(1.08);
     }
     .series-chip.active {
       background:
-        linear-gradient(90deg, #f2975c, #f4d96d);
-      border-color: rgba(10,10,26,0.95);
-      color: #190b23;
+        radial-gradient(circle at 16% 0%, rgba(255,255,255,0.3), transparent 55%),
+        linear-gradient(145deg, #fff7cf, #f3cb6a 40%, #af7420 100%);
+      border-color: rgba(255,255,255,0.95);
+      color: #140b03;
       box-shadow:
-        0 0 0 1px rgba(248,198,106,0.9),
-        0 0 24px rgba(248,198,106,0.9);
+        0 5px 20px rgba(0,0,0,0.98),
+        0 0 32px rgba(248,198,106,1),
+        inset 0 0 0 1px rgba(255,255,255,0.65);
     }
+
     .series-chip.active span {
       color: #251021;
     }
@@ -453,28 +596,20 @@
       gap: 7px;
     }
     .chip {
-      padding: 6px 11px;
-      border-radius: 999px;
-      background:
-        linear-gradient(135deg, #181f3c, #10152d);
-      border: 1px solid rgba(126,141,220,0.95);
+      display: inline-block;
+      padding: 2px 4px;
+      border-radius: 0;
+      background: none;
+      border: none;
       font-size: 14px;
-      color: var(--text-main);
+      color: var(--accent-gold);
       cursor: pointer;
       white-space: nowrap;
-      box-shadow:
-        0 3px 11px rgba(0,0,0,0.98),
-        0 0 16px rgba(100,211,255,0.45);
-      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
+      text-decoration: underline;
     }
     .chip:hover {
-      transform: translateY(-1px);
-      background:
-        linear-gradient(135deg, #242d4f, #151c35);
-      border-color: var(--accent-gold);
-      box-shadow:
-        0 4px 16px rgba(0,0,0,0.98),
-        0 0 22px rgba(248,198,106,0.8);
+      color: #ffe6a8;
+      text-decoration: underline;
     }
     .text-list {
       display: flex;
@@ -626,7 +761,13 @@
       border-top: 1px dashed rgba(82,94,154,0.95);
       padding-top: 7px;
     }
-  </style>
+  
+    .hidden {
+      display: none !important;
+    }
+
+    
+</style>
 </head>
 <body>
   <div class="shell">
@@ -636,26 +777,18 @@
           <div class="brand-dot"></div>
           <div class="brand-pill">Star Trek Episode Companion</div>
         </div>
-        <div class="brand-caption">LCARS-inspired episode console</div>
+        <div class="brand-caption"></div>
         <div class="brand-title">Episode console</div>
-        <div class="brand-sub">Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.</div>
-      </div>
-      <div class="data-block">
-        <div class="data-label">Data feeds</div>
-        <div>Episodes JSON<br>
-          <a href="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek" target="_blank" rel="noopener noreferrer">
-            https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek
-          </a>
-        </div>
-        <div>Summaries JSON<br>
-          <a href="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json" target="_blank" rel="noopener noreferrer">
-            https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json
-          </a>
+        <div class="brand-sub" id="brand-sub">Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.</div>
+        <div class="brand-nav" id="brand-nav">
+          <button id="detail-back-episodes" type="button" class="back-link console-back-link">← Back to episodes</button>
+          <button id="detail-back-series" type="button" class="back-link console-back-link">← Back to series</button>
         </div>
       </div>
+      
     </header>
 
-    <section class="strip">
+    <section id="series-section" class="strip">
       <div class="strip-label-row">
         <div class="strip-label-main">Series</div>
         <div id="series-status" class="strip-label-sub">Waiting for data…</div>
@@ -663,17 +796,34 @@
       <div id="series-strip" class="series-strip"></div>
     </section>
 
-    <section class="strip">
+
+    
+
+    <section id="search-section" class="strip">
+      <div class="strip-label-row">
+        <div class="strip-label-main">Search episodes</div>
+        <div class="strip-label-sub">Start typing a series name, episode title, or ID</div>
+      </div>
+      <div class="search-body">
+        <input id="search-input" type="text" class="search-input" placeholder="Search by series (TNG), title (The Man Trap), or ID (toss1e1)…" autocomplete="off">
+        <div id="search-help" class="search-help">Type at least 2 characters to see matching series and episodes.</div>
+        <div id="search-results" class="search-results"></div>
+      </div>
+    </section>
+    <section id="episodes-section" class="strip">
       <div class="strip-label-row">
         <div class="strip-label-main">Episodes</div>
         <div id="episodes-panel-subtitle" class="strip-label-sub">Loading data…</div>
       </div>
       <div id="episodes-strip" class="episodes-strip">
-        <div class="placeholder">Waiting for data from the JSON file.</div>
+        <div class="placeholder">Waiting for data from the JSON file…</div>
       </div>
     </section>
 
-    <section class="console">
+
+    
+
+    <section id="details-section" class="console">
       <div class="console-main">
         <div class="console-header">
           <div id="console-title" class="console-title">No episode selected</div>
@@ -727,17 +877,170 @@
 
   <script>
     const DATA_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek";
+    const SUMMARY_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
     const BIO_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
 
     let allEpisodes = [];
     let episodesBySeries = {};
     let currentSeries = null;
     let currentEpisodeID = null;
+    let summariesById = {};
+
+    let searchIndex = [];
+
+
+    const ALL_SERIES = ["TOS","TAS","TNG","DS9","VOY","ENT","DIS","PIC","SNW","LD","PRO"];
+
+    const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.";
+
 
     let biosByKey = {};
     let biosLoaded = false;
 
-    function groupEpisodesBySeries(episodes) {
+    function showPage(page) {
+      const seriesSection = document.getElementById("series-section");
+      const searchSection = document.getElementById("search-section");
+      const searchResultsSection = document.getElementById("search-results-section");
+      const episodesSection = document.getElementById("episodes-section");
+      const detailsSection = document.getElementById("details-section");
+      const brandSub = document.getElementById("brand-sub");
+      const brandNav = document.getElementById("brand-nav");
+      const backEpisodes = document.getElementById("detail-back-episodes");
+      const backSeries = document.getElementById("detail-back-series");
+
+      if (seriesSection) {
+        seriesSection.classList.toggle("hidden", page !== "series");
+      }
+      if (searchSection) {
+        searchSection.classList.toggle("hidden", page !== "series");
+      }
+      if (searchResultsSection) {
+        searchResultsSection.classList.toggle("hidden", page !== "series");
+      }
+      if (episodesSection) {
+        episodesSection.classList.toggle("hidden", page !== "episodes");
+      }
+      if (detailsSection) {
+        detailsSection.classList.toggle("hidden", page !== "details");
+      }
+
+      if (brandSub) {
+        if (page === "series") {
+          brandSub.textContent = TAGLINE_TEXT;
+        } else {
+          brandSub.textContent = "";
+        }
+      }
+
+      if (brandNav && backEpisodes && backSeries) {
+        if (page === "series") {
+          brandNav.style.display = "none";
+        } else if (page === "episodes") {
+          brandNav.style.display = "flex";
+          backEpisodes.style.display = "none";
+          backSeries.style.display = "inline-flex";
+        } else if (page === "details") {
+          brandNav.style.display = "flex";
+          backEpisodes.style.display = "inline-flex";
+          backSeries.style.display = "inline-flex";
+        }
+      }
+    }
+
+    
+
+    
+
+    
+
+
+    
+    function buildSearchIndex() {
+      const index = [];
+      ALL_SERIES.forEach(series => {
+        index.push({
+          type: "series",
+          series: series,
+          label: series + " (series)"
+        });
+      });
+      allEpisodes.forEach(ep => {
+        index.push({
+          type: "episode",
+          id: ep.ID,
+          series: ep.Series || "",
+          season: ep.Season,
+          episode: ep.Episode,
+          title: ep.Title || "",
+          label: (ep.Series || "") + " S" + ep.Season + "E" + ep.Episode + " – " + (ep.Title || "")
+        });
+      });
+      searchIndex = index;
+    }
+
+    function renderSearchResults(results) {
+      const container = document.getElementById("search-results");
+      const help = document.getElementById("search-help");
+      if (!container || !help) return;
+      container.innerHTML = "";
+      if (!results || results.length === 0) {
+        help.textContent = "No matches. Try a different series name, title, or ID.";
+        return;
+      }
+      help.textContent = "Showing " + results.length + " result" + (results.length === 1 ? "" : "s") + ".";
+      results.slice(0, 30).forEach(item => {
+        const div = document.createElement("div");
+        div.className = "search-result-item";
+        const main = document.createElement("div");
+        main.className = "search-result-main";
+        const meta = document.createElement("div");
+        meta.className = "search-result-meta";
+
+        if (item.type === "series") {
+          main.textContent = item.label;
+          meta.textContent = "Jump to " + item.series + " episode list";
+        } else {
+          main.textContent = item.label;
+          meta.textContent = "Open episode details";
+        }
+
+        div.appendChild(main);
+        div.appendChild(meta);
+
+        div.addEventListener("click", () => {
+          if (item.type === "series") {
+            selectSeries(item.series);
+          } else if (item.type === "episode") {
+            if (item.series) {
+              selectSeries(item.series);
+            }
+            if (item.id) {
+              selectEpisode(item.id);
+            }
+          }
+        });
+
+        container.appendChild(div);
+      });
+    }
+
+    function handleSearchInput(event) {
+      const q = (event.target.value || "").trim().toLowerCase();
+      const help = document.getElementById("search-help");
+      const container = document.getElementById("search-results");
+      if (!help || !container) return;
+      if (q.length < 2) {
+        help.textContent = "Type at least 2 characters to see matching series and episodes.";
+        container.innerHTML = "";
+        return;
+      }
+      const results = searchIndex.filter(item => {
+        const haystack = item.label.toLowerCase();
+        return haystack.includes(q);
+      });
+      renderSearchResults(results);
+    }
+function groupEpisodesBySeries(episodes) {
       const grouped = {};
       episodes.forEach(ep => {
         const key = ep.Series || "Unknown";
@@ -757,11 +1060,39 @@
       return grouped;
     }
 
+    
+    function renderSeriesMenuButtons() {
+      const container = document.getElementById("series-main-buttons");
+      if (!container) {
+        return;
+      }
+      container.innerHTML = "";
+      const keys = ALL_SERIES;
+      if (keys.length === 0) {
+        const div = document.createElement("div");
+        div.className = "placeholder";
+        div.textContent = "No series available.";
+        container.appendChild(div);
+        return;
+      }
+      keys.forEach(key => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "series-chip";
+        btn.dataset.series = key;
+        btn.innerHTML = key + "<span>Series</span>";
+        btn.addEventListener("click", () => {
+          selectSeries(key);
+        });
+        container.appendChild(btn);
+      });
+    }
+
     function renderSeriesStrip() {
       const container = document.getElementById("series-strip");
       const status = document.getElementById("series-status");
       container.innerHTML = "";
-      const keys = Object.keys(episodesBySeries).sort();
+      const keys = ALL_SERIES;
       if (keys.length === 0) {
         const span = document.createElement("span");
         span.className = "placeholder";
@@ -776,14 +1107,13 @@
         const chip = document.createElement("button");
         chip.className = "series-chip";
         chip.dataset.series = key;
-        chip.innerHTML = key + "<span>Series</span>";
+        chip.textContent = key;
         chip.addEventListener("click", () => selectSeries(key));
         container.appendChild(chip);
       });
       if (status) {
         status.textContent = "Loaded " + keys.length + " series. Select one to begin.";
       }
-      selectSeries(keys[0]);
     }
 
     function selectSeries(seriesKey) {
@@ -856,6 +1186,8 @@
       if (status) {
         status.textContent = "Series " + seriesKey + " selected.";
       }
+
+      showPage("episodes");
     }
 
     function renderEpisodeStrip() {
@@ -917,6 +1249,7 @@
         }
       });
       renderEpisodeDetail(episode);
+      showPage("details");
     }
 
     function makeCharacterChip(name) {
@@ -973,7 +1306,9 @@
         summary.innerHTML = "";
         const text = document.createElement("div");
         text.className = "summary";
-        text.textContent = ep.OneLineSummary || "";
+        const entry = (summariesById && ep.ID) ? summariesById[ep.ID] : null;
+        const summaryText = (entry && entry.Summary) || ep.OneLineSummary || "";
+        text.textContent = summaryText;
         summary.appendChild(text);
       }
       if (storyStack) {
@@ -1114,6 +1449,7 @@
           }
           allEpisodes = data;
           episodesBySeries = groupEpisodesBySeries(allEpisodes);
+          buildSearchIndex();
           const subtitle = document.getElementById("episodes-panel-subtitle");
           if (subtitle) {
             subtitle.textContent = "Data loaded (" + allEpisodes.length + " episode(s))";
@@ -1124,6 +1460,29 @@
           showEpisodesError(err.message);
         });
     }
+    function fetchSummaries() {
+      return fetch(SUMMARY_URL)
+        .then(resp => {
+          if (!resp.ok) {
+            throw new Error("Failed to fetch summaries: " + resp.status);
+          }
+          return resp.json();
+        })
+        .then(data => {
+          const map = {};
+          (data || []).forEach(entry => {
+            if (entry && entry.ID) {
+              map[entry.ID] = entry;
+            }
+          });
+          summariesById = map;
+        })
+        .catch(err => {
+          console.error("Error loading summaries", err);
+          summariesById = {};
+        });
+    }
+
 
     function fetchBios() {
       fetch(BIO_URL)
@@ -1207,6 +1566,40 @@
       initBioModal();
       fetchEpisodes();
       fetchBios();
+      fetchSummaries();
+      showPage("series");
+
+      const backBtn = document.getElementById("back-to-series");
+      if (backBtn) {
+        backBtn.addEventListener("click", () => {
+          currentEpisodeID = null;
+          showPage("series");
+        });
+      }
+
+      const detailBackEpisodes = document.getElementById("detail-back-episodes");
+      if (detailBackEpisodes) {
+        detailBackEpisodes.addEventListener("click", () => {
+          if (currentSeries) {
+            showPage("episodes");
+          } else {
+            showPage("series");
+          }
+        });
+      }
+
+      const detailBackSeries = document.getElementById("detail-back-series");
+      if (detailBackSeries) {
+        detailBackSeries.addEventListener("click", () => {
+          currentEpisodeID = null;
+          showPage("series");
+        });
+      }
+
+      const searchInput = document.getElementById("search-input");
+      if (searchInput) {
+        searchInput.addEventListener("input", handleSearchInput);
+      }
     }
 
     document.addEventListener("DOMContentLoaded", init);
