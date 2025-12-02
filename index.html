@@ -386,11 +386,63 @@
     .series-chip.active span {
       color: #251021;
     }
-    .episodes-strip {
+    
+    .season-row {
       display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 4px 2px 4px;
+      margin-bottom: 4px;
+      min-height: 40px;
+    }
+    .season-chip {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.2);
+      background:
+        radial-gradient(circle at 16% 0%, rgba(255,255,255,0.2), transparent 55%),
+        linear-gradient(145deg, #202642, #0f1329);
+      box-shadow:
+        0 3px 10px rgba(0,0,0,0.9),
+        0 0 12px rgba(109,128,214,0.6);
+      font-size: 13px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
+    }
+    .season-chip:hover {
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.7);
+      box-shadow:
+        0 6px 18px rgba(0,0,0,0.95),
+        0 0 18px rgba(139,158,234,0.9);
+    }
+    .season-chip.active {
+      background:
+        radial-gradient(circle at 16% 0%, rgba(255,255,255,0.3), transparent 55%),
+        linear-gradient(145deg, #fff7cf, #f3cb6a 40%, #af7420 100%);
+      border-color: rgba(255,255,255,0.95);
+      color: #140b03;
+      box-shadow:
+        0 5px 20px rgba(0,0,0,0.98),
+        0 0 32px rgba(248,198,106,1),
+        inset 0 0 0 1px rgba(255,255,255,0.65);
+    }
+    .season-chip.active span {
+      color: #251021;
+    }
+    .episodes-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 10px;
-      overflow-x: auto;
-      padding: 4px 2px 2px;
+      max-height: 280px;
+      overflow-y: auto;
+      padding: 4px 2px 6px;
       scrollbar-width: thin;
     }
     .episode-card {
@@ -590,6 +642,11 @@
       color: var(--text-soft);
       margin-bottom: 3px;
     }
+
+    .block-label-accent {
+      font-size: 13px;
+      color: var(--accent-gold);
+    }
     .chip-row {
       display: flex;
       flex-wrap: wrap;
@@ -642,7 +699,7 @@
       margin-bottom: 3px;
     }
     .note-card p {
-      font-size: 12px;
+      font-size: 13px;
       line-height: 1.5;
       color: var(--text-muted);
     }
@@ -813,10 +870,13 @@
     <section id="episodes-section" class="strip">
       <div class="strip-label-row">
         <div class="strip-label-main">Episodes</div>
-        <div id="episodes-panel-subtitle" class="strip-label-sub">Loading data…</div>
+        <div id="episodes-panel-subtitle" class="strip-label-sub">Select a series to view seasons.</div>
+      </div>
+      <div id="season-row" class="season-row">
+        <div class="placeholder">Select a series above to view seasons.</div>
       </div>
       <div id="episodes-strip" class="episodes-strip">
-        <div class="placeholder">Waiting for data from the JSON file…</div>
+        <div class="placeholder">Select a season to view episodes.</div>
       </div>
     </section>
 
@@ -883,6 +943,7 @@
     let allEpisodes = [];
     let episodesBySeries = {};
     let currentSeries = null;
+    let currentSeason = null;
     let currentEpisodeID = null;
     let summariesById = {};
 
@@ -1116,8 +1177,10 @@ function groupEpisodesBySeries(episodes) {
       }
     }
 
+    
     function selectSeries(seriesKey) {
       currentSeries = seriesKey;
+      currentSeason = null;
       currentEpisodeID = null;
 
       const chips = document.querySelectorAll(".series-chip");
@@ -1129,12 +1192,8 @@ function groupEpisodesBySeries(episodes) {
         }
       });
 
+      renderSeasonRow();
       renderEpisodeStrip();
-
-      const subtitle = document.getElementById("episodes-panel-subtitle");
-      if (subtitle) {
-        subtitle.textContent = "Series: " + seriesKey;
-      }
 
       const consoleTitle = document.getElementById("console-title");
       const consoleSub = document.getElementById("console-sub");
@@ -1151,7 +1210,7 @@ function groupEpisodesBySeries(episodes) {
         consoleTitle.textContent = "No episode selected";
       }
       if (consoleSub) {
-        consoleSub.textContent = "Series " + seriesKey + " loaded. Choose an episode above.";
+        consoleSub.textContent = "Series " + seriesKey + " loaded. Choose a season, then an episode.";
       }
       if (metaRow) {
         metaRow.innerHTML = "";
@@ -1160,7 +1219,7 @@ function groupEpisodesBySeries(episodes) {
         summary.innerHTML = "";
         const p = document.createElement("div");
         p.className = "placeholder";
-        p.textContent = "Select an episode from the deck to view its structure.";
+        p.textContent = "Select a season, then an episode, to view its structure.";
         summary.appendChild(p);
       }
       if (storyStack) {
@@ -1190,17 +1249,151 @@ function groupEpisodesBySeries(episodes) {
       showPage("episodes");
     }
 
-    function renderEpisodeStrip() {
-      const strip = document.getElementById("episodes-strip");
-      strip.innerHTML = "";
-      const seriesEpisodes = episodesBySeries[currentSeries] || [];
-      if (seriesEpisodes.length === 0) {
+    function renderSeasonRow() {
+      const row = document.getElementById("season-row");
+      const subtitle = document.getElementById("episodes-panel-subtitle");
+      if (!row) {
+        return;
+      }
+      row.innerHTML = "";
+
+      if (!currentSeries) {
+        if (subtitle) {
+          subtitle.textContent = "Select a series to view seasons.";
+        }
         const div = document.createElement("div");
         div.className = "placeholder";
-        div.textContent = "No episodes found for this series.";
+        div.textContent = "Select a series above to view seasons.";
+        row.appendChild(div);
+        return;
+      }
+
+      const seriesEpisodes = episodesBySeries[currentSeries] || [];
+      const seasonSet = new Set();
+      seriesEpisodes.forEach(ep => {
+        if (typeof ep.Season === "number") {
+          seasonSet.add(ep.Season);
+        }
+      });
+      const seasons = Array.from(seasonSet).sort((a, b) => a - b);
+
+      if (seasons.length === 0) {
+        if (subtitle) {
+          subtitle.textContent = "No seasons found for " + currentSeries + ".";
+        }
+        const div = document.createElement("div");
+        div.className = "placeholder";
+        div.textContent = "No seasons found for this series.";
+        row.appendChild(div);
+        return;
+      }
+
+      seasons.forEach(seasonNumber => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "season-chip" + (seasonNumber === currentSeason ? " active" : "");
+        btn.dataset.season = String(seasonNumber);
+        btn.textContent = "Season " + seasonNumber;
+        btn.addEventListener("click", () => selectSeason(seasonNumber));
+        row.appendChild(btn);
+      });
+
+      if (subtitle) {
+        if (currentSeason === null) {
+          subtitle.textContent = "Series " + currentSeries + " – choose a season.";
+        } else {
+          subtitle.textContent = "Series " + currentSeries + " • Season " + currentSeason;
+        }
+      }
+    }
+
+    function selectSeason(seasonNumber) {
+      currentSeason = seasonNumber;
+      currentEpisodeID = null;
+      renderSeasonRow();
+      renderEpisodeStrip();
+
+      const consoleTitle = document.getElementById("console-title");
+      const consoleSub = document.getElementById("console-sub");
+      const metaRow = document.getElementById("episode-meta");
+      const summary = document.getElementById("episode-summary");
+      const storyStack = document.getElementById("episode-story");
+      const chipKey = document.getElementById("chip-key");
+      const chipGuest = document.getElementById("chip-guest");
+      const chipAnt = document.getElementById("chip-ant");
+      const ethicalList = document.getElementById("ethical-list");
+      const notesBlock = document.getElementById("notes-block");
+
+      if (consoleTitle) {
+        consoleTitle.textContent = "No episode selected";
+      }
+      if (consoleSub) {
+        consoleSub.textContent = "Season " + seasonNumber + " loaded. Choose an episode.";
+      }
+      if (metaRow) {
+        metaRow.innerHTML = "";
+      }
+      if (summary) {
+        summary.innerHTML = "";
+        const p = document.createElement("div");
+        p.className = "placeholder";
+        p.textContent = "Select an episode from this season to view its structure.";
+        summary.appendChild(p);
+      }
+      if (storyStack) {
+        storyStack.innerHTML = "";
+      }
+      if (chipKey) {
+        chipKey.innerHTML = "";
+      }
+      if (chipGuest) {
+        chipGuest.innerHTML = "";
+      }
+      if (chipAnt) {
+        chipAnt.innerHTML = "";
+      }
+      if (ethicalList) {
+        ethicalList.innerHTML = "";
+      }
+      if (notesBlock) {
+        notesBlock.innerHTML = "";
+      }
+    }
+
+    function renderEpisodeStrip() {
+      const strip = document.getElementById("episodes-strip");
+      if (!strip) {
+        return;
+      }
+      strip.innerHTML = "";
+
+      if (!currentSeries) {
+        const div = document.createElement("div");
+        div.className = "placeholder";
+        div.textContent = "Select a series above to view episodes.";
         strip.appendChild(div);
         return;
       }
+
+      if (currentSeason === null) {
+        const div = document.createElement("div");
+        div.className = "placeholder";
+        div.textContent = "Select a season to view episodes.";
+        strip.appendChild(div);
+        return;
+      }
+
+      const allEpisodes = episodesBySeries[currentSeries] || [];
+      const seriesEpisodes = allEpisodes.filter(ep => ep.Season === currentSeason);
+
+      if (seriesEpisodes.length === 0) {
+        const div = document.createElement("div");
+        div.className = "placeholder";
+        div.textContent = "No episodes found for this season.";
+        strip.appendChild(div);
+        return;
+      }
+
       seriesEpisodes.forEach(ep => {
         const card = document.createElement("div");
         card.className = "episode-card";
@@ -1240,6 +1433,13 @@ function groupEpisodesBySeries(episodes) {
       if (!episode) {
         return;
       }
+
+      if (typeof episode.Season === "number" && currentSeason !== episode.Season) {
+        currentSeason = episode.Season;
+        renderSeasonRow();
+        renderEpisodeStrip();
+      }
+
       const cards = document.querySelectorAll(".episode-card");
       cards.forEach(card => {
         if (card.dataset.id === id) {
@@ -1248,6 +1448,7 @@ function groupEpisodesBySeries(episodes) {
           card.classList.remove("active");
         }
       });
+
       renderEpisodeDetail(episode);
       showPage("details");
     }
@@ -1364,7 +1565,7 @@ function groupEpisodesBySeries(episodes) {
         const bts = ep.BehindTheScenes || [];
         if (continuity.length > 0) {
           const label = document.createElement("div");
-          label.className = "block-label";
+          label.className = "block-label block-label-accent";
           label.textContent = "Continuity Notes";
           notesBlock.appendChild(label);
           continuity.forEach(note => {
@@ -1381,7 +1582,7 @@ function groupEpisodesBySeries(episodes) {
         }
         if (themes.length > 0) {
           const label = document.createElement("div");
-          label.className = "block-label";
+          label.className = "block-label block-label-accent";
           label.textContent = "Themes";
           notesBlock.appendChild(label);
           themes.forEach(note => {
@@ -1398,7 +1599,7 @@ function groupEpisodesBySeries(episodes) {
         }
         if (bts.length > 0) {
           const label = document.createElement("div");
-          label.className = "block-label";
+          label.className = "block-label block-label-accent";
           label.textContent = "Behind the Scenes";
           notesBlock.appendChild(label);
           bts.forEach(note => {
