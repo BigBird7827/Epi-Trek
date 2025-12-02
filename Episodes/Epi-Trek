@@ -203,7 +203,7 @@
       "Spock",
       "Leonard McCoy",
       "Christopher Pike",
-      "Commodore Jos\u00e9 Mendez"
+      "Commodore José Mendez"
     ],
     "GuestCharacters": [
       "Talosian Keeper",
@@ -222,7 +222,7 @@
       "Spock",
       "Leonard McCoy",
       "Christopher Pike",
-      "Commodore Jos\u00e9 Mendez"
+      "Commodore José Mendez"
     ],
     "GuestCharacters": [
       "Talosian Keeper",
@@ -541,6 +541,880 @@
     ],
     "Antagonists": [
       "Neural-parasite creatures infesting Deneva and nearby worlds"
+    ]
+  },
+  {
+    "ID": "toss2e1",
+    "Title": "Amok Time",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "T'Pring",
+      "T'Pau",
+      "Stonn"
+    ],
+    "Antagonists": [
+      "Vulcan pon farr mating drive and ritual combat forcing Kirk and Spock to fight"
+    ]
+  },
+  {
+    "ID": "toss2e2",
+    "Title": "Who Mourns for Adonais?",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Apollo",
+      "Lieutenant Carolyn Palamas"
+    ],
+    "Antagonists": [
+      "Apollo, powerful energy being posing as the Greek god and demanding worship"
+    ]
+  },
+  {
+    "ID": "toss2e3",
+    "Title": "The Changeling",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott",
+      "Nyota Uhura"
+    ],
+    "GuestCharacters": [
+      "Nomad probe"
+    ],
+    "Antagonists": [
+      "Nomad, Earth probe merged with alien technology and reprogrammed to sterilize 'imperfect' life"
+    ]
+  },
+  {
+    "ID": "toss2e4",
+    "Title": "Mirror, Mirror",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott",
+      "Nyota Uhura"
+    ],
+    "GuestCharacters": [
+      "Marlena Moreau",
+      "Mirror Universe counterparts of the Enterprise crew"
+    ],
+    "Antagonists": [
+      "Terran Empire's brutal mirror universe and its ruthless Starfleet officers"
+    ]
+  },
+  {
+    "ID": "toss2e5",
+    "Title": "The Apple",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Hikaru Sulu",
+      "Pavel Chekov"
+    ],
+    "GuestCharacters": [
+      "Akuta",
+      "Villagers of Gamma Trianguli VI",
+      "Vaal"
+    ],
+    "Antagonists": [
+      "Vaal computer-god maintaining stagnant paradise by controlling and sacrificing the villagers"
+    ]
+  },
+  {
+    "ID": "toss2e6",
+    "Title": "The Doomsday Machine",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Commodore Matt Decker",
+      "Crew of the USS Constellation"
+    ],
+    "Antagonists": [
+      "Planet-killer automated weapon destroying star systems",
+      "Commodore Decker's self-destructive obsession"
+    ]
+  },
+  {
+    "ID": "toss2e7",
+    "Title": "Catspaw",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Korob",
+      "Sylvia",
+      "Jackson"
+    ],
+    "Antagonists": [
+      "Korob and Sylvia, extragalactic beings using occult illusions to trap the crew"
+    ]
+  },
+  {
+    "ID": "toss2e8",
+    "Title": "I, Mudd",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott",
+      "Nyota Uhura"
+    ],
+    "GuestCharacters": [
+      "Harcourt Fenton Mudd",
+      "Norman android",
+      "Stella Mudd android"
+    ],
+    "Antagonists": [
+      "Planet of human-serving androids planning to 'protect' and control humanity",
+      "Mudd's schemes to rule his android world"
+    ]
+  },
+  {
+    "ID": "toss2e9",
+    "Title": "Metamorphosis",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Zefram Cochrane",
+      "Commissioner Nancy Hedford",
+      "The Companion"
+    ],
+    "Antagonists": [
+      "The Companion's possessive bond with Cochrane trapping travelers on the asteroid"
+    ]
+  },
+  {
+    "ID": "toss2e10",
+    "Title": "Journey to Babel",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Sarek",
+      "Amanda Grayson",
+      "Delegate Gav",
+      "Andorian assassin"
+    ],
+    "Antagonists": [
+      "Political tensions among Andorian, Tellarite, and Vulcan delegates",
+      "Assassination plot targeting the Babel conference"
+    ]
+  },
+  {
+    "ID": "toss2e11",
+    "Title": "Friday's Child",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Eleen",
+      "Teer Akaar",
+      "Klingon agent Kras"
+    ],
+    "Antagonists": [
+      "Tribal power struggle on Capella IV",
+      "Klingon interference in the succession"
+    ]
+  },
+  {
+    "ID": "toss2e12",
+    "Title": "The Deadly Years",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Commodore Stocker",
+      "Dr. Janet Wallace",
+      "Lieutenant Arlene Galway"
+    ],
+    "Antagonists": [
+      "Rapid aging disease incapacitating senior officers",
+      "Commodore Stocker's inexperience endangering the ship"
+    ]
+  },
+  {
+    "ID": "toss2e13",
+    "Title": "Obsession",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Ensign Garrovick",
+      "Crew of the USS Farragut (flashback)"
+    ],
+    "Antagonists": [
+      "Dikironium cloud creature that killed members of the Farragut and Enterprise crews"
+    ]
+  },
+  {
+    "ID": "toss2e14",
+    "Title": "Wolf in the Fold",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Mr. Hengist",
+      "Sybo",
+      "Jaris"
+    ],
+    "Antagonists": [
+      "Non-corporeal murderous entity behind a series of 'Jack the Ripper'-style murders"
+    ]
+  },
+  {
+    "ID": "toss2e15",
+    "Title": "The Trouble with Tribbles",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott",
+      "Nyota Uhura",
+      "Pavel Chekov"
+    ],
+    "GuestCharacters": [
+      "Cyrano Jones",
+      "Nilz Baris",
+      "Koloth"
+    ],
+    "Antagonists": [
+      "Grain sabotage plot by a Klingon agent",
+      "Ecological chaos caused by rapidly breeding tribbles"
+    ]
+  },
+  {
+    "ID": "toss2e16",
+    "Title": "The Gamesters of Triskelion",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Nyota Uhura",
+      "Pavel Chekov"
+    ],
+    "GuestCharacters": [
+      "Shahna",
+      "Galt",
+      "Providers of Triskelion"
+    ],
+    "Antagonists": [
+      "Disembodied Providers gambling with sentient thralls in deadly arena combats"
+    ]
+  },
+  {
+    "ID": "toss2e17",
+    "Title": "A Piece of the Action",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Jojo Krako",
+      "Boss Oxmyx",
+      "Enforcers of Sigma Iotia II"
+    ],
+    "Antagonists": [
+      "Gangland culture modeled on 'Chicago Mobs of the Twenties' contaminating Sigma Iotia II"
+    ]
+  },
+  {
+    "ID": "toss2e18",
+    "Title": "The Immunity Syndrome",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Crew of the destroyed USS Intrepid (mentioned)"
+    ],
+    "Antagonists": [
+      "Giant space amoeba threatening to consume entire star systems"
+    ]
+  },
+  {
+    "ID": "toss2e19",
+    "Title": "A Private Little War",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Nona",
+      "Tyree",
+      "Klingon arms supplier"
+    ],
+    "Antagonists": [
+      "Klingon interference arming one faction on Neural",
+      "Escalating proxy war challenging the Prime Directive"
+    ]
+  },
+  {
+    "ID": "toss2e20",
+    "Title": "Return to Tomorrow",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Sargon",
+      "Thalassa",
+      "Henoch",
+      "Dr. Ann Mulhall",
+      "Lieutenant Commander Christine Chapel"
+    ],
+    "Antagonists": [
+      "Henoch's attempt to permanently possess Spock's body and betray Sargon's plan"
+    ]
+  },
+  {
+    "ID": "toss2e21",
+    "Title": "Patterns of Force",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "John Gill",
+      "Eneg",
+      "Isak",
+      "Daras"
+    ],
+    "Antagonists": [
+      "Nazified Ekosian regime based on John Gill's contaminated 'efficient' model"
+    ]
+  },
+  {
+    "ID": "toss2e22",
+    "Title": "By Any Other Name",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Rojan",
+      "Kelvan landing party"
+    ],
+    "Antagonists": [
+      "Kelvan invaders from the Andromeda Galaxy seeking to conquer the Milky Way"
+    ]
+  },
+  {
+    "ID": "toss2e23",
+    "Title": "The Omega Glory",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Captain Ron Tracey",
+      "Cloud William"
+    ],
+    "Antagonists": [
+      "Captain Tracey's violation of the Prime Directive and exploitation of the Yangs and Kohms"
+    ]
+  },
+  {
+    "ID": "toss2e24",
+    "Title": "The Ultimate Computer",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Dr. Richard Daystrom",
+      "Commodore Bob Wesley"
+    ],
+    "Antagonists": [
+      "M-5 multitronic computer taking lethal control of the Enterprise"
+    ]
+  },
+  {
+    "ID": "toss2e25",
+    "Title": "Bread and Circuses",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Merik",
+      "Proconsul Claudius Marcus",
+      "Drusilla"
+    ],
+    "Antagonists": [
+      "Roman-style authoritarian state broadcasting televised gladiatorial games"
+    ]
+  },
+  {
+    "ID": "toss2e26",
+    "Title": "Assignment: Earth",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Gary Seven",
+      "Roberta Lincoln",
+      "Isis (cat/humanoid)"
+    ],
+    "Antagonists": [
+      "Cold War-era nuclear arms escalation and interference with Gary Seven's mission"
+    ]
+  },
+  {
+    "ID": "toss3e1",
+    "Title": "Spock's Brain",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Kara",
+      "Luma",
+      "Morg males",
+      "Eym women"
+    ],
+    "Antagonists": [
+      "Sigma Draconis VI women's dependence on Spock's brain as the Controller",
+      "Kara's theft of Spock's brain"
+    ]
+  },
+  {
+    "ID": "toss3e2",
+    "Title": "The Enterprise Incident",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Romulan Commander",
+      "Subcommander Tal"
+    ],
+    "Antagonists": [
+      "Tense standoff with Romulan forces during secret mission to steal a cloaking device"
+    ]
+  },
+  {
+    "ID": "toss3e3",
+    "Title": "The Paradise Syndrome",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Miramanee",
+      "Salish",
+      "Tribal elders"
+    ],
+    "Antagonists": [
+      "Asteroid on collision course with the planet",
+      "Misunderstandings within the tribe over Kirk's role as 'Kirok'"
+    ]
+  },
+  {
+    "ID": "toss3e4",
+    "Title": "And the Children Shall Lead",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Gorgan",
+      "Children of Triacus"
+    ],
+    "Antagonists": [
+      "Gorgan, malevolent entity manipulating children to seize control of the Enterprise"
+    ]
+  },
+  {
+    "ID": "toss3e5",
+    "Title": "Is There in Truth No Beauty?",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Dr. Miranda Jones",
+      "Ambassador Kollos",
+      "Engineer Laurence Marvick"
+    ],
+    "Antagonists": [
+      "Danger of Medusan presence driving unprepared minds insane",
+      "Marvick's jealousy and sabotage"
+    ]
+  },
+  {
+    "ID": "toss3e6",
+    "Title": "Spectre of the Gun",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott",
+      "Pavel Chekov"
+    ],
+    "GuestCharacters": [
+      "Melkotian representative",
+      "Illusory Earps",
+      "Illusory Clantons"
+    ],
+    "Antagonists": [
+      "Melkotian test recreating the O.K. Corral gunfight to judge humanity"
+    ]
+  },
+  {
+    "ID": "toss3e7",
+    "Title": "Day of the Dove",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Kang",
+      "Mara",
+      "Klingon boarding party"
+    ],
+    "Antagonists": [
+      "Non-corporeal entity feeding on hatred by provoking Federation–Klingon conflict"
+    ]
+  },
+  {
+    "ID": "toss3e8",
+    "Title": "For the World Is Hollow and I Have Touched the Sky",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Natira",
+      "Oracle of Yonada",
+      "Elder who 'touched the sky'"
+    ],
+    "Antagonists": [
+      "Oracle computer enforcing blind obedience aboard asteroid-ship Yonada"
+    ]
+  },
+  {
+    "ID": "toss3e9",
+    "Title": "The Tholian Web",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Tholian commander Loskene",
+      "Crew of the USS Defiant (phased)"
+    ],
+    "Antagonists": [
+      "Spatial interphase trapping the USS Defiant",
+      "Tholian ships weaving an energy web around the Enterprise"
+    ]
+  },
+  {
+    "ID": "toss3e10",
+    "Title": "Plato's Stepchildren",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Alexander",
+      "Parmen",
+      "Philana"
+    ],
+    "Antagonists": [
+      "Telekinetic Platonians sadistically abusing their powers over visitors"
+    ]
+  },
+  {
+    "ID": "toss3e11",
+    "Title": "Wink of an Eye",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Deela",
+      "Rael",
+      "Scalosians"
+    ],
+    "Antagonists": [
+      "Hyper-accelerated Scalosians attempting to enslave the Enterprise crew for breeding stock"
+    ]
+  },
+  {
+    "ID": "toss3e12",
+    "Title": "The Empath",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Gem",
+      "Vians"
+    ],
+    "Antagonists": [
+      "Vians' cruel experiments in suffering to test Gem's capacity for self-sacrifice"
+    ]
+  },
+  {
+    "ID": "toss3e13",
+    "Title": "Elaan of Troyius",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Elaan",
+      "Ambassador Petri",
+      "Troyian delegation",
+      "Klingon commander"
+    ],
+    "Antagonists": [
+      "Arranged marriage politics between Elas and Troyius",
+      "Klingon attempt to sabotage the peace mission"
+    ]
+  },
+  {
+    "ID": "toss3e14",
+    "Title": "Whom Gods Destroy",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Garth of Izar",
+      "Marta",
+      "Inmates of Elba II"
+    ],
+    "Antagonists": [
+      "Garth of Izar's shapeshifting madness and bid to seize the Enterprise"
+    ]
+  },
+  {
+    "ID": "toss3e15",
+    "Title": "Let That Be Your Last Battlefield",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Bele",
+      "Lokai"
+    ],
+    "Antagonists": [
+      "Bele and Lokai's genocidal racial hatred on planet Cheron"
+    ]
+  },
+  {
+    "ID": "toss3e16",
+    "Title": "The Mark of Gideon",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Odona",
+      "Hodin",
+      "Gideon council members"
+    ],
+    "Antagonists": [
+      "Gideon's extreme overpopulation problem and leaders' plan to spread disease"
+    ]
+  },
+  {
+    "ID": "toss3e17",
+    "Title": "That Which Survives",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Losira",
+      "Landing party members D'Amato, Kelowitz, M'Benga (mentioned)"
+    ],
+    "Antagonists": [
+      "Killer projection of Losira defending a long-dead outpost and sabotaging the Enterprise"
+    ]
+  },
+  {
+    "ID": "toss3e18",
+    "Title": "The Lights of Zetar",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Lieutenant Mira Romaine",
+      "Zetarian life-cloud"
+    ],
+    "Antagonists": [
+      "Zetarian life-cloud attempting to possess Mira Romaine and threatening Memory Alpha"
+    ]
+  },
+  {
+    "ID": "toss3e19",
+    "Title": "Requiem for Methuselah",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Flint",
+      "Rayna Kapec",
+      "M-4 robot"
+    ],
+    "Antagonists": [
+      "Flint's secret manipulations and isolationism endangering the crew's quest for a cure"
+    ]
+  },
+  {
+    "ID": "toss3e20",
+    "Title": "The Way to Eden",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Pavel Chekov"
+    ],
+    "GuestCharacters": [
+      "Dr. Sevrin",
+      "Irina Galliulin",
+      "Space hippie group"
+    ],
+    "Antagonists": [
+      "Dr. Sevrin's fanatic quest for the mythical Eden world despite its lethal environment"
+    ]
+  },
+  {
+    "ID": "toss3e21",
+    "Title": "The Cloud Minders",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Plasus",
+      "Droxine",
+      "Vanna"
+    ],
+    "Antagonists": [
+      "Class-stratified Ardana society with the Troglytes oppressed by city-dwellers in Stratos"
+    ]
+  },
+  {
+    "ID": "toss3e22",
+    "Title": "The Savage Curtain",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Abraham Lincoln",
+      "Surak",
+      "Kahless simulacrum",
+      "Colonel Green",
+      "Zora"
+    ],
+    "Antagonists": [
+      "Excalbian experiment forcing historic figures to battle as 'good' versus 'evil'"
+    ]
+  },
+  {
+    "ID": "toss3e23",
+    "Title": "All Our Yesterdays",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Mr. Atoz",
+      "Zarabeth"
+    ],
+    "Antagonists": [
+      "Imminent nova of the planet Sarpeidon and the dangerous time-portals of the atavachron"
+    ]
+  },
+  {
+    "ID": "toss3e24",
+    "Title": "Turnabout Intruder",
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Dr. Janice Lester",
+      "Dr. Arthur Coleman"
+    ],
+    "Antagonists": [
+      "Dr. Janice Lester's body-swap with Kirk and attempt to commandeer the Enterprise"
     ]
   }
 ]
