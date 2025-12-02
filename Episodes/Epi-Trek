@@ -1267,5 +1267,1733 @@
     "BehindTheScenes": [
       "The flying-parasite effects were ambitious for the time, combining practical props and visual tricks to suggest alien infection."
     ]
+  },
+  {
+    "ID": "toss2e1",
+    "Title": "Amok Time",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 1,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Spock begins acting strangely and demands to return to Vulcan, where he must undergo the secret mating ritual of pon farr or die."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk defies Starfleet orders to take the Enterprise to Vulcan, then discovers he must fight Spock to the death to resolve the blood fever."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk risks his career and life to honor Vulcan tradition while trying not to kill his closest friend."
+    ],
+    "ContinuityNotes": [
+      "First full visit to Vulcan and introduction of pon farr, the Vulcan marriage bond, and T'Pring."
+    ],
+    "ThematicNotes": [
+      "Explores the pull between personal duty, cultural obligation, and Starfleet regulations."
+    ],
+    "BehindTheScenes": [
+      "Known for the lirpa combat and iconic fight music, it is one of the most referenced Vulcan culture episodes."
+    ]
+  },
+  {
+    "ID": "toss2e2",
+    "Title": "Who Mourns for Adonais?",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 2,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise is seized by a giant energy hand and drawn to a planet where the crew meets Apollo, who claims to be the Greek god."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Apollo demands worship from the crew, but Kirk must challenge a being who draws his power from the planet to free his people."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide whether a being that once inspired human culture still deserves reverence or must be resisted as a tyrant."
+    ],
+    "ContinuityNotes": [
+      "Adds to Trek's pattern of revealing ancient 'gods' as advanced aliens whose time has passed."
+    ],
+    "ThematicNotes": [
+      "Questions the need for gods in a future where humanity has grown beyond ancient myths."
+    ],
+    "BehindTheScenes": [
+      "Location filming and optical effects created Apollo's giant hand and temple on a modest budget."
+    ]
+  },
+  {
+    "ID": "toss2e3",
+    "Title": "The Changeling",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 3,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise encounters a powerful probe calling itself Nomad, which has wiped out billions yet reveres Kirk as its creator."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk discovers Nomad merged with another probe and misinterpreted its mission, and must convince it it is imperfect so it will self-destruct."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk weighs whether to attempt reprogramming a genocidal machine or destroy it before it can purge more 'imperfect' life."
+    ],
+    "ContinuityNotes": [
+      "Foreshadows later Trek stories about Earth probes that evolve beyond their original purpose, such as V'Ger."
+    ],
+    "ThematicNotes": [
+      "Explores the danger of perfectionism turned murderous and the limits of machine logic."
+    ],
+    "BehindTheScenes": [
+      "Reuse of existing sets and miniatures helped sell Nomad as a formidable yet simple-looking device."
+    ]
+  },
+  {
+    "ID": "toss2e4",
+    "Title": "Mirror, Mirror",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 4,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "A transporter accident sends Kirk, McCoy, Scotty, and Uhura into a savage parallel universe where Starfleet is a brutal Terran Empire."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk must impersonate his ruthless counterpart long enough to return home while planting the seeds of reform in the Mirror Spock."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk interferes with another universe's politics, betting that nudging Mirror Spock toward change will reduce long-term suffering."
+    ],
+    "ContinuityNotes": [
+      "Introduces the Mirror Universe, a major alternate continuity revisited in multiple later series."
+    ],
+    "ThematicNotes": [
+      "Asks whether individuals can choose a better path even in a corrupt system."
+    ],
+    "BehindTheScenes": [
+      "Distinctive alternate costumes and behavior created one of Trek's most enduring alternate-universe concepts."
+    ]
+  },
+  {
+    "ID": "toss2e5",
+    "Title": "The Apple",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 5,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise surveys a seemingly idyllic world whose primitive inhabitants worship a machine god called Vaal."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk destroys Vaal when it threatens the ship, forcing the natives to begin living without their controlling 'god'."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide whether to destroy a system that provides security but stunts growth, violating non-interference to save his crew."
+    ],
+    "ContinuityNotes": [
+      "Another example of Kirk challenging a computer that runs a stagnant society."
+    ],
+    "ThematicNotes": [
+      "Raises questions about paternalism and whether enforced innocence is truly desirable."
+    ],
+    "BehindTheScenes": [
+      "The planet's bright, artificial look reflects 1960s studio-bound 'paradise world' aesthetics."
+    ]
+  },
+  {
+    "ID": "toss2e6",
+    "Title": "The Doomsday Machine",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 6,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise finds the USS Constellation wrecked by a planet-killing weapon and rescues Commodore Decker, who is traumatized and obsessed."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As the machine threatens populated systems, Decker tries to sacrifice the Enterprise, forcing Kirk to outmaneuver both the weapon and Decker's guilt."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must balance compassion for a broken commander with the need to relieve him before he destroys another crew."
+    ],
+    "ContinuityNotes": [
+      "Introduces the massive planet-killer and deepens Starfleet's sense of vulnerability to superweapons."
+    ],
+    "ThematicNotes": [
+      "Deals with trauma, obsession, and command responsibility under extreme stress."
+    ],
+    "BehindTheScenes": [
+      "The effects work on the planet-killer and damaged Constellation are some of the most ambitious in the original series."
+    ]
+  },
+  {
+    "ID": "toss2e7",
+    "Title": "Catspaw",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 7,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "On a mission near a mysterious planet, crewmen vanish and Kirk leads a landing party into a gothic castle filled with bizarre illusions."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk discovers two alien explorers using technology to create horror imagery, and forces them to confront the cruelty of their experiment."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must distinguish between genuine supernatural danger and manufactured illusions when lives are at stake."
+    ],
+    "ContinuityNotes": [
+      "One of TOS's most overtly horror-themed episodes, timed to air near Halloween."
+    ],
+    "ThematicNotes": [
+      "Explores the idea that advanced beings may treat others as test subjects without understanding emotional harm."
+    ],
+    "BehindTheScenes": [
+      "Cheap but effective props and smoke-filled sets give the story a campy haunted-house vibe."
+    ]
+  },
+  {
+    "ID": "toss2e8",
+    "Title": "I, Mudd",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 8,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise is hijacked to a planet of androids ruled by Harry Mudd, who plans to strand the crew and keep the ship."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk and his officers outwit the androids with illogic and performance, ultimately freeing themselves and leaving Mudd with his creations."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must choose between leaving dangerous androids in place and dismantling a society that is stable but stagnant."
+    ],
+    "ContinuityNotes": [
+      "Brings back con man Harry Mudd and expands Trek's android lore ahead of later synthetic life stories."
+    ],
+    "ThematicNotes": [
+      "Plays with themes of freedom versus comfortable captivity and the value of human unpredictability."
+    ],
+    "BehindTheScenes": [
+      "Broad comedy gave the cast room for exaggerated acting and physical bits with the android chorus."
+    ]
+  },
+  {
+    "ID": "toss2e9",
+    "Title": "Metamorphosis",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 9,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "A shuttle carrying Kirk, Spock, McCoy, and Commissioner Hedford is diverted to an asteroid where they meet Zefram Cochrane and a noncorporeal Companion."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "The Companion merges with Hedford to save her life, creating a new being who can share Cochrane's existence while letting the Enterprise leave."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must judge whether a symbiotic merging that changes a person's life without prior consent is ethical if it saves them."
+    ],
+    "ContinuityNotes": [
+      "Reveals the fate of warp-drive inventor Zefram Cochrane, tying early Earth history to Trek's present."
+    ],
+    "ThematicNotes": [
+      "Explores love, loneliness, and the boundaries of consent when different forms of life interact."
+    ],
+    "BehindTheScenes": [
+      "Minimal sets and a glowing energy effect place focus on character interaction rather than spectacle."
+    ]
+  },
+  {
+    "ID": "toss2e10",
+    "Title": "Journey to Babel",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 10,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise transports Federation delegates, including Spock's parents, amid rising tension and sabotage."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Spock must choose between remaining at his post or donating blood to save his father's life while Kirk hunts a murderer and hostile ship."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Spock faces a conflict between Vulcan duty, Starfleet regulations, and familial obligation."
+    ],
+    "ContinuityNotes": [
+      "Expands Vulcan culture and introduces Sarek and Amanda, vital figures in Spock's background."
+    ],
+    "ThematicNotes": [
+      "Examines family expectations, cultural identity, and loyalty in a political crisis."
+    ],
+    "BehindTheScenes": [
+      "Packed diplomatic sets and alien makeups helped sell the idea of a diverse Federation council."
+    ]
+  },
+  {
+    "ID": "toss2e11",
+    "Title": "Friday's Child",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 11,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise tries to secure mining rights on Capella IV, where a warlike culture is in the midst of a leadership struggle."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk, Spock, and McCoy must protect the pregnant widow of the deposed ruler while Klingons manipulate tribal politics."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide how far to interfere in a violent succession dispute to counter Klingon influence."
+    ],
+    "ContinuityNotes": [
+      "Develops the Klingon–Federation rivalry as a cold war for influence among developing worlds."
+    ],
+    "ThematicNotes": [
+      "Themes of honor, motherhood, and realpolitik weave through a frontier-style story."
+    ],
+    "BehindTheScenes": [
+      "On-location shooting in rocky terrain emphasizes the harshness of Capellan society."
+    ]
+  },
+  {
+    "ID": "toss2e12",
+    "Title": "The Deadly Years",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 12,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "After exposure to radiation, members of the landing party, including Kirk, begin to age rapidly and lose effectiveness."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As a senile Kirk faces removal from command, he must rally for one last risky maneuver to save the Enterprise from Romulan attack."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Starfleet must decide when an aging captain becomes a liability, even if his experience is unmatched."
+    ],
+    "ContinuityNotes": [
+      "Early exploration of accelerated aging in Trek and its impact on command capability."
+    ],
+    "ThematicNotes": [
+      "Reflects fears about aging, relevance, and dignity in positions of authority."
+    ],
+    "BehindTheScenes": [
+      "Makeup effects attempted to portray advanced age on the main cast with 1960s techniques."
+    ]
+  },
+  {
+    "ID": "toss2e13",
+    "Title": "Obsession",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 13,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk becomes fixated on destroying a cloud-like creature that once killed members of his crew years before."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As casualties mount, Kirk must confront whether his pursuit is driven by duty or personal guilt, and finally destroys the creature with antimatter."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk struggles to distinguish legitimate duty from a vendetta rooted in survivor's guilt."
+    ],
+    "ContinuityNotes": [
+      "Adds depth to Kirk’s backstory and shows how past failures shape his present choices."
+    ],
+    "ThematicNotes": [
+      "Explores obsession, responsibility, and the danger of letting past trauma dictate current command decisions."
+    ],
+    "BehindTheScenes": [
+      "The creature's nebulous appearance allowed for eerie visual effects using optical compositing."
+    ]
+  },
+  {
+    "ID": "toss2e14",
+    "Title": "Wolf in the Fold",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 14,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "While on shore leave, Scotty is suspected of murdering women on a foggy planet that resembles old London."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk and Spock uncover a noncorporeal entity behind the killings, possibly the source of the Jack the Ripper legend, and disperse it with tranquilizer gas."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must balance loyalty to Scotty with the need to seriously investigate horrific crimes."
+    ],
+    "ContinuityNotes": [
+      "Ties an alien entity to one of Earth's most infamous unsolved murder cases."
+    ],
+    "ThematicNotes": [
+      "Touches on fear, misogyny, and how evil can hide behind the familiar."
+    ],
+    "BehindTheScenes": [
+      "The episode leans into horror and mystery tropes within a science-fiction framework."
+    ]
+  },
+  {
+    "ID": "toss2e15",
+    "Title": "The Trouble with Tribbles",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 15,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk must protect a disputed space station and grain shipment while dealing with a local official and an infestation of rapidly breeding tribbles."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Tribbles expose a Klingon sabotage plot when they react violently to disguised Klingons, allowing the crew to save the grain."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must juggle diplomacy, security, and an ecological nuisance that threatens vital supplies."
+    ],
+    "ContinuityNotes": [
+      "One of the most beloved comedic episodes, later revisited in Deep Space Nine."
+    ],
+    "ThematicNotes": [
+      "Explores bureaucracy, petty rivalries, and unintended consequences in a lighthearted tone."
+    ],
+    "BehindTheScenes": [
+      "Furry tribble props and comic timing made this a standout fan-favorite episode."
+    ]
+  },
+  {
+    "ID": "toss2e16",
+    "Title": "The Gamesters of Triskelion",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 16,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk, Uhura, and Chekov are abducted to a planet where they are forced to fight as gladiators for gambling alien brains."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk wagers on his own endurance and wins the right to free himself and the thralls, compelling the Providers to end their contests."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must risk his life in rigged combat to win freedom for others held as property."
+    ],
+    "ContinuityNotes": [
+      "Another example of powerful beings treating humanoids as entertainment, echoing other Trek 'arena' stories."
+    ],
+    "ThematicNotes": [
+      "Examines slavery, autonomy, and the ethics of wagering with others' lives."
+    ],
+    "BehindTheScenes": [
+      "Colorful costumes and stylized combat reflect 1960s ideas of alien 'games' and spectacle."
+    ]
+  },
+  {
+    "ID": "toss2e17",
+    "Title": "A Piece of the Action",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 17,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise finds a world whose society has modeled itself on a 1920s Chicago gangster book left by an earlier Earth ship."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk and Spock adopt gangster personas to outplay the mob bosses and set up a more stable, Federation-guided system."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk manipulates a contaminated culture further in hopes of reducing violence and chaos."
+    ],
+    "ContinuityNotes": [
+      "Shows the long-term consequences of cultural contamination from earlier Earth explorers."
+    ],
+    "ThematicNotes": [
+      "Uses comedy to explore how societies can warp around a single misunderstood artifact."
+    ],
+    "BehindTheScenes": [
+      "The cast's gangster outfits and slang gave the episode a playful, genre-mashup tone."
+    ]
+  },
+  {
+    "ID": "toss2e18",
+    "Title": "The Immunity Syndrome",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 18,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise encounters a huge single-celled organism in space that has destroyed a Vulcan-crewed ship."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk sends the Enterprise into the organism to deliver an antimatter 'injection', nearly sacrificing the ship to save the galaxy."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide whether to risk his entire crew against an entity they barely understand to save countless others."
+    ],
+    "ContinuityNotes": [
+      "Builds on Trek's fascination with cosmic-scale lifeforms and anomalies."
+    ],
+    "ThematicNotes": [
+      "Highlights sacrifice, trust in science, and the limits of human comprehension."
+    ],
+    "BehindTheScenes": [
+      "Uses reused ship shots and abstract visuals to depict the interior of the organism."
+    ]
+  },
+  {
+    "ID": "toss2e19",
+    "Title": "A Private Little War",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 19,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk discovers that the Klingons are arming one side of a primitive world's conflict, destabilizing a once-peaceful society."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "He reluctantly agrees to arm the other side to restore a balance of power, effectively starting a proxy arms race."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must choose between strict non-interference and countering Klingon meddling with equally dangerous weapons."
+    ],
+    "ContinuityNotes": [
+      "Explicitly parallels Cold War proxy conflicts and balance-of-power thinking."
+    ],
+    "ThematicNotes": [
+      "Questions whether arming both sides of a conflict can ever be a moral solution."
+    ],
+    "BehindTheScenes": [
+      "Location shooting and costuming evoke a frontier guerrilla war filtered through 1960s television."
+    ]
+  },
+  {
+    "ID": "toss2e20",
+    "Title": "Return to Tomorrow",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 20,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Disembodied aliens ask to borrow the bodies of Kirk, Spock, and Dr. Mulhall to construct android forms and live again."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As one alien abuses Spock's body, Kirk and the others must decide whether the risk of possession outweighs the hope of reviving a lost civilization."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must consent to temporary loss of bodily autonomy in the hope of preserving ancient, advanced minds."
+    ],
+    "ContinuityNotes": [
+      "Continues Trek's interest in mind transfer and the ethics of body sharing."
+    ],
+    "ThematicNotes": [
+      "Explores temptation, trust, and the corrupting influence of power even on once-noble beings."
+    ],
+    "BehindTheScenes": [
+      "Shatner's grand, inspirational speech about humanity's future is a standout moment."
+    ]
+  },
+  {
+    "ID": "toss2e21",
+    "Title": "Patterns of Force",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 21,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise seeks a missing Federation historian and finds a planet whose government has modeled itself on Nazi Germany."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk and Spock work undercover to expose the regime's manipulation and restore a less oppressive order."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must confront the horror of seeing Federation ideals twisted into justification for tyranny."
+    ],
+    "ContinuityNotes": [
+      "Shows how even well-meaning cultural engineers can unleash monstrous regimes."
+    ],
+    "ThematicNotes": [
+      "Warns against the seductive efficiency of authoritarian systems dressed up as 'order'."
+    ],
+    "BehindTheScenes": [
+      "Controversial for its heavy use of Nazi imagery, it was banned or edited in some markets for years."
+    ]
+  },
+  {
+    "ID": "toss2e22",
+    "Title": "By Any Other Name",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 22,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Powerful Kelvans hijack the Enterprise, reducing crew to small geometric shapes and planning to take the ship to Andromeda."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk and his officers exploit the Kelvans' new human bodies and emotions to undermine their cold control."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk chooses psychological subversion over direct force against vastly superior foes."
+    ],
+    "ContinuityNotes": [
+      "Shows human emotion as both a weakness and a strength compared to hyper-rational aliens."
+    ],
+    "ThematicNotes": [
+      "Looks at assimilation, identity, and how form influences mindset."
+    ],
+    "BehindTheScenes": [
+      "Much of the tension comes from everyday ship settings twisted into a prison by the Kelvans' powers."
+    ]
+  },
+  {
+    "ID": "toss2e23",
+    "Title": "The Omega Glory",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 23,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk finds a crazed Starfleet captain on a world locked in endless war between two factions with distorted echoes of Earth history."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk exposes the captain's betrayal and delivers a speech reinterpreting the planet's 'Yang' constitution in its original spirit."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must confront a Starfleet officer who has abandoned Federation principles for personal power."
+    ],
+    "ContinuityNotes": [
+      "Reinforces the idea that Federation officers are held to a strict moral standard, even far from home."
+    ],
+    "ThematicNotes": [
+      "Deals with nationalism, symbols, and the gap between words and practice."
+    ],
+    "BehindTheScenes": [
+      "Often criticized for its heavy-handed allegory, it nonetheless cements Kirk as a defender of constitutional ideals."
+    ]
+  },
+  {
+    "ID": "toss2e24",
+    "Title": "The Ultimate Computer",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 24,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise tests the M-5 computer, designed to automate starship functions and replace much of the crew."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "When M-5 begins destroying ships in war games, Kirk must prove that human judgment is still necessary in command."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk faces the prospect of being replaced by a machine and must argue for the value of human life and error."
+    ],
+    "ContinuityNotes": [
+      "Early Trek exploration of AI in command roles and the limits of automation."
+    ],
+    "ThematicNotes": [
+      "Highlights the risks of delegating lethal decisions to untested technology."
+    ],
+    "BehindTheScenes": [
+      "Guest actor William Marshall gives gravitas to Daystrom, the troubled genius behind M-5."
+    ]
+  },
+  {
+    "ID": "toss2e25",
+    "Title": "Bread and Circuses",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 25,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise discovers a world patterned on the Roman Empire but with 20th-century technology and televised gladiatorial games."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk, Spock, and McCoy must survive the arena and encourage social change without open interference."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must navigate a society that normalizes brutality as entertainment while respecting the Prime Directive."
+    ],
+    "ContinuityNotes": [
+      "Another 'parallel Earth' scenario used to comment on contemporary culture and media."
+    ],
+    "ThematicNotes": [
+      "Critiques spectacle, class divisions, and state control of information."
+    ],
+    "BehindTheScenes": [
+      "Mixes studio sets and costumes to juxtapose ancient Roman motifs with modern props and television cameras."
+    ]
+  },
+  {
+    "ID": "toss2e26",
+    "Title": "Assignment: Earth",
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 26,
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Investigating 20th-century Earth, the Enterprise intercepts Gary Seven, a mysterious agent using advanced technology to alter a rocket launch."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk must decide whether to stop Seven or help him, ultimately allowing him to prevent nuclear catastrophe and remain on Earth."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must trust an alien-trained operative with Earth's future despite minimal information."
+    ],
+    "ContinuityNotes": [
+      "Intended as a backdoor pilot for a Gary Seven spinoff series that was never produced."
+    ],
+    "ThematicNotes": [
+      "Touches on covert guardianship of Earth and the ethics of secret interventions."
+    ],
+    "BehindTheScenes": [
+      "The episode devotes significant time to setting up Seven and Roberta Lincoln as ongoing characters."
+    ]
+  },
+  {
+    "ID": "toss3e1",
+    "Title": "Spock's Brain",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 1,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Kara"
+    ],
+    "Antagonists": [
+      "Kara",
+      "The Morg and the Eymorg system"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "After a mysterious intruder incapacitates the crew, Spock is found alive but with his brain surgically removed, and time is running out before his body dies."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Following a trail to a distant world, Kirk discovers an underground society that has turned Spock's brain into a computer control unit; McCoy must risk experimental surgery guided by alien technology to restore it."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide how far to push McCoy into dangerous, semi-mystical surgery to save Spock when the doctor insists he may not be able to finish the procedure."
+    ],
+    "ContinuityNotes": [
+      "Shows that even a technologically dependent culture can forget how to maintain its own systems, including a stolen Vulcan brain pressed into service as a 'controller'."
+    ],
+    "ThematicNotes": [
+      "Touches on overreliance on machines, gendered division of labor, and the limits of technological quick fixes."
+    ],
+    "BehindTheScenes": [
+      "Often cited as one of Trek's more outlandish plots, it still underscores Spock's importance to the crew and gives DeForest Kelley unusual surgical heroics."
+    ]
+  },
+  {
+    "ID": "toss3e2",
+    "Title": "The Enterprise Incident",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 2,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Romulan Commander",
+      "Subcommander Tal"
+    ],
+    "Antagonists": [
+      "Romulan Star Empire"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk orders the Enterprise into the Romulan Neutral Zone on apparently irrational grounds, leading to its capture by a Romulan fleet commanded by a sharp, composed woman."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "The truth emerges that this is a covert Starfleet operation to steal a Romulan cloaking device; Kirk relies on Spock to seduce and misdirect the Romulan commander long enough to pull off the theft and escape."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk and Spock must weigh the ethics of using deception and emotional manipulation against an honorable opponent in the name of Federation security."
+    ],
+    "ContinuityNotes": [
+      "Further develops Romulan–Federation tensions and introduces a female Romulan commander years before onscreen Starfleet women routinely held such ranks."
+    ],
+    "ThematicNotes": [
+      "Explores espionage, loyalty, and the personal cost of treating relationships purely as tactical tools."
+    ],
+    "BehindTheScenes": [
+      "The story evokes real-world submarine and spy thrillers, giving Nimoy and guest star Joanne Linville rich material in their scenes together."
+    ]
+  },
+  {
+    "ID": "toss3e3",
+    "Title": "The Paradise Syndrome",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 3,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Miramanee",
+      "Salish"
+    ],
+    "Antagonists": [
+      "Asteroid threatening the planet"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise discovers a planet whose Native American–style inhabitants are threatened by a deflected asteroid; when Kirk suffers amnesia after an accident, he is taken in by the tribe and accepted as a holy man."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As Spock races against time to reprogram an ancient deflection device and divert the asteroid, Kirk builds a new life with Miramanee until his memories and the disaster collide with tragic results."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk unknowingly abandons his command and new family to the consequences of an approaching catastrophe he was originally there to prevent."
+    ],
+    "ContinuityNotes": [
+      "Touches on ancient alien technology guarding 'primitive' cultures and the emotional burden of command when personal happiness is possible but fleeting."
+    ],
+    "ThematicNotes": [
+      "Themes of identity, destiny, and cross-cultural fantasy are filtered through a highly romanticized depiction of Indigenous peoples."
+    ],
+    "BehindTheScenes": [
+      "Extensive location work and a slower pace emphasize the pastoral fantasy, even as the episode has drawn criticism for its stereotypes and melodramatic tragedy."
+    ]
+  },
+  {
+    "ID": "toss3e4",
+    "Title": "And the Children Shall Lead",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 4,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Gorgan"
+    ],
+    "Antagonists": [
+      "Gorgan"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise responds to a distress call to find a colony's adults dead and the children seemingly unharmed and oddly cheerful."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk and Spock uncover that the children are being controlled by an alien entity named Gorgan, who uses their grief and chants to seize control of the ship until the crew breaks the spell by forcing the children to confront reality."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must decide how firmly to confront and traumatize bereaved children in order to free them from a malign influence."
+    ],
+    "ContinuityNotes": [
+      "Adds another example of incorporeal beings exploiting human emotion and belief to gain power."
+    ],
+    "ThematicNotes": [
+      "Highlights the vulnerability of children to manipulation when adults fail or are removed entirely."
+    ],
+    "BehindTheScenes": [
+      "The mixture of eerie nursery-rhyme chanting and a robed villain creates an episode often remembered as unsettling, though uneven in execution."
+    ]
+  },
+  {
+    "ID": "toss3e5",
+    "Title": "Is There in Truth No Beauty?",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 5,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Dr. Miranda Jones",
+      "Ambassador Kollos"
+    ],
+    "Antagonists": [
+      "Telepathic jealousy and misunderstanding"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise transports Kollos, a Medusan ambassador whose appearance is so alien that a human who sees it goes insane, along with the blind telepathic psychologist Miranda Jones."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "When a jealous crewmember tries to seize Kollos's navigation abilities and loses his mind, Spock must risk a mind meld with Kollos while blindfolded, and Miranda must confront her own fears and ambitions."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Spock and Miranda both risk exposure to an alien presence that can shatter sanity, challenging the limits of Vulcan and human mental control."
+    ],
+    "ContinuityNotes": [
+      "Builds on Trek's exploration of telepathy and non-humanoid life, and adds depth to the idea of Vulcans as skilled mind-linkers."
+    ],
+    "ThematicNotes": [
+      "Examines beauty, disability, professional rivalry, and the fear of being overwhelmed by another's mind."
+    ],
+    "BehindTheScenes": [
+      "The use of abstract visual effects to represent chaos and alien perception gives the episode a distinctive, experimental look for the era."
+    ]
+  },
+  {
+    "ID": "toss3e6",
+    "Title": "Spectre of the Gun",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 6,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "The Melkotians"
+    ],
+    "Antagonists": [
+      "The Melkotians' lethal test scenario"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Ignoring a warning buoy, the Enterprise crew beams down to a Melkotian world and finds themselves forced to relive the gunfight at the O.K. Corral from the losing side."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Trapped in an increasingly unreal Western town, Spock realizes the scenario is partly illusion; by mastering their own fear and refusing to believe in the bullets, the landing party survives and proves their peaceful intentions."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide whether to play out the violent scenario as written or reject it entirely, trusting that the danger is mental rather than physical."
+    ],
+    "ContinuityNotes": [
+      "Adds another test-of-character encounter with powerful aliens who judge the Federation by its behavior under stress."
+    ],
+    "ThematicNotes": [
+      "Themes of perception, courage, and the power of belief are staged through a stylized retelling of a famous Earth legend."
+    ],
+    "BehindTheScenes": [
+      "Minimal sets and surreal lighting intentionally make the frontier town look like an incomplete stage, underscoring the artificial nature of the trial."
+    ]
+  },
+  {
+    "ID": "toss3e7",
+    "Title": "Day of the Dove",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 7,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Montgomery Scott",
+      "Hikaru Sulu"
+    ],
+    "GuestCharacters": [
+      "Kang",
+      "Mara"
+    ],
+    "Antagonists": [
+      "Energy entity feeding on hatred"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "After a Federation colony disappears, the Enterprise crew and a Klingon party led by Kang are trapped aboard the ship by an alien energy creature that feeds on violence."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "With both sides locked into seemingly endless sword combat, Kirk and Kang must recognize the manipulator and deliberately lay down arms, starving the entity of hatred."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk and Kang must choose to cooperate with sworn enemies and deny their own rage to defeat a common, intangible foe."
+    ],
+    "ContinuityNotes": [
+      "Expands the Klingons beyond caricature by giving Kang and Mara dignity and complexity, hinting at future détente."
+    ],
+    "ThematicNotes": [
+      "Explores cycles of revenge, manufactured conflict, and the possibility of choosing peace over pride."
+    ],
+    "BehindTheScenes": [
+      "The shift to hand-to-hand sword fighting on familiar sets emphasizes the primal nature of the hatred being exploited."
+    ]
+  },
+  {
+    "ID": "toss3e8",
+    "Title": "For the World Is Hollow and I Have Touched the Sky",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 8,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Natira"
+    ],
+    "Antagonists": [
+      "Oracle computer of Yonada"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise discovers that an asteroid on a collision course with a Federation world is actually a hollow generation ship whose people believe they live on a normal planet."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "McCoy, facing a terminal diagnosis, falls in love with Natira and considers staying, until the truth about the Oracle's control and Yonada's mission forces a rethinking of both his fate and the colony's future."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must decide how much to disrupt a deeply held faith built around a controlling computer in order to save both Yonada and the world it threatens."
+    ],
+    "ContinuityNotes": [
+      "Adds another variation on the 'god-computer' motif and gives McCoy one of his rare central romantic storylines."
+    ],
+    "ThematicNotes": [
+      "Themes include mortality, faith, and the tension between comforting belief and necessary truth."
+    ],
+    "BehindTheScenes": [
+      "The title and tone lean into a lyrical, melancholic style unusual even for TOS, with McCoy's illness giving the episode added weight."
+    ]
+  },
+  {
+    "ID": "toss3e9",
+    "Title": "The Tholian Web",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 9,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Tholians"
+    ],
+    "Antagonists": [
+      "Tholian Assembly"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "While investigating the disappearance of the USS Defiant in an interphase region of space, Kirk vanishes with the drifting ship as the Enterprise begins to slip between dimensions."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Spock and McCoy clash over command decisions as the Tholians weave an energy web around the Enterprise, but they ultimately cooperate to hold the ship together long enough to retrieve Kirk from phased space."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Spock must choose between leaving the area to save the crew or holding position in a dangerous region in the hope of recovering his captain."
+    ],
+    "ContinuityNotes": [
+      "Introduces the Tholians and the concept of interphase space, later revisited in other Trek stories."
+    ],
+    "ThematicNotes": [
+      "Examines loyalty, command under stress, and how Kirk's principles guide his officers even in his absence."
+    ],
+    "BehindTheScenes": [
+      "The glowing geometric web effect became iconic, and the episode is often praised for its tense atmosphere and Spock–McCoy dynamic."
+    ]
+  },
+  {
+    "ID": "toss3e10",
+    "Title": "Plato's Stepchildren",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 10,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Alexander"
+    ],
+    "Antagonists": [
+      "The Platonians"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "On a planet of telekinetic aristocrats who emulate ancient Greece, the Enterprise crew is forced to perform humiliating acts for their hosts' amusement."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "With the help of Alexander, a physically impaired member of the society who has no powers, Kirk and company manage to resist long enough for McCoy to devise a way to level the playing field."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must endure degradation and resist violent retaliation until they can free themselves and protect the powerless Alexander."
+    ],
+    "ContinuityNotes": [
+      "Shows another advanced group whose philosophical ideals have curdled into cruelty and elitism."
+    ],
+    "ThematicNotes": [
+      "Themes include abuse of power, ableism, and resistance against sadistic authority."
+    ],
+    "BehindTheScenes": [
+      "The episode is remembered for its controversial on-screen interracial kiss between Kirk and Uhura, a landmark in American television."
+    ]
+  },
+  {
+    "ID": "toss3e11",
+    "Title": "Wink of an Eye",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 11,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Deela"
+    ],
+    "Antagonists": [
+      "The Scalosians' plan to hijack the Enterprise"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Answering a distress call from Scalos, the Enterprise appears deserted to its own crew while an invisible, hyper-accelerated group secretly boards the ship."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk is pulled into the accelerated time stream and learns the Scalosians plan to sterilize his crew and use the ship to save their dying people, forcing him and Spock to sabotage equipment in two different time scales."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide how to respond to a desperate people willing to violate bodily autonomy and seize his ship to ensure their own survival."
+    ],
+    "ContinuityNotes": [
+      "Adds to Trek's fascination with altered perceptions of time and the consequences of environmental catastrophe."
+    ],
+    "ThematicNotes": [
+      "Explores desperation, consent, and the limits of sympathy when survival demands predation."
+    ],
+    "BehindTheScenes": [
+      "Simple camera tricks and slowed sound convey the subjective experience of time dilation for both normal and accelerated characters."
+    ]
+  },
+  {
+    "ID": "toss3e12",
+    "Title": "The Empath",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 12,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Gem"
+    ],
+    "Antagonists": [
+      "Vians"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk, Spock, and McCoy are captured with a silent woman named Gem by alien experimenters who inflict pain to test Gem's ability to absorb and heal others' injuries."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "McCoy volunteers to endure lethal torture so Gem can demonstrate self-sacrifice; his choice and Gem's compassion convince the Vians that this world is worth saving."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must decide whether sacrificing themselves in a cruel test is justifiable if it might save an entire civilization."
+    ],
+    "ContinuityNotes": [
+      "Pushes Trek's interest in moral tests by higher beings to a stark extreme focused on suffering and compassion."
+    ],
+    "ThematicNotes": [
+      "Themes center on empathy, altruism, and whether love expressed through sacrifice can be objectively measured."
+    ],
+    "BehindTheScenes": [
+      "Sparse sets, heavy shadows, and minimal cast create a stage-play feel that emphasizes emotional intensity over spectacle."
+    ]
+  },
+  {
+    "ID": "toss3e13",
+    "Title": "Elaan of Troyius",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 13,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Elaan",
+      "Petri"
+    ],
+    "Antagonists": [
+      "Klingon disruptors and sabotage"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise transports Elaan, a temperamental noblewoman from Elas, to an arranged marriage on Troyius meant to end a long interplanetary feud."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk is struck by Elaan's biochemical 'tears', which impose irresistible love, even as Klingons attempt to sabotage the mission and exploit the political tensions."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must balance his duty to keep the peace with the personal emotional compulsion imposed by Elaan's physiology."
+    ],
+    "ContinuityNotes": [
+      "Adds to the Klingon–Federation cold war backdrop and shows diplomacy as a fragile, personality-driven process."
+    ],
+    "ThematicNotes": [
+      "Themes include cultural clash, arranged marriage, and the struggle to separate genuine feeling from artificial influence."
+    ],
+    "BehindTheScenes": [
+      "The story has often been compared to The Taming of the Shrew in space, with lavish costumes and sets emphasizing its operatic tone."
+    ]
+  },
+  {
+    "ID": "toss3e14",
+    "Title": "Whom Gods Destroy",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 14,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Garth of Izar",
+      "Marta"
+    ],
+    "Antagonists": [
+      "Garth of Izar"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk and Spock visit an asylum for the criminally insane to deliver a new treatment and find it under the control of Garth of Izar, a once-legendary starship captain turned madman."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Using shape-changing abilities he learned from aliens, Garth attempts to seize the Enterprise, forcing Kirk and Spock to outwit him in a tense battle of identities."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must confront a fallen role model and decide how far compassion extends when a hero becomes a dangerous tyrant."
+    ],
+    "ContinuityNotes": [
+      "Expands Starfleet lore by showing that even its greatest captains can succumb to trauma and instability."
+    ],
+    "ThematicNotes": [
+      "Themes of sanity, authority, and the fine line between visionary leadership and megalomania run through the story."
+    ],
+    "BehindTheScenes": [
+      "Colorful, theatrical performances and an emphasis on deception and role reversal make this episode a showcase for guest star Steve Ihnat."
+    ]
+  },
+  {
+    "ID": "toss3e15",
+    "Title": "Let That Be Your Last Battlefield",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 15,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Lokai",
+      "Bele"
+    ],
+    "Antagonists": [
+      "Lokai",
+      "Bele"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise encounters Lokai, a fugitive whose half-black, half-white coloration reveals him as a member of a species divided along stark physical lines, soon pursued by the fanatical Bele."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As Bele seizes control of the ship to return Lokai to their homeworld, Kirk and Spock discover that their planet has already destroyed itself through racial hatred, yet the two enemies remain locked in their feud."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide how much risk to take to prevent his ship from being dragged into a bitter, seemingly irrational racial conflict."
+    ],
+    "ContinuityNotes": [
+      "One of Trek's most direct allegories about racism, presenting bigotry as literally mirrored halves of the same people."
+    ],
+    "ThematicNotes": [
+      "Themes include the futility of prejudice and the tragic absurdity of hatred based on arbitrary physical differences."
+    ],
+    "BehindTheScenes": [
+      "The stark black-and-white makeup on opposite sides of the face became an instantly recognizable symbol of the episode's message."
+    ]
+  },
+  {
+    "ID": "toss3e16",
+    "Title": "The Mark of Gideon",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 16,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Odona"
+    ],
+    "Antagonists": [
+      "Hodinian leadership"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Kirk apparently beams down to an empty version of the Enterprise and meets Odona, learning he has been abducted to help a world suffering from extreme overpopulation."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Gideon's leaders intend to infect their own people with a deadly disease Kirk carries so that a portion of the population will die, forcing him to oppose a genocidal 'solution' that Odona initially accepts."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk must decide whether to respect a society's chosen path to self-destruction or intervene against leaders who view life as expendable statistics."
+    ],
+    "ContinuityNotes": [
+      "Adds to Trek's examinations of population pressure and utilitarian extremes."
+    ],
+    "ThematicNotes": [
+      "Themes of bodily autonomy, consent, and the value of individual life in the face of crowding dominate the story."
+    ],
+    "BehindTheScenes": [
+      "The reuse and duplication of Enterprise sets to create the illusion of emptiness is a clever, low-cost visual conceit."
+    ]
+  },
+  {
+    "ID": "toss3e17",
+    "Title": "That Which Survives",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 17,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Losira"
+    ],
+    "Antagonists": [
+      "Automated defense system of the dead world"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "A landing party beams down to a planet only to find the Enterprise flung a great distance away and a mysterious woman named Losira appearing to kill people with a touch."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As Kirk's team tries to survive Losira's repeated attacks, Spock and Scotty race to keep the failing Enterprise intact long enough to retrieve the away team."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must decide how to interpret a defense system that kills intruders while bearing genuine regret for its actions."
+    ],
+    "ContinuityNotes": [
+      "Adds another example of remnants from a long-dead civilization still protecting its secrets automatically."
+    ],
+    "ThematicNotes": [
+      "Explores the idea of duty continuing beyond death and the danger of systems that cannot adapt to new circumstances."
+    ],
+    "BehindTheScenes": [
+      "The episode juxtaposes a tense engineering crisis with eerie, personal confrontations planetside, showcasing the ensemble."
+    ]
+  },
+  {
+    "ID": "toss3e18",
+    "Title": "The Lights of Zetar",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 18,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Scotty"
+    ],
+    "GuestCharacters": [
+      "Mira Romaine"
+    ],
+    "Antagonists": [
+      "Zetarian entity"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise escorts Mira Romaine to Memory Alpha, the Federation's central data library, just as bizarre energy lights that can possess people attack the facility."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "When the lights merge with Mira, threatening to burn out her mind, Scotty must help separate her from the Zetarian consciousness without killing her."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must weigh the value of preserving a unique alien consciousness against the right of a host to live free of possession."
+    ],
+    "ContinuityNotes": [
+      "Shows the vulnerability of shared information repositories and treats Memory Alpha as a symbol of Federation knowledge."
+    ],
+    "ThematicNotes": [
+      "Themes include love, identity, and the cost of merging with or rejecting an alien intelligence."
+    ],
+    "BehindTheScenes": [
+      "The story gives Scotty an unusually romantic and protective role, deepening his character beyond engineering duties."
+    ]
+  },
+  {
+    "ID": "toss3e19",
+    "Title": "Requiem for Methuselah",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 19,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Flint",
+      "Rayna Kapec"
+    ],
+    "Antagonists": [
+      "Flint's manipulations"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "In search of a rare medical substance, the Enterprise encounters Flint, a reclusive genius living with a young woman named Rayna in an isolated estate."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Spock and McCoy uncover that Flint is an immortal who has lived many lives in Earth's history and engineered Rayna as an android companion, but her awakening emotions lead to her breakdown and Flint's renewed isolation."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk becomes involved with Rayna without knowing she is an artificial being, raising questions about consent and engineered love."
+    ],
+    "ContinuityNotes": [
+      "Connects human history to a single immortal figure, flirting with myths of wandering geniuses and eternal outcasts."
+    ],
+    "ThematicNotes": [
+      "Themes include loneliness, the ethics of creating sentient partners, and the pain inherent in awakening to new feelings."
+    ],
+    "BehindTheScenes": [
+      "The melancholy tone and final scene, with Spock easing Kirk's heartbreak, give the episode a reflective, tragic quality."
+    ]
+  },
+  {
+    "ID": "toss3e20",
+    "Title": "The Way to Eden",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 20,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Dr. Sevrin",
+      "Irina Galliulin"
+    ],
+    "Antagonists": [
+      "Dr. Sevrin"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise takes on a group of spacefaring dropouts led by Sevrin, a charismatic doctor seeking the mythical planet Eden as a pure, natural refuge."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Sevrin sabotages the ship and hijacks a shuttle, leading his followers to a world whose seemingly perfect environment proves lethally toxic."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk and Spock must protect idealistic but reckless young people from a leader whose obsession blinds him to danger."
+    ],
+    "ContinuityNotes": [
+      "Reflects 1960s counterculture and generational tensions through a science-fiction lens."
+    ],
+    "ThematicNotes": [
+      "Themes include the search for purity, rejection of technology, and the risk of following charismatic figures uncritically."
+    ],
+    "BehindTheScenes": [
+      "The music and costumes heavily reference contemporary youth movements, making the episode a time capsule of its era."
+    ]
+  },
+  {
+    "ID": "toss3e21",
+    "Title": "The Cloud Minders",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 21,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Droxine",
+      "Vanna"
+    ],
+    "Antagonists": [
+      "Troglyte–Ardana caste system"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "The Enterprise arrives on Ardana to secure zenite for stopping a plague, only to find a rigid society where elites live in a floating city and miners endure brutal conditions below."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Caught between the authorities and rebellious Troglytes, Kirk and Spock pressure both sides toward reform while securing the vital mineral."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must decide how far to intervene in a caste-based exploitation system when urgent medical needs depend on cooperation."
+    ],
+    "ContinuityNotes": [
+      "Expands on Trek's critique of class stratification and the moral blindness of insulated elites."
+    ],
+    "ThematicNotes": [
+      "Themes include social justice, environmental hazards, and the responsibility of those who benefit from others' labor."
+    ],
+    "BehindTheScenes": [
+      "The contrast between the airy, elegant sky city and the grim mines visually reinforces the social divide at the heart of the story."
+    ]
+  },
+  {
+    "ID": "toss3e22",
+    "Title": "The Savage Curtain",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 22,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock"
+    ],
+    "GuestCharacters": [
+      "Abraham Lincoln",
+      "Surak"
+    ],
+    "Antagonists": [
+      "Colonel Green",
+      "Kahless",
+      "Other villains"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "On a lava world, an alien presence creates likenesses of Abraham Lincoln and Surak to fight alongside Kirk and Spock in a staged battle of 'good' versus 'evil'."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Kirk realizes the test is designed to study the nature of morality through conflict, and he refuses to accept the simplistic dichotomy imposed by the Excalbians."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must question whether violence can ever be a valid metric for judging ethical systems."
+    ],
+    "ContinuityNotes": [
+      "Brings iconic historical and cultural figures together to dramatize the Federation's values in contrast with tyrants and zealots."
+    ],
+    "ThematicNotes": [
+      "Themes examine the complexity of good and evil, and the limits of learning about morality through combat."
+    ],
+    "BehindTheScenes": [
+      "Despite its odd premise, the episode provides rare on-screen encounters with Surak and an Excalbian version of Kahless."
+    ]
+  },
+  {
+    "ID": "toss3e23",
+    "Title": "All Our Yesterdays",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 23,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "GuestCharacters": [
+      "Zarabeth",
+      "Mr. Atoz"
+    ],
+    "Antagonists": [
+      "Temporal hazards of Sarpeidon's library"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "With a star about to go nova, the Enterprise finds that the people of Sarpeidon have escaped into their own world's past using a time-portal library, and Kirk, Spock, and McCoy are accidentally sent to different eras."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "Separated in hostile historical periods, the trio must find a way back before the star explodes, while Spock battles a reawakened emotional nature in an ice age with Zarabeth."
+      }
+    ],
+    "EthicalDilemmas": [
+      "Kirk and his officers must decide whether to disrupt past eras further to survive, knowing any actions might permanently alter history."
+    ],
+    "ContinuityNotes": [
+      "Offers one of the clearest looks at a planetary population using time travel as a mass-evacuation tool."
+    ],
+    "ThematicNotes": [
+      "Themes include nostalgia, personal transformation, and the pull of a life that might have been."
+    ],
+    "BehindTheScenes": [
+      "Spock's emotional conflict and doomed connection with Zarabeth make this one of the more introspective late-series episodes."
+    ]
+  },
+  {
+    "ID": "toss3e24",
+    "Title": "Turnabout Intruder",
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 24,
+    "KeyCharacters": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott"
+    ],
+    "GuestCharacters": [
+      "Dr. Janice Lester"
+    ],
+    "Antagonists": [
+      "Dr. Janice Lester"
+    ],
+    "StorySections": [
+      {
+        "Header": "Setup",
+        "Text": "Responding to a distress call, Kirk reunites with former lover Janice Lester, who uses alien technology to swap bodies with him and takes command of the Enterprise."
+      },
+      {
+        "Header": "Crisis and Resolution",
+        "Text": "As 'Kirk' behaves increasingly erratically, the crew slowly realizes something is wrong and must risk mutiny to restore the real captain to his body."
+      }
+    ],
+    "EthicalDilemmas": [
+      "The crew must decide when loyalty to the captain's orders should yield to loyalty to the person they know beneath those orders."
+    ],
+    "ContinuityNotes": [
+      "Serves as the final aired episode of TOS, closing the series with a story about identity and misuse of authority."
+    ],
+    "ThematicNotes": [
+      "Themes include gender, resentment, and the dangers of coveting power without the temperament to wield it."
+    ],
+    "BehindTheScenes": [
+      "The episode has been criticized for some of its gender politics, but it provides Shatner and guest star Sandra Smith with demanding dual-role performances."
+    ]
   }
 ]
