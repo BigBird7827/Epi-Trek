@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Trek Episode Companion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg: #050814;
+      --bg-elevated: #0c1024;
+      --border-subtle: #242a4a;
+      --accent: #f2c94c;
+      --accent-soft: #f2c94c33;
+      --text-main: #f5f7ff;
+      --text-muted: #a5b0d6;
+      --text-soft: #7b84a8;
+      --pill: #141a33;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #101633 0, #050814 55%, #02030a 100%);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+
+    .page {
+      max-width: 1100px;
+      width: 100%;
+      background: linear-gradient(145deg, rgba(13,18,46,0.98), rgba(5,8,20,0.98));
+      border-radius: 18px;
+      border: 1px solid rgba(242,201,76,0.12);
+      box-shadow:
+        0 0 40px rgba(0,0,0,0.7),
+        0 0 60px rgba(3,169,244,0.12),
+        0 0 90px rgba(242,201,76,0.18);
+      padding: 22px 24px 26px;
+    }
+
+    .top-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .title-block {
+      max-width: 540px;
+    }
+
+    .pill-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .pill {
+      background: var(--pill);
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pill-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 8px rgba(242,201,76,0.7);
+    }
+
+    h1 {
+      font-size: 26px;
+      line-height: 1.2;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      background: linear-gradient(120deg, #fdf6e3 0%, #f2c94c 35%, #f39c12 60%, #ffeaa7 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow:
+        0 0 2px rgba(0,0,0,0.85),
+        0 0 6px rgba(0,0,0,0.95),
+        0 0 18px rgba(0,0,0,1);
+      position: relative;
+      padding-bottom: 8px;
+    }
+
+    h1::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 96px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(242,201,76,0.95), rgba(255,255,255,0.7), rgba(242,201,76,0.2));
+      box-shadow:
+        0 0 10px rgba(242,201,76,0.9),
+        0 0 24px rgba(242,201,76,0.7);
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .data-source {
+      font-size: 11px;
+      color: var(--text-soft);
+    }
+
+    .data-source a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .data-source a:hover {
+      text-decoration: underline;
+    }
+
+    .series-menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .series-button {
+      background: #141933;
+      color: var(--text-main);
+      border-radius: 999px;
+      border: 1px solid rgba(140,149,255,0.7);
+      padding: 7px 14px;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    }
+
+    .series-button.active {
+      background: linear-gradient(120deg, #f2c94c, #f39c12);
+      color: #050814;
+      box-shadow: 0 0 12px rgba(242,201,76,0.6);
+    }
+
+    .series-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 0 10px rgba(140,149,255,0.5);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 2fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .panel {
+      background: var(--bg-elevated);
+      border-radius: 14px;
+      border: 1px solid var(--border-subtle);
+      padding: 14px 14px 16px;
+      min-height: 120px;
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 10px;
+      gap: 8px;
+    }
+
+    .panel-title {
+      font-size: 12px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .panel-subtitle {
+      font-size: 11px;
+      color: var(--text-soft);
+    }
+
+    .episodes-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-height: 380px;
+      overflow: auto;
+    }
+
+    .episode-item {
+      border-radius: 9px;
+      padding: 8px 9px;
+      background: #111633;
+      border: 1px solid rgba(99,110,190,0.7);
+      cursor: pointer;
+      transition: background 0.1s ease, transform 0.08s ease, box-shadow 0.1s ease;
+    }
+
+    .episode-item:hover {
+      background: #171d40;
+      transform: translateY(-1px);
+      box-shadow: 0 0 10px rgba(119,132,220,0.6);
+    }
+
+    .episode-item.active {
+      background: radial-gradient(circle at top left, rgba(242,201,76,0.2), #171d40);
+      border-color: rgba(242,201,76,0.8);
+    }
+
+    .episode-item-title {
+      font-size: 13px;
+      margin-bottom: 3px;
+    }
+
+    .episode-item-meta {
+      font-size: 11px;
+      color: var(--text-soft);
+    }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--text-soft);
+      margin-bottom: 10px;
+    }
+
+    .meta-chip {
+      background: rgba(11,16,42,0.9);
+      border-radius: 999px;
+      padding: 4px 10px;
+      border: 1px solid rgba(110,120,180,0.32);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .meta-label {
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 10px;
+      color: var(--text-soft);
+    }
+
+    .meta-value {
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    .summary-text {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .story-sections {
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .story-section {
+      background: radial-gradient(circle at top left, var(--accent-soft), transparent 60%);
+      border-radius: 10px;
+      padding: 9px 10px;
+      border: 1px solid rgba(242,201,76,0.12);
+    }
+
+    .story-section h3 {
+      font-size: 12px;
+      margin-bottom: 3px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #ffeaa7;
+    }
+
+    .story-section p {
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--text-muted);
+    }
+
+    .chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      background: #1a2040;
+      border-radius: 999px;
+      padding: 5px 10px;
+      font-size: 12px;
+      border: 1px solid rgba(118,131,196,0.6);
+      color: var(--text-main);
+      white-space: nowrap;
+    }
+
+    .text-list {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .note-card {
+      border-radius: 9px;
+      border: 1px solid rgba(85,95,155,0.7);
+      background: radial-gradient(circle at top left, rgba(129,140,248,0.12), rgba(12,16,40,0.9));
+      padding: 8px 9px 9px;
+      margin-bottom: 8px;
+    }
+
+    .note-card h4 {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #c3d0ff;
+      margin-bottom: 3px;
+    }
+
+    .note-card p {
+      font-size: 12px;
+      line-height: 1.5;
+      color: var(--text-muted);
+    }
+
+    .placeholder {
+      font-size: 13px;
+      color: var(--text-soft);
+    }
+
+    .error-text {
+      font-size: 13px;
+      color: #ffb3b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top-row">
+      <div class="title-block">
+        <div class="pill-row">
+          <div class="pill">
+            <span class="pill-dot"></span>
+            <span>Star Trek Episode Companion</span>
+          </div>
+        </div>
+        <h1>Episode Viewer</h1>
+        <p class="subtitle">Select a series, then an episode to load its JSON details.</p>
+        <p class="data-source">
+          Data input is loaded from:
+          <a href="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek" target="_blank" rel="noopener noreferrer">
+            https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek
+          </a>
+        </p>
+      </div>
+      <div class="series-menu" id="series-menu"></div>
+    </div>
+
+    <div class="layout">
+      <section class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Episodes</div>
+          <div class="panel-subtitle" id="episodes-panel-subtitle">Loading data…</div>
+        </div>
+        <div class="episodes-list" id="episodes-list">
+          <div class="placeholder">Waiting for data from the JSON file.</div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div class="panel-title" id="detail-panel-title">Details</div>
+          <div class="panel-subtitle" id="detail-panel-subtitle">No episode selected</div>
+        </div>
+        <div id="episode-detail">
+          <div class="placeholder">
+            Once you select an episode, its metadata, story sections, characters, ethical issues, continuity notes, themes, and behind-the-scenes notes will appear here.
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek";
+
+    let allEpisodes = [];
+    let episodesBySeries = {};
+    let currentSeries = null;
+    let currentEpisodeID = null;
+
+    function groupEpisodesBySeries(episodes) {
+      const grouped = {};
+      episodes.forEach(ep => {
+        const key = ep.Series || "Unknown";
+        if (!grouped[key]) {
+          grouped[key] = [];
+        }
+        grouped[key].push(ep);
+      });
+      Object.keys(grouped).forEach(key => {
+        grouped[key].sort((a, b) => {
+          if (a.Season !== b.Season) {
+            return a.Season - b.Season;
+          }
+          return a.Episode - b.Episode;
+        });
+      });
+      return grouped;
+    }
+
+    function renderSeriesMenu() {
+      const container = document.getElementById("series-menu");
+      container.innerHTML = "";
+      const seriesKeys = Object.keys(episodesBySeries).sort();
+      if (seriesKeys.length === 0) {
+        const span = document.createElement("span");
+        span.className = "placeholder";
+        span.textContent = "No series found in data.";
+        container.appendChild(span);
+        return;
+      }
+      seriesKeys.forEach(key => {
+        const btn = document.createElement("button");
+        btn.className = "series-button";
+        btn.textContent = key;
+        btn.dataset.series = key;
+        btn.addEventListener("click", () => selectSeries(key));
+        container.appendChild(btn);
+      });
+      selectSeries(seriesKeys[0]);
+    }
+
+    function selectSeries(seriesKey) {
+      currentSeries = seriesKey;
+      currentEpisodeID = null;
+      const buttons = document.querySelectorAll(".series-button");
+      buttons.forEach(btn => {
+        if (btn.dataset.series === seriesKey) {
+          btn.classList.add("active");
+        } else {
+          btn.classList.remove("active");
+        }
+      });
+      renderEpisodeList();
+      const subtitle = document.getElementById("episodes-panel-subtitle");
+      subtitle.textContent = "Series: " + seriesKey;
+      const detailSubtitle = document.getElementById("detail-panel-subtitle");
+      detailSubtitle.textContent = "No episode selected";
+      const detail = document.getElementById("episode-detail");
+      detail.innerHTML = "";
+      const placeholder = document.createElement("div");
+      placeholder.className = "placeholder";
+      placeholder.textContent = "Select an episode from the list to view its details.";
+      detail.appendChild(placeholder);
+    }
+
+    function renderEpisodeList() {
+      const list = document.getElementById("episodes-list");
+      list.innerHTML = "";
+      const seriesEpisodes = episodesBySeries[currentSeries] || [];
+      if (seriesEpisodes.length === 0) {
+        const div = document.createElement("div");
+        div.className = "placeholder";
+        div.textContent = "No episodes found for this series.";
+        list.appendChild(div);
+        return;
+      }
+      seriesEpisodes.forEach(ep => {
+        const item = document.createElement("div");
+        item.className = "episode-item";
+        item.dataset.id = ep.ID;
+        const title = document.createElement("div");
+        title.className = "episode-item-title";
+        title.textContent = "S" + ep.Season + "E" + ep.Episode + " – " + ep.Title;
+        const meta = document.createElement("div");
+        meta.className = "episode-item-meta";
+        meta.textContent = ep.StardateOrYear || "";
+        item.appendChild(title);
+        item.appendChild(meta);
+        item.addEventListener("click", () => selectEpisode(ep.ID));
+        list.appendChild(item);
+      });
+    }
+
+    function selectEpisode(id) {
+      currentEpisodeID = id;
+      const seriesEpisodes = episodesBySeries[currentSeries] || [];
+      const episode = seriesEpisodes.find(e => e.ID === id);
+      if (!episode) {
+        return;
+      }
+      const items = document.querySelectorAll(".episode-item");
+      items.forEach(it => {
+        if (it.dataset.id === id) {
+          it.classList.add("active");
+        } else {
+          it.classList.remove("active");
+        }
+      });
+      renderEpisodeDetail(episode);
+    }
+
+    function renderEpisodeDetail(ep) {
+      const detail = document.getElementById("episode-detail");
+      detail.innerHTML = "";
+
+      const metaRow = document.createElement("div");
+      metaRow.className = "meta-row";
+
+      function addMeta(label, value) {
+        if (value === undefined || value === null || value === "") {
+          return;
+        }
+        const chip = document.createElement("div");
+        chip.className = "meta-chip";
+        const spanLabel = document.createElement("span");
+        spanLabel.className = "meta-label";
+        spanLabel.textContent = label;
+        const spanValue = document.createElement("span");
+        spanValue.className = "meta-value";
+        spanValue.textContent = value;
+        chip.appendChild(spanLabel);
+        chip.appendChild(spanValue);
+        metaRow.appendChild(chip);
+      }
+
+      addMeta("ID", ep.ID);
+      addMeta("Series", ep.Series);
+      addMeta("Season", ep.Season);
+      addMeta("Episode", ep.Episode);
+      addMeta("Stardate/Year", ep.StardateOrYear);
+      addMeta("Prod", ep.ProductionCode);
+      addMeta("Air date", ep.AirDate);
+
+      const summary = document.createElement("div");
+      summary.className = "summary-text";
+      summary.textContent = ep.OneLineSummary || "";
+
+      const storyContainer = document.createElement("div");
+      storyContainer.className = "story-sections";
+      (ep.StorySections || []).forEach(section => {
+        const card = document.createElement("article");
+        card.className = "story-section";
+        const h = document.createElement("h3");
+        h.textContent = section.Header;
+        const p = document.createElement("p");
+        p.textContent = section.Text;
+        card.appendChild(h);
+        card.appendChild(p);
+        storyContainer.appendChild(card);
+      });
+
+      const charsTitle = document.createElement("div");
+      charsTitle.className = "panel-subtitle";
+      charsTitle.textContent = "Characters";
+
+      const keyListTitle = document.createElement("div");
+      keyListTitle.className = "panel-subtitle";
+      keyListTitle.textContent = "Key";
+
+      const keyList = document.createElement("ul");
+      keyList.className = "chip-list";
+      (ep.KeyCharacters || []).forEach(name => {
+        const li = document.createElement("li");
+        li.className = "chip";
+        li.textContent = name;
+        keyList.appendChild(li);
+      });
+
+      const guestListTitle = document.createElement("div");
+      guestListTitle.className = "panel-subtitle";
+      guestListTitle.style.marginTop = "6px";
+      guestListTitle.textContent = "Guests";
+
+      const guestList = document.createElement("ul");
+      guestList.className = "chip-list";
+      (ep.GuestCharacters || []).forEach(name => {
+        const li = document.createElement("li");
+        li.className = "chip";
+        li.textContent = name;
+        guestList.appendChild(li);
+      });
+
+      const antListTitle = document.createElement("div");
+      antListTitle.className = "panel-subtitle";
+      antListTitle.style.marginTop = "6px";
+      antListTitle.textContent = "Antagonists";
+
+      const antList = document.createElement("ul");
+      antList.className = "chip-list";
+      (ep.Antagonists || []).forEach(name => {
+        const li = document.createElement("li");
+        li.className = "chip";
+        li.textContent = name;
+        antList.appendChild(li);
+      });
+
+      const ethicsTitle = document.createElement("div");
+      ethicsTitle.className = "panel-subtitle";
+      ethicsTitle.style.marginTop = "10px";
+      ethicsTitle.textContent = "Ethical Issues";
+
+      const ethicsList = document.createElement("ul");
+      ethicsList.className = "text-list";
+      (ep.EthicalIssues || []).forEach(text => {
+        const li = document.createElement("li");
+        li.textContent = "• " + text;
+        ethicsList.appendChild(li);
+      });
+
+      const continuityTitle = document.createElement("div");
+      continuityTitle.className = "panel-subtitle";
+      continuityTitle.style.marginTop = "10px";
+      continuityTitle.textContent = "Continuity Notes";
+
+      const continuityContainer = document.createElement("div");
+      (ep.ContinuityNotes || []).forEach(note => {
+        const card = document.createElement("article");
+        card.className = "note-card";
+        const h = document.createElement("h4");
+        h.textContent = note.Header;
+        const p = document.createElement("p");
+        p.textContent = note.Text;
+        card.appendChild(h);
+        card.appendChild(p);
+        continuityContainer.appendChild(card);
+      });
+
+      const themesTitle = document.createElement("div");
+      themesTitle.className = "panel-subtitle";
+      themesTitle.style.marginTop = "10px";
+      themesTitle.textContent = "Themes";
+
+      const themesContainer = document.createElement("div");
+      (ep.ThematicNotes || []).forEach(note => {
+        const card = document.createElement("article");
+        card.className = "note-card";
+        const h = document.createElement("h4");
+        h.textContent = note.Header;
+        const p = document.createElement("p");
+        p.textContent = note.Text;
+        card.appendChild(h);
+        card.appendChild(p);
+        themesContainer.appendChild(card);
+      });
+
+      const btsTitle = document.createElement("div");
+      btsTitle.className = "panel-subtitle";
+      btsTitle.style.marginTop = "10px";
+      btsTitle.textContent = "Behind The Scenes";
+
+      const btsContainer = document.createElement("div");
+      (ep.BehindTheScenes || []).forEach(note => {
+        const card = document.createElement("article");
+        card.className = "note-card";
+        const h = document.createElement("h4");
+        h.textContent = note.Header;
+        const p = document.createElement("p");
+        p.textContent = note.Text;
+        card.appendChild(h);
+        card.appendChild(p);
+        btsContainer.appendChild(card);
+      });
+
+      const detailSubtitle = document.getElementById("detail-panel-subtitle");
+      detailSubtitle.textContent = ep.Series + " • S" + ep.Season + "E" + ep.Episode + " • " + ep.Title;
+
+      detail.appendChild(metaRow);
+      detail.appendChild(summary);
+      detail.appendChild(storyContainer);
+      detail.appendChild(charsTitle);
+      detail.appendChild(keyListTitle);
+      detail.appendChild(keyList);
+      detail.appendChild(guestListTitle);
+      detail.appendChild(guestList);
+      detail.appendChild(antListTitle);
+      detail.appendChild(antList);
+      if ((ep.EthicalIssues || []).length > 0) {
+        detail.appendChild(ethicsTitle);
+        detail.appendChild(ethicsList);
+      }
+      if ((ep.ContinuityNotes || []).length > 0) {
+        detail.appendChild(continuityTitle);
+        detail.appendChild(continuityContainer);
+      }
+      if ((ep.ThematicNotes || []).length > 0) {
+        detail.appendChild(themesTitle);
+        detail.appendChild(themesContainer);
+      }
+      if ((ep.BehindTheScenes || []).length > 0) {
+        detail.appendChild(btsTitle);
+        detail.appendChild(btsContainer);
+      }
+    }
+
+    function showEpisodesError(message) {
+      const subtitle = document.getElementById("episodes-panel-subtitle");
+      subtitle.textContent = "Error loading data";
+      const list = document.getElementById("episodes-list");
+      list.innerHTML = "";
+      const div = document.createElement("div");
+      div.className = "error-text";
+      div.textContent = message;
+      list.appendChild(div);
+    }
+
+    function fetchEpisodes() {
+      fetch(DATA_URL)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("HTTP " + response.status + " when fetching episode data.");
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (!Array.isArray(data)) {
+            throw new Error("Expected an array of episodes in the JSON file.");
+          }
+          allEpisodes = data;
+          episodesBySeries = groupEpisodesBySeries(allEpisodes);
+          const subtitle = document.getElementById("episodes-panel-subtitle");
+          subtitle.textContent = "Data loaded (" + allEpisodes.length + " episode(s))";
+          renderSeriesMenu();
+        })
+        .catch(err => {
+          showEpisodesError(err.message);
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", fetchEpisodes);
+  </script>
+</body>
+</html>
