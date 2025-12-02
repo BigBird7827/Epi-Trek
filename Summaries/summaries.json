@@ -1,0 +1,93 @@
+[
+  {
+    "Name": "James T. Kirk",
+    "Alias": ["Kirk", "Captain Kirk", "Jim Kirk"],
+    "Series": "TOS",
+    "Role": "Commanding officer, USS Enterprise (NCC-1701)",
+    "Summary": "Human Starfleet captain known for decisive command, tactical creativity, and strong personal loyalty to his crew. In early missions such as those to M-113 and with Charlie Evans aboard, he is forced to balance compassion with the safety of his ship when facing lonely, dangerous beings."
+  },
+  {
+    "Name": "Spock",
+    "Alias": ["Mr. Spock"],
+    "Series": "TOS",
+    "Role": "First officer and science officer, USS Enterprise",
+    "Summary": "Half-Vulcan, half-human Starfleet officer who serves as Kirk's first officer and chief scientist. His Vulcan discipline, logic, and analytical approach often counterbalance human emotional responses, helping the crew understand unknown life-forms like the M-113 creature and the Thasian influence on Charlie Evans."
+  },
+  {
+    "Name": "Leonard McCoy",
+    "Alias": ["Dr. McCoy", "Bones"],
+    "Series": "TOS",
+    "Role": "Chief medical officer, USS Enterprise",
+    "Summary": "Human physician whose blunt manner and deep empathy make him both a moral conscience and a critic of cold logic. His past relationship with Nancy Crater complicates the M-113 mission, and his medical expertise is central in recognizing patterns in unusual deaths and psychological strain."
+  },
+  {
+    "Name": "Nyota Uhura",
+    "Alias": ["Uhura"],
+    "Series": "TOS",
+    "Role": "Communications officer, USS Enterprise",
+    "Summary": "Human Starfleet officer specializing in linguistics, communications, and signal analysis. She maintains critical contact with other ships and interprets incoming messages, providing a calm, professional presence on the bridge during crises such as the Antares disaster and Charlie Evans's disruptions."
+  },
+  {
+    "Name": "Hikaru Sulu",
+    "Alias": ["Sulu"],
+    "Series": "TOS",
+    "Role": "Helmsman, USS Enterprise",
+    "Summary": "Human Starfleet helmsman responsible for navigation and ship handling at the Enterprise helm. Known for his professionalism and occasional dry humor, he helps keep the ship on course while the command crew deals with threats like the M-113 creature and Charlie's escalating powers."
+  },
+  {
+    "Name": "Janice Rand",
+    "Alias": ["Yeoman Rand"],
+    "Series": "TOS",
+    "Role": "Captain's yeoman, USS Enterprise",
+    "Summary": "Human Starfleet yeoman who serves closely with Captain Kirk, handling reports, messages, and personal logistics. In the case of Charlie Evans, she becomes the focus of his adolescent fixation, unintentionally drawing the emotional center of the crisis toward issues of boundaries, consent, and unwanted attention."
+  },
+  {
+    "Name": "Professor Robert Crater",
+    "Alias": ["Robert Crater"],
+    "Series": "TOS",
+    "Role": "Archaeologist and research scientist on M-113",
+    "Summary": "Federation archaeologist stationed on M-113 with his wife Nancy to study the planet's ruins. After Nancy's death, he shelters the last surviving native creature, allowing it to imitate her and relying on its companionship, even as its need for salt leads to lethal encounters with visiting crews."
+  },
+  {
+    "Name": "Nancy Crater",
+    "Alias": ["Nancy"],
+    "Series": "TOS",
+    "Role": "Wife of Professor Robert Crater, former acquaintance of Dr. McCoy",
+    "Summary": "Human woman who lived with her husband Robert Crater on M-113 and was once romantically involved with Dr. McCoy. By the time the Enterprise arrives, she has already died; the M-113 creature assumes her appearance to interact with Crater and the landing party, turning Nancy into a haunting, reconstructed memory."
+  },
+  {
+    "Name": "M-113 creature",
+    "Alias": ["salt vampire", "M-113 creature (\"salt vampire\")"],
+    "Series": "TOS",
+    "Role": "Last surviving native life-form of planet M-113",
+    "Summary": "Shape-shifting alien that survives by extracting salt from other beings, leaving victims drained and marked. It takes on familiar forms, including Nancy Crater, to gain trust and access to salt, forcing the Enterprise crew into a dilemma between preserving a unique species and protecting themselves."
+  },
+  {
+    "Name": "Charlie Evans",
+    "Alias": ["Charlie", "Charlie X", "Charlie Evans (empowered by the Thasians)"],
+    "Series": "TOS",
+    "Role": "Human adolescent with Thasian-granted psionic powers",
+    "Summary": "Seventeen-year-old human and sole survivor of the SS Columbia crash, raised in isolation by incorporeal Thasians who gave him vast psychic abilities. Emotionally immature and desperate to belong, he lashes out when rejected or mocked, warping reality on the Enterprise and proving too dangerous to remain among humans."
+  },
+  {
+    "Name": "Captain Ramart",
+    "Alias": ["Ramart"],
+    "Series": "TOS",
+    "Role": "Commanding officer of the cargo vessel Antares",
+    "Summary": "Human captain of the Antares, the ship that first transports Charlie Evans from Thasus toward Federation space. Nervous and eager to pass Charlie to the Enterprise, he withholds the full truth about the boy's abilities, and his freighter is later destroyed under circumstances linked to Charlie's powers."
+  },
+  {
+    "Name": "Tom Nellis",
+    "Alias": ["Nellis"],
+    "Series": "TOS",
+    "Role": "Officer aboard the cargo vessel Antares",
+    "Summary": "Member of the Antares crew who helps transfer Charlie Evans to the Enterprise. He shares his captain's unease and attempts to warn Kirk indirectly about Charlie's behavior, but the Antares is lost before a clear warning can reach the Enterprise."
+  },
+  {
+    "Name": "Thasian commander",
+    "Alias": ["Thasian", "Thasian ship commander"],
+    "Series": "TOS",
+    "Role": "Representative of the incorporeal Thasian species",
+    "Summary": "Non-corporeal being from the planet Thasus who speaks for its people when their ship intercepts the Enterprise. The Thasians granted Charlie Evans his powers so he could survive alone, but ultimately reclaim him when it becomes clear he cannot live safely among humans, restoring the Enterprise and its crew in the process."
+  }
+]
