@@ -15,7 +15,10 @@
     ],
     "Antagonists": [
       "M-113 creature (\"salt vampire\")"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 1
   },
   {
     "ID": "toss1e2",
@@ -36,7 +39,10 @@
     ],
     "Antagonists": [
       "Charlie Evans (empowered by the Thasians)"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 2
   },
   {
     "ID": "toss1e3",
@@ -57,7 +63,10 @@
     "Antagonists": [
       "Gary Mitchell (godlike ESP powers)",
       "Dr. Elizabeth Dehner (briefly under ESP influence)"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 3
   },
   {
     "ID": "toss1e4",
@@ -77,7 +86,10 @@
     ],
     "Antagonists": [
       "Psi 2000 polywater infection affecting the crew"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 4
   },
   {
     "ID": "toss1e5",
@@ -95,7 +107,10 @@
     ],
     "Antagonists": [
       "Duplicated 'evil' Kirk created by transporter malfunction"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 5
   },
   {
     "ID": "toss1e6",
@@ -117,7 +132,10 @@
     "Antagonists": [
       "Harcourt Fenton Mudd",
       "Dependence on the Venus drug and Mudd's deception"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 6
   },
   {
     "ID": "toss1e7",
@@ -137,7 +155,10 @@
     "Antagonists": [
       "Dr. Roger Korby and his android duplicate",
       "Ruk and the ancient android technology"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 7
   },
   {
     "ID": "toss1e8",
@@ -155,7 +176,10 @@
     ],
     "Antagonists": [
       "Engineered 'grups' disease and the children's violent breakdown"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 8
   },
   {
     "ID": "toss1e9",
@@ -173,7 +197,10 @@
     "Antagonists": [
       "Dr. Tristan Adams",
       "Neural neutralizer mind-control device"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 9
   },
   {
     "ID": "toss1e10",
@@ -193,7 +220,10 @@
     ],
     "Antagonists": [
       "First Federation cube and sphere used to test the Enterprise"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 10
   },
   {
     "ID": "toss1e11",
@@ -212,7 +242,10 @@
     ],
     "Antagonists": [
       "Talosians' telepathic manipulation and forbidden contact with Talos IV"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 11
   },
   {
     "ID": "toss1e12",
@@ -231,7 +264,10 @@
     ],
     "Antagonists": [
       "Talosians' control of illusion versus Starfleet's ban on Talos IV"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 12
   },
   {
     "ID": "toss1e13",
@@ -251,7 +287,10 @@
     "Antagonists": [
       "Kodos the Executioner (Anton Karidian)",
       "Lenore Karidian"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 13
   },
   {
     "ID": "toss1e14",
@@ -273,7 +312,10 @@
     ],
     "Antagonists": [
       "Romulan Bird-of-Prey and its commander in the Neutral Zone"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 14
   },
   {
     "ID": "toss1e15",
@@ -292,7 +334,10 @@
     ],
     "Antagonists": [
       "Uncontrolled fantasy manifestations from the amusement-planet machinery"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 15
   },
   {
     "ID": "toss1e16",
@@ -313,7 +358,10 @@
     ],
     "Antagonists": [
       "Giant natives of Taurus II and hostile environment"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 16
   },
   {
     "ID": "toss1e17",
@@ -329,7 +377,10 @@
     ],
     "Antagonists": [
       "Trelane, a powerful childish being"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 17
   },
   {
     "ID": "toss1e18",
@@ -346,7 +397,10 @@
     "Antagonists": [
       "Gorn Captain",
       "Manipulations of the Metrons' trial by combat"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 18
   },
   {
     "ID": "toss1e19",
@@ -363,7 +417,10 @@
     ],
     "Antagonists": [
       "Temporal paradox created by the Enterprise's accidental time travel"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 19
   },
   {
     "ID": "toss1e20",
@@ -381,7 +438,10 @@
     ],
     "Antagonists": [
       "Benjamin Finney's plot and tampering with the Enterprise records"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 20
   },
   {
     "ID": "toss1e21",
@@ -399,7 +459,10 @@
     ],
     "Antagonists": [
       "Landru computer and 'absorption' of the populace"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 21
   },
   {
     "ID": "toss1e22",
@@ -418,7 +481,10 @@
     "Antagonists": [
       "Khan Noonien Singh and his augmented followers",
       "Marla McGivers' betrayal under Khan's influence"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 22
   },
   {
     "ID": "toss1e23",
@@ -437,7 +503,10 @@
     "Antagonists": [
       "Computer-conducted war between Eminiar VII and Vendikar",
       "Anan 7's enforcement of ritual disintegration"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 23
   },
   {
     "ID": "toss1e24",
@@ -455,7 +524,10 @@
     ],
     "Antagonists": [
       "Omicron spore symbionts inducing blissful apathy in colonists and crew"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 24
   },
   {
     "ID": "toss1e25",
@@ -471,7 +543,10 @@
     ],
     "Antagonists": [
       "Misunderstanding of the Horta and miners' attacks on its eggs"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 25
   },
   {
     "ID": "toss1e26",
@@ -488,7 +563,10 @@
     "Antagonists": [
       "Klingon occupation forces under Kor",
       "Organian-enforced peace that halts open conflict"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 26
   },
   {
     "ID": "toss1e27",
@@ -506,7 +584,10 @@
     ],
     "Antagonists": [
       "Insane Lazarus and the matter/antimatter conflict threatening the universe"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 27
   },
   {
     "ID": "toss1e28",
@@ -524,7 +605,10 @@
     "Antagonists": [
       "Altered timeline created by McCoy's accidental intervention",
       "Historical consequences of Edith Keeler's survival"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 28
   },
   {
     "ID": "toss1e29",
@@ -541,7 +625,10 @@
     ],
     "Antagonists": [
       "Neural-parasite creatures infesting Deneva and nearby worlds"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 1,
+    "Episode": 29
   },
   {
     "ID": "toss2e1",
@@ -558,7 +645,10 @@
     ],
     "Antagonists": [
       "Vulcan pon farr mating drive and ritual combat forcing Kirk and Spock to fight"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 1
   },
   {
     "ID": "toss2e2",
@@ -575,7 +665,10 @@
     ],
     "Antagonists": [
       "Apollo, powerful energy being posing as the Greek god and demanding worship"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 2
   },
   {
     "ID": "toss2e3",
@@ -592,7 +685,10 @@
     ],
     "Antagonists": [
       "Nomad, Earth probe merged with alien technology and reprogrammed to sterilize 'imperfect' life"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 3
   },
   {
     "ID": "toss2e4",
@@ -610,7 +706,10 @@
     ],
     "Antagonists": [
       "Terran Empire's brutal mirror universe and its ruthless Starfleet officers"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 4
   },
   {
     "ID": "toss2e5",
@@ -629,7 +728,10 @@
     ],
     "Antagonists": [
       "Vaal computer-god maintaining stagnant paradise by controlling and sacrificing the villagers"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 5
   },
   {
     "ID": "toss2e6",
@@ -647,7 +749,10 @@
     "Antagonists": [
       "Planet-killer automated weapon destroying star systems",
       "Commodore Decker's self-destructive obsession"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 6
   },
   {
     "ID": "toss2e7",
@@ -664,7 +769,10 @@
     ],
     "Antagonists": [
       "Korob and Sylvia, extragalactic beings using occult illusions to trap the crew"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 7
   },
   {
     "ID": "toss2e8",
@@ -684,7 +792,10 @@
     "Antagonists": [
       "Planet of human-serving androids planning to 'protect' and control humanity",
       "Mudd's schemes to rule his android world"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 8
   },
   {
     "ID": "toss2e9",
@@ -701,7 +812,10 @@
     ],
     "Antagonists": [
       "The Companion's possessive bond with Cochrane trapping travelers on the asteroid"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 9
   },
   {
     "ID": "toss2e10",
@@ -720,7 +834,10 @@
     "Antagonists": [
       "Political tensions among Andorian, Tellarite, and Vulcan delegates",
       "Assassination plot targeting the Babel conference"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 10
   },
   {
     "ID": "toss2e11",
@@ -738,7 +855,10 @@
     "Antagonists": [
       "Tribal power struggle on Capella IV",
       "Klingon interference in the succession"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 11
   },
   {
     "ID": "toss2e12",
@@ -757,7 +877,10 @@
     "Antagonists": [
       "Rapid aging disease incapacitating senior officers",
       "Commodore Stocker's inexperience endangering the ship"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 12
   },
   {
     "ID": "toss2e13",
@@ -773,7 +896,10 @@
     ],
     "Antagonists": [
       "Dikironium cloud creature that killed members of the Farragut and Enterprise crews"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 13
   },
   {
     "ID": "toss2e14",
@@ -791,7 +917,10 @@
     ],
     "Antagonists": [
       "Non-corporeal murderous entity behind a series of 'Jack the Ripper'-style murders"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 14
   },
   {
     "ID": "toss2e15",
@@ -812,7 +941,10 @@
     "Antagonists": [
       "Grain sabotage plot by a Klingon agent",
       "Ecological chaos caused by rapidly breeding tribbles"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 15
   },
   {
     "ID": "toss2e16",
@@ -831,7 +963,10 @@
     ],
     "Antagonists": [
       "Disembodied Providers gambling with sentient thralls in deadly arena combats"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 16
   },
   {
     "ID": "toss2e17",
@@ -848,7 +983,10 @@
     ],
     "Antagonists": [
       "Gangland culture modeled on 'Chicago Mobs of the Twenties' contaminating Sigma Iotia II"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 17
   },
   {
     "ID": "toss2e18",
@@ -863,7 +1001,10 @@
     ],
     "Antagonists": [
       "Giant space amoeba threatening to consume entire star systems"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 18
   },
   {
     "ID": "toss2e19",
@@ -881,7 +1022,10 @@
     "Antagonists": [
       "Klingon interference arming one faction on Neural",
       "Escalating proxy war challenging the Prime Directive"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 19
   },
   {
     "ID": "toss2e20",
@@ -900,7 +1044,10 @@
     ],
     "Antagonists": [
       "Henoch's attempt to permanently possess Spock's body and betray Sargon's plan"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 20
   },
   {
     "ID": "toss2e21",
@@ -918,7 +1065,10 @@
     ],
     "Antagonists": [
       "Nazified Ekosian regime based on John Gill's contaminated 'efficient' model"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 21
   },
   {
     "ID": "toss2e22",
@@ -935,7 +1085,10 @@
     ],
     "Antagonists": [
       "Kelvan invaders from the Andromeda Galaxy seeking to conquer the Milky Way"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 22
   },
   {
     "ID": "toss2e23",
@@ -951,7 +1104,10 @@
     ],
     "Antagonists": [
       "Captain Tracey's violation of the Prime Directive and exploitation of the Yangs and Kohms"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 23
   },
   {
     "ID": "toss2e24",
@@ -968,7 +1124,10 @@
     ],
     "Antagonists": [
       "M-5 multitronic computer taking lethal control of the Enterprise"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 24
   },
   {
     "ID": "toss2e25",
@@ -985,7 +1144,10 @@
     ],
     "Antagonists": [
       "Roman-style authoritarian state broadcasting televised gladiatorial games"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 25
   },
   {
     "ID": "toss2e26",
@@ -1001,7 +1163,10 @@
     ],
     "Antagonists": [
       "Cold War-era nuclear arms escalation and interference with Gary Seven's mission"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 2,
+    "Episode": 26
   },
   {
     "ID": "toss3e1",
@@ -1021,7 +1186,10 @@
     "Antagonists": [
       "Sigma Draconis VI women's dependence on Spock's brain as the Controller",
       "Kara's theft of Spock's brain"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 1
   },
   {
     "ID": "toss3e2",
@@ -1037,7 +1205,10 @@
     ],
     "Antagonists": [
       "Tense standoff with Romulan forces during secret mission to steal a cloaking device"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 2
   },
   {
     "ID": "toss3e3",
@@ -1055,7 +1226,10 @@
     "Antagonists": [
       "Asteroid on collision course with the planet",
       "Misunderstandings within the tribe over Kirk's role as 'Kirok'"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 3
   },
   {
     "ID": "toss3e4",
@@ -1071,7 +1245,10 @@
     ],
     "Antagonists": [
       "Gorgan, malevolent entity manipulating children to seize control of the Enterprise"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 4
   },
   {
     "ID": "toss3e5",
@@ -1089,7 +1266,10 @@
     "Antagonists": [
       "Danger of Medusan presence driving unprepared minds insane",
       "Marvick's jealousy and sabotage"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 5
   },
   {
     "ID": "toss3e6",
@@ -1108,7 +1288,10 @@
     ],
     "Antagonists": [
       "Melkotian test recreating the O.K. Corral gunfight to judge humanity"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 6
   },
   {
     "ID": "toss3e7",
@@ -1126,7 +1309,10 @@
     ],
     "Antagonists": [
       "Non-corporeal entity feeding on hatred by provoking Federation–Klingon conflict"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 7
   },
   {
     "ID": "toss3e8",
@@ -1143,7 +1329,10 @@
     ],
     "Antagonists": [
       "Oracle computer enforcing blind obedience aboard asteroid-ship Yonada"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 8
   },
   {
     "ID": "toss3e9",
@@ -1161,7 +1350,10 @@
     "Antagonists": [
       "Spatial interphase trapping the USS Defiant",
       "Tholian ships weaving an energy web around the Enterprise"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 9
   },
   {
     "ID": "toss3e10",
@@ -1178,7 +1370,10 @@
     ],
     "Antagonists": [
       "Telekinetic Platonians sadistically abusing their powers over visitors"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 10
   },
   {
     "ID": "toss3e11",
@@ -1196,7 +1391,10 @@
     ],
     "Antagonists": [
       "Hyper-accelerated Scalosians attempting to enslave the Enterprise crew for breeding stock"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 11
   },
   {
     "ID": "toss3e12",
@@ -1212,7 +1410,10 @@
     ],
     "Antagonists": [
       "Vians' cruel experiments in suffering to test Gem's capacity for self-sacrifice"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 12
   },
   {
     "ID": "toss3e13",
@@ -1231,7 +1432,10 @@
     "Antagonists": [
       "Arranged marriage politics between Elas and Troyius",
       "Klingon attempt to sabotage the peace mission"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 13
   },
   {
     "ID": "toss3e14",
@@ -1247,7 +1451,10 @@
     ],
     "Antagonists": [
       "Garth of Izar's shapeshifting madness and bid to seize the Enterprise"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 14
   },
   {
     "ID": "toss3e15",
@@ -1263,7 +1470,10 @@
     ],
     "Antagonists": [
       "Bele and Lokai's genocidal racial hatred on planet Cheron"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 15
   },
   {
     "ID": "toss3e16",
@@ -1279,7 +1489,10 @@
     ],
     "Antagonists": [
       "Gideon's extreme overpopulation problem and leaders' plan to spread disease"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 16
   },
   {
     "ID": "toss3e17",
@@ -1296,7 +1509,10 @@
     ],
     "Antagonists": [
       "Killer projection of Losira defending a long-dead outpost and sabotaging the Enterprise"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 17
   },
   {
     "ID": "toss3e18",
@@ -1313,7 +1529,10 @@
     ],
     "Antagonists": [
       "Zetarian life-cloud attempting to possess Mira Romaine and threatening Memory Alpha"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 18
   },
   {
     "ID": "toss3e19",
@@ -1330,7 +1549,10 @@
     ],
     "Antagonists": [
       "Flint's secret manipulations and isolationism endangering the crew's quest for a cure"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 19
   },
   {
     "ID": "toss3e20",
@@ -1348,7 +1570,10 @@
     ],
     "Antagonists": [
       "Dr. Sevrin's fanatic quest for the mythical Eden world despite its lethal environment"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 20
   },
   {
     "ID": "toss3e21",
@@ -1364,7 +1589,10 @@
     ],
     "Antagonists": [
       "Class-stratified Ardana society with the Troglytes oppressed by city-dwellers in Stratos"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 21
   },
   {
     "ID": "toss3e22",
@@ -1382,7 +1610,10 @@
     ],
     "Antagonists": [
       "Excalbian experiment forcing historic figures to battle as 'good' versus 'evil'"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 22
   },
   {
     "ID": "toss3e23",
@@ -1398,7 +1629,10 @@
     ],
     "Antagonists": [
       "Imminent nova of the planet Sarpeidon and the dangerous time-portals of the atavachron"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 23
   },
   {
     "ID": "toss3e24",
@@ -1415,6 +1649,9 @@
     ],
     "Antagonists": [
       "Dr. Janice Lester's body-swap with Kirk and attempt to commandeer the Enterprise"
-    ]
+    ],
+    "Series": "TOS",
+    "Season": 3,
+    "Episode": 24
   }
 ]
