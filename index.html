@@ -275,14 +275,14 @@
     }
     .search-results {
       margin-top: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      align-items: stretch;
     }
     .search-result-item {
       width: 100%;
-      max-width: 520px;
+      max-width: none;
       padding: 6px 10px;
       border-radius: 8px;
       background: rgba(8,8,24,0.85);
