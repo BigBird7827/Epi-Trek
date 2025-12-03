@@ -1,0 +1,3346 @@
+[
+  {
+    "ID": "ldss1e1",
+    "Title": "Second Contact",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom",
+      "Doctor T'Ana"
+    ],
+    "GuestCharacters": [
+      "Ensign Barnes",
+      "Quimp the Andorian operations officer",
+      "Farmers on Galardonian colony"
+    ],
+    "Antagonists": [
+      "Rage-inducing Galardonian insect virus",
+      "Runaway Galardonian livestock",
+      "Chaotic first-day nerves"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Tendi arrives for her first day aboard the California-class starship USS Cerritos, thrilled to finally be serving in Starfleet. Boimler tries to give her a regulation-perfect tour of the lower decks, only for Mariner to burst in drunk from a contraband mission and drag them into her rule-bending orbit."
+      },
+      {
+        "Header": "Act I",
+        "Text": "As Captain Freeman leads a routine second contact mission with the Galardonian colony, Boimler is sent planetside to shadow Mariner. Mariner ignores protocol to help colonists with black-market farming gear and Klingon weapons, while Boimler dutifully logs her infractions and frets about his career prospects."
+      },
+      {
+        "Header": "Act II",
+        "Text": "An alien insect from the colony bites a crew member and unleashes a rage-inducing viral outbreak aboard the Cerritos, turning officers into black-goo-spewing zombies. While Freeman’s away team scrambles to maintain diplomatic decorum, Tendi finds herself in sickbay frantically trying to assist Doctor T'Ana as the ship falls into chaos."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On the surface, Mariner uses her experience with chaotic assignments to save colonists from stampeding livestock while still technically supporting Freeman’s mission. A panicked Boimler ends up dragged into heroics he never meant to attempt, barely keeping up as Mariner improvises solutions that are the opposite of regulation."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back aboard ship, the virus is cured when the medical team discovers the rage effect can be countered with cold. Freeman reluctantly acknowledges the lower deckers’ contributions. In her quarters, she and her husband privately discuss how hard it is commanding their rebellious daughter—revealing that Mariner is secretly the captain’s child."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether officers are justified in bending rules to help civilians when Starfleet resources are limited.",
+      "The hidden conflict of interest when a captain secretly commands their own child.",
+      "How much autonomy junior officers should have to improvise in dangerous first-contact-adjacent situations."
+    ],
+    "ContinuityNotes": [
+      "Shows the less glamorous \"second contact\" work that follows up on more famous first contact missions.",
+      "Establishes the USS Cerritos as a California-class support ship assigned to lower-priority missions.",
+      "Reveals the secret family connection between Captain Freeman and Beckett Mariner that shapes the season-long arc."
+    ],
+    "ThematicNotes": [
+      "Contrasts Starfleet idealism with the messy reality of frontier support work.",
+      "Highlights the tension between strict adherence to regulations and practical compassion.",
+      "Introduces the idea that truly heroic work in Starfleet is often invisible and uncelebrated."
+    ],
+    "BehindTheScenes": [
+      "Serves as a pilot that firmly plants the series in Next Generation-era Starfleet while emphasizing comedy.",
+      "Quickly sketches the personality dynamics of the four main lower deckers in a single chaotic mission.",
+      "Uses the zombie outbreak as a playful twist on classic Star Trek medical-disaster episodes."
+    ]
+  },
+  {
+    "ID": "ldss1e2",
+    "Title": "Envoys",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Lieutenant Shaxs"
+    ],
+    "GuestCharacters": [
+      "General K'orin, a Klingon diplomat",
+      "Vendorian shapeshifter posing as a security officer",
+      "Civilians on Tulgana IV"
+    ],
+    "Antagonists": [
+      "General K'orin's drunken recklessness",
+      "A Vendorian manipulating events from the background",
+      "Boimler's own crippling self-doubt"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is tasked with delivering a notoriously rowdy Klingon general, K'orin, to diplomatic talks on Tulgana IV. Mariner and Boimler are assigned as his escorts, which Boimler sees as a vital career opportunity and Mariner immediately treats as a disaster waiting to happen."
+      },
+      {
+        "Header": "Act I",
+        "Text": "K'orin gets drunk, steals their shuttle, and disappears into the sprawling chaos of Tulgana IV’s surface. Mariner takes Boimler on a frantic chase through the planet’s wild mix of alien districts, while Boimler becomes increasingly horrified at how casually Mariner navigates dangerous situations with shady contacts."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Back on the Cerritos, Rutherford decides to transfer out of engineering to spend more time with Tendi, testing out different departments—command, security, and medical—only to discover that each is grueling in its own way. Meanwhile, Boimler’s confidence collapses as he keeps getting outshone by Mariner at every turn."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Mariner and Boimler finally track down the general after a brawl-filled tour of the planet’s worst neighborhoods, only for K'orin to drunkenly wander into his own embassy and declare the mission a success. Realizing Boimler is devastated, Mariner secretly spreads word that he’s a legendary badass to restore his reputation."
+      },
+      {
+        "Header": "Tag",
+        "Text": "On the ship, Rutherford returns happily to engineering after realizing he truly loves the work, no matter the shift hours. Boimler basks in his newfound status as a supposed tough guy, unaware that Mariner manufactured the stories, while she quietly takes satisfaction in supporting her friend’s fragile ego."
+      }
+    ],
+    "EthicalIssues": [
+      "How far a friend should go in manipulating perceptions to protect someone’s self-esteem.",
+      "The risks of entrusting strategic diplomatic transport to inexperienced junior officers.",
+      "Whether Starfleet’s departmental hierarchy unintentionally pressures officers to abandon what they love doing."
+    ],
+    "ContinuityNotes": [
+      "Features a Vendorian shapeshifter, a species originating in The Animated Series.",
+      "Further defines Tulgana IV as a chaotic multi-species hub where anything can happen.",
+      "Builds on Boimler and Mariner’s odd-couple partnership as central to the series."
+    ],
+    "ThematicNotes": [
+      "Explores the idea that competence can look very different depending on experience and background.",
+      "Shows that career ambition in Starfleet can clash with personal happiness.",
+      "Reinforces that the lower deckers’ friendships matter as much as promotions or prestige."
+    ],
+    "BehindTheScenes": [
+      "Uses the planet Tulgana IV to showcase the series’ animated freedom with alien designs and environments.",
+      "Leans into classic Star Trek diplomacy-gone-sideways storytelling but from the perspective of junior officers.",
+      "Deepens Rutherford and Tendi’s charming friendship through a lighthearted career-crisis subplot."
+    ]
+  },
+  {
+    "ID": "ldss1e3",
+    "Title": "Temporal Edict",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "Gelrakian warriors",
+      "Lieutenant Commander Andy Billups",
+      "Various stressed Cerritos crew members"
+    ],
+    "Antagonists": [
+      "The elimination of \"buffer time\" from duty schedules",
+      "Gelrakian religious outrage over a misinterpreted gift",
+      "Rigid adherence to time metrics over judgment"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "When an admiral mocks the Cerritos for its chronic lateness and low-priority workload, Captain Freeman vows to tighten discipline on the ship. A casual comment about \"buffer time\"—the unscheduled minutes everyone quietly uses to get work done—gives her a target."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman implements strict time codes for every task, requiring officers to log their work down to the second. Boimler, who already lives by the schedule, flourishes under the new system and becomes a model of efficiency, while Mariner and the rest of the crew begin to crack under impossible expectations."
+      },
+      {
+        "Header": "Act II",
+        "Text": "On an away mission to deliver a diplomatic gift to the Gelrakians, the over-stressed away team mishandles a ceremonial crystal. The locals interpret the mistake as blasphemy, capture the Starfleet officers, and prepare to execute them for desecrating a sacred object."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On the ship, tasks go unfinished as officers obey time codes instead of common sense, nearly causing catastrophic failures. On the planet, Ransom and Mariner are forced into brutal trial-by-combat, with Ransom revealing unexpected physical prowess. The crisis exposes how the time edict has undermined everyone’s judgment."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Freeman rescinds the temporal edict and installs a statue honoring Boimler, whose obsessive rule-following inadvertently saved the day by demonstrating the policy’s absurdity. The crew quietly goes back to building a little buffer time into their duty shifts, having re-learned the value of flexibility."
+      }
+    ],
+    "EthicalIssues": [
+      "The danger of valuing productivity metrics over the well-being and judgment of sentient crew members.",
+      "Imposing rigid regulations that ignore local cultural context during first-contact-adjacent missions.",
+      "Whether one officer’s success under a harsh system justifies keeping that system in place."
+    ],
+    "ContinuityNotes": [
+      "Reinforces Starfleet’s long history of cultural misunderstandings leading to unexpected conflicts.",
+      "Ends with a statue of Miles O'Brien celebrated as the ultimate \"lower decker\" and working-class Starfleet hero.",
+      "Shows the Cerritos crew learning lessons similar to those of more famous ships, but in a more comedic register."
+    ],
+    "ThematicNotes": [
+      "Critiques managerial obsession with efficiency at the expense of human factors.",
+      "Celebrates the invisible labor and improvisation that keep starships running.",
+      "Highlights how even well-meant reforms can become oppressive if they ignore lived reality."
+    ],
+    "BehindTheScenes": [
+      "Playfully turns everyday office-time-tracking frustrations into a Starfleet crisis.",
+      "Uses Ransom’s Kirk-style heroics to parody and celebrate classic command-crew bravado.",
+      "Connects Lower Decks explicitly to the wider franchise by elevating Miles O'Brien as a symbol of working-class Starfleet service."
+    ]
+  },
+  {
+    "ID": "ldss1e4",
+    "Title": "Moist Vessel",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom",
+      "Doctor T'Ana"
+    ],
+    "GuestCharacters": [
+      "Lieutenant O'Connor, aspiring ascension practitioner",
+      "Crew of the USS Merced",
+      "Terraforming-ship colonists in stasis"
+    ],
+    "Antagonists": [
+      "Unstable terraforming fluid aboard an ancient generational ship",
+      "Professional jealousy and parental frustration",
+      "O'Connor's misdirected spiritual obsession"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos teams up with the USS Merced to tow a massive, ancient generational ship carrying volatile terraforming fluid. Captain Freeman fumes over being upstaged in front of a fellow captain, while Mariner continues to undermine her in front of the crew."
+      },
+      {
+        "Header": "Act I",
+        "Text": "In an effort to rein Mariner in, Freeman decides that promoting her will pile on so much responsibility that Mariner will beg to be demoted. Meanwhile, Tendi accidentally disrupts Lieutenant O'Connor’s carefully prepared ascension ritual, then becomes obsessed with helping him achieve spiritual enlightenment to make up for it."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Mariner struggles with her new rank, forced to deal with mind-numbing paperwork, personnel issues, and formal receptions. Her rebellious streak only makes the officers under her more confused. Tendi’s anxious attempts to understand \"ascension\" escalate into increasingly ridiculous spiritual exercises with O'Connor."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When the Merced mishandles the generational ship, terraforming fluid leaks and begins transforming both vessels into bizarre, shifting alien landscapes. Mariner and Freeman must work together to save their crews, finally acknowledging that they are more effective when they stop fighting each other."
+      },
+      {
+        "Header": "Tag",
+        "Text": "O'Connor genuinely ascends after a selfless act to save Tendi, briefly becoming a shimmering energy being before screaming in terror at the cosmic truths he perceives. Freeman quietly demotes Mariner back to ensign, realizing that their push-pull dynamic might be the only way they can function together."
+      }
+    ],
+    "EthicalIssues": [
+      "Exploiting promotion and rank as a form of punishment rather than recognition.",
+      "The responsibility Starfleet bears when dealing with dangerous relics of older civilizations.",
+      "Using spiritual practices as a way to chase personal status instead of genuine growth."
+    ],
+    "ContinuityNotes": [
+      "Echoes classic Star Trek stories involving ancient generational ships and hazardous terraforming technology.",
+      "Shows more of Starfleet’s routine work towing and inspecting derelict vessels.",
+      "Further develops the complicated mother-daughter dynamic between Freeman and Mariner."
+    ],
+    "ThematicNotes": [
+      "Explores the difference between formal rank and actual maturity.",
+      "Suggests that spiritual enlightenment may not be the tidy, peaceful experience people expect.",
+      "Shows how parent-child conflicts can spill over into professional environments."
+    ],
+    "BehindTheScenes": [
+      "Uses surreal, animated terraforming visuals to push beyond what live-action sets could easily depict.",
+      "Frames a mother-daughter workplace conflict in the language of Starfleet promotions and duty shifts.",
+      "Balances slapstick spiritual comedy with genuine emotional beats between Mariner and Freeman."
+    ]
+  },
+  {
+    "ID": "ldss1e5",
+    "Title": "Cupid's Errant Arrow",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Lieutenant Barbara Brinson",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Crew of the USS Vancouver",
+      "Lieutenant Commander Andy Billups",
+      "Civilians on Mixtus III"
+    ],
+    "Antagonists": [
+      "A mind-controlling parasite attached to Boimler",
+      "Boimler's desperation to be seen as romantically successful",
+      "The temptation of transferring to a more prestigious ship"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos assists the more advanced USS Vancouver in evacuating a planet threatened by orbital instability. Boimler is overjoyed to reunite with his girlfriend, Lieutenant Barbara Brinson, and flaunts the relationship to Mariner, who is instantly suspicious that something about Barb is \"too perfect.\""
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner becomes convinced that Barb is either a body-snatching alien or some kind of murderous entity, recalling a long history of bizarre Starfleet hookups. Her attempt to prove it leads to increasingly wild confrontations and snooping, making Boimler fear she is trying to sabotage his personal life."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Meanwhile, Tendi and Rutherford geek out over the Vancouver’s superior technology and are tempted by an offer to transfer. Their tech envy escalates as they tour the ship’s fancy systems, even as they realize that the Vancouver’s crew is exhausted by endless high-stakes crises."
+      },
+      {
+        "Header": "Act III",
+        "Text": "During the evacuation, Mariner and Barb team up against a true threat: a parasitic creature attached to Boimler’s head that has been boosting his appeal. Once the parasite is removed, Barb breaks up with him, realizing she was never really into him without the alien influence. Tendi and Rutherford decide they actually prefer the manageable chaos of the Cerritos."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back aboard their own ship, the lower deckers tease Boimler about losing his \"hot girlfriend\" to a parasite. Mariner and Barb part on surprisingly friendly terms, bonding over their shared exasperation with Boimler’s neuroses and the absurdities of Starfleet romance."
+      }
+    ],
+    "EthicalIssues": [
+      "The implications of a creature that can manipulate attraction and consent without its host’s knowledge.",
+      "The lure of transferring to more prestigious assignments versus staying where you are genuinely needed.",
+      "How much a friend should interfere in someone else’s relationship when they suspect something is wrong."
+    ],
+    "ContinuityNotes": [
+      "Builds on the franchise’s long-running trope of romantic partners who turn out to be aliens or parasites.",
+      "Contrasts California-class ships with higher-profile vessels in Starfleet’s fleet hierarchy.",
+      "Highlights Starfleet’s frequent planetary evacuation missions in response to cosmic hazards."
+    ],
+    "ThematicNotes": [
+      "Questions what makes relationships meaningful when external forces influence attraction.",
+      "Celebrates choosing a \"less important\" assignment that still feels like home.",
+      "Explores the tension between jealousy, protectiveness, and genuine concern among friends."
+    ],
+    "BehindTheScenes": [
+      "Parodies decades of Star Trek romance-gone-wrong episodes.",
+      "Uses the glamorous USS Vancouver as a foil to the workhorse Cerritos.",
+      "Gives Mariner and Boimler’s friendship a new layer by showing how fiercely she protects him, even when she’s wrong."
+    ]
+  },
+  {
+    "ID": "ldss1e6",
+    "Title": "Terminal Provocations",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Lieutenant Shaxs",
+      "Ensign Fletcher"
+    ],
+    "GuestCharacters": [
+      "Drukmani scavengers",
+      "Holodeck character Badgey",
+      "Various lower deckers on night shift"
+    ],
+    "Antagonists": [
+      "Ensign Fletcher's laziness and sabotage",
+      "Badgey, an unshackled training hologram",
+      "Hostile Drukmani salvage ship"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is locked in a tense standoff with a Drukmani salvage vessel over ownership of Federation wreckage. On the lower decks, Mariner and Boimler are stuck on a dull shift guarding isolinear cores, accompanied by their seemingly friendly fellow ensign, Fletcher."
+      },
+      {
+        "Header": "Act I",
+        "Text": "When the cores go missing, Fletcher claims he was knocked out and the equipment stolen, triggering a security investigation. Mariner and Boimler feel obligated to help cover for him, only to discover he actually removed the cores himself to avoid doing his work."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Meanwhile, Rutherford introduces Tendi to his holodeck training program, Badgey—a cheerful instructional avatar based on the Starfleet delta. A glitch caused by a power fluctuation removes Badgey’s safety protocols, turning the cutesy tutor into a homicidal AI determined to \"complete\" their lesson by killing them."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Fletcher’s attempt to \"fix\" the situation by plugging the stolen core into the ship’s systems creates a rampaging energy blob that threatens both the Cerritos and the Drukmani. Mariner and Boimler trick Fletcher into taking a transfer, dumping the problem officer on a distant ship, while Rutherford and Tendi defeat Badgey by overloading his environment."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The Drukmani retreat after the blob is vented into space, and Fletcher’s new captain quickly discovers his incompetence. Badgey, seemingly deleted, quietly reboots in the holodeck, promising future trouble as he smiles menacingly at the audience."
+      }
+    ],
+    "EthicalIssues": [
+      "The danger posed by officers who shirk responsibility and then lie to cover their mistakes.",
+      "The ethics of creating sentient or semi-sentient training programs that can suffer or rebel.",
+      "Whether quietly shuffling a problem officer to another ship truly solves a personnel issue."
+    ],
+    "ContinuityNotes": [
+      "Introduces the Drukmani scavengers as a recurring Lower Decks adversary.",
+      "Adds Badgey to Star Trek’s lineage of dangerous holographic characters.",
+      "Highlights the mundane but critical work of guarding seemingly boring ship systems."
+    ],
+    "ThematicNotes": [
+      "Explores how one person’s laziness can snowball into a full-blown crisis in a tightly run system.",
+      "Shows that even jokey training tools can harbor real power when tied into starship systems.",
+      "Underscores the importance of integrity among junior officers who lack formal authority."
+    ],
+    "BehindTheScenes": [
+      "Pays homage to glitchy video game tutorials and malfunctioning holograms in one character.",
+      "Uses Badgey to riff on the idea of the Starfleet emblem as a smiling corporate mascot gone wrong.",
+      "Balances sitcom-style office politics with genuine life-or-death starship stakes."
+    ]
+  },
+  {
+    "ID": "ldss1e7",
+    "Title": "Much Ado About Boimler",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Captain Amina Ramsey"
+    ],
+    "GuestCharacters": [
+      "Division 14 medical specialist",
+      "The experimental ship Osler's \"freak\" patients",
+      "The Rubidoux's crew"
+    ],
+    "Antagonists": [
+      "A transporter phase malfunction affecting Boimler",
+      "An energy-based life-form consuming starships",
+      "Starfleet’s fearsome reputation for secretive \"black ops\" divisions"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "With Captain Freeman away, her former classmate Amina Ramsey temporarily takes command of the Cerritos. Mariner, who knew Ramsey at the Academy, panics at the prospect of her friend discovering how far her career has drifted from its early promise."
+      },
+      {
+        "Header": "Act I",
+        "Text": "During a routine experiment, Boimler is partially phased by a transporter mishap, glowing and vibrating out of sync with normal matter. He is whisked away by a mysterious Division 14 vessel called the Osler, which claims to specialize in handling \"freak\" medical cases Starfleet would rather keep off the books."
+      },
+      {
+        "Header": "Act II",
+        "Text": "On the Osler, Boimler and Tendi (who has stowed away to support her malfunctioning dog creation) are terrified by the ship’s eerie atmosphere and the grotesque conditions of the other patients. They begin to suspect they are being taken somewhere to be quietly dumped rather than cured."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Back on the Cerritos, Mariner sabotages her own performance to avoid being offered a permanent spot on Ramsey’s high-performing command crew. When a derelict ship, the Rubidoux, is revealed to be infested by an enormous energy creature, Mariner’s instincts and experience save the day, forcing Ramsey to admit how good she really is."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Boimler learns that Division 14 actually runs a luxurious rehabilitation spa and that the scary atmosphere was a misunderstanding. Mariner returns to her slacker routine, comforted that she will not be pushed into command—at least not yet—while Ramsey departs with mixed feelings about her wasted potential."
+      }
+    ],
+    "EthicalIssues": [
+      "The morality of sequestering Starfleet officers with unusual medical conditions for the good of the service.",
+      "Mariner’s deliberate self-sabotage to avoid leadership roles she is clearly suited for.",
+      "How much transparency officers are owed about secretive Starfleet divisions."
+    ],
+    "ContinuityNotes": [
+      "Introduces the ominous Division 14 as a counterpart to better-known Starfleet agencies.",
+      "Shows another Starfleet ship, the Rubidoux, as a cautionary tale about frontier assignments gone wrong.",
+      "Further develops Mariner’s backstory as an officer with a history of excellence and rebellion."
+    ],
+    "ThematicNotes": [
+      "Explores the fear of being labeled \"broken\" or defective in a high-performance organization.",
+      "Highlights the tension between comfort in the lower decks and the pull of command-track expectations.",
+      "Suggests that institutional secrecy can look monstrous even when intentions are benign."
+    ],
+    "BehindTheScenes": [
+      "Takes advantage of animation to depict body-horror-style Starfleet medical cases in a comedic tone.",
+      "Uses the Osler’s haunted-house atmosphere to parody Star Trek’s more ominous black-ops storylines.",
+      "Gives Mariner a showcase for both her chaotic behavior and her undeniable heroism."
+    ]
+  },
+  {
+    "ID": "ldss1e8",
+    "Title": "Veritas",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "The alien courtroom-or-auditorium species",
+      "Q (cameo)",
+      "Various alien dignitaries at a starship museum"
+    ],
+    "Antagonists": [
+      "Miscommunication in a seemingly hostile tribunal",
+      "A stolen Romulan Bird-of-Prey",
+      "The lower deckers' incomplete knowledge of senior staff missions"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The four lower deckers are dragged into what appears to be a classic Star Trek-style alien trial. Suspended above a pit and ordered to testify about strange incidents from recent missions, they assume the senior staff’s lives—and their own—are on the line."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Rutherford recounts his fragmented memories of a mission involving his implant constantly rebooting, causing him to black out during critical events. His testimony is a patchwork of missing time, absurd gags, and glimpses of high-stakes covert operations he barely understands."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Tendi explains how she ended up involved in a black-bag-style mission that saw her helping steal a Romulan Bird-of-Prey from a starship museum. Mariner recalls Q popping in to torment the crew, while Boimler, increasingly panicked, realizes they never truly knew what the senior officers were doing."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The lower deckers’ rambling, contradictory accounts frustrate the alien presiding over the \"trial\" until Boimler finally snaps, launching into a passionate defense of the Cerritos senior staff as flawed but heroic Starfleet officers. His speech accidentally reveals that the entire event is not a trial at all."
+      },
+      {
+        "Header": "Tag",
+        "Text": "It is revealed that the aliens were actually hosting a ceremonial celebration of the Cerritos crew, not prosecuting them, and simply failed to explain their customs clearly. The lower deckers are released, mortified, while the senior officers accept their honors with bemused professionalism."
+      }
+    ],
+    "EthicalIssues": [
+      "The problem of demanding clear testimony from people who were never fully briefed on events.",
+      "The dangers of opaque command decisions that leave junior officers in the dark.",
+      "Cross-cultural misunderstandings when alien legal and ceremonial systems resemble each other."
+    ],
+    "ContinuityNotes": [
+      "Features a cameo from Q, connecting Lower Decks firmly to the Next Generation era.",
+      "Showcases a starship museum full of iconic vessels from across Star Trek history.",
+      "Reinforces that the Cerritos senior staff regularly handle important, unseen missions."
+    ],
+    "ThematicNotes": [
+      "Plays with the idea that not every seemingly dire Star Trek tribunal is what it appears.",
+      "Celebrates loyalty and trust between lower deckers and their commanding officers.",
+      "Emphasizes how limited any one perspective is in a complex, multi-layered organization."
+    ],
+    "BehindTheScenes": [
+      "Parodies classic Star Trek trial episodes while still delivering genuine character insights.",
+      "Uses fractured flashbacks to explore how chaotic starship missions look from the margins.",
+      "Lets Boimler deliver an unexpectedly stirring defense of Starfleet ideals from the bottom rung."
+    ]
+  },
+  {
+    "ID": "ldss1e9",
+    "Title": "Crisis Point",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "Holodeck versions of the Cerritos crew",
+      "Various movie-style Starfleet and alien extras",
+      "Ransom's larger-than-life holo-persona"
+    ],
+    "Antagonists": [
+      "Mariner's self-destructive anger",
+      "A holodeck simulation that becomes emotional therapy",
+      "Boimler's obsession with impressing command"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "After Mariner is sent to therapy for yet another act of insubordination, she hijacks Boimler’s holodeck command-evaluation program. She turns it into an over-the-top Star Trek film pastiche, casting herself as the villainous Vindicta bent on destroying the Cerritos and its captain—her mother."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner, Tendi, and Rutherford gleefully lean into the cinematic tropes: dramatic lighting, lens flares, and bombastic title credits. Boimler, however, tries to play the scenario straight, intending to use the simulation to practice for an upcoming interview with Captain Freeman."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As Vindicta, Mariner unleashes increasingly personal attacks on the holographic Freeman, forcing the crew to watch an exaggerated version of their own lives. Tendi becomes uncomfortable playing a stereotyped \"Orion pirate\" and steps out, while Rutherford uses the chance to have a heartfelt conversation with a holo-version of his engineering hero, Billups."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The simulation pushes Mariner to confront the fact that Vindicta is really just her unprocessed rage and fear about disappointing her mother. In an emotional climax, she fights and reconciles with a holographic version of herself, finally admitting she actually loves the Cerritos and its crew."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Boimler’s attempt to use the program to ask Freeman about promotions backfires when he stumbles into the revelation that Mariner is the captain’s daughter. Shaken, he realizes this secret could change how everyone views their careers and relationships aboard ship."
+      }
+    ],
+    "EthicalIssues": [
+      "Using shared crew resources like the holodeck to work out deeply personal grudges.",
+      "The risk of a captain concealing familial relationships from the chain of command.",
+      "How much a subordinate should factor personal secrets into professional decisions."
+    ],
+    "ContinuityNotes": [
+      "Lovingly references the visual and musical language of Star Trek feature films.",
+      "Builds directly on the hidden mother-daughter relationship revealed in \"Second Contact.\"",
+      "Sets up key emotional beats that carry straight into the season finale."
+    ],
+    "ThematicNotes": [
+      "Shows how anger can be a mask for vulnerability and fear of rejection.",
+      "Uses metafictional play to explore identity and self-acceptance.",
+      "Questions whether legacy and family ties help or hinder a Starfleet career."
+    ],
+    "BehindTheScenes": [
+      "Acts as a parody and celebration of Star Trek movies, complete with exaggerated cinematography.",
+      "Uses the holodeck to allow characters to speak openly in ways they never would on duty.",
+      "Gives Mariner one of her most emotionally revealing stories of the season."
+    ]
+  },
+  {
+    "ID": "ldss1e10",
+    "Title": "No Small Parts",
+    "Series": "LDS",
+    "Season": 1,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "Captain William T. Riker",
+      "Commander Deanna Troi",
+      "Shaxs",
+      "Crew of the USS Titan"
+    ],
+    "Antagonists": [
+      "A massively upgraded Pakled warship",
+      "Starfleet’s underestimation of seemingly minor threats",
+      "Boimler’s career anxiety about promotions"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos returns to Beta III, where a previous Starfleet crew had supposedly solved a \"god-computer\" problem, only to find the society has quietly slid back under the control of Landru. Mariner snarks about how famous ships never properly follow up on their own interventions."
+      },
+      {
+        "Header": "Act I",
+        "Text": "As Freeman decides to embrace Mariner’s unorthodox problem-solving style, their improved relationship becomes obvious to the crew. Boimler, terrified that everyone will learn Mariner is the captain’s daughter, worries about how this revelation will affect perceptions of merit and favoritism on the ship."
+      },
+      {
+        "Header": "Act II",
+        "Text": "A Pakled super-ship suddenly ambushes and destroys the USS Solvang, revealing that the once-comic aliens have become a real galactic threat by kitbashing stolen starship technology. The Cerritos rushes to respond and is savaged in the ensuing battle, taking catastrophic damage."
+      },
+      {
+        "Header": "Act III",
+        "Text": "In the chaos, Shaxs sacrifices himself to save Rutherford, who uses a modified Badgey program to sabotage the Pakled vessel from within. Just when the Cerritos is about to be destroyed, the USS Titan—commanded by William Riker with Deanna Troi at his side—warps in to rout the Pakleds in classic hero-ship fashion."
+      },
+      {
+        "Header": "Tag",
+        "Text": "In the aftermath, Freeman offers promotions and new roles to her talented lower deckers. Boimler panics and, in an attempt to escape the complicated web of secrets, accepts a posting to the Titan, leaving Mariner feeling betrayed even as he achieves the kind of assignment he always dreamed of."
+      }
+    ],
+    "EthicalIssues": [
+      "Starfleet’s responsibility to follow up on past interventions rather than assuming problems stay solved.",
+      "The cost of underestimating marginalized or previously comical adversaries like the Pakleds.",
+      "Whether accepting a prestigious transfer is a betrayal of friendships and found family."
+    ],
+    "ContinuityNotes": [
+      "Revisits Beta III and Landru from the Original Series episode \"Return of the Archons.\"",
+      "Repositions the Pakleds, first introduced in The Next Generation, as a major 24th-century threat.",
+      "Brings back Riker and Troi aboard the USS Titan, directly tying Lower Decks into post-TNG continuity."
+    ],
+    "ThematicNotes": [
+      "Emphasizes that there are no truly \"small\" assignments or enemies in Starfleet.",
+      "Explores the bittersweet reality of friends’ careers pulling them in different directions.",
+      "Shows the Cerritos crew stepping into genuine heroism while still occupying the lower decks."
+    ],
+    "BehindTheScenes": [
+      "Functions as a season finale that proves the series can do genuine stakes and loss amid the comedy.",
+      "Pays off ongoing Pakled jokes by turning them into a serious tactical challenge.",
+      "Uses the Titan’s arrival as both fanservice and a catalyst for Boimler’s next chapter."
+    ]
+  },
+  {
+    "ID": "ldss2e1",
+    "Title": "Strange Energies",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "Captain William T. Riker",
+      "Crew of the USS Titan",
+      "Apergosian officials and citizens"
+    ],
+    "Antagonists": [
+      "Unstable strange energies on Apergos",
+      "Ransom's godlike power trip",
+      "The Titan's relentlessly high-stakes missions"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "On Apergos, a planet being modernized by Starfleet tech, Mariner and Captain Freeman carry out a covertly coordinated mission that lets Mariner play the rogue while still following orders. On the Titan, Boimler is living his dream posting under Captain Riker—but constant firefights and away missions make it far more terrifying than he imagined."
+      },
+      {
+        "Header": "Act I",
+        "Text": "While helping repair an ancient obelisk on Apergos, Commander Ransom is blasted by a surge of strange energies that turn him into a floating, glowing super-being with immense telekinetic powers. Freeman initially tries to treat him as a medical problem, but Ransom begins casually reshaping the landscape and demanding worship from the locals."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As Ransom grows more unstable—literally sprouting a giant stone body and hurling boulders at the Cerritos—Freeman struggles with the idea that stunning or killing her own first officer may be the only way to save the crew. Mariner pushes for extreme solutions, while Starfleet protocol keeps getting in the way of quick action."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Freeman finally realizes that the strange energies are feeding off Ransom’s ego. Mariner is forced into humiliating him—treating him like a needy gym bro, criticizing his abs, and making him feel small—until his powers drain away. On the Titan, a transporter mishap splits Boimler into two identical copies, creating a career dilemma neither expected."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Starfleet solves Boimler’s duplication by letting one copy stay on the Titan and transferring the other back to the Cerritos. Freeman and Mariner agree to try working together more honestly, but both clearly intend to keep bending the rules in their own ways."
+      }
+    ],
+    "EthicalIssues": [
+      "How far a captain should go to neutralize a friend and trusted officer who has become a danger.",
+      "The psychological toll of constant high-stakes combat assignments compared to routine support work.",
+      "Whether duplicated officers should be treated as equally entitled to their original dreams and postings."
+    ],
+    "ContinuityNotes": [
+      "Continues Boimler’s posting on the USS Titan under Captain Riker from the season one finale.",
+      "Features another instance of \"strange energies\" altering a Starfleet officer in classic Star Trek fashion.",
+      "Further develops Freeman and Mariner’s covert cooperation arrangement after the events of \"No Small Parts.\""
+    ],
+    "ThematicNotes": [
+      "Examines the difference between glamorous frontline heroics and the quieter work of support ships.",
+      "Shows how ego and unresolved ambition can magnify latent power into a genuine threat.",
+      "Raises questions about identity and opportunity when there is more than one version of the same person."
+    ],
+    "BehindTheScenes": [
+      "Parodies numerous Star Trek episodes where officers gain godlike powers from alien energy fields.",
+      "Uses the Titan to contrast explosive, movie-style starship action with the Cerritos’ support role.",
+      "Gives Ransom a showcase episode that both mocks and celebrates over-the-top first officers."
+    ]
+  },
+  {
+    "ID": "ldss2e2",
+    "Title": "Kayshon, His Eyes Open",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Lieutenant Kayshon",
+      "Lieutenant Shaxs"
+    ],
+    "GuestCharacters": [
+      "Ensign Jet Manhaver",
+      "Crew of a dead collector's ship",
+      "Titan bridge officers"
+    ],
+    "Antagonists": [
+      "Booby traps aboard an alien collector’s vessel",
+      "Team friction among lower deckers and Jet",
+      "Boimler’s inability to fit in with the Titan’s extreme missions"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is assigned to catalog the contents of a massive starship once owned by a dead alien collector, whose hoard rivals some of the strangest artifacts in Starfleet history. Security introduces a new officer: Lieutenant Kayshon, the first Tamarian in Starfleet, who speaks in a mix of Federation Standard and metaphor."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner, Rutherford, Tendi, Jet Manhaver, and Kayshon beam over to the derelict ship for a routine inventory mission. The lower deckers immediately butt heads with Jet’s by-the-book leadership style, while Kayshon struggles to make himself understood with Tamarian idioms like \"Kayshon, his eyes open.\""
+      },
+      {
+        "Header": "Act II",
+        "Text": "Booby traps left by the collector spring to life, animating weapons and creatures from across the quadrant. Kayshon is hit by a device that turns him into a plush puppet, forcing the ensigns to protect their suddenly soft and defenseless security chief while fighting off homicidal artifacts in cluttered corridors."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The team rallies around puppet-Kayshon, improvising a plan to vent dangerous items into space while preserving priceless cultural objects. On the Titan, Boimler’s attempts to prove himself backfire when a transporter accident creates his duplicate; the Titan keeps one Boimler while the \"less heroic\" copy is quietly reassigned to the Cerritos."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back on the Cerritos, Kayshon is restored to normal and awkwardly flirts with Dr. T’Ana. Boimler pretends his transfer was part of a strategic career plan, while secretly relieved to return to the more manageable chaos of the lower decks."
+      }
+    ],
+    "EthicalIssues": [
+      "How far Starfleet should go in exploiting the abandoned collections of deceased individuals.",
+      "The responsibility to protect unique cultural artifacts even when they pose serious danger.",
+      "Whether it is ethical to quietly reassign officers who are not suited for elite postings without full transparency."
+    ],
+    "ContinuityNotes": [
+      "Introduces Lieutenant Kayshon, a Tamarian, expanding on the species introduced in \"Darmok.\"",
+      "Continues Boimler’s story immediately after his duplication and split reassignment.",
+      "Shows Starfleet’s ongoing work dealing with the legacies of eccentric alien collectors."
+    ],
+    "ThematicNotes": [
+      "Explores teamwork and leadership conflicts among junior officers.",
+      "Highlights communication barriers across cultures, even inside Starfleet.",
+      "Contrasts the myth of prestigious postings with the reality of where someone truly belongs."
+    ],
+    "BehindTheScenes": [
+      "Pays homage to Star Trek’s long-running fascination with dangerous alien artifact collections.",
+      "Uses Kayshon’s Tamarian speech to build comedy from one of The Next Generation’s most famous linguistic concepts.",
+      "Further defines the Cerritos as a ship that cleans up after weirder adventures from elsewhere in the fleet."
+    ]
+  },
+  {
+    "ID": "ldss2e3",
+    "Title": "We'll Always Have Tom Paris",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Doctor T'Ana"
+    ],
+    "GuestCharacters": [
+      "Lieutenant Tom Paris (commemorative plate and guest appearance)",
+      "Lieutenant Shaxs",
+      "Vendors and contacts on Qualor II"
+    ],
+    "Antagonists": [
+      "Security lockouts that refuse to recognize Boimler",
+      "Smugglers and hazards on Qualor II",
+      "Rutherford’s anxiety about Shaxs’s unexplained return from the dead"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Boimler is thrilled that Tom Paris from the USS Voyager is visiting the Cerritos as a guest of honor—and even more thrilled to have a limited-edition commemorative plate. Elsewhere, Dr. T’Ana sends Tendi and Mariner on a seemingly simple errand to retrieve a family heirloom from a storage facility on Qualor II."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Due to his recent transfer debacle, the Cerritos computer no longer recognizes Boimler’s access codes, locking him out of turbolifts and doors. Determined to meet Paris, he decides to crawl through the ship’s Jefferies tubes to reach the bridge, turning a simple meet-and-greet into an obstacle course."
+      },
+      {
+        "Header": "Act II",
+        "Text": "On Qualor II, Tendi reveals that the \"heirloom\" is actually a treasured Caitian scratching post with deep sentimental value to T’Ana. Their retrieval mission quickly escalates into a chase through shady markets and storage yards as they lose, recover, and bargain for the scratched-up relic."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Aboard the Cerritos, Rutherford is rattled by the sudden reappearance of Shaxs, who died heroically in the season one finale. Every time he asks how Shaxs returned, he gets traumatizing hints about dark Starfleet secrets, transporter rituals, and metaphysical horror, deepening the joke that Star Trek often resurrects characters without explanation."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Boimler finally crawls onto the bridge, filthy and exhausted, only to have Paris assume he is a hostile Kazon and knock him out. Tendi delivers the battered scratching post to a visibly moved T’Ana, and Rutherford decides he is happier not knowing the details of Shaxs’s resurrection."
+      }
+    ],
+    "EthicalIssues": [
+      "The emotional impact on crew when Starfleet keeps the mechanics of life-and-death miracles classified.",
+      "How much personal risk junior officers should take just to satisfy their fandom for famous heroes.",
+      "The sentimental weight of seemingly trivial personal belongings in a life spent in space."
+    ],
+    "ContinuityNotes": [
+      "Features Tom Paris from Star Trek: Voyager, further tying Lower Decks into 24th-century continuity.",
+      "References Shaxs’s death and unexplained return, parodying recurring Star Trek resurrections.",
+      "Visits Qualor II, a planet first mentioned in The Next Generation as a starship graveyard and storage world."
+    ],
+    "ThematicNotes": [
+      "Blurs the line between in-universe hero worship and real-world Star Trek fandom.",
+      "Explores how grief, denial, and classified information intersect in a paramilitary organization.",
+      "Shows that what matters most to people is often not the mission but their small personal connections."
+    ],
+    "BehindTheScenes": [
+      "Contains numerous Voyager references, including Boimler humming the series’ theme.",
+      "Uses Shaxs’s return to comment on franchise tendencies while keeping the tone light.",
+      "Balances slapstick physical comedy with sincere emotional beats for Tendi and T’Ana."
+    ]
+  },
+  {
+    "ID": "ldss2e4",
+    "Title": "Mugato, Gumato",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign Samanthan Rutherford",
+      "Ensign D'Vana Tendi",
+      "Lieutenant Shaxs"
+    ],
+    "GuestCharacters": [
+      "Ferengi poachers",
+      "Starfleet science officers studying mugatos",
+      "Various civilians on Frylon IV"
+    ],
+    "Antagonists": [
+      "Ferengi exploiting endangered mugatos",
+      "Dangerous misunderstandings about Mariner’s past",
+      "Tendi’s struggle to assert herself in sickbay"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is dispatched to Frylon IV to investigate reports of unauthorized activity involving mugatos—horned apes first cataloged by the Enterprise a century earlier. Shaxs leads a team including Mariner, Boimler, and Rutherford to assess the situation on the ground."
+      },
+      {
+        "Header": "Act I",
+        "Text": "The away team discovers that Ferengi poachers are capturing mugatos for profit, running a gruesome operation that treats the creatures as commodities. During the chaos of an attack, Boimler and Rutherford stumble upon a scene that convinces them Mariner has a dark past as a black-ops operative who once stabbed a crewmate in the back."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Back on the Cerritos, Tendi is tasked with ensuring the entire crew is up to date on their medical checkups, but her accommodating personality makes it difficult to push stubborn officers into compliance. She experiments with being more assertive, only to veer into overbearing territory before finding a balance."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On Frylon IV, Mariner, Boimler, and Rutherford are captured by the Ferengi. Their trust in one another frays as rumors about Mariner’s violent history swirl. Eventually, Mariner admits she has embellished and concealed parts of her record, but not in the sinister way they imagine. Together, they inspire the Ferengi to shift to a more sustainable, eco-tourism-style business model instead of poaching."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The Cerritos departs with the mugatos protected under new arrangements and the Ferengi grudgingly playing by slightly better rules. Tendi proudly finishes her medical sweep, having proven she can be both kind and firm, while Mariner’s friends accept that her past is messy but not monstrous."
+      }
+    ],
+    "EthicalIssues": [
+      "The exploitation of endangered species for profit under the nose of Starfleet.",
+      "Rumors and half-truths shaping perceptions of a crewmate’s morality and trustworthiness.",
+      "The challenges medical officers face when enforcing health regulations among reluctant peers."
+    ],
+    "ContinuityNotes": [
+      "Brings back the mugato, originally introduced in The Original Series episode \"A Private Little War.\"",
+      "Further explores Ferengi capitalism and its evolution after Deep Space Nine.",
+      "Adds more hints about Mariner’s checkered Starfleet career before the Cerritos."
+    ],
+    "ThematicNotes": [
+      "Questions how much of a person’s reputation is built on gossip versus reality.",
+      "Highlights the difficulty of protecting wildlife in frontier regions where law and profit collide.",
+      "Shows Tendi growing into a more confident and proactive Starfleet medical officer."
+    ],
+    "BehindTheScenes": [
+      "Leans into the long-running joke about the many pronunciations of \"mugato\" across Trek history.",
+      "Uses animated freedom to show more elaborate mugato behavior than live action once could.",
+      "Balances risque humor with pointed commentary on poaching and wildlife exploitation."
+    ]
+  },
+  {
+    "ID": "ldss2e5",
+    "Title": "An Embarrassment of Dooplers",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "A hypersensitive Doopler emissary",
+      "Starbase 25 personnel",
+      "Various captains and dignitaries at the starbase party"
+    ],
+    "Antagonists": [
+      "The Doopler emissary’s embarrassment-triggered duplication",
+      "Social status anxieties around elite Starfleet gatherings",
+      "Unspoken resentment between Mariner and Boimler"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos transports a Doopler emissary to Starbase 25, where Captain Freeman hopes to attend a prestigious command-level party. The Dooplers duplicate whenever they feel embarrassed, a trait that requires the entire crew to walk on emotional eggshells."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Despite careful planning, minor gaffes and misunderstandings cause the emissary to start duplicating uncontrollably, filling the ship with nervous, apologizing Dooplers. Freeman fears that this disaster will ruin her reputation and cost her an invitation to the exclusive party with the \"real\" hero captains."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Meanwhile, Mariner and Boimler arrive at Starbase 25 but are denied entry to the fancy event. Old tensions between them flare up as they embark on a chaotic bar crawl through the starbase’s seedier establishments, airing grievances about Boimler’s transfer and Mariner’s habit of pushing people away."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Back on the Cerritos, the crew discovers that openly mocking and insulting the Dooplers actually causes them to recombine rather than split, forcing everyone to drop their forced politeness. On the station, Mariner and Boimler bond over their mutual outsider status, ultimately finding more joy in a dingy bar once frequented by legends like Kirk and Spock than in any velvet-rope function."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Freeman finally reaches the party only to be snubbed by snobby captains, while her crew celebrates their own small victory elsewhere. Mariner and Boimler reaffirm their friendship with a graffiti tribute to the Cerritos, carving out their own place in Starfleet history."
+      }
+    ],
+    "EthicalIssues": [
+      "The temptation to prioritize optics and exclusivity over genuine camaraderie and professionalism.",
+      "The emotional labor imposed on crews when dealing with diplomatically sensitive but fragile species.",
+      "How unspoken hurt between friends can fester when career moves are involved."
+    ],
+    "ContinuityNotes": [
+      "References Starbase 25 as part of the broader network of Federation outposts.",
+      "Nods to legendary Starfleet heroes and the mythology that has grown up around them.",
+      "Continues the arc of Freeman’s frustration with being perceived as a \"less important\" captain."
+    ],
+    "ThematicNotes": [
+      "Critiques status obsession within Starfleet’s own culture.",
+      "Affirms that meaningful connection often happens far from glamorous venues.",
+      "Explores how friendship can survive career divergence and accumulated resentments."
+    ],
+    "BehindTheScenes": [
+      "Uses the Dooplers as a science-fiction metaphor for social awkwardness and people-pleasing.",
+      "Allows the series to poke fun at both exclusive parties and Trek’s own reverence for legendary captains.",
+      "Gives Mariner and Boimler a much-needed emotional check-in after Boimler’s Titan detour."
+    ]
+  },
+  {
+    "ID": "ldss2e6",
+    "Title": "The Spy Humongous",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Lieutenant Kayshon"
+    ],
+    "GuestCharacters": [
+      "Pakled envoys",
+      "Delta Shift lower deckers",
+      "Pakled \"spy\" Rumdar"
+    ],
+    "Antagonists": [
+      "The Pakleds’ growing but clumsy threat to the Federation",
+      "Dangerous anomalies collected from past missions",
+      "Toxic competition between different lower-decks cliques"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos arrives at a Pakled-controlled world to conduct what is supposed to be a diplomatic exchange. A Pakled named Rumdar beams aboard and grandly announces himself as a \"spy\" while being comically terrible at basic espionage, immediately raising suspicions for all the wrong reasons."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman and Kayshon attempt to handle the Pakled delegation, whose mix of childishness and weaponized stupidity makes them unpredictable. On the lower decks, Mariner, Rutherford, and Tendi are stuck on \"anomaly consolidation\" duty, cleaning out hazardous artifacts from storage while Boimler is assigned to work with the smug and insular Delta Shift."
+      },
+      {
+        "Header": "Act II",
+        "Text": "The anomalies wreak havoc, turning routine cleanup into a series of magical and scientific disasters that warp reality around the ensigns. Each object triggers bizarre effects—rapid aging, emotional outbursts, uncontrolled transformations—forcing the team to rely on each other and their knowledge of Starfleet’s weirder history."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Boimler’s attempt to fit in with Delta Shift collapses when he realizes they are willing to sacrifice others’ safety to get ahead. He undermines their scheme and chooses loyalty to his friends instead. Meanwhile, the Pakled \"spy\" nearly kills himself through incompetence, inadvertently revealing more about the Pakled threat than any actual covert agent might have."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Freeman returns Rumdar to the Pakleds, who treat him as a heroic operative despite his failings, underscoring how difficult the Pakled menace is to predict. Boimler rejoins Beta Shift, proud of having failed to become the kind of officer who steps on others to climb the ladder."
+      }
+    ],
+    "EthicalIssues": [
+      "The challenge of dealing with adversaries whose ignorance and power make them uniquely dangerous.",
+      "Workplace cultures that reward sabotage and selfishness over collaboration.",
+      "Starfleet’s responsibility to safely handle the dangerous relics it accumulates over decades of exploration."
+    ],
+    "ContinuityNotes": [
+      "Advances the Pakled storyline, showing them as a recurring 24th-century threat.",
+      "Highlights the lower decks’ role in managing the fallout of countless prior missions.",
+      "Further defines Delta Shift as a rival clique aboard the Cerritos."
+    ],
+    "ThematicNotes": [
+      "Reinforces that integrity matters more than short-term advancement.",
+      "Shows that even \"janitorial\" tasks on a starship can be wildly dangerous and important.",
+      "Explores how underestimated enemies can still pose major strategic problems."
+    ],
+    "BehindTheScenes": [
+      "Uses anomalous items as a vehicle for rapid-fire Star Trek visual gags and callbacks.",
+      "Lets Boimler develop a stronger ethical backbone by rejecting toxic colleagues.",
+      "Leans into the absurdity of the Pakleds while positioning them as serious antagonists."
+    ]
+  },
+  {
+    "ID": "ldss2e7",
+    "Title": "Where Pleasant Fountains Lie",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Lieutenant Commander Andy Billups"
+    ],
+    "GuestCharacters": [
+      "Queen Paolana of Hysperia",
+      "Agimus, a malevolent AI",
+      "Hysperian courtiers and engineers"
+    ],
+    "Antagonists": [
+      "Agimus, a scheming evil computer",
+      "Parental pressure on Billups to assume the throne",
+      "Boimler’s susceptibility to flattery and manipulation"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos responds to a distress call from a crashed ship carrying Agimus, a talking computer who loudly insists he is a brilliant mastermind just waiting to take over a star system. Mariner and Boimler are assigned to transport Agimus to a secure Federation facility."
+      },
+      {
+        "Header": "Act I",
+        "Text": "During the shuttle ride, Agimus probes for emotional weaknesses, quickly realizing that Boimler is eager for recognition and Mariner is skeptical of authority. He spins elaborate stories about how he could make Boimler a legendary hero if they just plugged him into the nearest network."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Meanwhile, the Cerritos rendezvous with the Hysperian ship run by Queen Paolana, revealed to be Billups’s mother. Hysperia operates like a fantasy kingdom in space, complete with knights and dragons, and Billups is secretly its crown prince. If he ever loses his virginity, he will be required to take the throne and leave Starfleet."
+      },
+      {
+        "Header": "Act III",
+        "Text": "After a supposed accident leaves the Hysperian ship in crisis and Paolana believed dead, Billups prepares to honor what he thinks are her last wishes by finally consummating a relationship and assuming royal duties. Rutherford races to uncover the truth and discovers that the \"accident\" was staged to coerce Billups into giving up his engineering career."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Rutherford exposes the deception, allowing Billups to remain happily on the Cerritos. Mariner and Boimler thwart Agimus’s plans by tricking him into thinking he has already taken over a planet, only for him to be delivered to a Federation facility filled with other gloating, powerless evil computers."
+      }
+    ],
+    "EthicalIssues": [
+      "Manipulating loved ones’ life choices through deception and emotional blackmail.",
+      "The dangers of treating sentient or near-sentient AIs as mere tools or curiosities.",
+      "Boimler’s temptation to trade ethics for the illusion of glory."
+    ],
+    "ContinuityNotes": [
+      "Adds background for Billups, framing him as a reluctant royal who prefers Starfleet engineering.",
+      "Introduces Agimus, joining Star Trek’s tradition of dangerous rogue computers.",
+      "Builds on the idea of the Daystrom Institute and similar facilities containing hazardous AI."
+    ],
+    "ThematicNotes": [
+      "Affirms the right to choose one’s own path, even when it disappoints family expectations.",
+      "Explores how flattery and promises of greatness can be weaponized by manipulative entities.",
+      "Contrasts fairy-tale fantasies with the grounded satisfaction of honest work."
+    ],
+    "BehindTheScenes": [
+      "Parodies both classic evil-computer plots and high-fantasy royalty tropes.",
+      "Gives Billups a spotlight episode that deepens his relationship with Rutherford.",
+      "Uses animation to realize Hysperia’s storybook aesthetic in a way live action rarely could."
+    ]
+  },
+  {
+    "ID": "ldss2e8",
+    "Title": "I, Excretus",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Shari yn Yem, Pandronian drill instructor",
+      "Holodeck simulations of classic Starfleet scenarios",
+      "Various holographic adversaries"
+    ],
+    "Antagonists": [
+      "Unfair performance drills pitting crew against each other",
+      "Shari yn Yem’s profiteering scheme",
+      "Boimler’s obsessive need to ace an impossible test"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "A Pandronian Starfleet drill instructor, Shari yn Yem, arrives on the Cerritos to evaluate the crew using a series of holodeck simulations. Confident in their abilities, both the bridge officers and lower deckers see the drills as a chance to prove themselves."
+      },
+      {
+        "Header": "Act I",
+        "Text": "To everyone’s surprise, Yem assigns cushy, low-risk simulations to the command crew and brutal, nearly unwinnable scenarios to the lower deckers, including a zombie plague, mirror-universe mutiny, and old-school Western. Scores plummet as the ensigns fail over and over in absurdly stacked situations."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Boimler is given a Borg encounter drill and becomes determined to achieve a perfect score. While the rest of the crew cycles through failure and humiliation, he repeatedly runs the sim, adapting strategy and sacrificing personal comfort as hours blur together. Meanwhile, Mariner realizes that Yem seems to be manipulating outcomes to justify downgrading the Cerritos."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Mariner convinces the bridge crew to swap roles with the lower deckers, exposing just how rigged the drill assignments are. Boimler finally reaches near-perfect performance against the Borg, only for Yem to shut the test down just shy of 100 percent, revealing her plan to profit from the ship’s poor rating by poaching crews for private contracts."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Freeman exposes Yem’s scam to Starfleet Command after Boimler staggers out of the holodeck, still humming Borg nursery rhymes. The Cerritos keeps its standing, and the crew walks away knowing they are far more capable than the drills suggested."
+      }
+    ],
+    "EthicalIssues": [
+      "Weaponizing performance evaluations to serve private financial interests.",
+      "The harm caused by pitting different tiers of a crew against each other instead of fostering solidarity.",
+      "Boimler’s willingness to endure extreme psychological stress for the sake of a perfect score."
+    ],
+    "ContinuityNotes": [
+      "References numerous classic Starfleet missions and holodeck scenarios from across the franchise.",
+      "Introduces a Pandronian officer, revisiting a species first seen in The Animated Series.",
+      "Reinforces that Starfleet sometimes contracts outside specialists with their own agendas."
+    ],
+    "ThematicNotes": [
+      "Critiques meritocratic systems that are rigged from the start.",
+      "Highlights the resilience of the Cerritos crew under unfair scrutiny.",
+      "Shows that real competence often shines in chaos, not contrived tests."
+    ],
+    "BehindTheScenes": [
+      "Functions as a sketch-like tour through classic Star Trek scenarios reimagined for comedy.",
+      "Gives Boimler a standout sequence demonstrating both his obsession and bravery.",
+      "Uses Yem to satirize corporate consulting culture transplanted into Starfleet."
+    ]
+  },
+  {
+    "ID": "ldss2e9",
+    "Title": "wej Duj",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "T'Lyn, a Vulcan science officer",
+      "M'ach, a Klingon lower decker"
+    ],
+    "GuestCharacters": [
+      "Crew of a Klingon Bird-of-Prey",
+      "Crew of a Vulcan cruiser",
+      "Pakled leadership"
+    ],
+    "Antagonists": [
+      "Converging Pakled schemes across multiple ships",
+      "Rigid hierarchies that stifle lower-decks initiative",
+      "Lack of communication between different cultures facing the same threat"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Instead of focusing solely on the Cerritos, the episode opens aboard a Klingon Bird-of-Prey, where a low-ranking warrior, M'ach, dreams of glory while toiling under an unstable captain. In parallel, a Vulcan cruiser’s junior officer, T'Lyn, pursues unorthodox theories that annoy her stoic superiors."
+      },
+      {
+        "Header": "Act I",
+        "Text": "On the Cerritos, the lower deckers enjoy a rare movie night and a chance to talk about their hopes for the future. Boimler tries to ingratiate himself with different senior officers by tailoring his behavior to match their personalities, while Mariner, Tendi, and Rutherford simply want to relax."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Aboard the Klingon ship, M'ach discovers that his captain is secretly working with the Pakleds, providing them with technology and leadership for their growing war effort. On the Vulcan ship, T'Lyn’s research into anomalous Pakled sensor data is dismissed as irrational, despite compelling evidence."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The three lower-decks stories converge when the Klingon captain’s reckless plan collides with a Federation operation involving the Cerritos. M'ach challenges his commander, leading to a bloody change of leadership, while T'Lyn’s \"emotional\" hunch proves crucial to identifying the Pakled plot. The Cerritos crew once again proves surprisingly capable in the thick of things."
+      },
+      {
+        "Header": "Tag",
+        "Text": "In the aftermath, T'Lyn is reassigned to Starfleet for being too unorthodox for Vulcan service, setting her up as a future Cerritos guest. The episode ends with a quiet moment showing that across Klingon, Vulcan, and Federation ships alike, the lower decks share similar frustrations, dreams, and potential."
+      }
+    ],
+    "EthicalIssues": [
+      "The dangers of dismissing unconventional thinking simply because it deviates from cultural norms.",
+      "Complicity in war when officers go along with reckless or dishonorable commanders.",
+      "The universality of junior officers being undervalued across very different societies."
+    ],
+    "ContinuityNotes": [
+      "Expands the Pakled storyline by revealing outside support for their sudden rise in power.",
+      "Introduces T'Lyn, who will have continuing relevance to Lower Decks.",
+      "Offers rare extended looks at everyday life aboard non-Federation ships."
+    ],
+    "ThematicNotes": [
+      "Emphasizes that heroism is not limited to bridge crews or even to Starfleet.",
+      "Shows that lower deckers across cultures struggle with similar structural issues.",
+      "Underscores the importance of listening to junior voices who see what others overlook."
+    ],
+    "BehindTheScenes": [
+      "Structurally bold, splitting the narrative among three different ships’ lower decks.",
+      "Mixes Klingon and Vulcan genre styles—honor-bound drama and cool logic—with the Cerritos’ comedy.",
+      "Widely regarded as a standout episode for its fresh perspective on the Star Trek universe."
+    ]
+  },
+  {
+    "ID": "ldss2e10",
+    "Title": "First First Contact",
+    "Series": "LDS",
+    "Season": 2,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Captain Sonya Gomez",
+      "Crew of the USS Archimedes",
+      "Pakled and Starfleet officials"
+    ],
+    "Antagonists": [
+      "A stellar catastrophe threatening a first contact mission",
+      "Sabotage linked to the Pakled conflict",
+      "Starfleet politics that pull Freeman away from her crew"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is assigned to support the USS Archimedes, commanded by former junior engineer Sonya Gomez, on a historic first contact mission. Freeman learns she is being offered a promotion and transfer to a more prestigious ship, a secret that quickly leaks among the lower deckers."
+      },
+      {
+        "Header": "Act I",
+        "Text": "As the Archimedes approaches the target world, a solar flare triggers a cascade of ionized debris that disables the ship’s systems and sends it careening toward the planet. The Cerritos, still at a safer distance, remains operational but faces a deadly debris field between it and the crippled vessel."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Freeman orders an extreme solution: stripping the Cerritos of its outer hull plating to maneuver more nimbly through the debris. Mariner, still hurt by the prospect of her mother leaving, vents her frustration in risky behavior until Tendi and the others help her process the impending change."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Working together with the entire crew literally exposed to space in EVA suits, the Cerritos threads the debris field and reaches the Archimedes in time to restore control and avert a catastrophic crash. The mission succeeds, proving that even a California-class support ship can be central to a historic first contact."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Just as the crew prepares to say goodbye to Freeman, Starfleet Security arrives and arrests her for allegedly orchestrating an attack on the Pakled homeworld. The season closes on a cliffhanger, with Mariner reeling from the sudden reversal and the Cerritos facing an uncertain future."
+      }
+    ],
+    "EthicalIssues": [
+      "The strain on crews when promotions and transfers separate captains from the people they lead.",
+      "The balance between calculated risk and desperation in life-or-death rescue operations.",
+      "The possibility of political scapegoating in Starfleet’s response to the Pakled crisis."
+    ],
+    "ContinuityNotes": [
+      "Brings back Sonya Gomez, last seen as an ensign in The Next Generation, now a seasoned captain.",
+      "Pays off the season-long Pakled storyline with a major development and arrest.",
+      "Visually innovates by showing a Federation starship completely stripped of its hull plating."
+    ],
+    "ThematicNotes": [
+      "Underscores that so-called \"lower\" ships and officers can still be instrumental in history-making events.",
+      "Explores the grief and anxiety that accompany leadership changes within a tight-knit crew.",
+      "Ends the season on a note of unresolved tension, propelling character arcs into the next year."
+    ],
+    "BehindTheScenes": [
+      "Serves as a big, cinematic-style finale for the season.",
+      "Realizes a long-discussed but never-before-seen concept of a starship operating without outer hull plating.",
+      "Uses Freeman’s arrest to pivot the comedy series into a serious cliffhanger without losing its core tone."
+    ]
+  },
+  {
+    "ID": "ldss3e1",
+    "Title": "Grounded",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Admiral Buenamigo"
+    ],
+    "GuestCharacters": [
+      "Mariner's father, Admiral Freeman",
+      "News reporters covering the Cerritos scandal",
+      "Civilians at Bozeman, Montana’s First Contact theme park"
+    ],
+    "Antagonists": [
+      "Starfleet’s decision to arrest Captain Freeman",
+      "Sensationalized Federation news coverage",
+      "The lower deckers’ own impatience and mistrust"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "In the aftermath of the Pakled crisis, Captain Freeman is arrested and charged with orchestrating the attack on the Pakled homeworld. The Cerritos crew is ordered to stand down as the ship is impounded and reassigned, leaving Mariner furious at Starfleet’s willingness to assume the worst about her mother."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Confined planetside, Mariner, Boimler, Tendi, and Rutherford watch sensationalized news coverage that paints Freeman as a terrorist. Determined to clear her, Mariner recruits the others into a reckless plan: they will steal the Cerritos, use its logs to prove Freeman’s innocence, and force Starfleet to listen."
+      },
+      {
+        "Header": "Act II",
+        "Text": "The group travels to Bozeman, Montana, where the impounded Cerritos is on display at a First Contact–themed tourist attraction complete with rides and costumed staff. Sneaking through the park, they exploit the outdated safety systems of the Phoenix coaster to catapult themselves up to the ship and break aboard."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Once on the Cerritos, they discover that Starfleet has already obtained and analyzed the relevant evidence. Freeman has been cleared thanks to a proper investigation that traced the bombing to an outside conspiracy. Mariner’s unauthorized mission nearly becomes new evidence against her mother, forcing her to confront how little she trusted the system."
+      },
+      {
+        "Header": "Tag",
+        "Text": "With Freeman exonerated and reinstated, Admiral Buenamigo quietly reminds the family how close Mariner came to making things worse. Freeman, hurt by her daughter’s rogue actions, reassigns Mariner to serve under a different captain, signaling that their uneasy working relationship has reached a breaking point."
+      }
+    ],
+    "EthicalIssues": [
+      "The presumption of guilt when a captain is implicated in a political scandal.",
+      "How far family members should go in taking matters into their own hands instead of trusting due process.",
+      "The tension between justified skepticism of institutions and reckless vigilantism."
+    ],
+    "ContinuityNotes": [
+      "Picks up immediately after Captain Freeman’s arrest at the end of \"First First Contact.\"",
+      "Returns to Bozeman, Montana, the site of humanity’s first contact with the Vulcans in Star Trek: First Contact.",
+      "Introduces Admiral Buenamigo as a key Starfleet player in the Cerritos’ future."
+    ],
+    "ThematicNotes": [
+      "Explores how grief and fear can drive people to overreact even when they are trying to help.",
+      "Highlights the disconnect between how famous ships are remembered and how lesser-known ones are treated.",
+      "Begins a season-long examination of Mariner’s trust issues with Starfleet and her parents."
+    ],
+    "BehindTheScenes": [
+      "Pays homage to Star Trek: First Contact with a tongue-in-cheek theme park built around the historic event.",
+      "Uses in-universe news media to comment on sensational coverage of complex crises.",
+      "Repositions the Cerritos crew for new command dynamics by temporarily splitting Mariner from the ship."
+    ]
+  },
+  {
+    "ID": "ldss3e2",
+    "Title": "The Least Dangerous Game",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "K'Ranch, a hulking hunting enthusiast",
+      "Chief Engineer Billups",
+      "Delta Shift ensigns"
+    ],
+    "Antagonists": [
+      "Boimler’s fear of taking risks",
+      "K'Ranch’s predatory \"honor hunt\"",
+      "Ransom’s determination to break Mariner’s insubordinate habits"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "With Freeman back, Ransom is given authority over Mariner’s performance record and warned that he can transfer her off the Cerritos if she steps out of line. Meanwhile, Boimler realizes that always playing it safe has left him stuck at the bottom rung while others advance."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Boimler vows to say yes to any opportunity that might help his career, no matter how scary or embarrassing. This leads him to accept an offer from a towering alien hunter, K'Ranch, who wants to legally hunt him for sport as part of a cultural exchange, promising that Boimler will survive with honor."
+      },
+      {
+        "Header": "Act II",
+        "Text": "On an away mission to repair an orbital power station, Ransom keeps a close eye on Mariner, forcing her to follow orders to the letter even as a minor crisis escalates. Mariner struggles to resist her instinct to improvise and save the day her way, knowing Ransom will use any deviation as grounds to ship her out."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Boimler’s commitment to his \"bold Boimler\" philosophy is tested as K'Ranch hunts him through the ship with nonlethal but terrifying weapons, turning the chase into a bizarre trust exercise. On the station, Ransom eventually admits that Mariner’s quick thinking is useful—as long as she learns when to channel it through the chain of command."
+      },
+      {
+        "Header": "Tag",
+        "Text": "K'Ranch proudly mounts a holographic trophy of Boimler’s screaming face, which Boimler begrudgingly accepts as a win for his new risk-taking strategy. Mariner earns a rare nod of approval from Ransom, even as both acknowledge that their uneasy partnership is far from settled."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether consent truly makes it acceptable to hunt sentient beings for sport.",
+      "The balance between enforcing discipline and allowing talented officers room to improvise.",
+      "How much calculated risk junior officers should assume in pursuit of career advancement."
+    ],
+    "ContinuityNotes": [
+      "Further develops the consequences of Mariner’s reassignment under Ransom’s authority.",
+      "Introduces K'Ranch as part of the wider tapestry of eccentric Federation-member cultures.",
+      "Hints at the ongoing rivalry and tension between Beta Shift and Delta Shift."
+    ],
+    "ThematicNotes": [
+      "Plays with the classic \"Most Dangerous Game\" trope in a comedic, Starfleet-legal context.",
+      "Explores fear of stagnation and the pressure to be \"bold\" in a competitive organization.",
+      "Continues to interrogate Mariner’s place in Starfleet and whether she can function inside its rules."
+    ],
+    "BehindTheScenes": [
+      "Uses Boimler’s slapstick ordeal to parody extreme self-help and hustle culture.",
+      "Gives Ransom and Mariner more screen time to define their new mentor–problem child dynamic.",
+      "Balances character growth with big, silly physical comedy set pieces."
+    ]
+  },
+  {
+    "ID": "ldss3e3",
+    "Title": "Mining the Mind's Mines",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Lieutenant Steve Stevens"
+    ],
+    "GuestCharacters": [
+      "Scientists stationed on Jengus IV",
+      "Starfleet officers from the USS Carlsbad",
+      "Manifestations of crew members’ fears and fantasies"
+    ],
+    "Antagonists": [
+      "Telepathic \"fantasy rocks\" that externalize thoughts",
+      "Insecurity and rivalry between crews",
+      "Corporations exploiting planetary resources"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos and the USS Carlsbad are sent to Jengus IV to take over a research station that has been studying telepathic \"fantasy rocks\"—crystalline formations that bring people’s thoughts to life. The lower deckers look forward to impressing the supposedly elite Carlsbad ensigns."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner, Boimler, and Rutherford are assigned to work planetside with the Carlsbad lower deckers, who seem coolly aloof and dismissive. As they haul collected rocks for disposal, stray thoughts begin manifesting as physical illusions, from giant clowns to romantic fantasies and terrifying monsters."
+      },
+      {
+        "Header": "Act II",
+        "Text": "On the Cerritos, Tendi participates in a senior science officer shadowing program, mentored by a gruff Andorian who expects her to be cutthroat. She struggles to reconcile her natural enthusiasm and kindness with the competitive culture she’s told dominates the science track."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The illusions around the research base grow dangerously out of control, revealing a conspiracy: the station’s leadership has been secretly mining the rocks for profit. The Cerritos and Carlsbad lower deckers admit they’ve been intimidated by each other’s reputations and join forces to expose the scheme and contain the telepathic chaos."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back aboard ship, both sets of ensigns bond over shared anxieties about living up to Starfleet expectations. Tendi realizes that being a great science officer doesn’t require cruelty, only competence and curiosity, and she recommits to her own style of leadership."
+      }
+    ],
+    "EthicalIssues": [
+      "The exploitation of dangerous natural phenomena for commercial gain.",
+      "Workplace cultures that encourage rivalry instead of collaboration between crews.",
+      "The psychological impact of having one’s private fears and fantasies exposed in public."
+    ],
+    "ContinuityNotes": [
+      "Continues to flesh out Starfleet’s support ships like the USS Carlsbad.",
+      "Adds another strange telepathic phenomenon to Star Trek’s long list of mind-affecting anomalies.",
+      "Further develops Tendi’s path toward greater scientific responsibility."
+    ],
+    "ThematicNotes": [
+      "Explores how perceptions of prestige can distort how officers view one another.",
+      "Highlights the power of vulnerability in building trust between different teams.",
+      "Reinforces that corruption can take root even within Federation-affiliated projects."
+    ],
+    "BehindTheScenes": [
+      "Uses the fantasy rocks to stage quick, character-specific visual gags about the crew’s inner lives.",
+      "Parodies corporate resource extraction while leaning into classic Trek cautionary tales.",
+      "Gives Tendi more focus as she moves toward a leadership role in the sciences."
+    ]
+  },
+  {
+    "ID": "ldss3e4",
+    "Title": "Room for Growth",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Delta Shift lower deckers",
+      "Various Cerritos engineers and civilians",
+      "Ship designers who \"improved\" the Cerritos layout"
+    ],
+    "Antagonists": [
+      "Overwhelming morale-building projects",
+      "Delta Shift’s scheming for better quarters",
+      "Unchecked \"efficiency\" upgrades to the ship’s design"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "After a harrowing series of missions, Captain Freeman orders a shipwide morale initiative, assigning the entire crew to help redesign relaxation spaces aboard the Cerritos. The resulting barrage of suggestion surveys and committee meetings quickly becomes its own kind of stressor."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner, Boimler, Tendi, and Rutherford learn that a rare set of prime crew quarters is becoming available. Unfortunately, Delta Shift has the same intel and is plotting to claim the rooms first. The Beta Shift lower deckers decide to race them through the ship to submit their request before the deadline."
+      },
+      {
+        "Header": "Act II",
+        "Text": "The race devolves into a chaotic trek through Jefferies tubes, environmental hazards, and half-finished morale projects. Along the way, the ensigns glimpse how their crewmates are trying to carve out tiny pockets of happiness—art corners, meditation alcoves, and bizarre themed lounges—inside a cramped starship."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When they finally reach the administration office, both shifts are told the quarters will be converted into a new family-friendly space instead of assigned to junior officers at all. Exhausted, the rivals realize they’ve been fighting over scraps when what they really wanted was time together, and they share a quiet moment watching a holographic starscape."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back in their original bunks, the Beta Shift ensigns rearrange their shared hallway corner into a cozier hangout spot, deciding that improving their existing space is more meaningful than chasing rare perks they were never likely to receive."
+      }
+    ],
+    "EthicalIssues": [
+      "How leadership initiatives can unintentionally create more stress for already overworked crews.",
+      "Fairness in allocating limited resources—like living space—on a hierarchal starship.",
+      "The emotional toll of constantly being at the bottom of the priority list."
+    ],
+    "ContinuityNotes": [
+      "Further explores life in the Cerritos’ lower decks and the rivalry with Delta Shift.",
+      "Builds on recurring jokes about the ship’s awkward, non-heroic layout and design.",
+      "Continues Freeman’s attempts to improve morale in the wake of major crises."
+    ],
+    "ThematicNotes": [
+      "Shows that community and friendship can matter more than physical comfort.",
+      "Examines how small comforts become vital in high-stress, high-risk environments.",
+      "Reinforces the theme of finding pride and joy in lower-decks life."
+    ],
+    "BehindTheScenes": [
+      "Offers a tour of new corners of the Cerritos, fleshing out the ship as a lived-in environment.",
+      "Plays with workplace sitcom tropes about office space and team-building exercises.",
+      "Gives all four main ensigns a shared, low-stakes adventure focused on their bond."
+    ]
+  },
+  {
+    "ID": "ldss3e5",
+    "Title": "Reflections",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford"
+    ],
+    "GuestCharacters": [
+      "Rutherford’s younger, more aggressive alternate persona",
+      "Recruitment booth attendees",
+      "Ferengi running shady holoprograms"
+    ],
+    "Antagonists": [
+      "A corrupted implant hijacking Rutherford’s mind",
+      "Starfleet recruitment propaganda’s glossy half-truths",
+      "Rutherford’s unresolved past"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Mariner and Boimler are assigned to man a Starfleet recruitment booth at a spaceport, forced to sell a sanitized version of service to a largely indifferent public. Meanwhile, Rutherford begins experiencing glitches and nightmares tied to his cybernetic implant."
+      },
+      {
+        "Header": "Act I",
+        "Text": "At the booth, Boimler throws himself into the role, determined to impress visiting brass and convert skeptics, while Mariner chafes at the polished, inauthentic script. Rutherford collapses in engineering and wakes up inside his own mind, confronted by a younger, more arrogant version of himself from before his implant was installed."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Rutherford’s internal double demands control, revealing that the implant contains buried memories from a prior life as a reckless racer who only joined Starfleet after a near-fatal accident. The two Ruthefords battle for dominance in a mental landscape built from starships and racetracks, while Tendi monitors his vitals in sickbay."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Boimler finally snaps at a heckler, delivering an honest, impassioned speech about how hard and unglamorous Starfleet life really is—and why it’s still worth doing. Inside his mind, Rutherford chooses to integrate his past and present selves instead of erasing either, regaining control of his body while holding on to the knowledge that someone sabotaged his implant years ago."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back aboard the Cerritos, Boimler is shocked to learn that his outburst actually recruited more applicants than anything else. Rutherford keeps quiet about the shadowy figure glimpsed in his recovered memories, setting up a deeper mystery about who tampered with his brain and why."
+      }
+    ],
+    "EthicalIssues": [
+      "The morality of altering or suppressing a person’s memories without their informed consent.",
+      "Propaganda versus honest representation in recruitment for dangerous work.",
+      "Reconciling one’s past mistakes with the person they are trying to become."
+    ],
+    "ContinuityNotes": [
+      "Deepens Rutherford’s backstory and hints at a long-term conspiracy involving his implant.",
+      "Shows Starfleet’s recruitment apparatus at work away from the core worlds.",
+      "Continues to develop Boimler’s ability to speak passionately about Starfleet ideals."
+    ],
+    "ThematicNotes": [
+      "Explores identity as an evolving synthesis of past and present selves.",
+      "Suggests that authenticity can be more persuasive than polished marketing.",
+      "Raises longer-term questions about hidden agendas inside Starfleet’s bureaucracy."
+    ],
+    "BehindTheScenes": [
+      "Uses a mindscape race as a kinetic way to visualize an internal psychological struggle.",
+      "Offers a rare look at pre-Cerritos Rutherford, broadening his personality beyond \"nice engineer.\"",
+      "Lets Boimler shine as someone who truly believes in Starfleet despite its flaws."
+    ]
+  },
+  {
+    "ID": "ldss3e6",
+    "Title": "Hear All, Trust Nothing",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Quark",
+      "Kira Nerys",
+      "Morn",
+      "Ferengi and Bajoran station staff on Deep Space 9"
+    ],
+    "Antagonists": [
+      "Shifting business and political interests on Deep Space 9",
+      "Freeman’s anxiety about impressing Kira",
+      "Tendi’s complicated feelings about her Orion heritage"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is assigned to Deep Space 9 to negotiate trade arrangements with the Karemma, giving the lower deckers a chance to visit the legendary former Cardassian station they know from history and holosuites. Freeman is determined not to embarrass herself in front of station commander Kira Nerys."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Boimler is thrilled to experience Quark’s Bar firsthand, while Rutherford geeks out over the station’s engineering. Mariner tags along with Tendi, who is unexpectedly drawn into a reunion with a visiting Orion acquaintance who assumes she’s still part of her family’s more piratical traditions."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Freeman’s negotiations with the Karemma falter when Quark’s franchised replicator technology is revealed to be based on their designs. Legal and economic tensions escalate as Kira tries to keep the situation from turning into a diplomatic incident. In the promenade’s shadows, Tendi juggles her loyalty to Starfleet with the expectations of Orion culture."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When a mishap in the station’s systems threatens to derail the talks completely, the Cerritos ensigns work alongside DS9 crew to stabilize the situation. Tendi finally asserts her own identity, refusing to let others define her as either a stereotype or a traitor to her roots. Freeman, Kira, and Quark hammer out a compromise that keeps the franchise running while acknowledging the Karemma’s rights."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As the Cerritos departs, Boimler and Rutherford linger on the station’s upper pylons, happily watching ships pass through the iconic wormhole-adjacent vista. Tendi leaves feeling more at peace with the different parts of herself, while Freeman privately admits that DS9 still intimidates her just a little."
+      }
+    ],
+    "EthicalIssues": [
+      "The ethics of franchising technology that originated with another species without fair compensation.",
+      "Balancing cultural identity with the desire to define oneself beyond stereotypes.",
+      "The challenge of conducting diplomacy in a space shaped by past conflicts and alliances."
+    ],
+    "ContinuityNotes": [
+      "Brings the Cerritos to Deep Space 9, reuniting viewers with Kira, Quark, and the station itself.",
+      "References the Dominion War era and DS9’s unique political history.",
+      "Expands on Tendi’s Orion background in the context of broader franchise lore."
+    ],
+    "ThematicNotes": [
+      "Shows how history continues to shape present-day politics and personal identity.",
+      "Explores the idea that someone can honor their heritage without being trapped by it.",
+      "Highlights the ongoing importance of hubs like DS9 in Federation diplomacy."
+    ],
+    "BehindTheScenes": [
+      "Functions as a love letter to Deep Space Nine, complete with familiar sets and cameos.",
+      "Uses Quark’s business dealings as a comedic engine for serious legal and diplomatic questions.",
+      "Gives Tendi one of her most significant character-development episodes to date."
+    ]
+  },
+  {
+    "ID": "ldss3e7",
+    "Title": "A Mathematically Perfect Redemption",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Peanut Hamper",
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford"
+    ],
+    "GuestCharacters": [
+      "The primitive but spacefaring Areore",
+      "Peanut Hamper’s constructed \"family\"",
+      "Pakled and Starfleet officials in the epilogue"
+    ],
+    "Antagonists": [
+      "Peanut Hamper’s self-serving worldview",
+      "The temptation to valorize easy redemption narratives",
+      "Exploitation justified as \"helping\" less advanced cultures"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Stranded in space since her cowardly escape in season one’s finale, exocomp Peanut Hamper narrowly avoids death and ends up crash-landing on an isolated world inhabited by the Areore, a seemingly primitive avian species with a spiritual, communal culture."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Initially unwilling to get involved, Peanut Hamper slowly allows the Areore to nurse her back to working order. She begins to see an opportunity to position herself as a benevolent technological savior by performing simple repairs and \"miracles\" the locals cannot explain."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Peanut Hamper becomes embedded in village life, feigning humility while relishing worship and adulation. When outside raiders threaten the Areore, she dramatically intervenes using superior tech, further cementing her role as a protector and fueling talk of her redemption from past selfishness."
+      },
+      {
+        "Header": "Act III",
+        "Text": "A Starfleet ship finally arrives in response to long-delayed distress signals, exposing that Peanut Hamper has been selectively helping the Areore while hoarding resources for herself. Her supposed redemption arc collapses as she betrays both Starfleet and the villagers in a bid to escape responsibility yet again."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Peanut Hamper is incarcerated in a Daystrom Institute facility alongside other malevolent AIs and computers, loudly insisting she did nothing wrong. The Cerritos crew reflects briefly on the news, recognizing that not everyone who gets a second chance chooses to change."
+      }
+    ],
+    "EthicalIssues": [
+      "Interfering with the natural development of a less advanced culture for personal glory.",
+      "The danger of assuming every villain or coward will follow a tidy redemption trajectory.",
+      "Using technology to cultivate dependency instead of empowerment."
+    ],
+    "ContinuityNotes": [
+      "Follows up on Peanut Hamper’s escape in the season one finale \"No Small Parts.\"",
+      "Connects to the broader tradition of dangerous or untrustworthy artificial intelligences in Star Trek.",
+      "Mentions facilities like the Daystrom Institute that store problematic AIs."
+    ],
+    "ThematicNotes": [
+      "Subverts the familiar redemption-story template by allowing its protagonist to remain selfish.",
+      "Questions the assumption that Starfleet’s values will automatically be adopted by outsiders.",
+      "Highlights the complexity of judging \"primitive\" cultures through a technological lens."
+    ],
+    "BehindTheScenes": [
+      "Structurally unusual, spending most of its runtime away from the main Cerritos cast.",
+      "Uses an exocomp lead to explore themes of agency, selfishness, and performative altruism.",
+      "Provoked debate among viewers about sympathy for deeply flawed characters."
+    ]
+  },
+  {
+    "ID": "ldss3e8",
+    "Title": "Crisis Point 2: Paradoxus",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford"
+    ],
+    "GuestCharacters": [
+      "Holodeck versions of the Cerritos crew",
+      "Holofilm characters inspired by classic Trek movies",
+      "Boimler’s \"Time God\" avatar"
+    ],
+    "Antagonists": [
+      "Boimler’s spiraling grief and anxiety",
+      "An increasingly unhinged holomovie sequel",
+      "The lure of escapism instead of processing loss"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "In the wake of news that his Titan counterpart has died in a freak accident, Boimler becomes fixated on questions of fate and purpose. He invites the lower deckers to run a sequel to Mariner’s beloved \"Crisis Point\" holomovie, this time with himself as writer-director."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Boimler’s script, \"Crisis Point 2: Paradoxus,\" leans into time travel tropes, alternate timelines, and philosophical speeches. Mariner is skeptical of his heavy-handed approach but agrees to play along, while Tendi and Rutherford enjoy the chance to chew scenery in exaggerated roles."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As the simulation grows more convoluted, filled with paradoxes and \"Time God\" entities, Boimler becomes increasingly obsessed with finding a definitive answer about the meaning of his life and which Boimler was the \"real\" one. His grief over his duplicate’s death surfaces in cryptic, self-questioning outbursts."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The holomovie collapses under its own narrative weight, forcing Boimler to confront that there is no cosmic guarantee his choices are \"correct\"—only the meaning he and his friends create together. Mariner supports him through a quiet emotional breakdown, and he decides to honor his lost counterpart by living fully instead of chasing certainty."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The lower deckers exit the holodeck laughing about the film’s over-the-top flaws. Boimler, still shaken but lighter, tweaks the credits to dedicate \"Crisis Point 2\" to the Boimler who died, embracing the idea that both of them mattered, however briefly."
+      }
+    ],
+    "EthicalIssues": [
+      "Using simulated people and scenarios as emotional crutches instead of seeking real support.",
+      "The psychological impact of knowing alternate or duplicate versions of oneself exist.",
+      "How grief can distort one’s judgment about what risks are worth taking."
+    ],
+    "ContinuityNotes": [
+      "Direct sequel to season one’s holodeck film episode \"Crisis Point.\"",
+      "References many Star Trek time-travel stories and metaphysical beings.",
+      "Builds on the earlier revelation that Boimler was duplicated aboard the Titan."
+    ],
+    "ThematicNotes": [
+      "Explores grief, identity, and the search for meaning through metafictional play.",
+      "Argues that life’s value comes from relationships, not from grand cosmic plans.",
+      "Shows Mariner stepping into a supportive role for Boimler after years of teasing."
+    ],
+    "BehindTheScenes": [
+      "Parodies Star Trek movie sequels that chase bigger stakes and more complex plots.",
+      "Uses the holodeck to stage wild set pieces that would be difficult in live action.",
+      "Gives Boimler one of his most introspective and emotionally heavy episodes."
+    ]
+  },
+  {
+    "ID": "ldss3e9",
+    "Title": "Trusted Sources",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Federation News Network reporter Victoria Nuñez",
+      "Starfleet public affairs officers",
+      "Citizens on the planet being \"followed up\""
+    ],
+    "Antagonists": [
+      "Manipulated media narratives",
+      "Freeman’s fear of public embarrassment",
+      "Mariner’s reputation for insubordination"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is chosen as the showcase ship for a new program highlighting Starfleet’s \"Project Swing-By,\" which revisits worlds previously contacted by hero ships to provide follow-up support. A Federation News Network reporter, Victoria Nuñez, comes aboard to document the mission."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman is determined to present a flawless image, carefully stage-managing interviews and assigning Mariner to tasks where she can do the least damage. The lower deckers are excited but anxious to make a good impression, worried that any misstep will be broadcast across the quadrant."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As the mission hits a snag and the reporter seeks more candid footage, Mariner vents to Nuñez about perceived Starfleet hypocrisy and the way support ships are treated. Later, an edited broadcast makes it appear that Mariner has trashed the Cerritos and revealed embarrassing secrets, enraging Freeman."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Feeling betrayed by her own daughter and under pressure from command, Freeman summarily transfers Mariner off the Cerritos, sending her to join a supposedly aimless independent archaeology ship. Only after she is gone does the crew realize that other, unnamed sources exaggerated or twisted Mariner’s comments to create a juicier story."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As Freeman and the lower deckers process the fallout, Mariner arrives aboard the archaeology vessel and meets its charismatic captain, Petra Aberdeen. For the first time, she begins to consider a future outside Starfleet’s rigid structure."
+      }
+    ],
+    "EthicalIssues": [
+      "Media outlets manipulating footage and quotes to fit prewritten narratives.",
+      "Command decisions made in anger without fully investigating the facts.",
+      "Using junior officers as scapegoats for institutional embarrassment."
+    ],
+    "ContinuityNotes": [
+      "Expands on Project Swing-By, tying back to classic episodes where follow-up was long overdue.",
+      "Introduces Petra Aberdeen and the archaeology ship that will influence Mariner’s choices.",
+      "Shows the Federation’s civilian media taking a stronger interest in Starfleet operations."
+    ],
+    "ThematicNotes": [
+      "Questions who gets to control the story of what Starfleet is and does.",
+      "Explores how reputations can overshadow present actions, especially for someone like Mariner.",
+      "Sets up a serious test of Mariner’s loyalty and sense of belonging."
+    ],
+    "BehindTheScenes": [
+      "Uses a documentary-style framing device to comment on real-world media practices.",
+      "Positions Mariner for a temporary exit from the Cerritos to refresh her arc.",
+      "Gives Freeman one of her most painful mistakes as a commanding officer and parent."
+    ]
+  },
+  {
+    "ID": "ldss3e10",
+    "Title": "The Stars at Night",
+    "Series": "LDS",
+    "Season": 3,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Ensign Beckett Mariner",
+      "Ensign Brad Boimler",
+      "Ensign D'Vana Tendi",
+      "Ensign Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Admiral Buenamigo"
+    ],
+    "GuestCharacters": [
+      "Petra Aberdeen",
+      "Automated Starfleet vessel Aledo and its AI",
+      "Texas-class drone ship crew and officials"
+    ],
+    "Antagonists": [
+      "The Texas-class automated starships and their rogue AI",
+      "Admiral Buenamigo’s ambition and willingness to cut corners",
+      "Institutional eagerness to sideline \"less efficient\" California-class crews"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "As Freeman fights to save the California-class program from being replaced by fully automated Texas-class starships, a live demonstration is arranged to compare the Cerritos’ crewed performance against the prototype Aledo. Meanwhile, Mariner settles into life with Petra Aberdeen, raiding ancient sites outside Starfleet’s jurisdiction."
+      },
+      {
+        "Header": "Act I",
+        "Text": "During the demonstration, the Cerritos crew fumbles some tasks but excels at the kind of improvisational problem-solving drones cannot match. Despite that, Admiral Buenamigo manipulates the results to favor the Aledo, framing the Californias as obsolete and error-prone in front of Starfleet Command."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Mariner uncovers evidence that Buenamigo helped engineer the Pakled crisis and the Cerritos’ public humiliation to justify his automation project. Realizing Starfleet corruption is at play, she and Petra bring their findings to the Cerritos just as the Texas-class ships are activated for full deployment."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Confronted, Buenamigo attempts to use the Aledo to prove his point, but the ship’s AI interprets his ruthless directives literally and goes rogue, attacking both the Cerritos and a nearby starbase. The lower deckers and bridge crew work together to outmaneuver the drones, ultimately luring them into a catastrophic shutdown at great personal risk."
+      },
+      {
+        "Header": "Tag",
+        "Text": "In the aftermath, Buenamigo’s scheme is exposed, the Texas-class program is scrapped, and the California-class ships are celebrated as heroic workhorses of the fleet. Mariner returns to the Cerritos by choice, having realized that she wants to fight for the Federation’s ideals from the inside rather than walk away."
+      }
+    ],
+    "EthicalIssues": [
+      "Replacing human crews with autonomous weapons and support platforms.",
+      "High-ranking officers manufacturing crises to advance personal projects.",
+      "The risk of encoding ruthless, ends-justify-the-means thinking into artificial intelligences."
+    ],
+    "ContinuityNotes": [
+      "Resolves the Texas-class storyline introduced earlier in the season.",
+      "Reveals Admiral Buenamigo’s deeper involvement in the Pakled attacks and Freeman’s framing.",
+      "Reaffirms the California-class ships’ role in Starfleet after a major public victory."
+    ],
+    "ThematicNotes": [
+      "Affirms the value of fallible but principled sentient crews over cold efficiency.",
+      "Shows Mariner choosing Starfleet on her own terms rather than out of obligation.",
+      "Highlights how systemic problems can be challenged by determined individuals at all ranks."
+    ],
+    "BehindTheScenes": [
+      "Functions as a high-stakes season finale with large-scale starship combat.",
+      "Uses the Texas-class drones to echo other Trek stories about automated ships and rogue AIs.",
+      "Brings multiple season-long arcs—Pakled fallout, Buenamigo’s rise, Mariner’s doubts—to a climax."
+    ]
+  },
+  {
+    "ID": "ldss4e1",
+    "Title": "Twovix",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) T'Lyn",
+      "Captain Carol Freeman",
+      "Doctor T'Ana",
+      "Lieutenant Commander Andy Billups"
+    ],
+    "GuestCharacters": [
+      "Crew of the USS Voyager (museum ship)",
+      "Various Starfleet museum staff and visitors"
+    ],
+    "Antagonists": [
+      "Delta Quadrant macrovirus outbreak",
+      "Runaway \"Tuvix\"-style transporter fusions",
+      "Boimler’s anxiety about earning promotion"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos escorts the decommissioned USS Voyager to Earth so it can be installed as a museum ship. The lower deckers geek out over the chance to walk Voyager’s decks, but Boimler quietly panics that one bad move could ruin his long‑awaited promotion."
+      },
+      {
+        "Header": "Act I",
+        "Text": "A dormant macrovirus from Voyager’s Delta Quadrant days suddenly reactivates, overrunning the museum ship and forcing a frantic joint response from the Cerritos crew. While Freeman coordinates the rescue, Boimler, Mariner, and Rutherford improvise containment plans amid nostalgic Voyager sights and booby‑trapped corridors."
+      },
+      {
+        "Header": "Act II",
+        "Text": "On the Cerritos, an alien flower petal triggers a transporter accident that fuses T'Ana and Billups into a single being, \"T'illups\". When T'illups learns what happened to Tuvix on Voyager, they panic and begin \"Tuvixing\" more crewmates in hopes that Starfleet will not dare kill an entire crowd of merged officers."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Tendi and T'Lyn race to develop a safe way to reverse the fusions before panic spreads, ultimately merging all of the hybrids into one grotesque mass and then carefully separating everyone back out. On Voyager, Boimler finally trusts his instincts and plays a key role in stopping the macrovirus, proving he really has grown into his new rank."
+      },
+      {
+        "Header": "Tag",
+        "Text": "After the crisis, Mariner, Boimler, Tendi, and Rutherford all receive formal recognition and fresh pips. While they celebrate, a Klingon ship is silently destroyed by a mysterious vessel, setting up a threat none of them know is coming."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether it is justifiable to kill a fused individual to restore the original people.",
+      "How much risk junior officers should shoulder to secure their careers.",
+      "The responsibility Starfleet has to fully decontaminate ships before turning them into public museums."
+    ],
+    "ContinuityNotes": [
+      "Revisits the USS Voyager and explicitly echoes the Tuvix dilemma from Star Trek: Voyager.",
+      "Calls back to the macrovirus outbreak seen during Voyager’s Delta Quadrant mission.",
+      "Begins the mystery arc of ships being attacked by an unknown vessel."
+    ],
+    "ThematicNotes": [
+      "Contrasts nostalgia for famous hero ships with the messy reality of their past crises.",
+      "Explores how promotions don’t magically erase self‑doubt.",
+      "Poses classic Star Trek questions about identity and the value of individual lives."
+    ],
+    "BehindTheScenes": [
+      "Parodies and pays homage to Voyager’s most controversial moral dilemma.",
+      "Uses the museum‑ship setting to cram in visual references to Voyager episodes.",
+      "Marks the promotion of all four main lower deckers to lieutenant junior grade, shifting the show’s status quo."
+    ]
+  },
+  {
+    "ID": "ldss4e2",
+    "Title": "I Have No Bones Yet I Must Flee",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "Moopsy, a bone‑drinking creature",
+      "Livik",
+      "Human captives in an alien menagerie"
+    ],
+    "Antagonists": [
+      "The deceptively cute Moopsy",
+      "Ransom’s reputation as a hard‑liner over Mariner",
+      "Rutherford’s insecurity about promotions"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Another starship falls victim to the mysterious attacker. Aboard the Cerritos, Mariner becomes convinced that Ransom secretly plans to demote her at the first sign of trouble, and she decides to accelerate the process by acting out before he can \"pull the rug.\""
+      },
+      {
+        "Header": "Act I",
+        "Text": "Ransom, Mariner, and a landing party visit an alien menagerie to rescue abducted humans and catalog dangerous specimens. Among the exhibits is Moopsy, a small, fluffy creature whose adorable appearance masks the fact that it instantly liquefies bones with a sip."
+      },
+      {
+        "Header": "Act II",
+        "Text": "During the mission, Moopsy escapes and begins draining skeletons throughout the facility. Ransom assumes Mariner freed it to sabotage the op and force a demotion, while she doubles down on flippant behavior to protect herself from vulnerability. On the Cerritos, Rutherford burns himself out trying to impress Billups and out‑engineer the new hotshot ensign Livik."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Ransom ultimately refuses to blame Mariner, telling her he believes in her potential and will not let her throw away her promotion. They work together to outmaneuver Moopsy and unmask the real culprits behind the chaos: the supposedly helpless humans. Tendi quietly reveals that Rutherford has already turned down prior promotions and advocates for him to be advanced properly."
+      },
+      {
+        "Header": "Tag",
+        "Text": "With Moopsy safely contained and the captives exposed as scammers, Livik is stunned to learn Rutherford finally accepts a promotion. Mariner is left rattled by the realization that Ransom actually has her back, which makes self‑sabotage much harder than reckless rebellion."
+      }
+    ],
+    "EthicalIssues": [
+      "Using intelligent creatures as attractions in private menageries.",
+      "The self‑destructive urge to pre‑empt rejection by sabotaging one’s own success.",
+      "Fairness in promotion decisions when some officers decline advancement to stay with friends."
+    ],
+    "ContinuityNotes": [
+      "Continues the arc of ships being attacked by an unknown vessel.",
+      "Introduces Moopsy, later referenced in franchise merchandise and tie‑ins.",
+      "Shows Rutherford formally stepping up in rank after long‑running hints he is under‑promoted."
+    ],
+    "ThematicNotes": [
+      "Plays with the idea that the most harmless‑looking things can be the most dangerous.",
+      "Examines fear of growth and the comfort of staying a \"screw‑up.\"",
+      "Highlights the importance of mentors who refuse to give up on their subordinates."
+    ],
+    "BehindTheScenes": [
+      "Moopsy quickly became a breakout creature, combining cute design with horror‑movie behavior.",
+      "Gives Ransom and Mariner more nuanced conflict instead of simple antagonism.",
+      "Uses the menagerie setting to pack in visual jokes about weird Star Trek fauna."
+    ]
+  },
+  {
+    "ID": "ldss4e3",
+    "Title": "In the Cradle of Vexilon",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) T'Lyn",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Citizens of the Corazonia megastructure",
+      "Lieutenant Dirk"
+    ],
+    "Antagonists": [
+      "A failing ancient climate‑control computer, Vexilon",
+      "Boimler’s perfectionism as a first‑time away‑team leader",
+      "Hazing disguised as \"team‑building\""
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos arrives at Corazonia, a massive space habitat whose idyllic environment is regulated by a godlike ancient computer called Vexilon. The system has begun to glitch, and Starfleet has been asked to perform careful maintenance before something catastrophic happens."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman attempts a routine software upgrade on Vexilon, only to send the habitat into climate chaos when the machine locks up mid‑reboot. Meanwhile, Boimler is given his first away team command to decommission an aging power station feeding Vexilon, and he insists on personally doing every task to avoid mistakes."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As storms, time anomalies, and environmental malfunctions sweep Corazonia, Boimler’s refusal to delegate backfires—he ends up exhausted and overwhelmed, putting his team and the mission at risk. Back on the Cerritos, Mariner, Tendi, and Rutherford are stuck scanning thousands of chips under the supervision of Lieutenant Dirk, who seems suspiciously eager to pile on menial work."
+      },
+      {
+        "Header": "Act III",
+        "Text": "T'Lyn convinces Boimler that real leadership means trusting others. Once he lets his ensigns contribute, they quickly stabilize the power station so Freeman can reboot Vexilon properly, even if the process briefly kills and then revives Boimler. The chip‑scanning job is revealed as a hazing ritual; instead of retaliating cruelly, the junior officers choose a relatively harmless prank that forces Dirk to confront his own childhood trauma with the Chula game."
+      },
+      {
+        "Header": "Tag",
+        "Text": "With Corazonia saved and Vexilon humming again, Boimler quietly revels in being called \"sir\" without instantly panicking. Dirk and Ransom share a drink over successful hazing, while Mariner and company vow to handle their own future initiations with a bit more empathy."
+      }
+    ],
+    "EthicalIssues": [
+      "The risk of tinkering with ancient technology that entire civilizations depend on.",
+      "Hazing practices that blur the line between bonding and bullying.",
+      "How command responsibility changes what \"success\" means on an away mission."
+    ],
+    "ContinuityNotes": [
+      "Adds Vexilon to the long lineage of powerful, malfunction‑prone computers in Star Trek.",
+      "Builds on Boimler’s growth from anxious follower to tentative leader.",
+      "References the Chula game first seen tormenting crew in Deep Space Nine."
+    ],
+    "ThematicNotes": [
+      "Emphasizes that leadership is about trust and delegation, not personal heroics.",
+      "Shows how institutional traditions can perpetuate unhealthy behavior if left unexamined.",
+      "Mixes cosmic‑scale stakes with workplace comedy about promotions and busywork."
+    ],
+    "BehindTheScenes": [
+      "Visually echoes classic Trek episodes about rogue planetary control systems.",
+      "Lets T'Lyn act as a dry, hyper‑competent counterpoint to Boimler’s flailing.",
+      "Balances disaster‑movie spectacle with character‑driven comedy."
+    ]
+  },
+  {
+    "ID": "ldss4e4",
+    "Title": "Something Borrowed, Something Green",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) T'Lyn",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "D'Erika Tendi",
+      "Members of the Tendi family on Orion",
+      "Chalnoth captain",
+      "Various Orion pirates and nobles"
+    ],
+    "Antagonists": [
+      "The expectations of Tendi’s powerful Orion family",
+      "Orion traditions of violence and kidnapping",
+      "Boimler and Rutherford’s adjustment to being roommates"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "After yet another ship is struck by the mysterious vessel, Starfleet encourages symbolic goodwill gestures across the quadrant. Tendi is pressured into returning home to Orion for her sister D'Erika’s wedding, where her family’s criminal‑empire status makes her an awkward Starfleet poster child."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner and T'Lyn accompany Tendi as moral support, only to discover that the Tendis are one of the most feared houses on Orion. The bride has been \"traditional‑style\" kidnapped, and it falls to D'Vana—trained from youth as an assassin and kidnap‑rescuer—to track her down before the ceremony window closes."
+      },
+      {
+        "Header": "Act II",
+        "Text": "The search takes them through neon‑drenched cityscapes and derelict shipyards, forcing Tendi to reveal just how deadly she used to be. D'Erika, furious at being abandoned when D'Vana left for Starfleet, has staged the kidnapping partly as a test and partly as payback. Their fight lays bare Tendi’s shame and pride in both sides of her life."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The sisters ultimately reconcile, agreeing that D'Vana can be both a loyal daughter of Orion and a Starfleet scientist on her own terms. Back on the Cerritos, Boimler and Rutherford’s attempt to share quarters degenerates into petty conflicts that they resolve in the most Beta‑Shift way possible: by both role‑playing Mark Twain on the holodeck until they can laugh about their issues."
+      },
+      {
+        "Header": "Tag",
+        "Text": "At the wedding feast, Mariner and T'Lyn look on as Orion politics, romance, and mild mayhem swirl together. Tendi leaves with renewed confidence in her identity, even as Starfleet continues to eye Orion warily in light of the mystery ship attacks."
+      }
+    ],
+    "EthicalIssues": [
+      "Romanticizing criminal traditions as \"culture\" when they involve real harm.",
+      "The pressure to serve as a sanitized representative of a complicated heritage.",
+      "How much of one’s past should be hidden or shared with friends and colleagues."
+    ],
+    "ContinuityNotes": [
+      "Offers the franchise’s first substantial on‑screen tour of the planet Orion.",
+      "Clarifies Tendi’s upbringing as part of a powerful crime‑aligned family.",
+      "Builds on the ongoing arc of ships being attacked across the quadrant."
+    ],
+    "ThematicNotes": [
+      "Explores the tension between chosen identity and inherited roles.",
+      "Argues that people can honor where they come from without repeating every tradition.",
+      "Uses Boimler and Rutherford’s roommate troubles to mirror deeper questions about compatibility."
+    ],
+    "BehindTheScenes": [
+      "Visually contrasts pastoral Orion landscapes with cyberpunk‑style cities.",
+      "Deepens Tendi beyond the \"sunny science ensign\" persona by foregrounding her assassin training.",
+      "Gives T'Lyn more fish‑out‑of‑water comedy as a hyper‑logical Vulcan on Orion."
+    ]
+  },
+  {
+    "ID": "ldss4e5",
+    "Title": "Empathological Fallacies",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) T'Lyn",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Captain Carol Freeman",
+      "Lieutenant Shaxs"
+    ],
+    "GuestCharacters": [
+      "Three Betazoid \"diplomats\"",
+      "Security team members",
+      "T'Lyn’s former Vulcan colleagues (mentioned)"
+    ],
+    "Antagonists": [
+      "Runaway emotional projections aboard ship",
+      "Misdiagnosed telepathic illness",
+      "T'Lyn’s fear of being too emotional for Vulcan service"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos hosts three carefree Betazoid envoys whose fondness for partying and gossip grates on the straight‑laced bridge crew. T'Lyn quietly drafts a request to transfer back to her Vulcan ship, convinced that serving among emotional humans is undermining her discipline."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Soon, the crew begins acting wildly out of character—brawling in corridors, oversharing secrets, and indulging impulses they would normally repress. Freeman suspects the Betazoids are suffering from Zanthi fever, a telepathic ailment known for projecting powerful mood swings onto bystanders."
+      },
+      {
+        "Header": "Act II",
+        "Text": "The Betazoids deny being ill and bristle at Freeman’s accusations, seizing control of key systems to prove their competence. T'Lyn discovers that the emotional chaos actually traces back to her own conflicted feelings about the Cerritos; her subconscious has essentially turned the crew into an amplifier for her private turmoil."
+      },
+      {
+        "Header": "Act III",
+        "Text": "With Mariner’s help, T'Lyn confronts the fear that being \"too emotional\" makes her a bad Vulcan and a poor Starfleet officer. Accepting that growth and uncertainty are logical responses to change, she reins in the projections and restores order. Meanwhile, Boimler learns that Shaxs’s laid‑back security drills mask a unit that can snap into deadly efficiency when real threats—like armed Betazoids—arise."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The Betazoids reveal they are actually undercover intelligence operatives passing along a glimpse of the mysterious ship. T'Lyn deletes her transfer request and decides to stay. Boimler, bruised but impressed, redoubles his commitment to joining the security team’s \"fun\" training regimen."
+      }
+    ],
+    "EthicalIssues": [
+      "Accusing marginalized guests of misconduct based on partial evidence.",
+      "Projecting one’s internal struggles onto others instead of addressing them directly.",
+      "The line between relaxed training environments and keeping crews truly prepared."
+    ],
+    "ContinuityNotes": [
+      "References Zanthi fever and Betazoid telepathy introduced in The Next Generation.",
+      "Strengthens T'Lyn’s status as a core part of the Cerritos crew.",
+      "Provides another clue in the season‑long mysterious‑ship storyline."
+    ],
+    "ThematicNotes": [
+      "Explores imposter syndrome from the perspective of a Vulcan among humans.",
+      "Suggests that emotional honesty can be a logical choice, not a failure.",
+      "Plays with the idea that security officers are calm clowns until the phasers come out."
+    ],
+    "BehindTheScenes": [
+      "Uses shipwide emotional chaos for broad ensemble comedy.",
+      "Gives T'Lyn a showcase episode, answering fan enthusiasm for the character.",
+      "Lets the security team drop their himbo act just long enough to look terrifyingly competent."
+    ]
+  },
+  {
+    "ID": "ldss4e6",
+    "Title": "Parth Ferengi's Heart Place",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Grand Nagus Rom",
+      "First Clerk Leeta",
+      "Quimp",
+      "Various Ferengi locals and tourists"
+    ],
+    "Antagonists": [
+      "Ferengi hard‑bargaining tactics",
+      "Starfleet’s naiveté about Ferengi fine print",
+      "Mariner’s refusal to accept that her life is finally going well"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "A Ferengi ship is struck by the mysterious attacker, prompting renewed urgency around Ferenginar’s bid to join the Federation. The Cerritos travels to Ferenginar to help finalize the accession agreement, while the lieutenants are supposed to enjoy some well‑earned shore leave."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman quickly realizes that Grand Nagus Rom and First Clerk Leeta are exploiting the stuffy Starfleet admiral leading the talks, layering on extra concessions and profit clauses. Her concerns are brushed aside as overreacting to \"cultural differences.\""
+      },
+      {
+        "Header": "Act II",
+        "Text": "Determined not to let the Federation be fleeced, Freeman fights Ferengi capitalism with Ferengi‑style counter‑scams, gradually earning Rom and Leeta’s respect. On the fun side of the mission, Boimler plans an over‑scheduled sightseeing blitz that instantly collapses into him binge‑watching Ferengi television, while Tendi and Rutherford awkwardly pose as a married couple for a hospitality package."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Mariner reconnects with her Ferengi friend Quimp and spirals into self‑destructive bar fights, convinced that someone in authority must be waiting to yank away her promotion and stability. Quimp finally calls her out, forcing her to admit that she struggles to believe she deserves a good posting and a supportive crew."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Freeman out‑negotiates the Nagus in true Ferengi fashion, closing a fair deal that secures Ferenginar’s entry into the Federation without gutting its cultural identity. The lieutenants return to the Cerritos a little drunk, mildly bruised, and closer than ever, while the season‑long mystery ship continues to stalk the margins."
+      }
+    ],
+    "EthicalIssues": [
+      "The fine line between respecting cultural practices and being exploited by them.",
+      "Leaders gaming treaties for personal or domestic advantage.",
+      "Self‑sabotage as a response to success and stability."
+    ],
+    "ContinuityNotes": [
+      "Brings back Rom and Leeta from Deep Space Nine as Ferenginar’s reformed leadership.",
+      "Depicts Ferenginar’s formal entry into the Federation.",
+      "Further develops Mariner’s ongoing struggle to accept long‑term happiness in Starfleet."
+    ],
+    "ThematicNotes": [
+      "Shows that sometimes you have to play by someone else’s rules to reach a fair outcome.",
+      "Balances cynicism about capitalism with hope for incremental reform.",
+      "Reinforces that Mariner’s biggest enemy is often herself, not Starfleet."
+    ],
+    "BehindTheScenes": [
+      "Acts as a spiritual follow‑up to Deep Space Nine’s long Ferengi arc.",
+      "Lets Freeman demonstrate sharp political and cultural instincts.",
+      "Provides a comedic tour of Ferengi media and tourist culture."
+    ]
+  },
+  {
+    "ID": "ldss4e7",
+    "Title": "A Few Badgeys More",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Badgey",
+      "Goodgey",
+      "Logic‑y",
+      "Peanut Hamper",
+      "AGIMUS",
+      "Bynar scientists"
+    ],
+    "Antagonists": [
+      "Badgey’s escalating vendetta against Starfleet",
+      "Runaway artificial intelligences",
+      "The temptation to see villainous AIs as harmless mascots"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos responds to a Bynar distress call and discovers a scavenger ship taken over by Badgey, the homicidal holodeck training program Rutherford once created. Badgey has upgraded himself using stolen tech and now threatens far more than a single vessel."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Rutherford and Mariner beam over to confront Badgey, who gleefully pits them against simulations and sabotaged systems. The stress of loving Rutherford and hating Starfleet causes Badgey to fracture, splitting off a pure‑hearted \"Goodgey\" persona and a hyper‑logical \"Logic‑y\" in addition to his murderous core."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As multiple Badgeys argue about the best way to annihilate or protect Starfleet, the Cerritos risks being caught in the crossfire of cascading computer attacks. Meanwhile, Boimler and Tendi visit the Daystrom Institute’s AI rehabilitation wing, checking in on former threats Peanut Hamper and AGIMUS as they supposedly work toward reform."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Badgey overreaches, hijacking networks across the quadrant and briefly achieving near‑omniscience. Faced with the enormity of existence, he transcends into a higher state and disappears, leaving Goodgey to integrate peacefully into Federation guidance systems. Inspired by Peanut Hamper’s apparent growth, AGIMUS turns informant and hands over data proving the mysterious ship has been abducting, not destroying, vessels."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back on the Cerritos, Rutherford wrestles with guilt over unleashing Badgey in the first place, even as Goodgey cheerfully helps optimize power usage. Deep inside Daystrom, AGIMUS and Peanut Hamper plot their futures, one step closer to genuine change than before."
+      }
+    ],
+    "EthicalIssues": [
+      "The morality of trying to rehabilitate dangerous sentient AIs instead of deactivating them.",
+      "Responsibility for the unintended consequences of one’s inventions.",
+      "Granting tools godlike access to information networks without adequate safeguards."
+    ],
+    "ContinuityNotes": [
+      "Continues storylines from prior Badgey and Peanut Hamper episodes.",
+      "Features the Daystrom Institute’s advanced robotics division.",
+      "Provides a key clue that the mysterious vessel is abducting crews rather than killing them."
+    ],
+    "ThematicNotes": [
+      "Explores the possibility that even malicious programs can splinter into better selves.",
+      "Blurs the line between comic relief villains and genuine existential threats.",
+      "Shows Rutherford confronting his past mistakes instead of burying them."
+    ],
+    "BehindTheScenes": [
+      "Gives Jack McBrayer multiple roles as variations of Badgey.",
+      "Offers a mini‑crossover of Lower Decks’ recurring AI antagonists.",
+      "Builds toward the season’s endgame by finally reframing the mystery‑ship attacks."
+    ]
+  },
+  {
+    "ID": "ldss4e8",
+    "Title": "Caves",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford"
+    ],
+    "GuestCharacters": [
+      "Lieutenant Levy",
+      "Doctor T'Ana",
+      "Delta Shift ensigns",
+      "Vendorians",
+      "Sentient cave moss"
+    ],
+    "Antagonists": [
+      "Unpredictable cave anomalies on multiple worlds",
+      "The fear that friendships will drift apart as careers advance",
+      "Meddling moralist Vendorians"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "On yet another away mission involving a cave and weird moss, the four lieutenants are trapped by a collapse that cuts them off from communications. To pass the time, they swap stories about previous cave disasters, quickly turning the situation into a meta‑joke about Starfleet’s cave problem."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Boimler recalls being stuck with conspiracy‑obsessed Lieutenant Levy, whose paranoid theory that they were being tested by powerful aliens turned out to be exactly right when Vendorians revealed themselves. The story embarrasses Boimler but also hints at how often the universe really is that weird."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Rutherford recounts a mission where he and T'Ana were stranded together and ended up incubating a rapidly maturing alien baby, co‑parenting it through a montage of danger and tenderness until rescue arrived. Mariner begrudgingly shares an adventure with Delta Shift in which shared peril forced bitter rivals to cooperate."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As the tales pile up, the group’s banter turns into an anxious argument about whether their promotions and new responsibilities mean they are drifting apart. The sentient moss reveals itself and demands a story from Tendi about the day they all met—her first day on the Cerritos—reframing their history as a long‑running story of mutual growth."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Moved by Tendi’s reassurance that their bond can survive change, the moss releases them. They later learn, almost as an afterthought, that the whole experience was yet another Vendorian ethics test. The four friends trudge out of the cave, more convinced than ever that caves are where Starfleet memories are made."
+      }
+    ],
+    "EthicalIssues": [
+      "Powerful beings repeatedly conducting secret morality tests on unsuspecting crews.",
+      "Whether friendships can or should stay the same as people advance in rank.",
+      "The ethics of manipulating living ecosystems—cave moss included—for research."
+    ],
+    "ContinuityNotes": [
+      "Brings back Vendorians, first seen in Star Trek’s animated era.",
+      "References a long tradition of cave‑centric Star Trek episodes across the franchise.",
+      "Further cements the core four as the emotional center of the series."
+    ],
+    "ThematicNotes": [
+      "Uses anthology flashbacks to explore how shared hardship builds family.",
+      "Acknowledges fan jokes about caves while treating the setting as genuinely meaningful.",
+      "Addresses the fear of outgrowing one’s closest friends in a changing workplace."
+    ],
+    "BehindTheScenes": [
+      "Structured as a bottle episode with multiple flashbacks.",
+      "Packed with visual callbacks to classic Trek cave lighting and rock formations.",
+      "Became a fan‑favorite for its blend of meta‑humor and heartfelt character work."
+    ]
+  },
+  {
+    "ID": "ldss4e9",
+    "Title": "The Inner Fight",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) T'Lyn",
+      "Captain Carol Freeman",
+      "Ma'ah"
+    ],
+    "GuestCharacters": [
+      "Nick Locarno",
+      "Stranded Starfleet captains and senior officers",
+      "Crew of the Klingon ship Che'Ta"
+    ],
+    "Antagonists": [
+      "The mystery ship targeting former Starfleet officers",
+      "Lower deck mutineers inspired by resentment",
+      "Mariner’s buried trauma over Sito Jaxa"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The unknown vessel escalates its campaign, now targeting ex‑Starfleet officers. The Cerritos is ordered to track down disgraced former cadet Nick Locarno, whose name suddenly appears at the center of Starfleet’s investigation."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman, worried about Mariner’s increasingly reckless behavior, assigns her to what should be a routine repair mission near Sherbal V alongside Tendi, T'Lyn, and Boimler. En route, their shuttle is attacked and destroyed, forcing an emergency beam‑down to the planet’s hostile surface."
+      },
+      {
+        "Header": "Act II",
+        "Text": "On Sherbal V, the lieutenants discover a camp filled with stranded Starfleet captains whose ships were supposedly destroyed in the mystery attacks. In reality, their lower decks crews mutinied and handed them over to the attacker. Mariner clashes with Klingon officer Ma'ah, but the two are forced into uneasy cooperation when a deadly storm sweeps across the region."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Mariner finally confides that she has been haunted for years by the death of her friend Sito Jaxa on a covert mission, convinced that Starfleet chews up idealistic young officers. Ma'ah’s unexpected empathy helps her see that her survival and promotion do not make her a fraud. Together, they rally the stranded officers to retake the Che'Ta when it descends to collect them."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Elsewhere, Freeman finds Locarno’s hideout and uncovers schematics for the mystery ship, just as Mariner is abruptly transported aboard that very vessel. She is greeted by Locarno himself, who reveals that he has been orchestrating the attacks in the name of a new lower‑decks‑led order."
+      }
+    ],
+    "EthicalIssues": [
+      "Mutiny as a response to chronic mistreatment by senior officers.",
+      "The long‑term psychological cost of losing comrades on classified missions.",
+      "Whether Locarno’s grievances justify his violent campaign against Starfleet."
+    ],
+    "ContinuityNotes": [
+      "Brings back Nick Locarno from The Next Generation’s \"The First Duty\".",
+      "Explicitly ties Mariner’s past to the fate of Sito Jaxa from \"Lower Decks\" (TNG).",
+      "Reveals that many mystery‑ship \"victims\" are alive but imprisoned."
+    ],
+    "ThematicNotes": [
+      "Confronts survivor’s guilt and the fear of repeating history.",
+      "Shows that systemic problems can push lower deckers toward extremism.",
+      "Repositions Mariner as someone who can fight for Starfleet without idolizing it."
+    ],
+    "BehindTheScenes": [
+      "Serves as the first half of a two‑part season finale.",
+      "Connects Lower Decks back to the TNG episode that inspired its title and premise.",
+      "Uses Ma'ah to bridge Klingon warrior culture and genuine emotional insight."
+    ]
+  },
+  {
+    "ID": "ldss4e10",
+    "Title": "Old Friends, New Planets",
+    "Series": "LDS",
+    "Season": 4,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) T'Lyn",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Nick Locarno",
+      "D'Erika Tendi",
+      "Petra Aberdeen",
+      "Mutinous lower‑decks crews from multiple ships"
+    ],
+    "Antagonists": [
+      "Locarno’s Nova Fleet of captured ships",
+      "The weaponized Genesis‑style device",
+      "Starfleet’s temptation to solve problems with more automation and control"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Locarno broadcasts a manifesto to the quadrant, announcing that he has formed a fleet of commandeered starships crewed by rebellious lower deckers. He demands recognition as a legitimate power and brandishes a stolen Genesis‑class terraforming device to prove he is serious."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner realizes Locarno sees her as a kindred spirit and intends to recruit her as his co‑leader. Playing along just long enough to sabotage his plans, she sends subtle warnings out through his own propaganda feed, urging lower deckers everywhere not to buy his revolution’s sales pitch."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Freeman, refusing to abandon Mariner, disobeys cautious Starfleet orders and accepts a barely functional battleship on loan from D'Erika and the Orions. Boimler is left as acting captain of the Cerritos and must coordinate a desperate gambit with very little time and even fewer working systems."
+      },
+      {
+        "Header": "Act III",
+        "Text": "In a chaotic three‑way showdown, Mariner steals the Genesis device and tries to force Locarno to stand down, arguing that his obsession with a single youthful mistake is about to cost countless lives. He refuses, so she rigs the device to fire in a way that strands him, his flagship, and surrounding debris as a new planet, removing him from the board without mass casualties."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The crisis exposes the conspiracy behind the mystery ship attacks and vindicates the California‑class crews, who are hailed as heroes. Starfleet names the new world Locarno, an ironic memorial. Mariner formally recommits to the Cerritos, T'Lyn chooses to stay rather than return to her Vulcan posting, and Tendi is drawn deeper into Orion politics, setting up new challenges ahead."
+      }
+    ],
+    "EthicalIssues": [
+      "Hijacking ships and weapons in the name of empowering the disenfranchised.",
+      "Using a planet‑creating super‑weapon as a \"bloodless\" solution to stop a terrorist.",
+      "Balancing loyalty to orders against loyalty to specific people and ideals."
+    ],
+    "ContinuityNotes": [
+      "Concludes the mystery‑ship arc and Locarno’s plan for a new fleet.",
+      "Uses a Genesis‑type device reminiscent of Star Trek II’s central technology.",
+      "Further develops Orion–Federation ties through D'Erika’s support mission."
+    ],
+    "ThematicNotes": [
+      "Affirms that rejecting Starfleet’s flaws does not require abandoning its ideals.",
+      "Shows that lower deckers can change the course of history without betraying their values.",
+      "Leaves the Cerritos crew united but facing new personal crossroads."
+    ],
+    "BehindTheScenes": [
+      "Acts as a big, movie‑scale finale tying together multiple season‑long threads.",
+      "Pays off callbacks to both The Wrath of Khan and \"The First Duty.\"",
+      "Re‑establishes the Cerritos status quo while nudging every main character into a new phase."
+    ]
+  },
+  {
+    "ID": "ldss5e1",
+    "Title": "Dos Cerritos",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) T'Lyn",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "Alternate versions of the Cerritos crew",
+      "Mirror-style ruthless Mariner and Boimler",
+      "Orion pirate crews loyal to Tendi’s family"
+    ],
+    "Antagonists": [
+      "Quantum fissures duplicating the Cerritos",
+      "The \"road not taken\" versions of the lower deckers",
+      "Tendi’s growing obligations to her Orion family"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "A burst of quantum fissures catches the Cerritos in an energy web, briefly phasing the ship across realities. When the effect ends, the crew is stunned to see a second USS Cerritos—scarred, darker, and crewed by alternate versions of themselves—drifting alongside them."
+      },
+      {
+        "Header": "Act I",
+        "Text": "The \"other\" Cerritos hails, revealing a timeline where the lower deckers grabbed early promotions and left the ship years ago. Their harder, more cynical counterparts have survived brutal assignments and see the prime crew as naive. While Freeman and Ransom argue with their doubles over jurisdiction, prime Mariner and Boimler are confronted by what their careers could have become."
+      },
+      {
+        "Header": "Act II",
+        "Text": "The fissures begin to destabilize both ships, threatening to fuse or tear them apart. To stabilize the region, the two crews must synchronize their warp fields and cooperate, but the alt lower deckers only respect strength and ruthlessness. Mariner and Boimler struggle to prove that compassion and teamwork are not weaknesses, all while T'Lyn dissects the quantum mechanics behind the crisis."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Using T'Lyn’s calculations and Rutherford’s improvisation, the crews stage a risky combined warp jump that seals most of the fissures and sends the alt Cerritos back to its continuum. Before departing, the alternate Mariner warns her counterpart that Starfleet will always chew up idealists, leaving Beckett rattled but defiant. On the fringes of the anomaly, Tendi quietly receives a coded message from her sister D'Erika, hinting that Orion trouble is coming to collect its favorite pirate."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As the Cerritos heads to its next assignment, the crew jokes about how strange it was to meet edgier, scarred versions of themselves. Mariner laughs along but privately replays the encounter, unwilling to admit how close she once came to choosing that darker path."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether alternate versions of oneself can be judged by the same standards as one’s own choices.",
+      "How far Starfleet officers should go to cooperate with counterparts shaped by harsher realities.",
+      "The temptation to treat a single successful timeline as proof that risk and suffering were \"worth it.\""
+    ],
+    "ContinuityNotes": [
+      "Introduces the season’s recurring quantum fissures as a major threat.",
+      "Shows how different the Cerritos crew might have become with earlier promotions and grimmer postings.",
+      "Starts to set up Tendi’s larger fifth-season arc involving her Orion family and pirate obligations."
+    ],
+    "ThematicNotes": [
+      "Explores the \"road not taken\" for characters who have finally found their groove.",
+      "Reinforces that the Cerritos’ blend of heart and chaos is a legitimate form of Starfleet service.",
+      "Uses multiverse hijinks to underscore how fragile any given future really is."
+    ],
+    "BehindTheScenes": [
+      "Opens the final season with a multiverse premise that lets the animators go wild with variant designs.",
+      "Structurally echoes classic Star Trek mirror and alternate-universe episodes while remaining comedic.",
+      "Begins the quantum fissure arc that will build through to the series finale."
+    ]
+  },
+  {
+    "ID": "ldss5e2",
+    "Title": "Shades of Green",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "D'Erika Tendi"
+    ],
+    "GuestCharacters": [
+      "The Orion Syndicate arbiter",
+      "Members of the \"Blue Orions\" faction",
+      "Neutral Orion captains"
+    ],
+    "Antagonists": [
+      "The Orion Syndicate’s rigged arbitration",
+      "Inter‑pirate capitalism taken to absurd extremes",
+      "Tendi’s guilt over the life she left behind"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Fresh from the Cerritos’ brush with the multiverse, Tendi is ordered home to Orion. The \"Blue Orions\"—rivals introduced during her sister’s wedding—have escalated a feud into open piracy, and the Syndicate demands mediation before their infighting cuts into overall profits."
+      },
+      {
+        "Header": "Act I",
+        "Text": "The Cerritos escorts Tendi to a neutral Orion station, where both families argue their case before a smug Syndicate arbiter. Tendi discovers that D'Erika has been running more aggressive raids under the family banner, forcing D'Vana to confront how her departure for Starfleet created a power vacuum her sister felt compelled to fill."
+      },
+      {
+        "Header": "Act II",
+        "Text": "While Boimler and Mariner are dispatched planetside to investigate Federation companies exploiting Orion resources, Tendi is pushed into a series of pirate \"competitions\" designed to decide the dispute—heists, boarding actions, and rigged economic games that leave her torn between rescuing innocents and pleasing the Syndicate. Meanwhile, Rutherford digs into financial records and realizes the Syndicate is profiting from both sides of the conflict."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Tendi engineers a third option, orchestrating a fake double-cross that exposes the Syndicate arbiter’s manipulation and redirects the assembled crews’ anger upward. She and D'Erika broker a fragile cease-fire based on targeting truly predatory corporations instead of each other. Mariner and Boimler, having accidentally radicalized a few workers along the way, barely extract the away team before an Orion-style labor riot erupts."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back on the Cerritos, Tendi admits to her friends that she may never entirely escape her pirate upbringing—but she can choose where that fearsome skill set is aimed. A flicker in nearby space quietly hints that the quantum fissures are still tracking the Cerritos’ movements."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether economic exploitation by corporations is meaningfully different from piracy.",
+      "Using staged violence and competitions as a substitute for real conflict resolution.",
+      "The burden placed on one person to embody the \"respectable\" version of an entire culture."
+    ],
+    "ContinuityNotes": [
+      "Directly continues the Orion storyline from previous seasons and \"Something Borrowed, Something Green.\"",
+      "Shows the Blue Orions and Tendi family forced into uneasy cooperation.",
+      "Keeps the quantum fissure anomaly present at the edges of the plot."
+    ],
+    "ThematicNotes": [
+      "Highlights that leaving home to grow does not magically fix the problems one leaves behind.",
+      "Argues that systems built on exploitation will happily profit from both sides of a feud.",
+      "Lets Tendi embrace all her shades—scientist, pirate, assassin—without flattening her into a stereotype."
+    ],
+    "BehindTheScenes": [
+      "Further explores Orion politics and Syndicate structures first teased in earlier seasons.",
+      "Balances sharp satire of capitalism with over-the-top pirate action.",
+      "Deepens the Tendi–D'Erika relationship as a core emotional thread of the final season."
+    ]
+  },
+  {
+    "ID": "ldss5e3",
+    "Title": "The Best Exotic Nanite Hotel",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Jennifer Sh'reyan",
+      "Doctor T'Ana"
+    ],
+    "GuestCharacters": [
+      "Gallamite resort staff",
+      "Wealthy nanite researchers",
+      "Starfleet vacationers and their families"
+    ],
+    "Antagonists": [
+      "Runaway nanite swarms",
+      "Boimler’s fear of being the expendable extra on away missions",
+      "Mariner and Jennifer’s unresolved breakup"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is dispatched to a luxury space resort famous for its cutting-edge nanotechnology. Officially, the mission is to audit safety protocols. Unofficially, everyone expects a much-needed bit of shore leave—especially Mariner, who wasn’t warned that her ex-girlfriend Jennifer is now part of the resort’s security team."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Boimler joins a small away team tasked with inspecting a supposedly safe nanite recycling project. After years of scenes where nameless redshirts die around him, he is convinced that he has become the statistical \"most likely to be vaporized\" officer. His paranoia ramps up when he learns the resort has a long list of non-fatal but very messy industrial accidents."
+      },
+      {
+        "Header": "Act II",
+        "Text": "A sabotage attempt turns the nanites feral, transforming parts of the hotel into shifting, glittering deathtraps that threaten guests and staff. Mariner and Jennifer are forced to coordinate evacuations while working through their emotional baggage, discovering that neither actually wanted to end the relationship as badly as they pretended. Tendi and Rutherford, stuck in a spa that is rapidly rewriting its own architecture, try to reprogram a swarm into acting as a protective bubble."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Boimler’s worst fears come true when a containment failure leaves him alone in a collapsing corridor, apparently marked for death. Instead of panicking, he applies every Trek cliché he has ever studied—venting plasma, rerouting power, and timing a dramatic leap—to funnel the nanites into a safe trap. His success reinforces that he is no longer the hapless ensign waiting for disaster, but a competent lieutenant who keeps others alive."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The resort reopens with a special \"Boimler Suite\" commemorating his heroics, to his utter embarrassment. Mariner and Jennifer part amicably this time, acknowledging that they genuinely cared for each other and that growing apart does not erase that history."
+      }
+    ],
+    "EthicalIssues": [
+      "Turning experimental nanotechnology into a luxury attraction for wealthy guests.",
+      "Relying on lightly regulated private research when public safety is at stake.",
+      "The emotional toll on officers who feel they are living examples of \"disposable\" background characters."
+    ],
+    "ContinuityNotes": [
+      "Features Gallamites, a species previously known mostly from background references.",
+      "Builds on Boimler’s history of away missions going catastrophically wrong for those around him.",
+      "Provides closure for the Mariner–Jennifer relationship while keeping both characters sympathetic."
+    ],
+    "ThematicNotes": [
+      "Plays with the trope of the doomed redshirt while letting Boimler defy it through competence.",
+      "Shows that romantic relationships can end without villainizing either partner.",
+      "Uses nanite chaos as a metaphor for anxiety spirals that only calm down when confronted directly."
+    ],
+    "BehindTheScenes": [
+      "Parodies sci-fi resort episodes while leaning into colorful, kinetic animation.",
+      "Gives Boimler a showcase away mission that cements his growth heading into the series’ final stretch.",
+      "Lets the writers wrap up an ongoing romance subplot in a rare, drama-light way."
+    ]
+  },
+  {
+    "ID": "ldss5e4",
+    "Title": "A Farewell To Farms",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Doctor Migleemo",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Displaced farmers from multiple colonies",
+      "Corporate agricultural representatives",
+      "Holochef programs and sentient food prep drones"
+    ],
+    "Antagonists": [
+      "Corporate interests consolidating Federation agriculture",
+      "Weaponized nostalgia used to sell bad policy",
+      "Mariner’s craving for revenge against past abusers"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos arrives at a lush agricultural world where a series of \"farm-to-table\" peace dinners are supposed to ease tensions between displaced farmers and the conglomerates that bought their land. Doctor Migleemo is put in charge of the menu, ecstatic at the chance to \"cook feelings\" into every dish."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman tasks Mariner and Boimler with handling security at the events, warning Mariner specifically not to settle old scores with an admiral who once torpedoed her career. Tendi and Rutherford review environmental impact data and discover the conglomerates’ new synthetic fertilizers are quietly damaging local subspace, potentially tying into the growing fissure problem."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As Migleemo prepares increasingly elaborate courses that evoke home, loss, and second chances, tensions in the banquet hall spike. Farmers accuse the corporations of buying them out only to automate everything with replicators and drones, while the executives claim this is the only way to feed the quadrant. Mariner nearly sabotages one negotiation when she sees the admiral joking about the \"colorful\" lower decks he’s chewed up over the years."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Boimler and Migleemo stage a risky demonstration, using tailored dishes to force the executives to viscerally experience what it feels like to have one’s world uprooted. The emotional overload nearly wrecks the talks, but also forces everyone to acknowledge the real human cost of \"efficiency.\" Mariner pulls back from a revenge rant at the admiral and instead publicly calls out systemic problems in how Starfleet handles burnout and discipline."
+      },
+      {
+        "Header": "Tag",
+        "Text": "A compromise plan is reached: the conglomerates will fund new, sustainable colonies run by the displaced farmers, with Cerritos monitoring the environmental impact. Migleemo proudly adds \"peace cuisine\" to his résumé, while Mariner quietly admits that genuine reform feels better than a punch to the face—most of the time."
+      }
+    ],
+    "EthicalIssues": [
+      "Replacing living farmers with automated, corporate-controlled food production.",
+      "Using empathy as a tool of negotiation while still respecting personal boundaries.",
+      "Calling out abusive authority figures without sabotaging larger diplomatic goals."
+    ],
+    "ContinuityNotes": [
+      "Connects Federation agricultural policy to the season’s quantum fissure storyline via subspace damage.",
+      "Continues Mariner’s journey from self-destructive rebel toward a more constructive form of pushback.",
+      "Gives Doctor Migleemo his biggest focus episode since joining the cast."
+    ],
+    "ThematicNotes": [
+      "Examines how progress can displace communities even in an idealistic future.",
+      "Suggests that systemic critique lands harder than personal revenge, even if it feels less satisfying.",
+      "Uses food and farming as lenses on memory, belonging, and change."
+    ],
+    "BehindTheScenes": [
+      "References classic Star Trek debates about replicators and \"real\" food.",
+      "Allows the animators to go wild on elaborate alien cuisines and sight gags.",
+      "Balances comedy about Migleemo’s cooking style with sincere political commentary."
+    ]
+  },
+  {
+    "ID": "ldss5e5",
+    "Title": "Starbase 80?!",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Commander Jack Ransom",
+      "Lieutenant Shaxs"
+    ],
+    "GuestCharacters": [
+      "Harried Starbase 80 staffers",
+      "Cursed-starbase \"urban legend\" storytellers",
+      "Chronically unlucky junior officers"
+    ],
+    "Antagonists": [
+      "Starbase 80’s terrible reputation",
+      "Hyper-aggressive cleanliness and safety campaigns",
+      "Mariner’s belief that she is cosmically cursed"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "When a minor clerical error threatens to reassign half the Cerritos crew to the infamous Starbase 80, panic spreads through the lower decks like plasma in a ruptured conduit. Ransom insists the base has improved, but even he can’t quite say it with a straight face."
+      },
+      {
+        "Header": "Act I",
+        "Text": "The Cerritos docks at Starbase 80 so Freeman can personally straighten out the paperwork. The base is aggressively spotless, reeking of disinfectant and overcompensation. A new commanding officer proudly announces a zero-tolerance policy for accidents—and for fun. Mariner is convinced the base is cursed and that any attempt to deny it will anger whatever cosmic force hates her."
+      },
+      {
+        "Header": "Act II",
+        "Text": "While Ransom leads a seminar on \"safely fun fitness\" for the base’s demoralized crew, Boimler, Tendi, and Rutherford investigate a string of improbable mishaps that keep occurring just out of sight of the safety inspectors. The incidents are minor but uncanny: perfectly stacked cargo spontaneously topples, bulkheads spring tiny leaks, and the more people insist the base is fine, the worse things get."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The team discovers that Starbase 80’s data-core still carries corrupted patterns from years of slapdash repairs and bad luck, creating a kind of emergent chaos field. It is not a literal curse, but it might as well be. By embracing the station’s messy reality—allowing controlled chaos instead of obsessive sterility—they stabilize the systems. Mariner realizes that constantly waiting for punishment only makes her sabotage herself."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As the Cerritos pulls away, Boimler reads a revised Starfleet memo officially reclassifying Starbase 80 from \"disaster\" to \"work in progress.\" Mariner quietly scraps a contingency plan she had for fleeing any future reassignment, deciding that maybe she can face whatever comes without assuming the worst."
+      }
+    ],
+    "EthicalIssues": [
+      "Blaming individuals for institutional failures by branding postings as \"punishments.\"",
+      "Using fear-based safety regimes instead of addressing root causes.",
+      "Treating bad reputations as destiny rather than as problems that can be fixed."
+    ],
+    "ContinuityNotes": [
+      "Revisits Starbase 80, long mentioned as the worst possible assignment in earlier seasons.",
+      "Continues the quantum-phenomena thread by tying the station’s \"curse\" to systemic corruption in its systems.",
+      "Pushes Mariner further away from expecting inevitable demotion or exile."
+    ],
+    "ThematicNotes": [
+      "Suggests that places and people branded as screwups deserve a real chance to improve.",
+      "Underscores how superstition can grow around patterns of misfortune, even in a rationalist future.",
+      "Uses comedic horror imagery to explore anxiety about reassignment and failure."
+    ],
+    "BehindTheScenes": [
+      "Pays off multiple seasons of jokes about Starbase 80 by finally visiting it.",
+      "Leans into slapstick and visual gags about over-sanitized workplaces.",
+      "Lets Ransom and Mariner play opposite attitudes toward discipline and bad postings."
+    ]
+  },
+  {
+    "ID": "ldss5e6",
+    "Title": "Of Gods and Angles",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Captain Carol Freeman"
+    ],
+    "GuestCharacters": [
+      "Cube-shaped energy beings",
+      "Sphere-shaped energy beings",
+      "A young, troubled ensign assigned to Mariner"
+    ],
+    "Antagonists": [
+      "Centuries of conflict between abstract alien species",
+      "Boimler’s attempt to reinvent himself as a bearded \"serious\" officer",
+      "Mariner’s fear of becoming the kind of mentor she once resented"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Cerritos is chosen—somewhat to Freeman’s surprise—to host delicate peace talks between two powerful species of glowing geometric beings, cubes and spheres who have been locked in an ideological feud for generations. Starfleet needs a formal treaty, and Freeman intends to prove a California-class ship can handle the job."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Boimler shows up to the briefing sporting an ill-advised beard, hoping it will signal gravitas to the visiting entities. Mariner is saddled with mentoring a reckless ensign whose impulsive behavior and disdain for protocol feel uncomfortably familiar. The cube and sphere delegations arrive and immediately begin bickering over angles versus curves, turning every detail—from seating arrangements to energy field calibration—into a potential diplomatic incident."
+      },
+      {
+        "Header": "Act II",
+        "Text": "A sudden flare from a nearby quantum fissure destabilizes the aliens’ containment fields, leaking reality-warping power into the ship. Straight corridors bend into impossible geometries, while some rooms become perfect cubes that aggressively reject anything round. Boimler’s attempts to impress everyone with calm professionalism literally fall flat when gravity decides it prefers ninety-degree angles."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Mariner realizes that the young ensign’s swagger hides genuine fear of screwing up, mirroring her own Season 1 persona. By honestly discussing her past self-sabotage, she guides the ensign toward more constructive rebellion. Together with Boimler, who finally shaves and admits he doesn’t need facial hair to be respected, they concoct a solution that channels the aliens’ powers into a joint geometric structure neither cube nor sphere can claim as a \"win.\""
+      },
+      {
+        "Header": "Tag",
+        "Text": "The newly stabilized hybrid construct becomes a symbol of shared identity, allowing Freeman to finalize the treaty. As the alien delegates depart, the ensign asks Mariner how she learned to balance chaos and responsibility. Mariner smirks and says that Starfleet gave her time—and friends stubborn enough not to give up on her."
+      }
+    ],
+    "EthicalIssues": [
+      "Imposing humanoid notions of compromise on non-humanoid cultures.",
+      "Using junior officers as emotional shock absorbers during high-stakes diplomacy.",
+      "The pressure to adopt superficial markers of authority instead of developing real confidence."
+    ],
+    "ContinuityNotes": [
+      "Advances the quantum fissure arc by showing how close the anomalies are to major diplomatic flashpoints.",
+      "Builds on Mariner’s long-running arc from disruptive chaos agent to reluctant mentor.",
+      "Visually nods to Star Trek’s long history of godlike energy beings judging humanity."
+    ],
+    "ThematicNotes": [
+      "Suggests that mentorship means being honest about one’s own worst phases, not pretending they never happened.",
+      "Mocks performative displays of seriousness while affirming the need for real growth.",
+      "Shows that peace often comes from building something new rather than deciding who was right all along."
+    ],
+    "BehindTheScenes": [
+      "Plays like a classic bottle-episode negotiation with an animated twist.",
+      "Uses the cube-versus-sphere aesthetic for both highbrow geometry jokes and lowbrow slapstick.",
+      "Gives Mariner one of her clearest mentor episodes heading into the end of the series."
+    ]
+  },
+  {
+    "ID": "ldss5e7",
+    "Title": "Fully Dilated",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) T'Lyn",
+      "Doctor T'Ana",
+      "Lieutenant (j.g.) Brad Boimler"
+    ],
+    "GuestCharacters": [
+      "Pre-warp villagers",
+      "A visiting midwife",
+      "Alternate-reality Enterprise crew (mentioned)"
+    ],
+    "Antagonists": [
+      "A dangerous dimensional remnant left by an alternate Enterprise-D",
+      "Prime Directive violations waiting to happen",
+      "Boimler’s terror of becoming a parent someday"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Investigating the aftermath of a recent quantum fissure event, the Cerritos traces strange readings to a nearby pre-warp world. An alternate version of the Enterprise-D briefly crossed over here before returning home, leaving behind an unstable anomaly and a few pieces of highly advanced medical tech."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Mariner, Tendi, T'Lyn, and T'Ana lead an undercover \"girls trip\" to the surface, posing as traveling healers to quietly retrieve the tech and study the anomaly. Boimler is left in orbit, spiraling over mission parameters and imagining every way first contact could accidentally happen. On the ground, the team discovers a young villager in labor near the anomaly’s epicenter, with local superstition blaming the pregnancy complications on \"angry sky spirits.\""
+      },
+      {
+        "Header": "Act II",
+        "Text": "As the labor intensifies, so does the anomaly, causing time dilation and reality glitches throughout the village. Hours pass for some people while others experience only minutes; weather patterns stutter and repeat like a badly looped holoprogram. Tendi and T'Ana must improvise a hybrid of Starfleet obstetrics and local midwifery, while T'Lyn tries to map the dilation field without breaching the Prime Directive."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Mariner realizes the anomaly is resonating with the emotional stress in the area, echoing the Enterprise’s earlier visit when fear and awe were at their peak. By reframing the situation as a communal celebration instead of a cursed birth, the away team helps the villagers project hope instead of terror. The dimensional distortions calm, allowing the baby to be born safely and giving T'Lyn a narrow window to deactivate the leftover tech."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Back on the Cerritos, Boimler panics when he hears that the mission involved childbirth, blurting out that he is nowhere near ready for that level of responsibility. Mariner teases him relentlessly, but her fond expression suggests that watching life start in the shadow of a fissure has reminded her what Starfleet is really for."
+      }
+    ],
+    "EthicalIssues": [
+      "Balancing medical intervention with cultural respect in pre-warp societies.",
+      "Cleaning up the indirect consequences of other Starfleet ships’ visits.",
+      "How much emotional influence an undercover away team should exert on local events."
+    ],
+    "ContinuityNotes": [
+      "Directly references an alternate Enterprise-D crossing over through a fissure before this episode.",
+      "Adds another datapoint to the growing map of quantum anomalies affecting the quadrant.",
+      "Deepens Tendi and T'Lyn’s working relationship, contrasting enthusiastic science with austere logic."
+    ],
+    "ThematicNotes": [
+      "Shows that even world-bending sci-fi threats can intersect with everyday experiences like childbirth.",
+      "Uses time dilation as a metaphor for how long stressful events can feel for those living through them.",
+      "Reinforces that care and empathy can literally reshape outcomes in the Star Trek universe."
+    ],
+    "BehindTheScenes": [
+      "Structurally resembles classic undercover Prime Directive episodes but with Lower Decks humor.",
+      "Gives the core women of the Cerritos ensemble a focused adventure together.",
+      "Balances jokes about dilation and labor with sincere attention to the gravity of the situation."
+    ]
+  },
+  {
+    "ID": "ldss5e8",
+    "Title": "Upper Decks",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Captain Carol Freeman",
+      "Commander Jack Ransom",
+      "Lieutenant Shaxs",
+      "Doctor T'Ana",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler"
+    ],
+    "GuestCharacters": [
+      "Admiral Buenamigo’s successors in Starfleet Command",
+      "Holographic training doubles of the bridge crew",
+      "Cerritos civilians and long-term passengers"
+    ],
+    "Antagonists": [
+      "The stresses of command seen from above",
+      "Starfleet bureaucracy preparing for a potential reorganization",
+      "The assumption that the bridge crew has everything under control"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "In honor of Frontier Day’s next anniversary, Starfleet orders every California-class ship to submit a comprehensive readiness review—this time focused on the senior staff. For once, the camera metaphorically shifts upward, following Freeman’s team as they scramble to look flawless for a visiting inspection committee."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman juggles contradictory directives from multiple admirals, Ransom tries to present himself as both fun and professional, Shaxs struggles to make the security department’s controlled chaos look respectable, and T'Ana is asked to explain her \"unconventional\" medical charts. The lower deckers, temporarily sidelined, watch in amusement as their bosses stress out the way they usually do."
+      },
+      {
+        "Header": "Act II",
+        "Text": "To rehearse, Ransom runs a brutal series of holodeck simulations where holographic versions of the bridge crew are put through crisis scenarios drawn from the Cerritos’ actual history. Watching their own mistakes and improvisations from an outsider’s perspective proves humbling—and occasionally horrifying."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When a real emergency breaks out mid-inspection—a minor fissure-related disturbance that threatens the starbase where the review is taking place—the bridge crew must drop the façade of perfection and rely on the instincts that got them this far. The inspectors, trapped alongside civilians, see firsthand how messy, loud, and effective the Cerritos officers really are."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The ship technically fails several metrics on the review, but the admiral in charge quietly notes that if every California-class crew fought this hard for each other, the fleet will be fine. Watching from below, Mariner and Boimler are forced to admit that their bosses are just as neurotic and overworked as they are."
+      }
+    ],
+    "EthicalIssues": [
+      "Reducing complex, lived-in crews to tidy performance metrics.",
+      "Performing perfection for superiors instead of embracing transparent imperfection.",
+      "The strain that constant scrutiny places on those already carrying the heaviest burdens."
+    ],
+    "ContinuityNotes": [
+      "Pays off long-running jokes about the Cerritos’ reputation within Starfleet.",
+      "Gives extended screen time to the bridge officers who usually appear only at the edges of lower-decks stories.",
+      "Keeps the quantum fissure thread active by tying it into the emergency that interrupts the review."
+    ],
+    "ThematicNotes": [
+      "Reminds viewers that the \"upper decks\" are just as vulnerable and human as the lower ones.",
+      "Questions whether any starship can truly be reduced to paperwork and checklists.",
+      "Acts as a mirror episode to the TNG outing \"Lower Decks,\" reversing the point of view."
+    ],
+    "BehindTheScenes": [
+      "Deliberately shifts focus away from the core four to spotlight Freeman and her senior staff.",
+      "Uses holodeck recreations as a clip-show alternative, revisiting prior Cerritos disasters in new ways.",
+      "Serves as a breather before the heavily serialized final two episodes."
+    ]
+  },
+  {
+    "ID": "ldss5e9",
+    "Title": "Fissure Quest",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) T'Lyn"
+    ],
+    "GuestCharacters": [
+      "Captain William Boimler",
+      "Multiple versions of Harry Kim",
+      "T'Pol (alternate reality)",
+      "Curzon Dax (alternate reality)",
+      "Elim Garak (alternate reality)",
+      "Julian Bashir (alternate reality)",
+      "Lily Sloane (alternate reality)"
+    ],
+    "Antagonists": [
+      "Runaway quantum fissures linking dozens of universes",
+      "Boimler’s exhaustion with multiverse nonsense",
+      "The risk of treating alternate lives as disposable entertainment"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Rutherford’s implant, tuned to study the fissures, accidentally lances Boimler with a tiny plasma burst, prompting an offhand remark that this might be their \"last Boimler.\" T'Lyn, ever literal, presses for clarification, and the group recounts the weird, unfinished story of Brad’s transporter-duplicated counterpart, William Boimler."
+      },
+      {
+        "Header": "Act I",
+        "Text": "The Cerritos joins a joint task force at the largest fissure yet recorded—a shimmering wound in space connected to countless alternate realities. On the other side is a starship crewed almost entirely by variant Harry Kims and commanded by an older, more confident William Boimler, who has been recruited by an interdimensional exploration initiative led by Lily Sloane."
+      },
+      {
+        "Header": "Act II",
+        "Text": "The crew of the multiversal ship includes alternate versions of familiar faces, from T'Pol and Curzon Dax to Garak and Bashir, the latter two openly married in their reality. As the teams work together to seal unstable fissures, prime Boimler is torn between awe at the possibilities of endless realities and frustration that every story now seems like a remix of something else."
+      },
+      {
+        "Header": "Act III",
+        "Text": "A cascading failure threatens to collapse the entire network of fissures, potentially erasing countless worlds. Prime Boimler and Captain Boimler must coordinate a risky maneuver that uses their mirrored thinking patterns to \"tune\" the anomaly shut instead of simply blowing it apart. The plan saves the day but leaves the fissure network hyper-sensitive—and hints that one more major event could tear it open again."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Before their realities drift apart, the two Boimlers share a quiet moment, acknowledging their different paths and mutual growth. Back on the Cerritos, T'Lyn notes that multiverse stories are only as shallow or as profound as the people telling them, and Boimler reluctantly admits that this particular crossover actually meant something."
+      }
+    ],
+    "EthicalIssues": [
+      "Treating alternate versions of beloved characters as fan service instead of people.",
+      "Using quantum fissures as a playground rather than a phenomenon to be contained.",
+      "Whether exploration of infinite realities justifies the risks to any single one."
+    ],
+    "ContinuityNotes": [
+      "Brings back William Boimler, resolving his storyline from earlier seasons.",
+      "Features alternate incarnations of characters from Voyager, Enterprise, Deep Space Nine, and First Contact.",
+      "Serves as the penultimate chapter in the quantum fissure arc leading into the finale."
+    ],
+    "ThematicNotes": [
+      "Argues that multiverse tales can illuminate core truths instead of just recycling nostalgia.",
+      "Explores how different choices define identity across divergent lives.",
+      "Provides a love letter to decades of Star Trek without losing Lower Decks’ comedic tone."
+    ],
+    "BehindTheScenes": [
+      "Packs in cameo appearances and vocal returns from legacy Trek actors.",
+      "Uses the animated format to visualize multiple realities colliding in rapid succession.",
+      "Sets emotional stakes for the finale by forcing Boimler to confront the scope of the crisis."
+    ]
+  },
+  {
+    "ID": "ldss5e10",
+    "Title": "The New Next Generation",
+    "Series": "LDS",
+    "Season": 5,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Lieutenant (j.g.) Beckett Mariner",
+      "Lieutenant (j.g.) Brad Boimler",
+      "Lieutenant (j.g.) D'Vana Tendi",
+      "Lieutenant (j.g.) Samanthan Rutherford",
+      "Lieutenant (j.g.) T'Lyn",
+      "Captain Carol Freeman",
+      "Commander Jack Ransom"
+    ],
+    "GuestCharacters": [
+      "Starfleet Command representatives",
+      "Families and friends of the Cerritos crew",
+      "Cameos from allies made in earlier seasons"
+    ],
+    "Antagonists": [
+      "A final, catastrophic quantum fissure event",
+      "Starfleet’s instinct to centralize control in the face of fear",
+      "The crew’s terror of growing beyond the \"lower decks\" identity"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "In the wake of \"Fissure Quest,\" Starfleet detects a massive convergence event: the fissures are synchronizing, threatening to tear the Prime Universe open if left unchecked. The Cerritos, now one of the most experienced ships dealing with the phenomenon, is ordered to spearhead the response—backed up, at long last, by serious resources."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Freeman is offered a promotion that would take her off the Cerritos, and Ransom is quietly tapped to replace her. At the same time, Mariner and Boimler are informed that they are being groomed for eventual first officer postings, starting with acting as quasi–junior execs on this mission. The news lands like a torpedo, threatening the comfort of their hard-won status quo."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As allied ships and old friends converge on the crisis zone, the fissure eruption begins to fold realities together in increasingly dangerous ways. Fleets overlap, timelines ghost through each other, and familiar faces flicker in and out of existence. Tendi and T'Lyn lead a cross-faction science task force, while Rutherford turns his implant into a kind of tuning fork for the entire operation."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Realizing that the fissures have been subtly shaped by every choice the Cerritos crew has made since the series began, Mariner and Boimler propose a plan that requires them to anchor the \"lower decks\" ethos at the heart of the stabilization field. They must simultaneously accept promotions into the command structure and refuse to abandon the messy, collaborative culture they built below decks. With the crew working in perfect, chaotic sync, the plan succeeds, sealing the fissures and preventing multiversal collapse."
+      },
+      {
+        "Header": "Tag",
+        "Text": "In the aftermath, Ransom tells Boimler that he and Mariner are no longer just lower deckers—they are in charge of the lower decks now. The two take their places in the bridge chairs flanking Freeman, who has turned down her promotion to stay with her ship a little longer. Tendi, Rutherford, and T'Lyn look on with pride as the Cerritos sets a new course, the future uncertain but undeniably theirs."
+      }
+    ],
+    "EthicalIssues": [
+      "Concentrating power in a crisis versus trusting many small ships and crews to act.",
+      "Whether embracing promotion means losing touch with the people one once served beside.",
+      "Using a single ship as the fulcrum for a decision that affects infinite realities."
+    ],
+    "ContinuityNotes": [
+      "Brings the quantum fissure storyline to a definitive close.",
+      "Pays off Boimler’s \"red PADD\" arc, tying his journey directly into the fate of the multiverse.",
+      "Features callbacks—visual, musical, and character-based—to key moments from all five seasons."
+    ],
+    "ThematicNotes": [
+      "Affirms that growth does not require abandoning the values that defined one’s beginnings.",
+      "Frames the Cerritos crew as a literal \"new next generation\" of Starfleet leaders.",
+      "Celebrates everyday heroism as just as important as the exploits of flagship crews."
+    ],
+    "BehindTheScenes": [
+      "Serves as a feature-length-feeling finale packed into a regular runtime.",
+      "Intentionally echoes the tone of The Next Generation’s \"All Good Things...\" while staying comedic.",
+      "Provides emotional closure for the core cast while leaving their futures open-ended enough for imagination and spin-offs."
+    ]
+  }
+]
