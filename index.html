@@ -403,9 +403,8 @@
       padding: 4px 12px;
       border-radius: 999px;
       border: 1px solid rgba(255,255,255,0.2);
-      background:
-        radial-gradient(circle at 16% 0%, rgba(255,255,255,0.2), transparent 55%),
-        linear-gradient(145deg, #202642, #0f1329);
+      background: #ffffff;
+      color: #140b03;
       box-shadow:
         0 3px 10px rgba(0,0,0,0.9),
         0 0 12px rgba(109,128,214,0.6);
@@ -937,6 +936,10 @@
 
   <script>
     const DATA_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek";
+    const EPISODE_URLS = {
+      "TOS": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TOS-Episodes.json",
+      "TNG": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TNG-Episodes.json"
+    };
     const SUMMARY_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
     const BIO_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
 
@@ -1637,18 +1640,46 @@ function groupEpisodesBySeries(episodes) {
     }
 
     function fetchEpisodes() {
-      fetch(DATA_URL)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("HTTP " + response.status + " when fetching episode data.");
+      const entries = Object.entries(EPISODE_URLS || {});
+      if (!entries.length) {
+        showEpisodesError("No episode URLs configured.");
+        return;
+      }
+
+      const requests = entries.map(([seriesKey, url]) =>
+        fetch(url)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error("HTTP " + response.status + " when fetching episode data for " + seriesKey + ".");
+            }
+            return response.json();
+          })
+          .then(data => {
+            if (!Array.isArray(data)) {
+              throw new Error("Expected an array of episodes in the JSON file for " + seriesKey + ".");
+            }
+            return data;
+          })
+          .catch(err => {
+            console.error("Error loading episodes for", seriesKey + ":", err);
+            return [];
+          })
+      );
+
+      Promise.all(requests)
+        .then(results => {
+          allEpisodes = [];
+          results.forEach(arr => {
+            if (Array.isArray(arr)) {
+              allEpisodes = allEpisodes.concat(arr);
+            }
+          });
+
+          if (!allEpisodes.length) {
+            showEpisodesError("No episode data loaded.");
+            return;
           }
-          return response.json();
-        })
-        .then(data => {
-          if (!Array.isArray(data)) {
-            throw new Error("Expected an array of episodes in the JSON file.");
-          }
-          allEpisodes = data;
+
           episodesBySeries = groupEpisodesBySeries(allEpisodes);
           buildSearchIndex();
           const subtitle = document.getElementById("episodes-panel-subtitle");
