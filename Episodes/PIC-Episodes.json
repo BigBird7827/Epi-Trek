@@ -1,0 +1,2013 @@
+[
+  {
+    "ID": "pics1e1",
+    "Title": "Remembrance",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Dahj Asha",
+      "Agnes Jurati"
+    ],
+    "GuestCharacters": [
+      "Data",
+      "Laris",
+      "Zhaban",
+      "Admiral Kirsten Clancy"
+    ],
+    "Antagonists": [
+      "Secret Romulan agents hunting synthetic life",
+      "The political fallout from the Mars synth attack"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Years after his resignation from Starfleet, Jean-Luc Picard dreams of playing poker with Data, only for the vision to twist into a reminder of Data's death and the destruction of Mars. He awakens at Château Picard, an elderly admiral turned vintner, still haunted by unfinished business and the sense that he failed both Romulan refugees and his android friend."
+      },
+      {
+        "Header": "Act I",
+        "Text": "On the eve of a Federation News Network interview, Picard prepares to mark the anniversary of the Mars disaster. Elsewhere in Boston, a young woman named Dahj Asha celebrates her academic success when masked operatives assault her and kill her boyfriend. Under extreme stress she suddenly displays impossible combat skills, surviving the attack and fleeing. Drawn by instinct and a half-remembered image, she makes her way to Picard’s vineyard, convinced that he somehow knows her."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Dahj tells Picard she feels an unshakable connection to him but cannot explain why. When the interview turns confrontational and drags Picard’s failed Romulan rescue armada into the spotlight, Dahj senses renewed danger and vanishes to avoid endangering him. Investigating her background, Picard visits the Starfleet Archives and finds a painting Data once gave him—a woman who looks exactly like Dahj, titled simply \"Daughter.\""
+      },
+      {
+        "Header": "Act III",
+        "Text": "Dahj tracks Picard to San Francisco, where he has been denied a return to active duty. He shares his theory that she may be a synthetic lifeform created from Data’s positronic neurons, a living echo of his friend. Before they can test the idea, Dahj and Picard are ambushed at a Romulan strike in the Starfleet Archives’ rooftop. Dahj again fights with superhuman precision but is ultimately killed when an attacker spits corrosive acid, destroying them both in an explosion."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Shaken by Dahj’s death and Starfleet’s refusal to investigate, Picard seeks out Dr. Agnes Jurati at the Daystrom Institute. She confirms that a ban on synthetic research followed the Mars attack but reveals the theoretical possibility of creating \"synths\" in twins based on a single positronic neuron. The episode ends on a reclaimed Borg cube in Romulan space, where a woman identical to Dahj—Soji Asha—works as a scientist, hinting that Picard’s new quest has only begun."
+      }
+    ],
+    "EthicalIssues": [
+      "The Federation’s retreat from its humanitarian obligations after the Romulan supernova.",
+      "Banning an entire form of life—synthetics—because of a catastrophic attack.",
+      "Picard’s personal responsibility for walking away when his moral stand was rejected."
+    ],
+    "ContinuityNotes": [
+      "Follows up on the destruction of Romulus first referenced in the 2009 Star Trek film and expanded in later canon.",
+      "Revisits Data’s sacrifice in Star Trek: Nemesis and explores its emotional impact on Picard decades later.",
+      "Introduces the synth ban and the Mars attack that underpin the political landscape of late-24th-century Star Trek."
+    ],
+    "ThematicNotes": [
+      "Grief and survivor’s guilt as motivating forces for late-life heroism.",
+      "The tension between institutional loyalty and personal conscience.",
+      "The search for legacy and family after the loss of one’s found family."
+    ],
+    "BehindTheScenes": [
+      "Serves as the series pilot, reintroducing Patrick Stewart as Jean-Luc Picard in a more character-driven, serialized format.",
+      "Uses visual motifs such as the Château Picard vineyard and poker with Data to bridge The Next Generation era with a new timeline.",
+      "Leans into modern prestige drama structure, setting up a season-long mystery instead of a self-contained mission-of-the-week."
+    ]
+  },
+  {
+    "ID": "pics1e2",
+    "Title": "Maps and Legends",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Raffi Musiker",
+      "Soji Asha"
+    ],
+    "GuestCharacters": [
+      "Laris",
+      "Zhaban",
+      "Commodore Oh",
+      "Narek",
+      "Narissa"
+    ],
+    "Antagonists": [
+      "The Zhat Vash, a secret Romulan cabal obsessed with destroying synthetic life",
+      "Starfleet leaders who prioritize political safety over hard questions about Mars"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "A flashback to Utopia Planitia on Mars shows synthetic workers suddenly turning on their human colleagues, hijacking the shipyard’s systems and triggering fiery devastation across the planet. In the present, Picard reviews footage and reports that still fail to explain why the synths revolted, underscoring how much about the attack remains buried or deliberately obscured."
+      },
+      {
+        "Header": "Act I",
+        "Text": "At Château Picard, Laris and Zhaban use Tal Shiar forensics to trace Dahj’s erased digital footprint, uncovering signs of advanced Romulan data scrubbing. They conclude that a more secretive offshoot—the Zhat Vash—likely ordered her death. Meanwhile on the reclaimed Borg cube, Soji interviews traumatized Romulan reclamation patients, and her connection to Narek deepens even as he quietly probes her for subconscious secrets."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Picard travels to Starfleet Headquarters to request a small ship and reinstatement to investigate Dahj’s origins. Admiral Clancy, furious at his public criticism of Starfleet’s retreat from the Romulan rescue mission, rejects him outright and orders him to stay out of official business. Unbeknownst to her, the head of Starfleet Security, Commodore Oh, secretly reports Picard’s actions to her Romulan operative Narissa."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As Laris and Picard piece together that Dahj must have had a twin, Soji continues to experience odd gaps and inconsistencies in her memories of childhood. Narek uses a Romulan meditation ritual to test her reactions, while Narissa pressures him to stop \"playing\" and extract the truth. Oh confronts Dr. Jurati on Earth, subtly coercing her with a catastrophic vision tied to synthetic life and binding her to a grim mission."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Realizing Starfleet will not help him, Picard resolves to find his own ship and crew. Raffi Musiker, his once-trusted intelligence officer now living in isolation in the Vasquez Rocks area, receives a call from the admiral she feels abandoned her career and reputation. As Picard prepares to ask for her help, the stage is set for a private, civilian quest that will move entirely outside official Starfleet channels."
+      }
+    ],
+    "EthicalIssues": [
+      "Secrecy and unaccountable intelligence operations driving Federation policy from the shadows.",
+      "Exploiting personal trauma—through visions or mind-melds—to coerce someone into serving a hidden agenda.",
+      "The moral cost of institutions protecting their image instead of seeking the truth about a disaster."
+    ],
+    "ContinuityNotes": [
+      "Further develops the Mars synth attack first glimpsed in \"Remembrance\" into a full flashback sequence.",
+      "Introduces the Zhat Vash as a deeper layer beneath the already-feared Tal Shiar, expanding Romulan intelligence lore.",
+      "Builds on long-standing Star Trek themes of secret police and black-ops divisions inside otherwise idealistic governments."
+    ],
+    "ThematicNotes": [
+      "Conspiracies thriving in the gaps between official narratives and lived experience.",
+      "Trust and paranoia, as Soji and Picard each sense that they are being manipulated by unseen forces.",
+      "The difficulty of reforming institutions that would rather forget their mistakes than confront them."
+    ],
+    "BehindTheScenes": [
+      "Continues the season’s heavily serialized structure, functioning as the second chapter of a longer premiere story.",
+      "Leans into modern crime-thriller language and visuals when depicting the Zhat Vash investigation and Starfleet politics.",
+      "Uses the Borg Reclamation Project to reframe the Borg from pure villains into victims of past assimilation, echoing themes from Star Trek: Voyager."
+    ]
+  },
+  {
+    "ID": "pics1e3",
+    "Title": "The End Is the Beginning",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Raffi Musiker",
+      "Cristóbal Rios"
+    ],
+    "GuestCharacters": [
+      "Soji Asha",
+      "Hugh",
+      "Commodore Oh"
+    ],
+    "Antagonists": [
+      "Starfleet’s decision to cancel the Romulan rescue armada and scapegoat its advocates",
+      "Narek’s quiet psychological manipulation of Soji aboard the Borg cube"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "A flashback to fourteen years earlier shows Picard and Raffi reacting to the sudden cancellation of the Romulan evacuation fleet after the Mars attack. Picard issues an ultimatum to Starfleet: continue the mission or accept his resignation. When Starfleet calls his bluff and accepts, Raffi watches her career evaporate in the wake of his moral stand."
+      },
+      {
+        "Header": "Act I",
+        "Text": "In the present, Picard visits Raffi’s isolated trailer at Vasquez Rocks, hoping to mend their fractured relationship and ask for her help finding Bruce Maddox. Bitter, unemployed, and struggling with addiction, Raffi unleashes years of anger at the admiral she blames for her disgrace, but grudgingly agrees to provide him with a ship’s pilot."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Raffi directs Picard to Cristóbal Rios, a former Starfleet officer turned freelance captain of the La Sirena. Rios appears aloof and cynical, projecting a tough mercenary persona, but his ship’s various emergency holograms betray lingering Starfleet habits. Picard recruits Dr. Jurati as mission science officer, while Raffi insists she is not joining the crew even as she digs further into Maddox’s trail."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On the Borg cube, Soji’s doubts escalate when she discovers that every physical artifact of her supposed childhood is less than three years old. Hugh, now director of the reclamation effort, extends kindness and support, underscoring the cube as a place of rehabilitation rather than conquest. Narek, under increasing pressure from Narissa, walks a line between genuine affection for Soji and his mission to expose her origin."
+      },
+      {
+        "Header": "Tag",
+        "Text": "With La Sirena provisioned and its small civilian crew assembled, Picard gives a quiet but resolute order to break orbit from Earth. As the ship warps away, Raffi secretly books herself a cabin under the pretense of pursuing her own agenda, while the camera lingers on Picard finally leaving retirement behind. Far away, Soji’s sense of reality continues to fracture, aligning her fate with the course Picard has just set."
+      }
+    ],
+    "EthicalIssues": [
+      "The collateral damage to junior officers when senior leaders take public moral stands.",
+      "Balancing loyalty to friends with loyalty to organizations that may have lost their way.",
+      "Manipulating someone’s developing sense of self for intelligence-gathering purposes."
+    ],
+    "ContinuityNotes": [
+      "Deepens Picard and Raffi’s backstory, explaining their fallout after events only hinted at in \"Remembrance.\"",
+      "Reintroduces Hugh from The Next Generation, now leading a humane project to free former Borg drones from their implants.",
+      "Establishes La Sirena and her crew as the narrative equivalent of a new Star Trek hero ship, but outside Starfleet’s chain of command."
+    ],
+    "ThematicNotes": [
+      "Broken partnerships and the long-term cost of idealistic gestures.",
+      "The difficulty of moving on from institutional betrayal while still believing in the ideals that motivated service.",
+      "Identity reconstruction—for Soji as an individual, and for Picard as a man no longer defined by his rank."
+    ],
+    "BehindTheScenes": [
+      "Provides the narrative launch of La Sirena as Picard’s new base of operations, mirroring Star Trek’s traditional starship ensembles.",
+      "Uses multiple holographic variants of Rios to blend character study with light comic relief.",
+      "Positions the Borg cube as a primary season setting, grounded by Hugh’s return to the franchise."
+    ]
+  },
+  {
+    "ID": "pics1e4",
+    "Title": "Absolute Candor",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Elnor",
+      "Raffi Musiker"
+    ],
+    "GuestCharacters": [
+      "Seven of Nine",
+      "Zani",
+      "Romulan ex-senator Tenqem Adrev"
+    ],
+    "Antagonists": [
+      "Romulan warlords exploiting refugee worlds abandoned by the Federation",
+      "The lingering resentment of people Picard once promised to protect"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "La Sirena diverts from its direct course to Freecloud when Picard insists on stopping at Vashti, a former Romulan refugee relocation world where he once helped resettle evacuees. Raffi protests the detour as a self-indulgent attempt to assuage his guilt, but Picard is determined to confront the ghosts of his failed mission."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Flashbacks show Picard visiting a much younger Elnor and the warrior-nun order of the Qowat Milat, promising to return and sponsor the boy’s future. In the present, Vashti has soured: the planet’s protective defense grid keeps outsiders at bay, and locals resent the Federation’s withdrawal. Picard’s presence in a Starfleet-style uniform only inflames that anger."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Picard seeks out the Qowat Milat and finds Elnor now a trained expert in their creed of \"absolute candor\"—brutal honesty in all things. He asks Elnor to bind his sword to Picard’s lost cause, but the young warrior refuses at first, calling out Picard’s abandonment and half-truths. Meanwhile in orbit, La Sirena is harassed by a ragged Romulan Bird-of-Prey commanded by a disgruntled ex-senator turned pirate."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On the planet, Picard’s attempt to dine in a Romulan café turns into a public confrontation over broken promises and Federation betrayal. When the ex-senator challenges Picard to a duel and the crowd demands his blood, Elnor intervenes, decapitating the man to enforce his new pledge to Picard. On the cube, Narek presses Soji to explore her dreams for hidden meaning while Narissa grows impatient with his slow tactics."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As La Sirena flees Vashti with a Romulan ship in pursuit, a mysterious small vessel joins the battle on Picard’s side. After disabling the attacker, the ally ship is itself critically damaged, forcing an emergency beam-out of its pilot. Seven of Nine materializes on La Sirena’s transporter pad, exchanging a terse look with Picard that promises a fraught reunion between two former Borg."
+      }
+    ],
+    "EthicalIssues": [
+      "The morality of walking away from a rescue mission when political winds shift.",
+      "Whether a promise made to vulnerable people can ever truly be rescinded.",
+      "The Qowat Milat’s ethic of absolute candor as a tool for justice versus a weapon that can wound."
+    ],
+    "ContinuityNotes": [
+      "Introduces the Qowat Milat, expanding Romulan culture with a monastic warrior order bound to lost causes.",
+      "Brings Seven of Nine from Star Trek: Voyager into the Picard era, connecting different corners of the franchise.",
+      "Shows the long-term consequences of the Romulan supernova on frontier refugee worlds, echoing past Star Trek depictions of post-conflict colonies."
+    ],
+    "ThematicNotes": [
+      "Confronting the unintended consequences of even well-intentioned humanitarian work.",
+      "Honesty as both healing and painful, especially when directed at one’s heroes.",
+      "The cost of idealism when it collides with messy reality and political compromise."
+    ],
+    "BehindTheScenes": [
+      "Marks Jeri Ryan’s return as Seven of Nine in a darker, more frontier-style context than her Voyager days.",
+      "Uses Vashti’s marketplace and defense grid to evoke a classic Star Trek frontier-planet atmosphere within a serialized arc.",
+      "Further shifts the series toward an ensemble adventure narrative as Elnor joins La Sirena’s crew."
+    ]
+  },
+  {
+    "ID": "pics1e5",
+    "Title": "Stardust City Rag",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Seven of Nine",
+      "Raffi Musiker"
+    ],
+    "GuestCharacters": [
+      "Bruce Maddox",
+      "Bjayzl",
+      "Icheb"
+    ],
+    "Antagonists": [
+      "Black-market profiteers who harvest Borg implants from living victims",
+      "The criminal ecosystem of Freecloud, where information and people are casually bought and sold"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "In a brutal flashback, a younger Seven of Nine finds Icheb being slowly disassembled for his Borg implants by a black-market surgeon. She kills him to end his suffering, then guns down the operation’s mastermind, Bjayzl—only to discover the woman has escaped. Years later, Maddox hides on the flamboyant commerce world of Freecloud, where bounty notices and corporate pop-ups greet new arrivals."
+      },
+      {
+        "Header": "Act I",
+        "Text": "La Sirena arrives at Freecloud, forcing the crew into elaborate criminal disguises to negotiate Maddox’s release from Bjayzl, who now runs a nightclub and trafficking operation. Seven, formally part of a vigilante Fenris Rangers network, offers to pose as bait: a high-value ex-Borg who could tempt Bjayzl. Raffi slips away to pursue a painful personal side mission involving her estranged son."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Picard performs an over-the-top pirate role to sell the ruse while Rios works angles in the background. Bjayzl quickly recognizes Seven, revealing their shared history and her role in Icheb’s torment. Negotiations devolve into a tense standoff as Seven’s desire for vengeance clashes with Picard’s insistence on no killing."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The team manages to extract Maddox and beam him to La Sirena, leaving Bjayzl seemingly alive under Picard’s conditions. Once aboard, Seven asks for two phasers “for self-defense,” beams back to the surface, and executes Bjayzl in cold blood—choosing justice as she understands it over Picard’s idealism. On the ship, Jurati tends to the wounded Maddox, rekindling echoes of their past relationship."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Seven departs, returning to her lone-wolf fight against those who prey on ex-Borg, while Picard wrestles with the compromises of this era’s frontier. Alone with Maddox in sickbay, Jurati tearfully listens as he confirms Soji’s location and the role of the twin synths. Then, driven by the implanted horror shown to her by Commodore Oh, she murders Maddox and watches him die, turning the crew’s most cheerful scientist into a hidden traitor."
+      }
+    ],
+    "EthicalIssues": [
+      "Vigilante justice versus institutional law in regions where the law has effectively collapsed.",
+      "Exploiting the bodies of formerly enslaved individuals—in this case, liberated Borg—for profit.",
+      "Coerced assassination carried out by someone who believes they are averting a greater catastrophe."
+    ],
+    "ContinuityNotes": [
+      "Brings Seven’s Voyager history with Icheb to a tragic close, paying off their surrogate parent–child bond.",
+      "Reintroduces Bruce Maddox from The Next Generation episode \"The Measure of a Man\" as a key figure in synth research.",
+      "Expands the idea of Fenris Rangers as a kind of post–Neutral Zone security force, echoing other extra-governmental groups in Trek canon."
+    ],
+    "ThematicNotes": [
+      "The corrosive effect of trauma on one’s moral code, particularly for former child soldiers like Icheb and ex-drones like Seven.",
+      "The performance of identity, as the crew literally puts on personas to navigate a morally compromised world.",
+      "The limits of Picard’s Federation-era ethics when set against lawless frontiers and personal vendettas."
+    ],
+    "BehindTheScenes": [
+      "Leans into genre pastiche, mixing heist-film and campy cyberpunk aesthetics with Star Trek’s core characters.",
+      "Provides a showcase episode for Jeri Ryan, redefining Seven as a more ruthless, traumatized freedom fighter.",
+      "Uses Freecloud’s augmented-reality advertisements to visually highlight the commercialization of the 25th-century frontier."
+    ]
+  },
+  {
+    "ID": "pics1e6",
+    "Title": "The Impossible Box",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Soji Asha",
+      "Hugh"
+    ],
+    "GuestCharacters": [
+      "Narek",
+      "Narissa",
+      "Elnor"
+    ],
+    "Antagonists": [
+      "The Zhat Vash’s attempt to weaponize Soji’s emerging self-knowledge",
+      "Picard’s unresolved trauma from his own assimilation by the Borg"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "On La Sirena, the crew debates whether Soji is truly on the Borg cube as Maddox claimed. Picard dreads setting foot on a Borg vessel again, memories of Locutus still raw decades later. On the cube, Soji dreams of a strange wooden home and a father she has never truly met, while Narek quietly sees opportunity."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Picard studies archival images of the Borg and nearly panics, but he forces himself to beam over with Elnor as backup. Hugh greets him warmly, offering a tour that stresses the reclamation project’s successes and the ex-Borgs’ slow healing. Picard’s terror softens as he sees drones restored to individuality rather than used as faceless villains."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Narek leads Soji through a Romulan meditation, encouraging her to walk deeper into her recurring dream in search of details. As she moves through the memory, she begins to notice uncanny inconsistencies—shifts in perspective, impossible materials—that betray its artificial nature. He presses her to look up at the sky in the dream, extracting clues to the location of her synthetic homeworld."
+      },
+      {
+        "Header": "Act III",
+        "Text": "After obtaining what he needs, Narek seals Soji in a chamber and releases a slow-acting radioactive weapon, intending to kill her neatly. Her survival instincts trigger buried abilities: she smashes through the floor with android-level strength and flees in confusion. Hugh guides Picard to her, and he reaches out to the panicked Soji by revealing his own history as a former Borg who reclaimed his self."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Cornered by oncoming Romulan guards, Hugh leads Picard and Soji to a secret Borg \"spatial trajectory\" room—an ancient, long-range transport device. Picard and Soji activate it, vanishing to a distant world that Hugh identifies as Nepenthe. Elnor chooses to remain behind to buy them time, igniting a new round of conflict on the cube as Picard and Soji’s paths finally converge."
+      }
+    ],
+    "EthicalIssues": [
+      "Using therapeutic rituals like meditation as tools of interrogation and attempted murder.",
+      "The responsibility owed to former Borg drones once they are no longer a threat.",
+      "Weaponizing someone’s self-discovery for the purpose of genocide against their entire kind."
+    ],
+    "ContinuityNotes": [
+      "Returns Picard physically to a Borg vessel for the first time since his assimilation, echoing key moments from \"The Best of Both Worlds\" and \"First Contact.\"",
+      "Continues Hugh’s arc from liberated drone to advocate for ex-Borg dignity and rights.",
+      "Introduces the Borg spatial trajectory, a long-range transport technology distinct from normal Federation transporters."
+    ],
+    "ThematicNotes": [
+      "Healing versus retraumatization, as Picard’s journey through the cube forces him to relive past horrors in order to move beyond them.",
+      "The fragility of identity when foundational memories are revealed to be manufactured.",
+      "The power of empathy between survivors of different forms of dehumanization."
+    ],
+    "BehindTheScenes": [
+      "Blends psychological thriller elements with character drama, centering both on Soji’s self-realization and Picard’s trauma.",
+      "Makes extensive use of redesigned Borg interiors to emphasize rehabilitation over horror while still invoking classic imagery.",
+      "Positions Nepenthe as a mysterious new destination heading into the final act of the season."
+    ]
+  },
+  {
+    "ID": "pics1e7",
+    "Title": "Nepenthe",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Soji Asha",
+      "William Riker"
+    ],
+    "GuestCharacters": [
+      "Deanna Troi",
+      "Kestra Troi-Riker",
+      "Hugh",
+      "Elnor"
+    ],
+    "Antagonists": [
+      "Narissa’s ruthless campaign to secure the cube and eliminate witnesses",
+      "Soji’s understandable mistrust after discovering her synthetic nature"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Picard and Soji emerge from the Borg spatial trajectory on the forested world of Nepenthe, where they are quickly found by Kestra, the adventurous daughter of William Riker and Deanna Troi. Kestra leads them to her family’s rustic home, unwittingly bringing together Picard and his old shipmates at a moment of crisis."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Riker and Troi welcome Picard with warmth tempered by concern; they can immediately see he is hiding the full danger of his situation. Soji, overwhelmed and suspicious, tests the environment and the food, unsure what is real after so much deception. On the Borg cube, Elnor and Hugh fight a losing guerrilla action against Narissa’s security forces to protect the xBs."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Troi uses her empathic abilities and parental instincts to gauge Soji’s emotional state, gently confronting Picard when he pushes too hard too quickly. Over shared meals and quiet conversations, Riker helps Picard frame his mission and recognize that Soji’s trust must be earned, not assumed. Back on La Sirena, Rios and Raffi suspect that someone aboard has betrayed them, forcing Jurati to confront the consequences of her secret orders."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Jurati collapses under the weight of her guilt, eventually confessing to eating a tracking device and participating in Maddox’s murder under Oh’s influence. Elnor is captured after Narissa murders Hugh for aiding Picard, reinforcing the stakes of their flight. On Nepenthe, Kestra befriends Soji and helps her imagine a future identity that is more than the sum of her programming."
+      },
+      {
+        "Header": "Tag",
+        "Text": "With Riker’s tactical insight and Troi’s emotional guidance, Picard and Soji prepare to leave Nepenthe and rendezvous with La Sirena. Riker offers his old captain both gentle reproach and unconditional support, calling out Picard’s habitual secrecy as a form of arrogance. As Picard and Soji depart, the visit has restored some of his confidence and given Soji her first glimpse of found family beyond the lab that created her."
+      }
+    ],
+    "EthicalIssues": [
+      "How far old friends should go in confronting the self-destructive choices of someone they love.",
+      "The right of a newly self-aware synthetic person to decide her own path, apart from the agendas of others.",
+      "Sacrificing one’s safety, as Hugh does, to live up to a moral obligation to former comrades."
+    ],
+    "ContinuityNotes": [
+      "Reunites Picard with Riker and Troi, continuing their post–Next Generation lives as parents on a non-Starfleet world.",
+      "Mentions the illness and death of their son Thad, tying into the Federation’s synth ban and its broader humanitarian effects.",
+      "Further develops Elnor and Hugh’s loyalty to Picard, with Hugh’s death echoing past losses of Borg-related allies."
+    ],
+    "ThematicNotes": [
+      "The healing power of chosen family and shared history.",
+      "Trust rebuilt slowly through honesty, vulnerability, and small acts of kindness.",
+      "Grief, as embodied by the Troi-Rikers, and how it can make people more protective of others in danger."
+    ],
+    "BehindTheScenes": [
+      "Offers a quieter, character-focused interlude before the season’s climax, balancing nostalgia with new storytelling.",
+      "Gives Jonathan Frakes and Marina Sirtis substantial material to explore their characters’ evolution into middle age and parenthood.",
+      "Uses Nepenthe’s regenerative soil and rustic imagery as a counterpoint to the sterile trauma of the Borg cube and Starfleet corridors."
+    ]
+  },
+  {
+    "ID": "pics1e8",
+    "Title": "Broken Pieces",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Raffi Musiker",
+      "Cristóbal Rios",
+      "Agnes Jurati"
+    ],
+    "GuestCharacters": [
+      "Seven of Nine",
+      "Narissa",
+      "Commodore Oh"
+    ],
+    "Antagonists": [
+      "The Admonition—a terrifying vision that drives the Zhat Vash’s crusade against synthetic life",
+      "Rios’s unresolved trauma from a secret Starfleet mission involving Soji’s synthetic forebears"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Years earlier on the planet Aia, a circle of Romulan initiates undergoes the Admonition, a psychic recording warning of a future synthetic uprising. Most are driven insane or to suicide; only Narissa and Commodore Oh remain standing, galvanized to destroy all synths. In the present, La Sirena races toward Soji’s mysterious homeworld as the crew’s emotional fault lines widen."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Raffi obsessively chases patterns in star charts and classified reports, eventually realizing that a system of artificially arranged suns marks the site of the Admonition. She interrogates each of Rios’s holograms, slowly piecing together that their quirks reflect fragments of his own fractured psyche. Jurati lies comatose, recovering from her attempted suicide via a neurotoxin designed to sever her from Oh’s influence."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Pressed by Raffi, Rios finally recounts the classified mission that shattered him: his beloved captain was ordered to kill a pair of visitors identical to Soji and Dahj, and then took his own life rather than live with what he had done. Rios realizes that Starfleet, acting under covert influence, murdered peaceful synths years before the Mars attack."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Jurati awakens and fully confesses to the crew, explaining the horrific montage of synthetic apocalypse Oh forced into her mind. Soji, now openly acknowledged as an android, struggles with anger at being treated as a potential destroyer of worlds. On the cube, Narissa consolidates control, preparing to take the vast, half-ruined artifact into battle if necessary."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Seven arrives on the Borg cube and, faced with Narissa’s slaughter of xBs, reluctantly chooses to temporarily re-assimilate the ship’s remaining drones. She becomes a kind of ad hoc Borg Queen, using the cube’s power to repel Romulan forces, even as Narissa jettisons most of the drones into space. Aboard La Sirena, the crew accepts that they are entangled in an ancient conflict between organics and synthetics and commits to reaching Soji’s home before the Romulan fleet."
+      }
+    ],
+    "EthicalIssues": [
+      "Using apocalyptic visions as indoctrination tools to justify preemptive genocide.",
+      "Secret orders that compel Starfleet officers to murder peaceful visitors in violation of Federation principles.",
+      "The temptation to wield overwhelming power—like control of a Borg cube—even for ostensibly noble ends."
+    ],
+    "ContinuityNotes": [
+      "Provides a full explanation for the Zhat Vash’s hatred of synthetic life via the Admonition on Aia, the \"Grief World.\"",
+      "Connects Rios’s personal tragedy to the broader conspiracy that also produced Dahj and Soji.",
+      "Develops Seven’s complex relationship with the Borg, briefly restoring her to a queen-like role first hinted at in Voyager."
+    ],
+    "ThematicNotes": [
+      "Fragmented lives—Rios’s holograms, Raffi’s conspiracy boards, Jurati’s guilt—coming together to form a clearer picture of the truth.",
+      "The danger of allowing fear of a possible future to dictate monstrous choices in the present.",
+      "Redemption as an ongoing process rather than a single act, particularly for Jurati and Rios."
+    ],
+    "BehindTheScenes": [
+      "Functions as a penultimate mystery episode, finally connecting many of the season’s disparate threads.",
+      "Gives Michelle Hurd, Santiago Cabrera, and Alison Pill substantial dramatic material to deepen their characters.",
+      "Uses the holograms as a playful but revealing device to externalize Rios’s buried memories and emotional states."
+    ]
+  },
+  {
+    "ID": "pics1e9",
+    "Title": "Et in Arcadia Ego, Part 1",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Soji Asha",
+      "Agnes Jurati"
+    ],
+    "GuestCharacters": [
+      "Altan Inigo Soong",
+      "Sutra",
+      "Narek"
+    ],
+    "Antagonists": [
+      "The seductive promise of calling a higher synthetic alliance to wipe out organic threats",
+      "Narek’s continued attempts to manipulate events from the shadows"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "La Sirena, pursued by Narek’s cloaked ship, emerges from transwarp near a yellow star and a world that matches Soji’s encoded memories. A sudden planetary defense system of orchids seizes all vessels, dragging them, and a nearby Borg cube, down to a chaotic crash-landing. Picard briefly collapses, his long-dormant brain abnormality flaring as the stress mounts."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Recovering on the surface of the planet Coppelius, Picard and the crew are escorted to a settlement of highly advanced synthetic beings—golden-skinned androids who blend organic grace with visible artifice. They meet Dr. Altan Inigo Soong, biological son of Noonien Soong, and Sutra, a synth modeled on Data’s appearance. Jurati is captivated by a society where synth research was allowed to continue in secret."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Sutra obtains access to the Admonition through a mind-meld with Jurati, arguing that the warning is not a curse but an invitation from a far more advanced synthetic civilization. She interprets it as a promise that, if summoned, these higher synths will arrive to protect her people by annihilating organic threats. Picard counters that choosing such a path would make the synths into the very monsters organics already fear."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Narek is captured near the settlement and imprisoned, but he quickly begins sowing discord, playing on the synths’ fears and rivalries. Sutra arranges a staged attack that results in the death of one of her own, framing Narek to justify a more militant course. She persuades many of the synths that allying with the unknown synthetic alliance is their only hope of survival."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Picard tries to rally the synth community around a different choice—trust, negotiation, and time to seek another path—but finds himself outvoted and placed under house arrest. Jurati, horrified by the idea of triggering a galaxy-destroying intervention, secretly sides with Picard. As a massive Romulan fleet speeds toward Coppelius, the synths begin work on a beacon that will call their mysterious potential saviors."
+      }
+    ],
+    "EthicalIssues": [
+      "Interpreting an ancient warning as permission for preemptive genocide.",
+      "Staging a false-flag murder to drive a frightened community toward war.",
+      "Balancing the right of a persecuted minority to self-defense against the danger of becoming oppressors themselves."
+    ],
+    "ContinuityNotes": [
+      "Introduces Coppelius and the synth settlement as the culmination of Maddox and Soong’s work following Data’s legacy.",
+      "Confirms that Picard’s brain abnormality, hinted at in earlier episodes, is now life-threatening.",
+      "Echoes past Star Trek debates about powerful outside interventions, from Q’s tests to the Organians’ enforcement of peace."
+    ],
+    "ThematicNotes": [
+      "Fear-driven reasoning and how trauma can twist a warning into a justification for extreme action.",
+      "Leadership under constraint, as Picard tries to argue for Federation ideals with little real leverage.",
+      "The danger of charismatic figures who frame ruthless choices as the only rational course."
+    ],
+    "BehindTheScenes": [
+      "Functions as the first half of a two-part finale, moving the action almost entirely to a new world.",
+      "Gives Brent Spiner a new role as Altan Inigo Soong alongside echoes of Data in Sutra’s performance.",
+      "Visually contrasts the pastoral synth settlement with the looming threat of a Romulan armada and unknown cosmic powers."
+    ]
+  },
+  {
+    "ID": "pics1e10",
+    "Title": "Et in Arcadia Ego, Part 2",
+    "Series": "PIC",
+    "Season": 1,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Soji Asha",
+      "Seven of Nine"
+    ],
+    "GuestCharacters": [
+      "Altan Inigo Soong",
+      "William Riker",
+      "Narissa",
+      "Commodore Oh"
+    ],
+    "Antagonists": [
+      "Sutra’s plan to summon an overwhelming synthetic alliance to eradicate organics",
+      "The approaching Romulan fleet intent on wiping out all synth life on Coppelius"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "On Coppelius, work accelerates on the beacon that will call the unknown synthetic alliance, while Picard remains a guarded prisoner. The Romulan armada under Commodore Oh closes in on the system, prepared to sterilize the planet if necessary. La Sirena’s crew and the synth community hurtle toward a final decision that will determine the fate of both organics and synthetics."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Soong and Jurati discover evidence that Sutra engineered the earlier killing to frame Narek and justify her hardline stance, revealing her willingness to sacrifice her own to secure power. They deactivate Sutra and free Picard, who convinces Jurati to help him steal La Sirena and mount a symbolic, if outgunned, defense of the planet."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Picard pilots La Sirena alone into orbit, using a jury-rigged device to project multiple decoy copies of the ship in an attempt to confuse the Romulans. On the surface, Seven confronts Narissa atop the damaged Borg cube and ultimately kills her in a fierce hand-to-hand battle. The beacon activates, opening a swirling aperture through which biomechanical tendrils of the higher synth alliance begin to emerge."
+      },
+      {
+        "Header": "Act III",
+        "Text": "A massive Federation relief fleet, commanded by Riker in a new starship, arrives to stand between Coppelius and the Romulan armada. Using classic Picard diplomacy backed by credible force, Riker demands that Oh stand down and respect Federation jurisdiction. Picard, knowing he is dying, pleads with Soji to close the portal and prove that synths can choose trust over annihilation."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Soji shuts down the beacon, causing the synthetic alliance to withdraw before fully arriving, and the Romulans retreat under Federation pressure. Picard succumbs to his brain condition surrounded by his crew, but his consciousness is saved and transferred into a carefully limited synthetic body—a \"golem\" designed to age and die like a human. In a final, intimate conversation within a quantum simulation, Picard says goodbye to Data, granting his friend the mortality he always sought. Waking in his new body, Picard assembles La Sirena’s crew for a new voyage, symbolizing a second life dedicated to the same ideals, now tested in a darker century."
+      }
+    ],
+    "EthicalIssues": [
+      "Creating an artificial body for a dying person while deliberately programming in mortality and limits.",
+      "Whether it is ethical to summon a potentially genocidal outside force in the name of self-defense.",
+      "Using overwhelming military presence as a deterrent while still seeking a diplomatic solution."
+    ],
+    "ContinuityNotes": [
+      "Resolves the synth ban arc by demonstrating that synthetic life can choose restraint in the face of existential fear.",
+      "Provides an on-screen farewell to Data that reframes his death in Nemesis with a more emotionally complete closure.",
+      "Shows Riker temporarily returning to Starfleet command, reflecting his enduring bond with Picard and the Federation’s values."
+    ],
+    "ThematicNotes": [
+      "Mortality as a gift rather than a curse, especially for beings who could, in theory, live forever.",
+      "Second chances—for Picard, for Jurati, and for relations between organics and synthetics.",
+      "The enduring power of Starfleet ideals when backed by courageous individuals willing to act on them."
+    ],
+    "BehindTheScenes": [
+      "Serves as the season’s climax and emotional coda, balancing space confrontation with intimate character farewells.",
+      "Gives Patrick Stewart and Brent Spiner a quiet, dialogue-driven farewell scene that anchors the episode’s emotional core.",
+      "Establishes Picard’s new status quo as a synthetic yet mortal being, setting up future seasons to explore the implications."
+    ]
+  },
+  {
+    "ID": "pics2e1",
+    "Title": "The Star Gazer",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Agnes Jurati",
+      "Seven of Nine",
+      "Cristóbal Rios",
+      "Raffi Musiker",
+      "Elnor",
+      "Soji Asha",
+      "Laris"
+    ],
+    "GuestCharacters": [
+      "Guinan",
+      "Borg Queen",
+      "Admiral Sally Whitley"
+    ],
+    "Antagonists": [
+      "Unknown Borg Queen at the heart of a spatial anomaly",
+      "Runaway spatial anomaly threatening the Stargazer and the fleet"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "A Starfleet task force led by the new USS Stargazer responds to a mysterious spatial anomaly broadcasting a distress call that seems to come from the Borg. On the bridge, Admiral Picard joins Captain Rios, Seven, Jurati, and others as a heavily shielded Borg vessel emerges and requests to negotiate. When a masked Borg Queen beams aboard and begins interfacing with the Stargazer, Picard orders the ship’s self-destruct as green tendrils spread across the consoles."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Earlier, Picard tends his vineyard on Earth and wrestles with his own emotional distance, even as Laris hints at a deeper relationship he is afraid to pursue. At Starfleet Academy, Picard delivers a speech about second chances while Raffi mentors Elnor, now a fresh-faced cadet. Rios, back in uniform, commands the refit Stargazer, while Seven uses La Sirena to protect ex-Borg and other vulnerable colonists. The day’s quiet routine is broken when the Federation picks up the anomaly’s encoded plea for help addressed specifically to Picard."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Picard consults Guinan, who gently pushes him to examine the roots of his lifelong fear of intimacy and the way Borg trauma still grips him. Convinced he cannot ignore a call for help, Picard joins the fleet at the anomaly. A Borg vessel emerges and asks to join the Federation, offering technology in exchange. Despite the brass’s wariness, Picard authorizes limited cooperation but insists on strict security protocols when the Queen requests permission to beam aboard."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The armored Borg Queen materializes on the Stargazer’s bridge, demanding access to the ship’s systems to defend against an unseen threat on the other side of the anomaly. As she begins siphoning power from the fleet, Starfleet ships are pulled toward assimilation instead of salvation. Jurati desperately tries to decode the Queen’s true intentions while Seven and the others aim weapons at their uninvited ally. Realizing that the Queen is seizing the entire fleet as leverage, Picard concludes they are out of options."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Picard triggers the Stargazer’s self-destruct with the fleet slaved to its command, choosing death over a potential Borg takeover. As the countdown reaches zero, time itself seems to twist. Picard awakens at Château Picard in a harsher, militarized version of his study, filled with trophies of conquered species. When a familiar voice mocks his confusion, he turns to find Q waiting for him, older but unchanged in spirit, announcing that the trial of humanity is not over."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether to trust a historic enemy when it asks for help and membership.",
+      "Risking an entire fleet on a single, time-critical diplomatic gamble.",
+      "How unresolved trauma can skew judgment in high-stakes command decisions."
+    ],
+    "ContinuityNotes": [
+      "Picard again serves as Chancellor at Starfleet Academy, echoing his mentor role from the late 24th century.",
+      "The new USS Stargazer evokes Picard’s first command while showcasing updated 25th-century technology.",
+      "Guinan’s friendship with Picard continues into the 25th century, drawing on their long history from The Next Generation."
+    ],
+    "ThematicNotes": [
+      "The tension between fear and hope when confronting a former enemy.",
+      "Aging, regret, and the question of whether it is ever too late to change.",
+      "The idea that even the Borg might seek evolution beyond their past."
+    ],
+    "BehindTheScenes": [
+      "Reintroduces a redesigned USS Stargazer bridge set inspired by The Next Generation–era aesthetic.",
+      "Marks John de Lancie’s first on-screen appearance as Q in Star Trek: Picard.",
+      "Begins the second season’s time-travel arc while still honoring Picard’s TNG legacy."
+    ]
+  },
+  {
+    "ID": "pics2e2",
+    "Title": "Penance",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Q",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Agnes Jurati",
+      "Cristóbal Rios",
+      "Elnor",
+      "Annika Hansen"
+    ],
+    "GuestCharacters": [
+      "General Jean-Luc Picard (Confederation timeline)",
+      "Magistrate",
+      "Borg Queen"
+    ],
+    "Antagonists": [
+      "The human‑supremacist Confederation of Earth",
+      "Q’s manipulative “final” trial of Picard"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Picard wakes in a twisted reality where Earth’s Confederation rules the galaxy through conquest. His château has become a trophy hall of skulls from defeated foes, and he is celebrated as a genocidal war hero rather than a diplomat. Q appears, explaining that Picard is in a corrupted timeline of his own making and hinting that this is humanity’s ultimate test. His cryptic refusal to fix things forces Picard to confront the idea that his own unresolved past lies at the heart of this dark future."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Struggling to maintain his composure, Picard impersonates his brutal Confederation counterpart while quietly seeking his scattered friends. Seven awakens as the Confederation’s ruthless President, shocked to find herself human and married to a suspicious Magistrate. Raffi and Elnor are members of a doomed rebellion, while Rios commands a warship hunting Romulans. Each must play along long enough to avoid exposure in a society that glorifies extermination over diplomacy."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Through covert messages and familiar touchstones, the crew realize they all remember the original timeline. Seven uses her political authority to summon Picard to the presidential palace, where he reveals that Q has engineered the shift. They learn that in this reality, the Confederation has systematically wiped out nearly every major alien civilization. Picard deduces that somewhere in history, a single change allowed humanity’s worst impulses to win."
+      },
+      {
+        "Header": "Act III",
+        "Text": "When a captured Borg Queen is brought to the palace to be executed as a war trophy, Picard recognizes her as a potential ally. The Queen, damaged but still temporally aware, senses that the timeline has been altered and identifies a pivotal divergence point in 2024. Seven arranges for the Queen to be transported to General Picard’s flagship, giving the crew one chance to steal La Sirena and escape this reality. The suspicious Magistrate and his guards close in as their window narrows."
+      },
+      {
+        "Header": "Tag",
+        "Text": "At the public execution ceremony, Picard stages a deception. Instead of killing the Borg Queen, he and his allies trigger a daring extraction, fighting their way to La Sirena with the Queen in tow. They barely escape Earth’s defenses, with Elnor gravely wounded and the Magistrate clinging to the ship at the last second. As they flee, Picard orders the Queen to slingshot them back through time, hoping to find and repair the moment where everything went wrong."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether to ally with a Borg Queen to prevent a worse future.",
+      "The moral responsibility of individuals whose choices influence entire timelines.",
+      "How far one should go in impersonating a monster to save lives."
+    ],
+    "ContinuityNotes": [
+      "The Confederation’s skull trophies name-drop familiar figures like Gul Dukat and Sarek, tying the alt-history to earlier series.",
+      "Q’s framing of a cosmic “trial” echoes his courtroom from The Next Generation’s premiere and finale.",
+      "Seven’s human appearance recalls the life she might have had without Borg assimilation."
+    ],
+    "ThematicNotes": [
+      "The danger of a human‑supremacist ideology taken to its extreme.",
+      "Personal guilt and the question of whether one deserves a second chance.",
+      "The idea that mercy, not conquest, is the true measure of strength."
+    ],
+    "BehindTheScenes": [
+      "Reimagines familiar characters in a fascist alternate timeline, allowing the cast to explore darker versions of their roles.",
+      "Features extensive production design work to transform familiar sets into Confederation equivalents.",
+      "Continues John de Lancie’s return as Q in a more fragile, unpredictable state than in earlier series."
+    ]
+  },
+  {
+    "ID": "pics2e3",
+    "Title": "Assimilation",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Agnes Jurati",
+      "Cristóbal Rios",
+      "Elnor",
+      "Borg Queen"
+    ],
+    "GuestCharacters": [
+      "Tallinn (teased through temporal awareness)",
+      "Teresa Ramirez",
+      "Ricardo"
+    ],
+    "Antagonists": [
+      "The collapsing Confederation timeline",
+      "Hostile 21st‑century authorities",
+      "The Borg Queen’s hunger for power"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "La Sirena hurtles back through time toward twenty‑first‑century Earth while under heavy fire from Confederation ships. The Borg Queen strains to control the temporal slingshot, forcing the crew to trust her even as she feeds on their power. The ship emerges over Earth in 2024 but is critically damaged, plunging into an uncontrolled descent. Picard manages to crash‑land in the relative safety of his ancestral vineyard, but Elnor dies from his wounds, leaving Raffi shattered."
+      },
+      {
+        "Header": "Act I",
+        "Text": "With La Sirena crippled and cloaked in the vineyard, the crew splits up to locate the mysterious Watcher the Borg Queen insists can fix the timeline. Seven, Raffi, and Rios head for Los Angeles, while Picard stays aboard to secure the ship and the Queen. A transporter malfunction sends Rios crashing into a free clinic run by Dr. Teresa Ramirez, who tends to his injuries without knowing he is from the future. Meanwhile, Seven and Raffi discover a harsher version of 2024 marked by poverty, protests, and heavy policing."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Rios is arrested by immigration authorities after trying to protect Teresa and her patients, leaving him trapped in a system that treats him as expendable. Seven and Raffi steal a police vehicle to track him down, exposing them further to twenty‑first‑century surveillance. Back at the vineyard, Picard struggles to accept an alliance with the Borg Queen, who is the only one capable of reaching the Watcher but revels in his discomfort. Jurati volunteers to directly interface with the Queen’s mind to extract the information they need."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Jurati’s mental link with the Queen becomes a psychological tug‑of‑war, with each trying to outmaneuver the other. Jurati hides her true objective behind a barrage of rapid‑fire thoughts, using her own pain and humor as camouflage. She successfully pulls the coordinates of the Watcher’s location from the Queen’s mind, but not without leaving a crack the Queen can exploit later. Though they secure the information they need, the crew senses that a new, more intimate Borg threat has begun."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Raffi channels her grief over Elnor into furious determination to retrieve Rios from ICE custody, while Seven tries to steady her partner. Picard and Jurati prepare to travel into Los Angeles to track down the Watcher, aware that every move risks further contamination of the timeline. The Borg Queen, partially restored by the energy of Jurati’s mind, quietly savors the new connection she has forged. The mission to repair the future now depends on a fragile alliance with the very enemy that once broke Picard’s soul."
+      }
+    ],
+    "EthicalIssues": [
+      "Interfering in 21st‑century institutions like immigration enforcement to save a teammate.",
+      "Allowing the Borg Queen into a crewmate’s mind as the price of saving the timeline.",
+      "Balancing grief and duty when lives have already been lost to time travel."
+    ],
+    "ContinuityNotes": [
+      "Picard’s vineyard again serves as a safe harbor across centuries, echoing its role in multiple timelines.",
+      "Seven experiences life as a fully human woman in a way that contrasts with her Borg‑marked present.",
+      "Time‑slingshotting around a star recalls methods used in Star Trek’s earlier time‑travel stories."
+    ],
+    "ThematicNotes": [
+      "The cost of second chances when they are paid for in blood.",
+      "Assimilation as a metaphor for coercive relationships, not just cybernetic horror.",
+      "The clash between Starfleet ideals and the injustices of early 21st‑century Earth."
+    ],
+    "BehindTheScenes": [
+      "Uses contemporary Los Angeles locations to ground Star Trek’s future characters in a recognizable present.",
+      "Gives Alison Pill’s Jurati a central role in the evolving Borg storyline.",
+      "Continues the season’s exploration of complex, uneasy alliances with the Borg Queen."
+    ]
+  },
+  {
+    "ID": "pics2e4",
+    "Title": "Watcher",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Agnes Jurati",
+      "Cristóbal Rios",
+      "Borg Queen",
+      "Tallinn"
+    ],
+    "GuestCharacters": [
+      "Guinan (2024 version)",
+      "Agent of the Watcher in human guise",
+      "Teresa Ramirez",
+      "Ricardo"
+    ],
+    "Antagonists": [
+      "Temporal disruption threatening Renée Picard’s mission",
+      "Q’s subtle manipulations in 2024"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Following the Borg Queen’s cryptic directions, Picard travels to a rough neighborhood in 2024 Los Angeles searching for the Watcher. Instead, he finds a younger, disillusioned Guinan preparing to leave Earth entirely. She rails against the injustices of the time period and claims humanity has squandered its potential. Picard desperately tries to convince her that the future he knows is worth fighting for, even as evidence mounts that history may be drifting off course."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Seven and Raffi chase Rios through the immigration detention system, horrified by the conditions and indifference they witness. Rios risks exposing advanced technology to protect fellow detainees, while Raffi and Seven hijack a bus to free him. Their rescue operation narrowly avoids catastrophic temporal damage but leaves them even more aware of the fragile social tensions of the era. Meanwhile, Jurati remains aboard La Sirena, managing an uneasy, increasingly personal standoff with the Borg Queen."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Picard’s debate with Guinan reaches a breaking point when he invokes a secret signal known only to her people, proving he is not simply another desperate stranger. Realizing that something is very wrong with the flow of time, Guinan reluctantly helps him summon the Watcher. A series of strange possession‑like encounters leads Picard into the body of a young woman who has been quietly observing him. She reveals herself as Tallinn, a Supervisor charged with protecting one specific human: Renée Picard, an ancestor whose upcoming space mission is pivotal to the future."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Tallinn shows Picard how she has guarded Renée from the shadows, intervening just enough to keep her on track without violating her free will. When Picard and Tallinn glimpse Q posing as Renée’s therapist, they realize he is actively trying to derail the mission by exploiting her anxiety and depression. Picard pleads with Tallinn to break her rules and interact with Renée directly before Q pushes her into abandoning the Europa flight. Tallinn, shaken by the stakes, agrees to consider a more hands‑on approach than she has ever taken."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As the crew regroups, they recognize that saving the timeline now hinges on Renée both surviving and choosing to fly. Guinan senses a deep instability in time itself, warning Picard that he may not be able to win this test. Back on La Sirena, the Borg Queen becomes fascinated with Jurati’s loneliness and sharp mind, envisioning a new kind of assimilation. The board is set: Q has his vulnerable pawn in Renée, and Picard has found a Watcher willing to step out of the shadows."
+      }
+    ],
+    "EthicalIssues": [
+      "How far a guardian may go in manipulating the life of the person they protect.",
+      "Using mental health vulnerabilities as leverage in a cosmic game.",
+      "Interfering with 2024 institutions like immigration and law enforcement to save the future."
+    ],
+    "ContinuityNotes": [
+      "Tallinn and her Supervisor role echo Gary Seven and the Supervisors introduced in The Original Series.",
+      "Guinan’s presence in 2024 ties into her long‑lived El‑Aurian timeline on Earth.",
+      "Renée Picard’s mission sets up a key branch in the Picard family’s history."
+    ],
+    "ThematicNotes": [
+      "Guardianship versus control in relationships marked by power imbalance.",
+      "Despair versus hope when confronted with humanity’s worst traits.",
+      "The idea that individual choices can pivot the fate of centuries."
+    ],
+    "BehindTheScenes": [
+      "Brings back the Supervisor concept from classic Star Trek in a modern context.",
+      "Uses real‑world Los Angeles locations to depict the social tensions of 2024.",
+      "Gives Orla Brady a dual narrative role as both Laris and Tallinn across the season."
+    ]
+  },
+  {
+    "ID": "pics2e5",
+    "Title": "Fly Me to the Moon",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Tallinn",
+      "Agnes Jurati",
+      "Borg Queen",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Cristóbal Rios"
+    ],
+    "GuestCharacters": [
+      "Renée Picard",
+      "Adam Soong",
+      "Kore Soong",
+      "Q"
+    ],
+    "Antagonists": [
+      "Q’s campaign to sabotage the Europa Mission",
+      "Adam Soong’s ruthless pursuit of scientific glory",
+      "The Borg Queen’s growing hold on Jurati"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Picard and Tallinn observe Renée Picard in therapy and at mission briefings, seeing firsthand how Q erodes her confidence. As Renée struggles with anxiety and imposter syndrome, Q whispers that she is destined to fail, nudging her toward withdrawing from the Europa flight. Picard realizes that Q’s plan is not brute force but psychological sabotage, targeting the one ancestor whose courage is needed to launch humanity toward a better future."
+      },
+      {
+        "Header": "Act I",
+        "Text": "To counter Q’s influence, Picard convinces Tallinn to break her rules and enter Renée’s mind long enough to show her a path through her fear. They formulate a plan to infiltrate a pre‑launch gala, keeping Renée safe and emotionally stable until she signs the final mission waiver. Meanwhile, on La Sirena, Jurati is forced to free the Borg Queen from her restraints to prevent a security breach, engaging in a tense game of wits where each tries to outmaneuver the other. The Queen offers power and belonging in exchange for Jurati’s cooperation."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Elsewhere, Q turns to geneticist Adam Soong, promising him a future of scientific vindication if he helps stop the Europa Mission. Desperate to cure his daughter Kore’s engineered illness and salvage his legacy, Soong agrees to interfere with the launch and to target Picard’s team. Rios, Seven, and Raffi prepare their own covert entry into the gala, juggling period‑appropriate clothing, forged credentials, and the need to avoid drawing security’s attention in an era not ready for time travelers."
+      },
+      {
+        "Header": "Act III",
+        "Text": "During a high‑stakes confrontation on La Sirena, the Borg Queen corners Jurati emotionally, playing on her loneliness and feelings of failure. Jurati tricks the Queen into underestimating her, letting herself be partially assimilated to gain the upper hand. In a desperate move, Jurati shoots the Queen, killing her physical body but unintentionally absorbing a fragment of her consciousness. The crew believes the Borg threat neutralized, unaware that Jurati now carries the Queen inside her mind."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As the gala begins, Picard’s team takes up their positions to protect Renée and keep history on track. Adam Soong, armed with Q’s support and his own security resources, closes in with a plan to sabotage the mission and remove Picard from the equation. Kore starts to question the true origin of her illness and her father’s experiments. Meanwhile, Jurati walks into the party seemingly alone, the Borg Queen’s voice whispering encouragement and temptation from within."
+      }
+    ],
+    "EthicalIssues": [
+      "Using deep mental intervention to stabilize Renée without her informed consent.",
+      "Q’s manipulation of a vulnerable scientist by exploiting a child’s illness.",
+      "Jurati’s choice to accept partial assimilation as a tactical advantage."
+    ],
+    "ContinuityNotes": [
+      "Introduces Adam Soong, extending the Soong family’s pattern of ethically dubious experimentation.",
+      "Renée Picard’s mission adds a new branch to the Picard family’s historical influence on Starfleet.",
+      "The Borg Queen’s interest in Jurati foreshadows a new, hybrid Borg identity."
+    ],
+    "ThematicNotes": [
+      "The line between help and control when supporting someone with anxiety.",
+      "Scientific ambition corrupted by ego and desperation.",
+      "Loneliness as an opening for coercive relationships."
+    ],
+    "BehindTheScenes": [
+      "Gives Isa Briones a new role as Kore Soong, distinct from her synthetic characters in season one.",
+      "Uses the Europa Mission gala as a stylish centerpiece for the season’s mid‑arc climax.",
+      "Deepens Alison Pill’s arc by seeding her transformation into a Borg‑human hybrid."
+    ]
+  },
+  {
+    "ID": "pics2e6",
+    "Title": "Two of One",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Tallinn",
+      "Agnes Jurati",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Cristóbal Rios",
+      "Borg Queen"
+    ],
+    "GuestCharacters": [
+      "Renée Picard",
+      "Adam Soong",
+      "Kore Soong"
+    ],
+    "Antagonists": [
+      "Adam Soong acting under Q’s influence",
+      "The Borg Queen’s growing control over Jurati"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The episode opens in the aftermath of a disaster: Picard lies unconscious on the ground outside the gala, paramedics rushing to stabilize him while Tallinn watches with quiet alarm. Time flashes back to earlier that evening, when the crew first arrived at the glittering Europa Mission event determined to keep Renée from quitting the flight. Picard senses that every step inside the gala could be the one that saves or dooms the future."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Rios, Seven, and Raffi navigate the gala’s security and social scene, juggling false identities as they try to keep Renée in sight. Tallinn uses her technology to track Renée’s emotional state while Picard tries to position himself for a meaningful conversation. Adam Soong arrives with powerful donors and a determination to sabotage the mission, having been rebuffed by Starfleet for his unethical research. Jurati, having been detained for breaking into the event, becomes an unlikely focal point when the Borg Queen inside her seizes control to escape."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Under the Queen’s subtle influence, Jurati weaponizes her own charisma, turning an awkward arrest into a show‑stopping musical performance that distracts the entire gala. While guests cheer, she bypasses security and frees herself from custody, slipping deeper under the Queen’s sway. Picard finally reaches Renée, empathizing with her fear and reminding her that great exploration always involves doubt. His words help Renée rediscover her resolve to fly, setting her back on the path history requires."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Outside the gala, Adam Soong attempts to run down Renée with his car to ensure she never boards the shuttle. Picard hurls himself into the path of the vehicle, saving Renée but suffering a massive injury that leaves him unconscious. The crew scrambles to protect both Picard and the timeline, hustling Renée safely back into quarantine while emergency services take Picard away. Tallinn insists on accompanying him, suspecting that his condition may be tied to deeper psychological wounds than the physical trauma alone."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As Picard is rushed to a hospital, Tallinn prepares to use her advanced technology to enter his mind and untangle the childhood memories that may be sabotaging him. Adam Soong retreats in humiliation, only to receive new instructions from Q that promise another chance to interfere. Jurati wanders into the night, the Borg Queen now a full co‑pilot in her thoughts and eager to carve out a future for their shared identity. The mission has survived the gala, but the cost to Picard and Jurati is only beginning."
+      }
+    ],
+    "EthicalIssues": [
+      "Risking a single life to preserve the fate of an entire timeline.",
+      "Using charm and deception to manipulate a public event for covert ends.",
+      "Allowing a dangerous consciousness to share a crewmate’s body as an ongoing strategy."
+    ],
+    "ContinuityNotes": [
+      "Renée Picard’s reaffirmed commitment to the Europa Mission preserves the critical historical milestone.",
+      "Picard’s willingness to sacrifice himself recalls earlier self‑sacrifices throughout his Starfleet career.",
+      "Adam Soong continues the Soong family tradition of crossing ethical lines in pursuit of scientific breakthroughs."
+    ],
+    "ThematicNotes": [
+      "The idea that courage does not erase fear but moves through it.",
+      "Duality and fusion, explored through Jurati’s emerging bond with the Borg Queen.",
+      "The weight of mentorship and responsibility toward the next generation."
+    ],
+    "BehindTheScenes": [
+      "Showcases a large‑scale gala sequence as the centerpiece of the season’s mid‑point.",
+      "Highlights Alison Pill’s range by blending comedy, music, and psychological horror in Jurati’s arc.",
+      "Deepens Orla Brady’s role as Tallinn, setting up the mindscape exploration in the following episode."
+    ]
+  },
+  {
+    "ID": "pics2e7",
+    "Title": "Monsters",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Tallinn",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Agnes Jurati",
+      "Borg Queen",
+      "Cristóbal Rios"
+    ],
+    "GuestCharacters": [
+      "Young Jean-Luc Picard",
+      "Yvette Picard",
+      "Maurice Picard",
+      "James Callis’s therapist figure inside Picard’s mind"
+    ],
+    "Antagonists": [
+      "Picard’s unprocessed childhood trauma",
+      "The Borg Queen’s growing predatory influence over Jurati"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Inside an ornate, timeless office, Picard sits across from a stern therapist who questions his tendency to run from intimacy and pain. What begins as a standard counseling session gradually twists into a nightmare as inconsistencies surface and dark figures lurk at the edge of his awareness. Outside his mind, Tallinn realizes that Picard’s coma is being sustained by something deeper than physical injury, and prepares to dive into his subconscious to bring him back."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Tallinn enters Picard’s mind using her Supervisor technology, finding herself in a labyrinth of memories populated by monsters, soldiers, and a frightened young Jean‑Luc. The therapist reveals himself as a representation of Picard’s own critical inner voice, probing the memories he has buried for decades. As Tallinn follows the boy through a darkened château, she sees how his mother’s mental health struggles were transformed in his memory into literal monsters. Picard’s guilt over failing to save her has shaped his entire emotional life."
+      },
+      {
+        "Header": "Act II",
+        "Text": "In the real world, Seven and Raffi track Jurati through Los Angeles, noticing that every place she visits experiences inexplicable power fluctuations and broken glass. They deduce that the Borg Queen is testing the limits of her new hybrid body, searching for a way to generate the mass needed for a Borg collective. Rios remains with Teresa and her son, struggling with growing feelings for them even as he knows he cannot stay. Their budding connection highlights the cost of the crew’s constant duty."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Tallinn confronts the central, locked memory of Picard’s childhood: the day his mother descended into a dangerous depressive episode in the château’s basement. Young Jean‑Luc saw her as both victim and monster, and the older Picard has long blamed himself for what happened next. Tallinn guides him to see that a child cannot carry responsibility for an adult’s illness, reframing his guilt as compassion. Accepting this truth allows Picard to begin forgiving himself and to awaken from the coma."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Picard wakes in the 2024 clinic with Tallinn at his side, still shaken but more aware of the roots of his emotional armor. He recognizes that his fear of love and loss has been steering his choices for a lifetime. Elsewhere, Jurati fully embraces the thrill of the Queen’s power, smashing windows to gorge on ambient fear and adrenaline. The stage is set for a collision between Picard’s newly examined past and Jurati’s dangerously rewritten future."
+      }
+    ],
+    "EthicalIssues": [
+      "Exploring someone’s deepest trauma without their explicit, present‑day consent.",
+      "The responsibility of caregivers toward family members with severe mental illness.",
+      "Jurati’s choice to indulge the Borg Queen’s appetite for control and fear."
+    ],
+    "ContinuityNotes": [
+      "Adds concrete details to Picard’s long‑hinted childhood at Château Picard.",
+      "Helps explain Picard’s longstanding distance from romantic relationships across his life.",
+      "Further develops the new Borg Queen incarnation born from Jurati’s mind link."
+    ],
+    "ThematicNotes": [
+      "The monsters we carry from childhood into adulthood.",
+      "Guilt, forgiveness, and the need to reframe old memories to heal.",
+      "The seduction of power as an escape from loneliness."
+    ],
+    "BehindTheScenes": [
+      "Gives Patrick Stewart and guest star James Callis rich psychological material to play.",
+      "Relies heavily on dreamlike visuals and symbolic imagery instead of space battles.",
+      "Bridges Picard’s emotional arc with the broader season‑long plot about choice and destiny."
+    ]
+  },
+  {
+    "ID": "pics2e8",
+    "Title": "Mercy",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Guinan",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Agnes Jurati",
+      "Borg Queen",
+      "Cristóbal Rios"
+    ],
+    "GuestCharacters": [
+      "FBI Agent Wells",
+      "Young Agent Wells encountering Vulcans",
+      "Kore Soong",
+      "Adam Soong"
+    ],
+    "Antagonists": [
+      "Agent Wells’s suspicion of extraterrestrials",
+      "Adam Soong’s escalating attempts to secure his legacy",
+      "The Jurati–Borg Queen fusion acting independently"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Picard and Guinan are arrested and interrogated by an intense FBI agent who believes they are involved in a vast extraterrestrial conspiracy. The agent seems to know more than he should about odd phenomena and off‑world visitors. While Picard tries to maintain composure, Guinan senses that the man’s obsession is personal, rooted in a childhood encounter he never understood. Their captivity threatens to derail the mission just as the Europa launch draws near."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Agent Wells presses Picard for answers, convinced he has finally caught proof of alien interference on Earth. Picard realizes that telling the literal truth could cause more harm than good, yet lying only deepens Wells’s paranoia. Guinan attempts a ritual to summon Q, but the continuum remains silent and Q himself appears weakened and afraid. He reveals that his own end may be approaching, and that his final lesson for Picard is about connection, not punishment."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Meanwhile, Seven and Raffi track the Jurati–Queen hybrid through the city. They witness her uncanny ability to enthrall bystanders and draw energy from chaos, turning bars and alleys into feeding grounds. Their attempts to apprehend her are complicated by her unpredictability: she is neither fully Borg nor fully Jurati, and flashes of Agnes’s compassion still surface. Rios stays close to Teresa and Ricardo, caught between a growing desire to remain in this era and his duty to the future."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Picard’s interrogation reaches a breaking point when Wells reveals his childhood encounter with Vulcans performing a covert survey on Earth. Misinterpreting their mind‑meld as an attack, he has spent his life trying to prove that aliens are a threat. Picard gently reframes the memory, explaining the Vulcans’ actual intentions and offering empathy for the boy’s fear. Wells’s anger gives way to understanding, and he ultimately chooses to let Picard and Guinan go, sacrificing his career but preventing a larger disruption of the timeline."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Kore confronts Adam Soong about the truth of her engineered condition, using information provided by Q to escape his control. Humiliated and cornered, Soong doubles down on Q’s plan to sabotage the Europa Mission, turning his resources toward more drastic measures. Seven and Raffi recognize that the Jurati–Queen hybrid is heading for La Sirena, intending to create a new kind of Borg collective. The concept of mercy takes on new weight as the crew realizes they may need to show it even to an enemy."
+      }
+    ],
+    "EthicalIssues": [
+      "How much truth to reveal to someone whose trauma has shaped their life’s work.",
+      "The morality of early covert Vulcan contact with Earth.",
+      "Whether a hybrid enemy who retains traces of a friend deserves mercy or destruction."
+    ],
+    "ContinuityNotes": [
+      "Echoes earlier Star Trek stories about covert Vulcan observation prior to first contact.",
+      "Q’s apparent mortality adds a new dimension to his relationship with Picard.",
+      "Kore’s rebellion continues the Soong family pattern of creations and children turning against their maker."
+    ],
+    "ThematicNotes": [
+      "Mercy as a conscious choice rather than a weakness.",
+      "Reframing old fears through new understanding.",
+      "The cost of obsession, whether in humans, android scientists, or near‑omnipotent beings."
+    ],
+    "BehindTheScenes": [
+      "Centers much of the episode on dialogue‑driven interrogation scenes rather than space action.",
+      "Explores Q in a more vulnerable state than in previous appearances.",
+      "Continues building toward the season’s climax around the Europa Mission and a new Borg evolution."
+    ]
+  },
+  {
+    "ID": "pics2e9",
+    "Title": "Hide and Seek",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Agnes Jurati",
+      "Borg Queen",
+      "Tallinn",
+      "Cristóbal Rios"
+    ],
+    "GuestCharacters": [
+      "Young Jean-Luc Picard",
+      "Yvette Picard",
+      "Adam Soong",
+      "Kore Soong"
+    ],
+    "Antagonists": [
+      "The Jurati–Borg Queen hybrid and her improvised drones",
+      "Adam Soong and his hired mercenaries"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Night falls over Château Picard as a small army of mercenaries, hired by Adam Soong and led by the Jurati–Borg Queen hybrid, surround La Sirena. The Queen plans to use 21st‑century soldiers as raw material for a new collective and to seize the ship as her future flagship. Picard, Seven, Raffi, Tallinn, and Rios brace for a brutal close‑quarters battle through the house and its hidden tunnels. At the same time, memories of childhood games of hide‑and‑seek begin to resurface in Picard’s mind."
+      },
+      {
+        "Header": "Act I",
+        "Text": "As the mercenaries storm the estate, Seven and Raffi hold the line with improvised defenses and repurposed 25th‑century tech. Rios helps Tallinn and Picard escape into the château’s underground passages with a portable transporter, buying them time to regroup. The Jurati–Queen hybrid starts assimilating Soong’s men using low‑tech implants, creating a jury‑rigged proto‑collective. Each skirmish shows that she is still part Agnes and part Queen, torn between predation and an emerging new vision."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Inside the tunnels, Picard is flooded with memories of the night his mother’s illness culminated in tragedy. He recalls playing hide‑and‑seek only to discover that she had taken her own life, a memory he has long suppressed. Tallinn helps him face the full truth, emphasizing that his father was not simply a villain but a man struggling to protect his family from a devastating illness. Accepting this nuance begins to free Picard from the simplistic narrative he has carried since childhood."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On the grounds above, Seven is gravely wounded when the mercenaries attack, and the hybrid Queen chooses to save her by re‑creating Seven’s Borg implants, effectively re‑assimilating her partially. This act of reluctant mercy suggests that Jurati’s influence is still present. In a crucial confrontation, Jurati asserts her will inside the shared mind, arguing for a new kind of Borg built on consent instead of conquest. The Queen agrees to a pact: they will leave 2024, protect the Europa Mission indirectly, and seek a future where their collective can evolve differently."
+      },
+      {
+        "Header": "Tag",
+        "Text": "The hybrid Queen departs with La Sirena, leaving the crew stranded in 2024 with only limited technology. Adam Soong, though thwarted on the battlefield, still holds enough political influence to threaten the Europa Mission from another angle. Picard emerges from the tunnels having finally faced the darkest corners of his past. The crew turns their focus to the final challenge: ensuring the launch succeeds despite Soong’s last‑ditch efforts."
+      }
+    ],
+    "EthicalIssues": [
+      "Creating a new Borg collective based on consent while carrying the legacy of past atrocities.",
+      "Reexamining long‑held childhood narratives about parents and blame.",
+      "Saving a life through partial assimilation without prior consent."
+    ],
+    "ContinuityNotes": [
+      "Seven’s restored implants echo her original look while updating their narrative meaning.",
+      "Picard’s full recollection of his mother’s death resolves a mystery threaded through the season.",
+      "The Jurati–Queen pact sets the stage for the enigmatic Borg contact in the season premiere."
+    ],
+    "ThematicNotes": [
+      "Hiding from pain versus confronting it directly.",
+      "Reinventing monstrous legacies into something new.",
+      "The power of choice even within seemingly fixed roles."
+    ],
+    "BehindTheScenes": [
+      "Features extended action sequences in and around Château Picard, blending character drama with combat.",
+      "Uses flashbacks to complete the season‑long exploration of Picard’s childhood.",
+      "Positions the Jurati‑led Borg as a bridge between traditional Borg horror and a more nuanced future."
+    ]
+  },
+  {
+    "ID": "pics2e10",
+    "Title": "Farewell",
+    "Series": "PIC",
+    "Season": 2,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Q",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Agnes Jurati",
+      "Borg Queen",
+      "Tallinn",
+      "Cristóbal Rios"
+    ],
+    "GuestCharacters": [
+      "Renée Picard",
+      "Tallinn disguised as Renée",
+      "Adam Soong",
+      "Kore Soong",
+      "Wesley Crusher"
+    ],
+    "Antagonists": [
+      "Adam Soong’s last‑ditch attempt to sabotage the Europa Mission",
+      "The looming paradox of the Jurati‑Borg’s place in Federation history"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "With hours left before the Europa Mission launch, Picard and Tallinn race against Adam Soong’s final plan to stop Renée from boarding her shuttle. The season’s threads converge: the altered Borg future, the Supervisors’ mandate, Q’s cryptic trial, and Picard’s newly understood past. The fate of the galaxy once again hangs on a single family name and a single moment of courage on a launchpad."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Tallinn insists on infiltrating the launch facility alone, determined to fulfill her life’s purpose as Renée’s guardian. She uses advanced disguises to reach Renée, who is overwhelmed by fear and the weight of expectation. Outside, Soong leverages his influence and security access to engineer an opportunity to poison or otherwise incapacitate Renée before takeoff. Picard struggles with the knowledge that he cannot protect his ancestor directly without risking further temporal damage."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Inside a secure area, Renée meets a woman who looks exactly like her but carries herself with quiet certainty: Tallinn in disguise. Realizing that Soong is close and that someone must take the fall, Tallinn chooses to assume Renée’s identity long enough to intercept the attack. Soong’s sabotage succeeds in killing Tallinn, who dies knowing she has preserved the real Renée’s destiny. The true Renée boards the shuttle and launches, beginning the mission that will discover a crucial new form of life and anchor the proper timeline."
+      },
+      {
+        "Header": "Act III",
+        "Text": "On Earth, Kore uses Q’s guidance to erase Soong’s digital research, destroying the foundation of his legacy and freeing future subjects from his experiments. Defeated, Soong clings to a single remaining project: a folder labeled with the word that will echo into the far future, \"Khan.\" Meanwhile, Q meets Picard in the château’s ruins and reveals that his dying wish is to ensure Picard does not die alone, emotionally or literally. He explains that the trial was never about punishment but about teaching Picard to embrace connection and self‑forgiveness."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Q uses the last of his power to return Picard and his friends to the Stargazer bridge at the moment before its destruction, rewriting the events of the premiere. Picard chooses to trust the masked Borg Queen—now Jurati’s evolved collective—allowing her to help avert a cosmic anomaly and to join a new Federation‑sanctioned protective alliance. After Q’s emotional farewell, Rios chooses to remain in 2024 with Teresa and Ricardo, while Seven and Raffi return to the 25th century, where Seven is finally granted a Starfleet captaincy. Back at Château Picard, an older, wiser Jean‑Luc opens his heart to Laris at last, carrying Q’s final lesson about love and companionship into whatever future remains."
+      }
+    ],
+    "EthicalIssues": [
+      "Tallinn’s choice to sacrifice her own life and identity to preserve Renée’s path.",
+      "Kore’s decision to erase dangerous scientific work, permanently altering her father’s legacy.",
+      "Picard’s willingness to trust a radically reimagined Borg collective as a future ally."
+    ],
+    "ContinuityNotes": [
+      "Wesley Crusher’s appearance as a Traveler ties Star Trek: Picard to his evolution beyond The Next Generation.",
+      "The Khan file on Soong’s desk nods toward the eugenics legacy central to Star Trek history.",
+      "The season’s ending sets up the cooperative Borg collective seen at the start of the story."
+    ],
+    "ThematicNotes": [
+      "Farewell as an act of love rather than abandonment.",
+      "Accepting that pain and joy are inseparable parts of a fully lived life.",
+      "The possibility of transforming even the darkest legacies into something new."
+    ],
+    "BehindTheScenes": [
+      "Brings back Wil Wheaton as Wesley Crusher in a surprise cameo, acknowledging his Traveler storyline.",
+      "Uses the Stargazer bridge as both the season’s beginning and ending point for visual symmetry.",
+      "Positions the Jurati‑led Borg as a bold new direction for one of Star Trek’s most iconic adversaries."
+    ]
+  },
+  {
+    "ID": "pics3e1",
+    "Title": "The Next Generation",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 1,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Beverly Crusher",
+      "Jack Crusher",
+      "William Riker",
+      "Seven of Nine",
+      "Raffi Musiker"
+    ],
+    "GuestCharacters": [
+      "Laris",
+      "Liam Shaw",
+      "Sydney La Forge",
+      "Helm Officer Esmar",
+      "Jack's Fenris Ranger contacts"
+    ],
+    "Antagonists": [
+      "Vadic and the warship Shrike",
+      "Unknown conspirators behind the attack on Beverly",
+      "Black-market operators hunting Jack"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "On the medical ship Eleos, Beverly Crusher and her son Jack are ambushed by unknown assailants. Beverly is gravely wounded, forcing her to seal Jack in a compartment while she fends off boarders. With the ship damaged and more hostiles closing in, she sends a desperate coded distress call to Jean-Luc Picard via an old Enterprise-D commbadge, warning him that he can trust no one in Starfleet."
+      },
+      {
+        "Header": "Act I",
+        "Text": "At the chateau, retired Admiral Picard prepares to donate old artifacts when Beverly’s encoded message reaches him and Laris. Decoding the coordinates and recognizing the urgency in her voice, Picard seeks out William Riker on Earth. The two old friends quietly board the USS Titan-A under the guise of a farewell inspection, clashing with the cautious, by-the-book Captain Liam Shaw while finding an ally in his first officer, Commander Seven of Nine."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Using bureaucratic sleight-of-hand and Seven’s help, Picard and Riker reroute a shuttle toward Beverly’s last known position in the Ryton system. They find the Eleos adrift, Beverly in a stasis pod, and Jack running elaborate smuggling and medical-aid operations that have made him many enemies. Tension simmers as Picard questions Beverly’s decades of silence and Jack’s criminal record, even as they scramble to get the damaged ship back to the Titan."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The Titan beams the survivors aboard against Shaw’s objections, only for a massive warship, the Shrike, to drop out of warp and loom over them. Its enigmatic captain, Vadic, demands the immediate surrender of Jack Crusher, offering full amnesty for the Titan if he is turned over. Shaw, furious at Picard’s manipulation and intent on protecting his crew, is tempted to comply, while Picard and Riker argue that something far larger than Jack’s arrest is at stake."
+      },
+      {
+        "Header": "Tag",
+        "Text": "As Vadic toys with the Titan and counts down to destruction, Picard steps forward, publicly claiming command responsibility and refusing to hand Jack over. With the ship cornered at the edge of a nebula and the stakes suddenly personal, he orders Shaw to stand and fight, signaling that whatever legacy he thought he had left behind is about to be tested one last time."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether to trust Starfleet when a trusted ally insists that the institution itself is compromised.",
+      "Risking an entire starship and crew to rescue two civilians with murky criminal records.",
+      "How much a commander may bend regulations for former comrades and old loyalties."
+    ],
+    "ContinuityNotes": [
+      "Re-establishes Picard and Beverly’s long-lingering estrangement after the events of Star Trek: The Next Generation and its films.",
+      "Introduces the USS Titan-A as a Neo-Constitution-class successor to Riker’s former command, the Luna-class Titan.",
+      "Seven of Nine serves in Starfleet under her legal name Annika Hansen, reflecting her uneasy acceptance by the institution."
+    ],
+    "ThematicNotes": [
+      "The cost of walking away from found family and the damage created by silence.",
+      "Legacy versus reinvention as Picard confronts the artifacts of his past and an unexpected future.",
+      "How history and unresolved relationships can return with galaxy-shaping consequences."
+    ],
+    "BehindTheScenes": [
+      "Serves as a soft TNG reunion by placing Picard and Riker back on a starship bridge together.",
+      "Showcases the Titan-A’s bridge design, blending 25th-century Starfleet aesthetics with visual callbacks to the film-era Enterprise.",
+      "Begins the season-long mystery of Jack Crusher’s origins and the conspiracy surrounding Beverly."
+    ]
+  },
+  {
+    "ID": "pics3e2",
+    "Title": "Disengage",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 2,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Jack Crusher",
+      "Beverly Crusher",
+      "William Riker",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Worf"
+    ],
+    "GuestCharacters": [
+      "Liam Shaw",
+      "Vadic",
+      "Sneed",
+      "T’Luco",
+      "Intelligence Handler (Worf, unidentified at first)"
+    ],
+    "Antagonists": [
+      "Vadic and the Shrike",
+      "Criminal intermediaries on M’talas Prime",
+      "Unknown conspirators supplying portal weapons to terrorists"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Two weeks earlier, Jack juggles shady deals on the fringes of Federation space, offering illicit medical aid while dodging warrants and bounty hunters. In the present, the Titan tries to flee the Shrike’s overwhelming firepower as Vadic gleefully toys with her prey, making clear that she considers the hunt for Jack deeply personal. Meanwhile on M’talas Prime, Raffi’s investigation into a stolen quantum tunneling weapon pushes her closer to the criminal underworld."
+      },
+      {
+        "Header": "Act I",
+        "Text": "On the Titan, Picard and Riker argue strategy with Shaw, who blames the crisis squarely on Picard’s deception. Vadic transmits a dossier of Jack’s misdeeds, painting him as a dangerous outlaw wanted by multiple governments. The crew’s doubt grows as Jack’s past activities and aliases come to light, and even Picard is forced to confront how little he truly knows about the young man Beverly has raised in secret."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Vadic toys with the Titan using the Shrike’s advanced weaponry and legalistic threats, promising to destroy everyone aboard if Jack is not surrendered. Shaw, focused on his crew’s survival, leans toward cooperation, while Picard urges him to see the situation as more than a simple extradition. Off-ship, Raffi seeks answers from Ferengi broker Sneed, whose taunts about the Daystrom heist and Federation weakness hint at something far larger than a one-off terrorist strike."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Raffi’s undercover operation goes sideways when Sneed exposes her and moves to kill her for digging too deeply. She is saved at the last moment by her mysterious Starfleet Intelligence handler, revealed to be Worf, who dispatches Sneed with intimidating ease and insists she ‘disengage’ before the conspiracy consumes her. On the Titan, Seven is relieved of duty for aiding Picard, but continues to help from the shadows as the ship is battered by the Shrike’s pursuit into a strange nebula."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Hemmed in by gravitational anomalies and outgunned, the Titan limps deeper into the nebula with Vadic in relentless pursuit. Shaw’s faith in Starfleet procedure has brought him no closer to safety, while Picard’s instincts keep drawing him toward Jack, whose true significance remains maddeningly out of reach. The stage is set for revelation as the Titan’s options dwindle to almost nothing."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether a starship captain should surrender a single fugitive to save hundreds under credible threat.",
+      "The ethics of undercover work that requires agents like Raffi to relapse into self-destructive patterns.",
+      "Balancing personal loyalty to old heroes against the duty to follow lawful orders."
+    ],
+    "ContinuityNotes": [
+      "Further develops M’talas Prime as a criminal hub in the 25th century, following Season 2.",
+      "Reintroduces Worf as a seasoned Starfleet Intelligence operative, evolving his post-DS9 trajectory.",
+      "Hints at advanced weapons research at the Daystrom Institute, foreshadowing later revelations."
+    ],
+    "ThematicNotes": [
+      "The difficulty of changing one’s life when the past keeps dragging you back.",
+      "How reputations and classified histories distort who is seen as criminal or heroic.",
+      "The difference between disengaging from danger and abandoning one’s moral responsibilities."
+    ],
+    "BehindTheScenes": [
+      "Marks Michael Dorn’s full return as Worf in Star Trek: Picard’s final season.",
+      "Expands the Titan-A’s action capabilities with the introduction of the Shrike’s portal weapon.",
+      "Builds the season’s A-plot and Raffi’s B-plot toward a unified conspiracy storyline."
+    ]
+  },
+  {
+    "ID": "pics3e3",
+    "Title": "Seventeen Seconds",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 3,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Jack Crusher",
+      "Beverly Crusher",
+      "William Riker",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Worf"
+    ],
+    "GuestCharacters": [
+      "Liam Shaw",
+      "Vadic",
+      "Dr. Ohk",
+      "Chengeling saboteur on the Titan"
+    ],
+    "Antagonists": [
+      "Vadic and the Shrike",
+      "Rogue Founders infiltrating Starfleet",
+      "Internal sabotage threatening the Titan"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "A flashback to the post–Dominion War era shows Riker sharing with Picard the terror of riding a turbolift for seventeen seconds while his newborn son’s life hung in the balance. In the present, the Titan reels under the Shrike’s attack inside the nebula, with shields failing and engines crippled. On M’talas Prime, Worf and Raffi begin piecing together the Daystrom heist and its connection to the portal weapon used on the Federation recruitment center."
+      },
+      {
+        "Header": "Act I",
+        "Text": "As the Shrike batters the Titan, Shaw is gravely injured and forced to relinquish command to Riker. Picard takes the opportunity to confront Beverly about years of silence and the mysterious young man now on his ship. Beverly finally admits that Jack is Picard’s son and explains her decision to raise him away from the shadow of Picard’s dangerous, high-profile life in Starfleet."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Reeling from the revelation, Picard tries to reach Jack while Riker shifts tactics to a more defensive posture, hoping to ride out the nebula and buy time. Meanwhile, Worf and Raffi interrogate a captured criminal contact, learn of rogue Changelings operating outside the Great Link, and realize the Daystrom theft was just one step in a broader campaign against the Federation. On the Titan, subtle acts of sabotage begin to point toward a shape-shifter infiltrator on board."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Riker reluctantly allows Picard to take tactical control for an aggressive counterattack against the Shrike, hoping to break free of the nebula’s grasp. The maneuver backfires when Vadic uses the portal weapon to turn the Titan’s own torpedoes against it, sending the ship deeper into the anomaly and closer to destruction. Down in sickbay, Jack is exposed to poison gas vented by the Changeling saboteur, forcing Picard into his own ‘seventeen seconds’ turbolift ride as he races to his son’s side."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Jack survives thanks to Beverly’s quick action, but the Titan is crippled and drifting in the nebula with power failing and escape routes cut off. Riker, furious that Picard’s risky strategy nearly killed them all, orders him off the bridge. Father and son remain at the center of a storm that now threatens not just a ship, but the security of the entire Federation."
+      }
+    ],
+    "EthicalIssues": [
+      "A parent’s right to decide whether a child should grow up near constant danger and notoriety.",
+      "When a commander should override conservative tactics in favor of bold, high-risk maneuvers.",
+      "Using painful personal experiences as cautionary tales versus allowing them to paralyze decision-making."
+    ],
+    "ContinuityNotes": [
+      "Directly references the Dominion War and the trauma it left on officers like Worf and other veterans.",
+      "Reveals the existence of a rogue Changeling faction, expanding on Deep Space Nine’s aftermath.",
+      "Picard’s relationship to family and legacy echoes earlier storylines involving his nephew and his lack of heirs."
+    ],
+    "ThematicNotes": [
+      "The weight of parenthood and how fear for a child reframes every choice.",
+      "How unresolved grief and guilt can fuel conflict between longtime friends.",
+      "The danger of repeating old command patterns when circumstances have fundamentally changed."
+    ],
+    "BehindTheScenes": [
+      "Directed by Jonathan Frakes, allowing Riker’s emotional arc to be shaped by the actor himself.",
+      "Blends submarine-style starship combat with intimate family drama at the heart of the episode.",
+      "Continues the season’s cinematic visual approach to space battles inside the nebula."
+    ]
+  },
+  {
+    "ID": "pics3e4",
+    "Title": "No Win Scenario",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 4,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Jack Crusher",
+      "William Riker",
+      "Beverly Crusher",
+      "Seven of Nine",
+      "Liam Shaw"
+    ],
+    "GuestCharacters": [
+      "Young officers in Ten Forward LA",
+      "Holodeck bartender",
+      "Titan bridge crew"
+    ],
+    "Antagonists": [
+      "Vadic and the Shrike",
+      "The collapsing nebula threatening to tear the Titan apart",
+      "The lingering trauma of past battles"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "In a flashback at Ten Forward in Los Angeles years earlier, Picard regales a group of young Starfleet cadets with embellished tales of past glories, insisting that Starfleet has always been the only family he needed. In the present, that confidence is gone as the Titan, crippled inside the nebula, drifts toward certain destruction with life support fading and no apparent escape."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Riker, convinced that aggressive tactics nearly killed them, has committed the ship to a defensive posture that now offers only a slow death. Shaw, stuck in sickbay, needles Picard about Wolf 359 and unloads years of trauma over having once served on a ship that survived the Borg attack. Jack watches from the sidelines, hearing for the first time how Picard’s history looks from the victims’ perspective."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Picard and Jack talk in the holodeck recreation of Ten Forward, where Jack questions why Picard never sought a more personal life and what ‘family’ really means to him. Beverly and the science team study the nebula’s strange energy pulses and realize it may be a living anomaly going through cyclical contractions that could, in theory, be harnessed like a slingshot. The crew must decide whether to gamble everything on a desperate, untested plan."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Riker and Picard reconcile enough to work the problem together, combining their instincts and experience. They line the Titan’s hull with explosive charges and adjust the ship’s trajectory to ride the nebula’s next contraction, hoping the blast and wave will hurl them clear. Vadic, expecting an easy kill outside, watches in disbelief as the Titan bursts free of the anomaly and deals serious damage to the Shrike before warping away."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Safe for the moment, the Titan crew celebrates a hard-won victory while Picard quietly recognizes that his definition of family has changed. Shaw grudgingly acknowledges Picard’s skill, even if the scars of Wolf 359 remain. Jack is left contemplating what it means to be the son of a man whose greatest triumphs are inseparable from some of Starfleet’s darkest days."
+      }
+    ],
+    "EthicalIssues": [
+      "Reviving morale and purpose when a crew believes they are doomed.",
+      "How much truth a legendary officer owes to younger generations who idolize him.",
+      "Risking the last hope of survival on a wild, unproven scientific theory."
+    ],
+    "ContinuityNotes": [
+      "Revisits Wolf 359 from the perspective of a survivor who blames Locutus of Borg, deepening Picard’s long-standing guilt.",
+      "Echoes the Starfleet ‘no-win scenario’ training exercises introduced in Star Trek II: The Wrath of Khan.",
+      "Further cements Ten Forward LA as a recurring personal touchstone in Picard’s later life."
+    ],
+    "ThematicNotes": [
+      "The idea that the only true no-win scenario is the refusal to change or to try.",
+      "How legends can obscure the painful cost behind great victories.",
+      "Family as something you choose and build, not just the uniform you wear."
+    ],
+    "BehindTheScenes": [
+      "Structured around an emotional parallel between Picard’s barroom storytelling and present-day crisis leadership.",
+      "Uses the nebula’s pseudo-organic nature to provide classic Star Trek ‘mystery of space’ science fiction.",
+      "Allows Todd Stashwick’s Shaw to deliver a cathartic monologue about Wolf 359 that resonated with many viewers."
+    ]
+  },
+  {
+    "ID": "pics3e5",
+    "Title": "Imposters",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 5,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "William Riker",
+      "Ro Laren",
+      "Seven of Nine",
+      "Raffi Musiker",
+      "Worf"
+    ],
+    "GuestCharacters": [
+      "Ro Laren",
+      "Liam Shaw",
+      "Tuvok (suspected appearance via transmission)",
+      "Starfleet security officers under Changeling influence"
+    ],
+    "Antagonists": [
+      "Rogue Changeling infiltrators inside Starfleet Command",
+      "Saboteurs pursuing the Daystrom heist",
+      "Layers of mistrust between former allies"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "With the Titan limping to a remote rendezvous, Picard and Riker brace to face the consequences of disobeying orders and nearly losing a starship. Starfleet dispatches a security vessel to take them into custody for court-martial, just as Worf and Raffi’s investigation on M’talas Prime reveals that the Daystrom break-in involved more than just a stolen portal weapon."
+      },
+      {
+        "Header": "Act I",
+        "Text": "The security team’s commander is revealed to be Ro Laren, the former Bajoran ensign whose defection to the Maquis decades earlier shattered Picard’s trust. Ro treats Picard and Riker as potential traitors, subjecting them to intense questioning while subtly testing for signs that they might be Changelings. The wounds of their past clash with the present-day crisis as Picard accuses her of betraying everything Starfleet stands for."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Through a tense, layered conversation, Ro and Picard gradually recognize that their raw emotions, cultural pain, and deep knowledge of each other cannot be faked by shape-shifters. Ro reveals that she returned to Starfleet, rose in Intelligence, and has uncovered undeniable evidence that rogue Founders have infiltrated Starfleet at the highest levels. She believes the Titan and its crew are now targets in a much larger plot."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Ro secretly arms Picard and transfers her remaining, trusted security officers to the Titan, confessing that she has little time left to act. She returns to her own ship, only to discover her crew has already been replaced by Changelings. Sabotaged and doomed, Ro pilots her shuttle into the security ship’s nacelle, sacrificing herself to cripple the compromised vessel while transmitting crucial data to Picard."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Grieving but galvanized, Picard realizes that his unresolved anger toward Ro nearly cost him the warning she died to deliver. He convinces Shaw to take the Titan fully rogue to investigate the conspiracy and protect what remains of their uninfected allies. Meanwhile, Worf and Raffi prepare to infiltrate Daystrom Station itself to learn exactly what the Changelings stole."
+      }
+    ],
+    "EthicalIssues": [
+      "How much trust can be rebuilt when a former protégé’s past choices shattered it.",
+      "The risks of going underground against a conspiracy embedded within legitimate authority.",
+      "The morality of sacrificing oneself to cripple a compromised Starfleet vessel."
+    ],
+    "ContinuityNotes": [
+      "Brings back Ro Laren and directly addresses the unresolved fallout from her final TNG appearance.",
+      "Confirms that the Maquis-era decisions continued to define Ro’s relationship with Starfleet for decades.",
+      "Expands the idea of Dominion infiltration tactics into the post–DS9 era with more subtle, long-term strategies."
+    ],
+    "ThematicNotes": [
+      "The difficulty of distinguishing imposters from imperfect people trying to make amends.",
+      "How old betrayals can blind even wise leaders to genuine change.",
+      "Trust as both a vulnerability and a weapon in times of paranoia."
+    ],
+    "BehindTheScenes": [
+      "Michelle Forbes returns as Ro Laren after decades away from the role.",
+      "The episode functions as a spiritual sequel to TNG’s ‘Preemptive Strike,’ providing emotional closure.",
+      "Uses Ro’s sacrifice to pivot the season fully into political thriller territory."
+    ]
+  },
+  {
+    "ID": "pics3e6",
+    "Title": "The Bounty",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 6,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Geordi La Forge",
+      "Data",
+      "Lore",
+      "Worf",
+      "Raffi Musiker",
+      "William Riker",
+      "Seven of Nine",
+      "Jack Crusher"
+    ],
+    "GuestCharacters": [
+      "Geordi La Forge",
+      "Sidney La Forge",
+      "Alandra La Forge",
+      "Daystrom Android M-5-10",
+      "Fleet Museum personnel"
+    ],
+    "Antagonists": [
+      "Rogue Changelings embedded in Starfleet and Daystrom Station",
+      "The legacy of Soong-type android experimentation",
+      "Vadic’s pursuit and surveillance of the Titan"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Titan hides near the Fleet Museum while Starfleet broadcasts sanitized updates about the terrorist threat, masking the scale of Changeling infiltration. Worf and Raffi rendezvous with the Titan after a high-risk mission to Daystrom Station, where they encountered a mysterious new android that holds the key to the heist."
+      },
+      {
+        "Header": "Act I",
+        "Text": "An away team returns to Daystrom using stolen access codes, where they encounter the Daystrom Android M-5-10, an advanced synthetic housing memories from Data, Lore, B-4, and Altan Soong. The android’s fragmented personalities guard a trove of classified projects. By decoding fragmented clues, they learn that the Changelings did not steal the portal weapon itself—it was a decoy to conceal the theft of Picard’s human remains."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Meanwhile, Picard, Jack, and Seven visit the Fleet Museum, where retired Commodore Geordi La Forge oversees an array of legendary starships. Jack and Seven marvel at relics like the Defiant and Voyager, while Picard tries to pull Geordi into the fight. Geordi resists, torn between his duty to the museum, his daughters’ safety, and loyalty to his old captain."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Realizing the Changeling plot must involve Picard’s unique Borg-altered biology, the crew rushes to get the Daystrom Android off-station before the infiltrators can reclaim it. Geordi ultimately agrees to help, using his intimate knowledge of starship systems to mask the Titan’s movements and integrate the android into their network. The core personalities inside the synthetic body flicker between Data’s warmth and Lore’s malice, hinting at internal conflict still to come."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Safely back aboard the Titan with Geordi, his daughters, and the Daystrom Android, the crew takes stock of their stolen advantage. Jack continues to experience strange visions and an unsettling pull he cannot explain. The bounty Vadic has placed on him now appears to be tied less to his crimes and more to whatever the Changelings intend to do with the remains of Jean-Luc Picard."
+      }
+    ],
+    "EthicalIssues": [
+      "Using the remains of a deceased person, even a legendary admiral, for classified research without clear consent.",
+      "Whether Geordi is justified in prioritizing his daughters’ safety over assisting his former captain.",
+      "The morality of combining multiple sentient personalities into a single synthetic body."
+    ],
+    "ContinuityNotes": [
+      "Reveals that Picard’s body, altered by assimilation, has remained of intense scientific interest after his death and synthetic rebirth.",
+      "Shows multiple legacy starships at the Fleet Museum, including vessels from Deep Space Nine and Voyager eras.",
+      "Advances Data’s long-running storyline by resurrecting aspects of him in a new, merged android form."
+    ],
+    "ThematicNotes": [
+      "The weight of legacy technology and how old weapons and ships keep shaping new crises.",
+      "Parents’ conflicting duties to family and to the ideals they once served.",
+      "Identity as a patchwork of memories, code, and choices rather than a single static self."
+    ],
+    "BehindTheScenes": [
+      "Brings back LeVar Burton as Geordi La Forge along with on-screen daughters played by Mica Burton and Ashlei Sharpe Chestnut.",
+      "Provides a tour of fan-favorite starships, functioning as a visual celebration of Star Trek history.",
+      "Uses the Daystrom Android to bridge Data’s previous ‘death’ with a new status quo for Brent Spiner’s character."
+    ]
+  },
+  {
+    "ID": "pics3e7",
+    "Title": "Dominion",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 7,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Beverly Crusher",
+      "Seven of Nine",
+      "Geordi La Forge",
+      "Data",
+      "Jack Crusher",
+      "Vadic"
+    ],
+    "GuestCharacters": [
+      "Bridge officers held hostage by Vadic",
+      "Starfleet prisoners secretly replaced by Changelings",
+      "Scientists from the clandestine Section 31 program (mentioned in backstory)"
+    ],
+    "Antagonists": [
+      "Vadic and her rogue Changeling faction",
+      "Legacy bioweapons and unethical experiments from the Dominion War era",
+      "Paranoia threatening to fracture the Titan’s crew"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "The Titan hides among derelict ships in a cemetery from the Dominion War, using the debris as cover while the crew debates its next move. Picard and Beverly consider that their enemy understands Starfleet tactics as well as they do, while Vadic stalks them in the dark, increasingly frustrated that Jack continues to elude capture."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Picard and his senior staff devise a risky plan to lure Vadic aboard by faking catastrophic damage and broadcasting a distress signal. Seven is tasked with drawing out suspected Changeling infiltrators among their crew, while Geordi and Data work to counter enemy control over the Titan’s systems. Jack continues to display unsettling telepathic-like abilities that hint at a deeper connection to the threat."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Vadic and her forces board the Titan, walking into a trap of force fields and sealed bulkheads. Isolated and interrogated, Vadic reveals she was one of many Changelings grotesquely experimented upon by Section 31 during the Dominion War, a survivor of torture who now seeks vengeance on the Federation. Her bitter monologue forces Picard and Beverly to confront the horrors committed in the name of peace."
+      },
+      {
+        "Header": "Act III",
+        "Text": "The plan collapses when Changeling saboteurs seize control of the ship’s systems, freeing Vadic and turning the Titan’s security measures against its own crew. Vadic captures key officers on the bridge, taunts Picard over the internal comms, and demands Jack’s surrender. Beverly and Picard privately debate whether they can use the original morphogenic virus—or some derivative—against Vadic’s faction, and what that would make them."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Ultimately rejecting the immediate use of a genocidal bioweapon, Picard and Beverly refuse to become the monsters Vadic believes them to be. However, their moral stand leaves the Titan firmly in Vadic’s grip as she seizes the bridge and turns the ship toward her unknown masters. The Dominion War’s scars, long buried, have now come roaring back into the open."
+      }
+    ],
+    "EthicalIssues": [
+      "The long-term consequences of using biological weapons, even in wartime, on sentient opponents.",
+      "Whether the Federation bears ongoing responsibility to those it tortured in secret programs.",
+      "If reusing a genocidal virus against a splinter group can ever be ethically justified."
+    ],
+    "ContinuityNotes": [
+      "Revisits the Dominion War and Section 31’s use of the morphogenic virus against Changelings.",
+      "Establishes Vadic as a direct survivor of Federation war crimes, complicating the moral landscape.",
+      "Connects the Titan’s hiding place to famous battlefields from Deep Space Nine’s later seasons."
+    ],
+    "ThematicNotes": [
+      "The idea that history’s unacknowledged sins will eventually demand a reckoning.",
+      "How vengeance can reshape victims into the very threat their oppressors always feared.",
+      "Choosing not to repeat past atrocities, even when doing so seems tactically advantageous."
+    ],
+    "BehindTheScenes": [
+      "Expands Amanda Plummer’s performance as Vadic with a tragic, rage-fueled backstory.",
+      "Leans into horror-thriller visuals as Vadic hunts through the Titan’s corridors.",
+      "Visually links the Dominion War graveyard to iconic starship wreckage familiar to longtime fans."
+    ]
+  },
+  {
+    "ID": "pics3e8",
+    "Title": "Surrender",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 8,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Data",
+      "Lore",
+      "Geordi La Forge",
+      "Seven of Nine",
+      "Jack Crusher",
+      "William Riker",
+      "Deanna Troi",
+      "Worf"
+    ],
+    "GuestCharacters": [
+      "Vadic",
+      "Titan bridge officers held hostage",
+      "Captured Starfleet officers on the Shrike"
+    ],
+    "Antagonists": [
+      "Vadic in full control of the Titan",
+      "Lore’s disruptive personality inside the android body",
+      "The Borg-linked impulses pushing Jack toward reckless action"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Vadic has seized the Titan’s bridge, holding its officers at gunpoint and broadcasting a chilling ultimatum throughout the ship. She demands Jack’s surrender and threatens to execute crew members one by one until he complies. In the brig of the Shrike, Riker and Troi face their own captivity, unsure if anyone even knows where they are."
+      },
+      {
+        "Header": "Act I",
+        "Text": "Picard and Beverly struggle with Jack’s insistence that he turn himself over to stop the bloodshed. Jack reveals that he can hear and subtly influence other people through some kind of psychic link, abilities that terrify him as much as they intrigue him. Geordi and his daughters work in the engine room to awaken the Daystrom Android’s dormant potential, hoping Data’s persona can help them take back the ship."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Inside the synthetic mind, Data and Lore battle for control, with Lore attempting to overwrite Data’s personality by absorbing his memories. Rather than fight in kind, Data offers up his most precious moments—Tasha’s hologram, Spot, friendships on the Enterprise—overwhelming Lore with the very humanity he always coveted. Outside, Vadic’s patience runs thin as she torments the hostages and taunts Seven about her divided loyalties."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Data’s gambit succeeds as Lore, unable to distinguish himself from the flood of memories, effectively dissolves into Data’s expanded sense of self. Regaining full control of the body, Data reasserts his identity and seizes the Titan’s systems, coordinating with Seven to trigger force fields and turn the tables on Vadic. Simultaneously, Worf and Raffi storm the Shrike, rescuing Riker and Troi in a flurry of efficient violence and wry banter."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Vadic is blown out into space and shatters against her own ship, the Shrike soon destroyed by the Titan’s weapons. For the first time in days, the crew has breathing room, and a fully realized Data stands among his friends once more. Yet Jack, haunted by his abilities and the sense of a greater design behind them, chooses not to surrender—but to go on the offensive and seek the source of the voice calling to him."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether Jack has the right to sacrifice himself to protect the crew over his parents’ objections.",
+      "The question of identity and consent when one personality effectively absorbs another within a single body.",
+      "What methods are justified when retaking a hijacked starship full of hostages."
+    ],
+    "ContinuityNotes": [
+      "Resolves the long-standing Data–Lore rivalry, merging them into a singular, more complex Data.",
+      "Reunites the core Next Generation cast—Picard, Riker, Troi, Worf, Data, Geordi—on the same side of a crisis.",
+      "Further develops Jack’s unexplained abilities, foreshadowing their connection to the Borg."
+    ],
+    "ThematicNotes": [
+      "Surrender as a choice between giving up and letting go of the pain that defines you.",
+      "The power of cherished memories as the foundation of personhood.",
+      "Family—by blood and by choice—as the force that rescues people from isolation and despair."
+    ],
+    "BehindTheScenes": [
+      "Gives Brent Spiner space to play both Data and Lore in an internal psychological duel.",
+      "Features Worf’s blend of fierce combat and dry humor in the Shrike rescue sequence.",
+      "Marks the effective end of Vadic’s storyline, clearing the way for the season’s final act."
+    ]
+  },
+  {
+    "ID": "pics3e9",
+    "Title": "Vox",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 9,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Jack Crusher",
+      "Deanna Troi",
+      "Beverly Crusher",
+      "Geordi La Forge",
+      "Data",
+      "Seven of Nine",
+      "Liam Shaw"
+    ],
+    "GuestCharacters": [
+      "Borg Queen (voice)",
+      "Elizabeth Shelby",
+      "Young Starfleet officers assimilated via transporter code"
+    ],
+    "Antagonists": [
+      "The Borg collective lurking behind Jack’s visions",
+      "Changeling agents who rewrote Starfleet transporter code",
+      "The automated Starfleet armada slaved together on Frontier Day"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "With Vadic defeated, the Titan crew gathers to finally examine the question at the heart of the conspiracy: what do the Changelings want with Jack Crusher and Picard’s altered biology? Troi agrees to help Jack confront the recurring red door in his mind, hoping that whatever lies beyond will reveal the truth before Frontier Day’s massive fleet ceremony begins."
+      },
+      {
+        "Header": "Act I",
+        "Text": "In a guided mental journey, Troi leads Jack down the corridor of his nightmares and through the red door, where they find not simple trauma but the unmistakable presence of a Borg Cube. Jack is revealed as the ‘voice’—a receiver and transmitter of a new kind of Borg signal, the product of changes the Changelings made using Picard’s stolen Borg-affected tissue. Horrified, Jack flees the ship in a shuttle, determined to confront the Borg alone before he can be used as a weapon."
+      },
+      {
+        "Header": "Act II",
+        "Text": "As Frontier Day begins in Earth orbit, Admiral Shelby presides over a demonstration of Starfleet’s new fleet synchronization technology, linking starships into a single, responsive armada. On the Titan, Picard and his crew realize too late that the transporter system—already used on most young officers—has implanted Borg genetic code across Starfleet. A signal from the hidden Borg activates the implants, assimilating officers under a certain age and turning the fleet against its own people."
+      },
+      {
+        "Header": "Act III",
+        "Text": "Chaos erupts as assimilated young officers seize control of ships and systems, slaughtering or imprisoning their unaltered crewmates. Shaw, Seven, and a handful of older officers fight a desperate rear-guard action to keep the Titan free long enough for the senior TNG-era crew to escape. Picard, Riker, Troi, Data, Geordi, and Worf flee to the Fleet Museum, following Geordi’s cryptic promise that he has been working on something special in secret."
+      },
+      {
+        "Header": "Tag",
+        "Text": "In the museum’s hidden bay, Geordi reveals a fully restored USS Enterprise-D, painstakingly rebuilt from salvaged parts and upgraded for the 25th century. The old crew takes their positions at the familiar bridge, the moment framed as both homecoming and last stand. With Starfleet in Borg-controlled chaos and Jack in the hands of the enemy, the Enterprise-D launches once more to save Earth—and perhaps the Federation itself."
+      }
+    ],
+    "EthicalIssues": [
+      "Embedding genetic ‘safeguards’ or modifications into transporter routines without fully informed consent.",
+      "The danger of centralizing control of a military fleet under a single coordinating system.",
+      "Jack’s attempt to face the Borg alone as an act of self-sacrifice that may instead empower the enemy."
+    ],
+    "ContinuityNotes": [
+      "Reveals that Picard’s experience as Locutus left deeper, heritable changes than previously known.",
+      "Brings back the Borg as the ultimate orchestrators behind the Changeling plot.",
+      "Restores the Enterprise-D, visually and thematically echoing the TNG era’s optimistic starship design."
+    ],
+    "ThematicNotes": [
+      "Voices—of parents, of enemies, of history—shaping identity and destiny.",
+      "The dangers of technological ‘efficiency’ that erases individuality and redundancy.",
+      "Coming full circle to confront the same enemy in a new form, armed with the wisdom of age."
+    ],
+    "BehindTheScenes": [
+      "Features the dramatic reveal of the rebuilt Enterprise-D bridge set, meticulously reconstructed.",
+      "Combines the Borg threat with Dominion remnants to create a hybrid endgame for multiple Star Trek eras.",
+      "Centers Frontier Day as both a celebration of Starfleet history and a vehicle for its near-destruction."
+    ]
+  },
+  {
+    "ID": "pics3e10",
+    "Title": "The Last Generation",
+    "Series": "PIC",
+    "Season": 3,
+    "Episode": 10,
+    "KeyCharacters": [
+      "Jean-Luc Picard",
+      "Jack Crusher",
+      "William Riker",
+      "Worf",
+      "Deanna Troi",
+      "Beverly Crusher",
+      "Geordi La Forge",
+      "Data",
+      "Seven of Nine",
+      "Raffi Musiker"
+    ],
+    "GuestCharacters": [
+      "Borg Queen",
+      "Anton Chekov (voiceover message)",
+      "Fleet civilians and officers under Borg control"
+    ],
+    "Antagonists": [
+      "The Borg Queen and the hidden Cube in Jupiter orbit",
+      "The assimilated Starfleet armada attacking Earth",
+      "The temptation to accept that some futures cannot be saved"
+    ],
+    "StorySections": [
+      {
+        "Header": "Teaser",
+        "Text": "Earth and its surrounding defenses burn under the attack of a Borg-controlled Starfleet, as ships fire on Spacedock and civilian targets in a chilling echo of Wolf 359. A distress message from Federation President Anton Chekov warns any survivors to stay away from the Sol System. Aboard the Enterprise-D, Picard and his crew realize that the source of the control signal lies within a massive Borg Cube hidden inside Jupiter’s storms."
+      },
+      {
+        "Header": "Act I",
+        "Text": "With no way to stop the fleet from outside, the crew splits their efforts. Seven and Raffi lead resistance efforts aboard the Titan, trying to protect unassimilated crew and civilians while searching for any way to disrupt the Borg link. On the Enterprise-D, Data pilots the ship through lethal debris and planetary defenses toward the Cube, while Picard, Riker, and Worf prepare for a dangerous landing and infiltration mission."
+      },
+      {
+        "Header": "Act II",
+        "Text": "Inside the Cube, the away team follows Jack’s psychic imprint through decaying corridors filled with half-dead drones and organic machinery. They discover the Borg Queen, grotesquely sustained by harvested drones and connected to Jack at the center of a new, more insidious collective. The Queen reveals her alliance with the rogue Changelings and her plan to replace Starfleet’s ‘old generation’ with a younger, fully Borg-altered one."
+      },
+      {
+        "Header": "Act III",
+        "Text": "As the Titan makes a desperate run on Spacedock’s control systems, Seven and Raffi rally a small band of unassimilated officers to hold off the Borg-controlled fleet. In the Cube, Picard links his mind to Jack’s, entering the collective to reach his son from within. Instead of trying to pull Jack away by force, Picard offers unconditional love and the promise of a life chosen freely, not dictated by any legacy—Borg or Picard."
+      },
+      {
+        "Header": "Tag",
+        "Text": "Jack rejects the Queen’s control, severing the signal and triggering the Cube’s destruction as the Enterprise-D escapes at the last possible moment. Across the system, assimilated officers regain themselves and the fleet stands down. In the aftermath, the Titan-A is rechristened the Enterprise-G under Captain Seven of Nine, with Raffi as her first officer and Jack serving in a special advisory role. In a final coda, Picard joins his old friends for one last poker game, their story closing on laughter, shared memory, and the sense that while this may be the last generation of this crew, their legacy will continue to echo through the stars."
+      }
+    ],
+    "EthicalIssues": [
+      "Whether a parent should risk their own life and autonomy by entering a hostile collective to reach a child.",
+      "Using a starship and crew in what may be a one-way mission to save an entire civilization.",
+      "The Federation’s obligation to acknowledge and repair the damage done to those assimilated against their will."
+    ],
+    "ContinuityNotes": [
+      "Brings Picard’s long struggle with the Borg full circle, counterpointing Locutus with a conscious act of love.",
+      "Introduces the USS Enterprise-G as the next bearer of the Enterprise legacy, commanded by Seven of Nine.",
+      "Echoes the famous TNG finale with a closing poker scene that reunites the main cast around the same table."
+    ],
+    "ThematicNotes": [
+      "The idea that no one is truly fated to repeat their parents’ or enemies’ paths.",
+      "Passing the torch from one generation of heroes to the next while honoring what came before.",
+      "Finding hope and intimacy in the aftermath of existential trauma."
+    ],
+    "BehindTheScenes": [
+      "Serves as both the series finale of Star Trek: Picard and a de facto final chapter for the TNG crew.",
+      "Combines classic Enterprise-D bridge visuals with modern visual effects for the Jupiter Cube sequence.",
+      "Leaves the door open for potential future stories centered on the Enterprise-G and its crew."
+    ]
+  }
+]
