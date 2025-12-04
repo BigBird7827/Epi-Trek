@@ -51,11 +51,16 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "A scrappy, fast-talking teenager of unknown origin, Dal hides his fear with bravado while constantly probing the edges of Tars Lamora’s rules for a way out. In this episode he becomes the first prisoner to physically reach the Protostar, turning his vague dreams of escape into a concrete plan.",
-      "Rok-Tahk": "A towering, rock-armored youngster who appears fearsome but is gentle and unsure, Rok is used by the prison as raw muscle. Here, she tentatively follows Dal’s lead, forming the beginnings of a friendship that will anchor the crew.",
-      "Zero": "A Medusan energy being confined to a containment suit, Zero has already escaped the Diviner once and now delights in subverting the prison’s systems. Zero quietly manipulates events to steer Dal toward the Protostar and the possibility of a mass breakout.",
-      "The Diviner": "The secretive ruler of Tars Lamora, the Diviner never leaves his life-support tank yet exerts total control through drones and Drednok. His hidden obsession with locating the buried Protostar explains why he has gathered so many laborers on this remote asteroid.",
-      "Drednok": "An implacable robotic enforcer and the Diviner’s chief lieutenant, Drednok interrogates and intimidates the miners to keep them in line. In this episode he focuses on tracking the rumored \"Fugitive\" and unknowingly drives Dal straight toward the Protostar."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Drednok": "Drednok is a relentless robotic enforcer who serves as one of the most direct physical threats to the Protostar crew. His presence turns many encounters into life-or-death confrontations and represents the cold, unforgiving machinery behind the villains' plans.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Tars Lamora Guard Droids": "Tars Lamora Guard Droids appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Tars Lamora Prison Regime": "Tars Lamora Prison Regime serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "The Diviner": "The Diviner plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Introduces the Delta Quadrant mining colony of Tars Lamora as the primary setting for the early Prodigy arc.",
@@ -126,9 +131,17 @@
       }
     ],
     "EntitySummaries": {
-      "Gwyndala": "Raised as the Diviner’s daughter and lieutenant, Gwyn initially treats Dal as just another prisoner to be managed. This episode forces her to confront the gap between her father’s rhetoric and the miners’ reality, setting up her eventual break from the Diviner.",
-      "Hologram Janeway": "Activated for the first time as the Protostar clears Tars Lamora, the Emergency Training Hologram Janeway immediately assumes the young thieves are Starfleet cadets. She becomes their mentor, introducing both the crew and the audience to core Federation and Starfleet ideals.",
-      "Jankom Pog": "A gruff, self-interested Tellarite teen, Jankom initially comes aboard the Protostar for the creature comforts but quickly proves mechanically adept. His skepticism balances Dal’s impulsiveness as they fumble through the ship’s systems."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Drednok": "Drednok is a relentless robotic enforcer who serves as one of the most direct physical threats to the Protostar crew. His presence turns many encounters into life-or-death confrontations and represents the cold, unforgiving machinery behind the villains' plans.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Tars Lamora Guard Droids": "Tars Lamora Guard Droids appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Tars Lamora Prison Regime": "Tars Lamora Prison Regime serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "The Diviner": "The Diviner plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "First on-screen appearance of the USS Protostar’s bridge and interior, including its advanced propulsion systems.",
@@ -197,8 +210,17 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Now self-appointed captain, Dal spends most of the episode resisting Janeway’s guidance, equating leadership with never admitting he is wrong. His near-fatal mistake forces him to redefine command as listening and collaborating.",
-      "Hologram Janeway": "Janeway leans into her role as teacher, trying to balance enthusiasm for Starfleet with the practical need to keep an untrained crew alive. She begins tailoring her approach to Dal’s ego and the kids’ trauma, rather than treating them as standard cadets."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Dal’s Inexperience as Captain": "Dal’s Inexperience as Captain serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dangerous Binary System": "Dangerous Binary System serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Drednok": "Drednok is a relentless robotic enforcer who serves as one of the most direct physical threats to the Protostar crew. His presence turns many encounters into life-or-death confrontations and represents the cold, unforgiving machinery behind the villains' plans.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "The Diviner": "The Diviner plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Provides the crew’s first in-universe primer on the United Federation of Planets and Starfleet.",
@@ -266,8 +288,15 @@
       }
     ],
     "EntitySummaries": {
-      "Sentient Planetary Biosphere": "An entire living world that can sense and project the desires of visiting minds, the planet lures travelers into illusory happiness to keep them from leaving. It forces the crew to confront how easily wish fulfillment can become a cage.",
-      "Rok-Tahk": "Rok’s dream of a safe place filled with friendly creatures reveals her longing to be seen as gentle rather than monstrous. Her decision to abandon that fantasy and rescue her friends marks a key step in her growth as a protector."
+      "Crew’s Own Desires": "Crew’s Own Desires serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Sentient Planetary Biosphere": "Sentient Planetary Biosphere plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Echoes classic Star Trek episodes where planets or entities create illusions to trap visiting crews.",
@@ -338,8 +367,16 @@
       }
     ],
     "EntitySummaries": {
-      "Gwyndala": "Torn between her father and the crew, Gwyn spends much of the episode literally and figuratively on the outskirts. Her choice to use the vehicle replicator to help the kids escape, rather than return the ship to the Diviner, marks her first decisive step toward joining the Protostar family.",
-      "The Diviner": "The Diviner’s arrival on the planet exposes his ruthlessness, as he is willing to risk his daughter and the miners to reclaim the Protostar. His obsession with the ship continues to eclipse any genuine parental concern for Gwyn."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Drednok": "Drednok is a relentless robotic enforcer who serves as one of the most direct physical threats to the Protostar crew. His presence turns many encounters into life-or-death confrontations and represents the cold, unforgiving machinery behind the villains' plans.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Sentient Planetary Biosphere": "Sentient Planetary Biosphere plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "The Diviner": "The Diviner plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Continues the story of the sentient planet from \"Dream Catcher,\" resolving the crew’s first major planetary encounter.",
@@ -408,8 +445,17 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Dal’s fixation on beating the Kobayashi Maru lays bare his insecurity about being an untrained captain. His ultimate acceptance that some tests are unwinnable allows him to grow beyond the need to constantly prove himself.",
-      "Spock": "Appearing as a holodeck recreation, Spock provides Dal with calm, logical counsel that the boy repeatedly ignores. His presence ties the Protostar’s training systems to a broader Starfleet legacy stretching back to the original Enterprise."
+      "Beverly Crusher": "Beverly Crusher appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Dal’s Fear of Failure": "Dal’s Fear of Failure serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Kobayashi Maru Scenario": "Kobayashi Maru Scenario serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Montgomery Scott": "Montgomery Scott appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Nyota Uhura": "Nyota Uhura appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Odo": "Odo appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Spock": "Spock appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Reintroduces the Kobayashi Maru scenario first seen in \"Star Trek II: The Wrath of Khan\" and later referenced in multiple series.",
@@ -477,8 +523,15 @@
       }
     ],
     "EntitySummaries": {
-      "Nandi": "A Ferengi treasure hunter who once took Dal under her wing, Nandi taught him the art of the con and survival at any cost. Her willingness to exploit a pre-warp world reveals how transactional her \"care\" for Dal always was.",
-      "Dal R'El": "Dal’s longing for validation from Nandi blinds him to obvious warning signs. By the end of the mission he chooses Starfleet principles over his old life, taking a painful but necessary step toward real maturity."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Dal’s Past as a Thief": "Dal’s Past as a Thief serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Nandi": "Nandi is Dal's former mentor, a Ferengi who taught him how to survive but also how to cut corners and exploit others. Her appearances force Dal to confront the difference between the selfish lessons of his past and the more honorable path he is trying to follow in Starfleet.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Demonstrates a Prodigy-era application of the Prime Directive by showing the harm caused when it is ignored.",
@@ -546,8 +599,15 @@
       }
     ],
     "EntitySummaries": {
-      "Rok-Tahk": "Initially the shy \"muscle\" of the group, Rok is forced by the time fracture to become the ship’s de facto chief engineer. Her lonely training and eventual success reveal her deep intelligence and resilience.",
-      "Hologram Janeway": "Because her program spans the fractured timelines, Janeway becomes the thread that connects the scattered crew. She acts as teacher, coach, and emotional support—especially for Rok—through a crisis that no one child could solve alone."
+      "Crew’s Fragmented Communication": "Crew’s Fragmented Communication serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Fracture": "Temporal Fracture plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Showcases a Star Trek-style temporal anomaly with consequences tailored to character development rather than pure technobabble.",
@@ -618,8 +678,17 @@
       }
     ],
     "EntitySummaries": {
-      "The Diviner": "Now openly threatening mass murder to achieve his goals, the Diviner drops any pretense of benevolence. His ultimatum forces the kids to confront the reality of his tyranny and the stakes of opposing him.",
-      "Zero": "Zero’s strategic insight and calm under pressure help shape the crew’s plan. Their own trauma at the Diviner’s hands makes the risk personal, not abstract."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Drednok": "Drednok is a relentless robotic enforcer who serves as one of the most direct physical threats to the Protostar crew. His presence turns many encounters into life-or-death confrontations and represents the cold, unforgiving machinery behind the villains' plans.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Tars Lamora Miners": "Tars Lamora Miners appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Tars Lamora Prison Regime": "Tars Lamora Prison Regime serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "The Diviner": "The Diviner plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Returns the story to Tars Lamora, paying off plot threads established in the series premiere.",
@@ -690,8 +759,17 @@
       }
     ],
     "EntitySummaries": {
-      "Zero": "Zero’s decision to turn their Medusan gaze on the Diviner protects the crew and the miners but comes at a heavy cost, demonstrating both the power and danger of their true nature.",
-      "Gwyndala": "Gwyn finally rejects her father’s crusade outright, choosing to stand with the miners and her new friends even after the psychic attack leaves her traumatized. Her choice cements her role as a bridge between the Diviner’s people and Starfleet ideals."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Drednok": "Drednok is a relentless robotic enforcer who serves as one of the most direct physical threats to the Protostar crew. His presence turns many encounters into life-or-death confrontations and represents the cold, unforgiving machinery behind the villains' plans.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Tars Lamora Miners": "Tars Lamora Miners appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "The Diviner": "The Diviner plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Weapon Hidden in the Protostar": "Weapon Hidden in the Protostar serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Resolves the initial Tars Lamora storyline, freeing the miners and toppling the Diviner’s regime.",
@@ -759,8 +837,16 @@
       }
     ],
     "EntitySummaries": {
-      "Barniss Frex": "A lonely, well-meaning Denobulan Starfleet officer running a remote relay station, Frex initially offers hospitality but quickly turns on the kids when the Protostar’s weapon devastates his outpost. His fear and paranoia reflect how dangerous the ship appears to anyone who does not know their story.",
-      "Protostar’s Hidden Weapon": "The living weapon integrated into the Protostar silently activates when interfacing with Starfleet systems, causing catastrophic damage. Its behavior confirms the Diviner’s warnings and makes direct contact with the Federation too dangerous—for now."
+      "Barniss Frex": "Barniss Frex is the jittery Starfleet officer stationed at a remote communications relay who becomes overwhelmed by fear and suspicion. His paranoia turns a routine encounter with the Protostar crew into a dangerous misunderstanding that highlights how shaken the Federation is by recent events.",
+      "Barniss Frex’s Paranoia": "Barniss Frex’s Paranoia serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Protostar’s Hidden Weapon": "Protostar’s Hidden Weapon serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Begins the second half of Prodigy’s first season, shifting the goal from simply reaching Starfleet to protecting it from the Protostar’s weapon.",
@@ -828,8 +914,16 @@
       }
     ],
     "EntitySummaries": {
-      "Zero": "Zero’s attempt to interface with Borg technology highlights both their bravery and the risk of merging minds with a hive that erases individuality. They come away shaken but more determined to protect the crew from similar threats.",
-      "Dormant Borg Cube": "The seemingly lifeless cube serves as a reminder that the Borg are never truly gone, only waiting. Its partial awakening underscores how easily the Collective could re-emerge if disturbed."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Dormant Borg Cube": "Dormant Borg Cube appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Protostar’s Hidden Weapon": "Protostar’s Hidden Weapon serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "The Borg Collective (Dormant Threat)": "The Borg Collective (Dormant Threat) serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Reintroduces the Borg as a looming, ever-present danger in the Delta Quadrant.",
@@ -898,8 +992,17 @@
       }
     ],
     "EntitySummaries": {
-      "The Enderprizians": "An alien culture that has mythologized a single Starfleet visit into a religion-like tradition, the Enderprizians demonstrate how Starfleet’s actions can echo for generations, for better and for worse.",
-      "Dal R'El": "Dal’s discomfort at being treated as a legendary captain forces him to reckon with what kind of leader he actually wants to be. He ultimately chooses honesty and mentorship over basking in unearned adoration."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Dr. Boons": "Dr. Boons appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Local Environmental Threat": "Local Environmental Threat serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Misremembered Starfleet Lore": "Misremembered Starfleet Lore serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "The Enderprizians": "The Enderprizians appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Echoes The Original Series and The Next Generation episodes where alien societies misinterpret contact with Starfleet as myth or religion.",
@@ -970,8 +1073,19 @@
       }
     ],
     "EntitySummaries": {
-      "Admiral Kathryn Janeway": "Now a flesh-and-blood Starfleet admiral, Janeway is driven by loyalty to Chakotay and a fierce desire to protect the fleet. Her reliance on incomplete information leads her to misjudge the Protostar crew as criminals.",
-      "Dal R'El": "Dal’s attempt at an honest, weapon-free approach to Starfleet ends in failure when adults refuse to take his warnings seriously. The experience deepens his mistrust of authority but also his determination to do the right thing anyway."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Barniss Frex": "Barniss Frex is the jittery Starfleet officer stationed at a remote communications relay who becomes overwhelmed by fear and suspicion. His paranoia turns a routine encounter with the Protostar crew into a dangerous misunderstanding that highlights how shaken the Federation is by recent events.",
+      "Captain Chakotay (Referenced)": "Captain Chakotay (Referenced) appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Miscommunication with Starfleet": "Miscommunication with Starfleet serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Protostar’s Hidden Weapon": "Protostar’s Hidden Weapon serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Vice Admiral Jellico": "Vice Admiral Jellico appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Brings Admiral Janeway fully into the story as a parallel protagonist to the kids.",
@@ -1040,8 +1154,16 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Dal learns that he is a genetically engineered amalgam of multiple species, not a naturally born member of any one race. His flirtation with enhanced abilities forces him to confront whether power or character defines his identity.",
-      "Dr. Jago": "A brilliant but ethically dubious geneticist, Dr. Jago sees Dal as a fascinating project rather than a person. Her willingness to tinker with his DNA without regard for psychological consequences echoes past Starfleet-era debates about augments."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Dal’s Genetic Origins": "Dal’s Genetic Origins serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dr. Jago": "Dr. Jago appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Romulan Agents": "Romulan Agents plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Expands on Star Trek’s long-running themes around genetic engineering and augments, seen in stories about Khan and Dr. Bashir.",
@@ -1110,8 +1232,17 @@
       }
     ],
     "EntitySummaries": {
-      "Rok-Tahk": "Rok’s backstory as a forced arena fighter explains both her physical prowess and deep aversion to being perceived as scary, further illuminating her empathy and gentleness aboard the Protostar.",
-      "The Diviner": "Gwyn’s glimpses into the Vau N'Akat’s fall show that the Diviner’s obsession with the Protostar stems from genuine grief, even as he twisted that grief into a cruel crusade against Starfleet."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Exploitation of Orphans and Runaways": "Exploitation of Orphans and Runaways serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Other Vau N'Akat Survivors": "Other Vau N'Akat Survivors appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "The Diviner": "The Diviner plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "The Vau N'Akat’s Past": "The Vau N'Akat’s Past serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Provides origin stories for each main crewmember, consolidating hints dropped across earlier episodes.",
@@ -1179,8 +1310,16 @@
       }
     ],
     "EntitySummaries": {
-      "Hologram Janeway": "Janeway learns that she has been manipulated without her knowledge by the Protostar’s weapon, warping her judgment and behavior. Her guilt at nearly endangering the children underscores how fully she has come to see herself as their guardian.",
-      "Protostar’s Hidden Weapon": "The weapon’s ability to infiltrate and subvert even trusted systems like Janeway’s program demonstrates its insidious nature, turning familiar Starfleet tools into potential threats."
+      "Compromised Hologram Janeway": "Compromised Hologram Janeway serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Holodeck NPCs": "Holodeck NPCs appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Protostar’s Hidden Weapon": "Protostar’s Hidden Weapon serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Expands on the capabilities of the Protostar’s weapon by showing it can infect and manipulate shipboard holograms.",
@@ -1249,8 +1388,17 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Dal’s time in Janeway’s body forces him to appreciate the pressures of high-level Starfleet command and the need for measured authority, tempering his previously casual view of leadership.",
-      "Admiral Kathryn Janeway": "Occupying Dal’s body allows Janeway to directly experience the kids’ reality aboard the Protostar. She gains empathy for their youth, resourcefulness, and the impossible choices they have faced."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Body-Swap Mishap": "Body-Swap Mishap serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Crew of the USS Dauntless": "Crew of the USS Dauntless appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Starfleet’s Misperceptions": "Starfleet’s Misperceptions serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Plays with the classic Star Trek trope of body-swapping to explore empathy and perspective-taking.",
@@ -1320,8 +1468,18 @@
       }
     ],
     "EntitySummaries": {
-      "Protostar’s Living Construct Weapon": "The weapon reaches its full potential in this episode, hijacking Starfleet’s interconnected systems and forcing ships to turn on one another. Its design reflects the Diviner’s desire to make Starfleet’s own strength its downfall.",
-      "Vice Admiral Jellico": "Jellico embodies Starfleet’s hardline, by-the-book response to crisis, pushing for conventional military solutions that prove ineffective against a network-based weapon."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Protostar’s Living Construct Weapon": "Protostar’s Living Construct Weapon serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Runaway Starfleet Conflict": "Runaway Starfleet Conflict serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Starfleet Armada": "Starfleet Armada appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Vice Admiral Jellico": "Vice Admiral Jellico appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Pays off the living construct storyline introduced earlier in the season by showing its intended effect on Starfleet.",
@@ -1391,8 +1549,18 @@
       }
     ],
     "EntitySummaries": {
-      "Hologram Janeway": "Janeway makes the ultimate sacrifice by staying with the Protostar to guarantee the destruction of the living construct, affirming her status as a true Starfleet captain in all but name. Her influence lives on in the kids she mentored.",
-      "Gwyndala": "Gwyn chooses to return to her people to try to prevent the future conflict that created the Diviner’s crusade, setting her on a path as an ambassador and peacemaker rather than a warrior."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Impending Fleet Destruction": "Impending Fleet Destruction serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Protostar’s Living Construct Weapon": "Protostar’s Living Construct Weapon serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Starfleet Command": "Starfleet Command appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "The Diviner (Referenced)": "The Diviner (Referenced) appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Resolves the living construct storyline and the threat to Starfleet’s fleet-wide network.",
@@ -1462,8 +1630,18 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Dal enters Season 2 eager to trade study sessions for real adventures, only to learn that Starfleet expects patience and discipline from its officers. His frustration with slow progress sets up the tension between training and action that runs through the arc.",
-      "Admiral Kathryn Janeway": "Now commanding Voyager-A, the real Janeway balances her duty to Starfleet with a deeply personal quest to find Chakotay and mend the damage caused by the Protostar wormhole. Her decision to keep secrets from the kids reflects both her protective instincts and her lingering doubts."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Captain Chakotay (Referenced)": "Captain Chakotay (Referenced) appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Classified Mission Parameters": "Classified Mission Parameters serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Dal’s Restlessness": "Dal’s Restlessness serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Starfleet Instructors": "Starfleet Instructors appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Picks up after the destruction of the Protostar and the crew’s tentative acceptance by Starfleet at the end of Season 1.",
@@ -1536,8 +1714,20 @@
       }
     ],
     "EntitySummaries": {
-      "Gwyndala": "Gwyn steps into the role of would-be peacemaker on Solum, armed with knowledge of a future civil war. Her failure to immediately unite her people underscores how hard it is to change a timeline, even when you have seen the consequences firsthand.",
-      "Asencia": "Once a covert operative, Asencia re-emerges on Solum as a charismatic nationalist voice who paints Starfleet as a threat. Her manipulation of public fear positions her as a central antagonist in the struggle over Solum’s future."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Asencia": "Asencia is a Vau N'Akat operative who masks ruthless ambition behind a calm, strategic façade. She turns temporal chaos and political fear into tools, seeking to use the Loom and the Time Ziggurat to punish the Federation and rewrite Solum's history on her terms.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Ilthuran": "Ilthuran is a Vau N'Akat scientist whose work and conscience pull him in opposite directions. Initially entangled in Asencia's rise, he becomes an important ally to Gwyn, Wesley, and Starfleet as he chooses to expose uncomfortable truths about Solum's leaders.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Political Factions on Solum": "Political Factions on Solum serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Entity": "Temporal Entity appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Unstable Temporal Rift": "Unstable Temporal Rift serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Vau N'Akat Council": "Vau N'Akat Council appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Brings the action directly to Solum after it was teased in Season 1 as the world devastated by future Starfleet contact.",
@@ -1605,8 +1795,16 @@
       }
     ],
     "EntitySummaries": {
-      "Captain Chakotay": "Stranded in a hostile future, Chakotay has spent years resisting a regime that rose from the wreckage of first contact gone wrong. His resilience and quiet grief embody the cost of temporal mistakes the crew is now determined to correct.",
-      "Gwyndala": "Gwyn learns that in this future she becomes both symbol and casualty of Solum’s conflict, forcing her to weigh her personal fate against the possibility of a better outcome for her people."
+      "Asencia’s Regime": "Asencia’s Regime serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Captain Chakotay": "Captain Chakotay is the commanding officer of the Protostar whose disappearance sets much of the story in motion. Stranded by temporal distortions and years of isolation, he becomes both a symbol of the past the kids are trying to repair and a crucial ally when they finally find him.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Future Vau N'Akat Soldiers": "Future Vau N'Akat Soldiers appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Paradoxical Timeline on Future Solum": "Paradoxical Timeline on Future Solum serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Provides the first full appearance of Captain Chakotay after his offscreen disappearance in Season 1.",
@@ -1675,8 +1873,17 @@
       }
     ],
     "EntitySummaries": {
-      "Rok-Tahk": "Rok uses the knowledge she painstakingly gained during the \"Time Amok\" incident to become the de facto temporal engineer, proving once again that her curiosity and patience are as important as brute strength.",
-      "Mysterious Temporal Messenger": "An unidentified ally reaches through time to offer the crew just enough information to attempt a fix, hinting at a larger network of temporal guardians watching the unfolding paradox."
+      "Admiral Kathryn Janeway (Alternate Timeline)": "Admiral Kathryn Janeway (Alternate Timeline) appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Captain Chakotay": "Captain Chakotay is the commanding officer of the Protostar whose disappearance sets much of the story in motion. Stranded by temporal distortions and years of isolation, he becomes both a symbol of the past the kids are trying to repair and a crucial ally when they finally find him.",
+      "Collapsing Future Timeline": "Collapsing Future Timeline serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Mysterious Temporal Messenger": "Mysterious Temporal Messenger appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Instability": "Temporal Instability serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Builds directly on the temporal lessons learned in Season 1’s \"Time Amok.\"",
@@ -1745,8 +1952,17 @@
       }
     ],
     "EntitySummaries": {
-      "Murf": "Long treated as the team’s indestructible mascot, Murf is revealed to have a deeper role when a message from a future incarnation guides the crew’s next move. The discovery hints that Murf’s species may be far more perceptive than anyone assumed.",
-      "Admiral Kathryn Janeway": "Janeway’s willingness to quietly bend Starfleet protocol for the kids’ sake shows how much she now trusts their instincts, even as she remains accountable to a chain of command that dislikes temporal improvisation."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Murf’s Future Self (Message)": "Murf’s Future Self (Message) appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Starfleet Scrutiny": "Starfleet Scrutiny serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Time Paradox Centered on Gwyn": "Time Paradox Centered on Gwyn serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Voyager-A Senior Staff": "Voyager-A Senior Staff appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Connects the temporal rescue on future Solum back to the present-day Voyager-A storyline.",
@@ -1816,8 +2032,18 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Dal’s idea to use holograms to dodge responsibilities backfires when his double embodies an exaggerated, unrelatable version of the \"perfect\" captain. The experience forces him to accept that authenticity matters more than image.",
-      "Hologram Janeway": "Tasked with helping design the doubles, Janeway is confronted with how easily holotechnology can spiral out of control when used to paper over insecurity, echoing earlier Star Trek cautions about relying too heavily on simulations."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Crew’s Own Self-Doubt": "Crew’s Own Self-Doubt serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Holographic Crew Doubles": "Holographic Crew Doubles appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Runaway Holograms": "Runaway Holograms serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Voyager-A Security Officers": "Voyager-A Security Officers appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Continues Star Trek’s tradition of exploring the unintended consequences of advanced holographic systems.",
@@ -1885,8 +2111,15 @@
       }
     ],
     "EntitySummaries": {
-      "Kazon Warlord": "A showman and tyrant rolled into one, the Kazon warlord turns transwarp travel into a blood sport, caring more about spectacle than lives. His defeat underscores how ingenuity and teamwork can outclass brute force.",
-      "Dal R'El": "Dal’s piloting skills shine in the race, but the episode also forces him to prioritize crew safety over flashy moves, maturing his approach to command."
+      "Assorted Racers": "Assorted Racers appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Deadly Space Race": "Deadly Space Race serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Kazon Warlord": "Kazon Warlord plays a complicated, sometimes adversarial role in the events around the Protostar and Voyager-A. They challenge the young crew in ways that raise the stakes and force harder choices.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Brings back the Kazon, a species first introduced in Star Trek: Voyager, in a new context suited to Prodigy’s tone.",
@@ -1954,8 +2187,16 @@
       }
     ],
     "EntitySummaries": {
-      "Zero": "Zero’s temptation to trade away part of their Medusan identity for the comfort of a standard body mirrors broader questions about assimilation. Their decision to embrace a middle path affirms that difference can be a source of strength, not shame.",
-      "Non-Corporeal Collective": "The beings who offer Zero a body sincerely want to help but frame their solution through their own values, illustrating how even benevolent cultures can unintentionally pressure outsiders to conform."
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Local Mediator": "Local Mediator appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Non-Corporeal Collective": "Non-Corporeal Collective appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Seduction of a New Body": "Seduction of a New Body serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust.",
+      "Zero’s Fear of Harm": "Zero’s Fear of Harm serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear."
     },
     "ContinuityNotes": [
       "Builds on Medusan lore first introduced in The Original Series, expanding how such beings might interact with physical bodies in later centuries.",
@@ -2025,8 +2266,18 @@
       }
     ],
     "EntitySummaries": {
-      "Wesley Crusher": "Now operating as a Traveller, Wesley has taken responsibility for guiding the Protostar crew through the temporal chaos they helped create. His mix of youthful empathy and near-cosmic perspective makes him a natural mentor for kids caught between timelines.",
-      "The Loom": "The Loom is not a single creature so much as a cosmic process that devours failing timelines, treating paradox and instability as a feast. Its appearance reframes the crew’s mistakes as existential threats to more than just their own lives."
+      "Collapsing Timelines": "Collapsing Timelines serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Maj'el": "Maj'el is a Traveller associate who works alongside Wesley at the Time Ziggurat to monitor and protect the integrity of timelines. Her calm focus and connection to temporal currents make her a vital part of the effort to hold back the Loom's growing influence.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Loom": "Temporal Loom appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "The Loom": "The Loom is a vast, predatory temporal phenomenon that feeds on unstable and collapsing timelines. Rather than a single creature, it behaves like a cosmic process, drawn to paradox and damage—forcing the Protostar crew to fix the very wounds that attracted it.",
+      "Travellers": "The Travellers are a mysterious group of beings who move through and tend to the fabric of space-time itself. Working from places like the Time Ziggurat, they try to guide younger species away from catastrophic temporal mistakes without simply taking control of history.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Brings Wesley Crusher back into the franchise in his Traveller role, connecting Prodigy to The Next Generation and his later appearances.",
@@ -2097,8 +2348,19 @@
       }
     ],
     "EntitySummaries": {
-      "Wesley Crusher": "Wesley proves instrumental in coordinating the escape from the Loom, balancing vast Traveller knowledge with genuine concern for the kids. His willingness to risk himself alongside them cements him as a true ally rather than a distant cosmic observer.",
-      "The Loom": "In this episode, the Loom demonstrates the full scope of its power, threatening not just ships or planets but the fabric of history itself. Its partial defeat is less a victory than a reprieve, emphasizing that time itself must still be carefully mended."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Crew of the Voyager-A": "Crew of the Voyager-A appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Loom Manifestations": "Loom Manifestations appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Maj'el": "Maj'el is a Traveller associate who works alongside Wesley at the Time Ziggurat to monitor and protect the integrity of timelines. Her calm focus and connection to temporal currents make her a vital part of the effort to hold back the Loom's growing influence.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Runaway Temporal Collapse": "Runaway Temporal Collapse serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "The Loom": "The Loom is a vast, predatory temporal phenomenon that feeds on unstable and collapsing timelines. Rather than a single creature, it behaves like a cosmic process, drawn to paradox and damage—forcing the Protostar crew to fix the very wounds that attracted it.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Concludes the \"Devourer of All Things\" two-parter and the season’s first 10-episode mini-arc.",
@@ -2168,8 +2430,18 @@
       }
     ],
     "EntitySummaries": {
-      "Captain Chakotay": "Stranded for years on Ysida, Chakotay has turned survival into penance, convinced that remaining as a lone guardian is the only way to contain the damage he helped cause. In this episode he is forced to face the possibility that clinging to that guilt is now endangering the very future he hoped to protect.",
-      "The Loom": "The Loom remains mostly unseen here, manifesting as ripples in time, lightning strikes, and gravitational surges around Ysida. Its looming presence turns the planet into a hunting ground, pressuring the crew to risk a dangerous escape before the creature fully locates their timeline."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Captain Chakotay": "Captain Chakotay is the commanding officer of the Protostar whose disappearance sets much of the story in motion. Stranded by temporal distortions and years of isolation, he becomes both a symbol of the past the kids are trying to repair and a crucial ally when they finally find him.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Storms of Ysida": "Temporal Storms of Ysida serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "The Loom": "The Loom is a vast, predatory temporal phenomenon that feeds on unstable and collapsing timelines. Rather than a single creature, it behaves like a cosmic process, drawn to paradox and damage—forcing the Protostar crew to fix the very wounds that attracted it.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Confirms that the Protostar survived the Season 1 finale in a damaged, marooned state under Chakotay's care on Ysida.",
@@ -2239,8 +2511,18 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Dal spends much of the episode learning that leadership is not a competition with Chakotay but a partnership, gaining a more mature sense of when to step up and when to support from the side.",
-      "Captain Chakotay": "Freed from his self-imposed exile, Chakotay returns to active command, rediscovering his instinct for bold but calculated risks as he shepherds the Protostar and its young crew back into space."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Captain Chakotay": "Captain Chakotay is the commanding officer of the Protostar whose disappearance sets much of the story in motion. Stranded by temporal distortions and years of isolation, he becomes both a symbol of the past the kids are trying to repair and a crucial ally when they finally find him.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Storms of Ysida": "Temporal Storms of Ysida serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "The Loom": "The Loom is a vast, predatory temporal phenomenon that feeds on unstable and collapsing timelines. Rather than a single creature, it behaves like a cosmic process, drawn to paradox and damage—forcing the Protostar crew to fix the very wounds that attracted it.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Shows the final escape of the original Protostar from Ysida, resolving how it can reenter the larger Season 2 storyline.",
@@ -2309,8 +2591,17 @@
       }
     ],
     "EntitySummaries": {
-      "Rok-Tahk": "Rok's enthusiasm for hands-on science takes a hit when an experiment she approves helps create a new tribble crisis, forcing her to balance curiosity with caution and long-term responsibility.",
-      "Bribble": "The crystalline tribble hybrid begins as a chaotic accident but proves that even engineered creatures can find a place in the crew once safeguards and ethical oversight are in place."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Bribble": "Bribble is a genetically altered tribble hybrid that quickly becomes both an adorable mascot and a scientific headache. Its appetite and replication quirks force Rok and the others to confront the unintended consequences of tinkering with even the cutest life-forms.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Runaway Hybrid Tribble Swarm": "Runaway Hybrid Tribble Swarm serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Station Lead Dr. Kathon": "Station Lead Dr. Kathon appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "References the long history of tribble incidents in Starfleet, including earlier attempts to manage their reproduction.",
@@ -2380,8 +2671,18 @@
       }
     ],
     "EntitySummaries": {
-      "Mirror Janeway": "This ruthless counterpart of Janeway represents what happens when tactical brilliance is stripped of compassion and duty, providing a dark reflection of the mentor the cadets trust.",
-      "Dal R'El": "Dal's brush with the Terran promise of status and control forces him to confront his own insecurity and ambition, strengthening his commitment to leading through empathy instead of fear."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Mirror Chakotay": "Mirror Chakotay appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Mirror Janeway": "Mirror Janeway appears in these stories as part of the allies, civilians, or supporting figures surrounding the Protostar crew. This short note gives concise context when their name is selected in the episode companion.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Terran Empire Forces": "Terran Empire Forces serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Timeline Fractures triggered by the Loom": "Timeline Fractures triggered by the Loom serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Confirms that the Loom's disruption of time also weakens barriers between parallel universes such as the Mirror Universe.",
@@ -2452,8 +2753,19 @@
       }
     ],
     "EntitySummaries": {
-      "Asencia": "Embedded deep within the Time Ziggurat, Asencia has evolved from saboteur into would-be temporal sovereign, seeking to harness the Loom to rewrite Solum's past and punish the Federation.",
-      "Wesley Crusher": "Acting as a liaison between the Travellers and Starfleet, Wesley takes a more direct role in opposing Asencia here, gambling his safety to disrupt her growing control over the Loom."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Asencia": "Asencia is a Vau N'Akat operative who masks ruthless ambition behind a calm, strategic façade. She turns temporal chaos and political fear into tools, seeking to use the Loom and the Time Ziggurat to punish the Federation and rewrite Solum's history on her terms.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Ilthuran": "Ilthuran is a Vau N'Akat scientist whose work and conscience pull him in opposite directions. Initially entangled in Asencia's rise, he becomes an important ally to Gwyn, Wesley, and Starfleet as he chooses to expose uncomfortable truths about Solum's leaders.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Guardians of the Ziggurat": "Temporal Guardians of the Ziggurat serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "The Loom": "The Loom is a vast, predatory temporal phenomenon that feeds on unstable and collapsing timelines. Rather than a single creature, it behaves like a cosmic process, drawn to paradox and damage—forcing the Protostar crew to fix the very wounds that attracted it.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Further clarifies the Time Ziggurat's role as both a Traveller installation and a potential superweapon in the wrong hands.",
@@ -2523,8 +2835,18 @@
       }
     ],
     "EntitySummaries": {
-      "Gwyndala": "Gwyn's confrontation with timelines in which she remains loyal to her father sharpens her resolve to chart a new course for Solum, even if it puts her at odds with her own people.",
-      "Ilthuran": "The Vau N'Akat scientist becomes a more complicated figure here, quietly helping the cadets undermine Asencia while struggling with his complicity in building her path to power."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Asencia": "Asencia is a Vau N'Akat operative who masks ruthless ambition behind a calm, strategic façade. She turns temporal chaos and political fear into tools, seeking to use the Loom and the Time Ziggurat to punish the Federation and rewrite Solum's history on her terms.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Ilthuran": "Ilthuran is a Vau N'Akat scientist whose work and conscience pull him in opposite directions. Initially entangled in Asencia's rise, he becomes an important ally to Gwyn, Wesley, and Starfleet as he chooses to expose uncomfortable truths about Solum's leaders.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Loom-Infused Temporal Avatars": "Loom-Infused Temporal Avatars serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Closes out the Ascent two-parter by freeing Wesley and ejecting Asencia from the Time Ziggurat.",
@@ -2593,8 +2915,17 @@
       }
     ],
     "EntitySummaries": {
-      "Gwyndala": "Returning to Solum forces Gwyn to balance her love for her people with her knowledge of how far their leaders have fallen, cementing her role as a bridge rather than a simple traitor or hero.",
-      "Ilthuran": "Ilthuran's imprisonment and rescue underline the cost of dissent under extremist leadership, while his insider knowledge becomes crucial to Starfleet's next steps."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Asencia's Agents on Solum": "Asencia's Agents on Solum serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Ilthuran": "Ilthuran is a Vau N'Akat scientist whose work and conscience pull him in opposite directions. Initially entangled in Asencia's rise, he becomes an important ally to Gwyn, Wesley, and Starfleet as he chooses to expose uncomfortable truths about Solum's leaders.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Vau N'Akat Hardliners": "Vau N'Akat Hardliners serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Provides the most detailed on-the-ground look at Solum's society and political fractures to date.",
@@ -2664,8 +2995,18 @@
       }
     ],
     "EntitySummaries": {
-      "Admiral Kathryn Janeway": "Janeway confronts her own physical limits and the possibility of aging out of front-line service, choosing to view the change as an opportunity to mentor rather than a loss of relevance.",
-      "Dal R'El": "Dal's expanded responsibilities on the bridge push him closer to the kind of captain he wants to become, forcing him to rely less on bravado and more on listening and delegation."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Asencia": "Asencia is a Vau N'Akat operative who masks ruthless ambition behind a calm, strategic façade. She turns temporal chaos and political fear into tools, seeking to use the Loom and the Time Ziggurat to punish the Federation and rewrite Solum's history on her terms.",
+      "Captain Chakotay": "Captain Chakotay is the commanding officer of the Protostar whose disappearance sets much of the story in motion. Stranded by temporal distortions and years of isolation, he becomes both a symbol of the past the kids are trying to repair and a crucial ally when they finally find him.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Temporal Backlash from the Loom": "Temporal Backlash from the Loom serves as an opposing force or source of danger in this episode, shaping the crisis the Protostar crew must face. This blurb provides quick context when the viewer clicks the name so the threat they represent is clear.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Connects the Loom's activities to widespread temporal side effects that can impact Starfleet personnel far from the front lines.",
@@ -2736,8 +3077,19 @@
       }
     ],
     "EntitySummaries": {
-      "Ouroboros": "A new manifestation of the Loom's power, Ouroboros is a vast looping structure of distorted subspace that feeds on its own temporal energy, threatening to erase or rewrite entire regions of space-time.",
-      "Asencia": "Having lost the Ziggurat, Asencia shifts to a more direct strategy, using Ouroboros as both a weapon and a test to prove that the Federation values its own safety over Solum's survival."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Asencia": "Asencia is a Vau N'Akat operative who masks ruthless ambition behind a calm, strategic façade. She turns temporal chaos and political fear into tools, seeking to use the Loom and the Time Ziggurat to punish the Federation and rewrite Solum's history on her terms.",
+      "Captain Chakotay": "Captain Chakotay is the commanding officer of the Protostar whose disappearance sets much of the story in motion. Stranded by temporal distortions and years of isolation, he becomes both a symbol of the past the kids are trying to repair and a crucial ally when they finally find him.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Ilthuran": "Ilthuran is a Vau N'Akat scientist whose work and conscience pull him in opposite directions. Initially entangled in Asencia's rise, he becomes an important ally to Gwyn, Wesley, and Starfleet as he chooses to expose uncomfortable truths about Solum's leaders.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Ouroboros": "Ouroboros is a massive temporal construct formed from scattered Loom energy, a self-consuming loop that threatens to collapse subspace around Solum. It embodies the season's ultimate no-win scenario, forcing the crew to risk everything to sew shut the wound in time they helped create.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Elevates the Loom's influence from localized anomalies to a system-spanning threat centered on Solum.",
@@ -2808,8 +3160,19 @@
       }
     ],
     "EntitySummaries": {
-      "Dal R'El": "Dal's calm, distributed leadership inside Ouroboros completes his journey from insecure rebel to emerging Starfleet officer, demonstrating that he can put the needs of the many above his own ego.",
-      "Gwyndala": "Gwyn's refusal to let Asencia define Solum's future cements her role as a visionary leader who believes in repairing relationships rather than erasing history, even when it hurts."
+      "Admiral Kathryn Janeway": "Admiral Kathryn Janeway is the real, flesh-and-blood Starfleet legend who takes responsibility for the Protostar affair and for the young crew caught in its wake. In these episodes she balances duty, guilt, and fierce protectiveness as she guides the cadets through temporal crises and political minefields.",
+      "Asencia": "Asencia is a Vau N'Akat operative who masks ruthless ambition behind a calm, strategic façade. She turns temporal chaos and political fear into tools, seeking to use the Loom and the Time Ziggurat to punish the Federation and rewrite Solum's history on her terms.",
+      "Dal R'El": "Dal R'El is the impulsive, big-hearted leader of the Protostar crew, a former prisoner who seizes his first real chance at freedom. Across these episodes he grows from a reckless runaway into a young officer learning how to put his crew and the wider galaxy ahead of his own ego.",
+      "Gwyndala": "Gwyndala is a Vau N'Akat raised as a weapon who chooses a different path, fighting to repair the damage her people and her father helped cause. Her journey in these stories centers on balancing loyalty to Solum with her responsibility to the friends and ideals she found aboard the Protostar.",
+      "Hologram Janeway": "Hologram Janeway is the training program based on Captain Janeway who first mentors the kids when they discover the Protostar. She evolves from a limited instructional subroutine into a genuine protector and friend, teaching them what it means to live up to Starfleet's ideals.",
+      "Ilthuran": "Ilthuran is a Vau N'Akat scientist whose work and conscience pull him in opposite directions. Initially entangled in Asencia's rise, he becomes an important ally to Gwyn, Wesley, and Starfleet as he chooses to expose uncomfortable truths about Solum's leaders.",
+      "Jankom Pog": "Jankom Pog is a Tellarite engineer who complains loudly but always shows up when the ship—and his friends—need him most. His gruff exterior hides real ingenuity and heart, and his mechanical skill often makes the difference between disaster and a daring escape.",
+      "Murf": "Murf is the seemingly indestructible, ever-hungry member of the crew whose true capabilities reveal themselves slowly over time. What begins as a comedic mascot becomes a surprising source of resilience, insight, and even guidance as the temporal stakes grow higher.",
+      "Ouroboros": "Ouroboros is a massive temporal construct formed from scattered Loom energy, a self-consuming loop that threatens to collapse subspace around Solum. It embodies the season's ultimate no-win scenario, forcing the crew to risk everything to sew shut the wound in time they helped create.",
+      "Rok-Tahk": "Rok-Tahk is the gentle giant of the crew, a brilliant young scientist and engineer who once thought of herself only as muscle. Throughout the season she uses her curiosity and patience to solve problems no one else can, proving that kindness and careful thinking are real superpowers.",
+      "The Loom": "The Loom is a vast, predatory temporal phenomenon that feeds on unstable and collapsing timelines. Rather than a single creature, it behaves like a cosmic process, drawn to paradox and damage—forcing the Protostar crew to fix the very wounds that attracted it.",
+      "Wesley Crusher": "Wesley Crusher returns here not as a cadet but as a Traveller, a guardian of timelines who has been quietly watching the Protostar crew. He acts as both mentor and partner, helping the kids understand the Loom, the Ziggurat, and the cosmic consequences of their choices.",
+      "Zero": "Zero is a Medusan whose unshielded form can harm others, forcing them to live behind a containment suit even as they become the crew's navigator and conscience. Their arc in these episodes explores identity, connection, and the challenge of being profoundly different while still craving closeness and trust."
     },
     "ContinuityNotes": [
       "Provides the definitive resolution to the Loom's threat in the Prodigy storyline by cutting off its access to Solum and nearby space.",
