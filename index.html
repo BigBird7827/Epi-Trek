@@ -1526,8 +1526,8 @@ function groupEpisodesBySeries(episodes) {
         const text = document.createElement("div");
         text.className = "summary";
         const entry = (summariesById && ep.ID) ? summariesById[ep.ID] : null;
-        const summaryText = (entry && entry.Summary) || ep.OneLineSummary || "";
-        text.textContent = summaryText;
+        const summaryText = ep.Summary || (entry && entry.Summary) || ep.OneLineSummary || "";
+        text.textContent = summaryText || "No summary available for this episode yet.";
         summary.appendChild(text);
       }
       if (storyStack) {
@@ -1578,60 +1578,39 @@ function groupEpisodesBySeries(episodes) {
       }
       if (notesBlock) {
         notesBlock.innerHTML = "";
-        const continuity = ep.ContinuityNotes || [];
-        const themes = ep.ThematicNotes || [];
-        const bts = ep.BehindTheScenes || [];
-        if (continuity.length > 0) {
+        const entryNotes = (summariesById && ep.ID) ? summariesById[ep.ID] : null;
+        const continuity = ep.ContinuityNotes || (entryNotes && entryNotes.ContinuityNotes) || [];
+        const themes = ep.ThematicNotes || (entryNotes && entryNotes.ThematicNotes) || [];
+        const bts = ep.BehindTheScenes || (entryNotes && entryNotes.BehindTheScenes) || [];
+
+        function appendNotesBlock(labelText, notesArray) {
+          if (!Array.isArray(notesArray) || notesArray.length === 0) return;
           const label = document.createElement("div");
           label.className = "block-label block-label-accent";
-          label.textContent = "Continuity Notes";
+          label.textContent = labelText;
           notesBlock.appendChild(label);
-          continuity.forEach(note => {
+          notesArray.forEach(note => {
             const card = document.createElement("article");
             card.className = "note-card";
-            const h = document.createElement("h4");
-            h.textContent = note.Header;
-            const p = document.createElement("p");
-            p.textContent = note.Text;
-            card.appendChild(h);
-            card.appendChild(p);
+            if (typeof note === "string") {
+              const p = document.createElement("p");
+              p.textContent = note;
+              card.appendChild(p);
+            } else if (note && typeof note === "object") {
+              const h = document.createElement("h4");
+              h.textContent = note.Header || "";
+              const p = document.createElement("p");
+              p.textContent = note.Text || "";
+              if (h.textContent) card.appendChild(h);
+              if (p.textContent) card.appendChild(p);
+            }
             notesBlock.appendChild(card);
           });
         }
-        if (themes.length > 0) {
-          const label = document.createElement("div");
-          label.className = "block-label block-label-accent";
-          label.textContent = "Themes";
-          notesBlock.appendChild(label);
-          themes.forEach(note => {
-            const card = document.createElement("article");
-            card.className = "note-card";
-            const h = document.createElement("h4");
-            h.textContent = note.Header;
-            const p = document.createElement("p");
-            p.textContent = note.Text;
-            card.appendChild(h);
-            card.appendChild(p);
-            notesBlock.appendChild(card);
-          });
-        }
-        if (bts.length > 0) {
-          const label = document.createElement("div");
-          label.className = "block-label block-label-accent";
-          label.textContent = "Behind the Scenes";
-          notesBlock.appendChild(label);
-          bts.forEach(note => {
-            const card = document.createElement("article");
-            card.className = "note-card";
-            const h = document.createElement("h4");
-            h.textContent = note.Header;
-            const p = document.createElement("p");
-            p.textContent = note.Text;
-            card.appendChild(h);
-            card.appendChild(p);
-            notesBlock.appendChild(card);
-          });
-        }
+
+        appendNotesBlock("Continuity Notes", continuity);
+        appendNotesBlock("Themes", themes);
+        appendNotesBlock("Behind the Scenes", bts);
       }
     }
 
