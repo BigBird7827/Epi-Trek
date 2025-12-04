@@ -956,6 +956,7 @@
     let currentSeries = null;
     let currentSeason = null;
     let currentEpisodeID = null;
+    let currentEpisodeDetail = null;
     let summariesById = {};
 
     let searchIndex = [];
@@ -1480,6 +1481,8 @@ function groupEpisodesBySeries(episodes) {
     }
 
     function renderEpisodeDetail(ep) {
+      currentEpisodeDetail = ep;
+
       const consoleTitle = document.getElementById("console-title");
       const consoleSub = document.getElementById("console-sub");
       const metaRow = document.getElementById("episode-meta");
@@ -1526,8 +1529,8 @@ function groupEpisodesBySeries(episodes) {
         const text = document.createElement("div");
         text.className = "summary";
         const entry = (summariesById && ep.ID) ? summariesById[ep.ID] : null;
-        const summaryText = ep.Summary || (entry && entry.Summary) || ep.OneLineSummary || "";
-        text.textContent = summaryText || "No summary available for this episode yet.";
+        const summaryText = (entry && entry.Summary) || ep.OneLineSummary || "";
+        text.textContent = summaryText;
         summary.appendChild(text);
       }
       if (storyStack) {
@@ -1578,40 +1581,62 @@ function groupEpisodesBySeries(episodes) {
       }
       if (notesBlock) {
         notesBlock.innerHTML = "";
-        const entryNotes = (summariesById && ep.ID) ? summariesById[ep.ID] : null;
-        const continuity = ep.ContinuityNotes || (entryNotes && entryNotes.ContinuityNotes) || [];
-        const themes = ep.ThematicNotes || (entryNotes && entryNotes.ThematicNotes) || [];
-        const bts = ep.BehindTheScenes || (entryNotes && entryNotes.BehindTheScenes) || [];
+        const continuity = ep.ContinuityNotes || [];
+        const themes = ep.ThematicNotes || [];
+        const bts = ep.BehindTheScenes || [];
 
-        function appendNotesBlock(labelText, notesArray) {
-          if (!Array.isArray(notesArray) || notesArray.length === 0) return;
+        const makeNoteCard = (note) => {
+          const card = document.createElement("article");
+          card.className = "note-card";
+          const h = document.createElement("h4");
+          const p = document.createElement("p");
+
+          if (note && typeof note === "object") {
+            h.textContent = note.Header || "";
+            p.textContent = note.Text || "";
+          } else {
+            h.textContent = "";
+            p.textContent = String(note);
+          }
+
+          if (h.textContent) {
+            card.appendChild(h);
+          }
+          card.appendChild(p);
+          return card;
+        };
+
+        if (continuity.length > 0) {
           const label = document.createElement("div");
           label.className = "block-label block-label-accent";
-          label.textContent = labelText;
+          label.textContent = "Continuity Notes";
           notesBlock.appendChild(label);
-          notesArray.forEach(note => {
-            const card = document.createElement("article");
-            card.className = "note-card";
-            if (typeof note === "string") {
-              const p = document.createElement("p");
-              p.textContent = note;
-              card.appendChild(p);
-            } else if (note && typeof note === "object") {
-              const h = document.createElement("h4");
-              h.textContent = note.Header || "";
-              const p = document.createElement("p");
-              p.textContent = note.Text || "";
-              if (h.textContent) card.appendChild(h);
-              if (p.textContent) card.appendChild(p);
-            }
-            notesBlock.appendChild(card);
+          continuity.forEach(note => {
+            notesBlock.appendChild(makeNoteCard(note));
           });
         }
 
-        appendNotesBlock("Continuity Notes", continuity);
-        appendNotesBlock("Themes", themes);
-        appendNotesBlock("Behind the Scenes", bts);
+        if (themes.length > 0) {
+          const label = document.createElement("div");
+          label.className = "block-label block-label-accent";
+          label.textContent = "Themes";
+          notesBlock.appendChild(label);
+          themes.forEach(note => {
+            notesBlock.appendChild(makeNoteCard(note));
+          });
+        }
+
+        if (bts.length > 0) {
+          const label = document.createElement("div");
+          label.className = "block-label block-label-accent";
+          label.textContent = "Behind the Scenes";
+          notesBlock.appendChild(label);
+          bts.forEach(note => {
+            notesBlock.appendChild(makeNoteCard(note));
+          });
+        }
       }
+
     }
 
     function showEpisodesError(message) {
@@ -1764,10 +1789,33 @@ function groupEpisodesBySeries(episodes) {
       const fallbackWrapper = document.getElementById("bio-fallback");
       const fallbackName = document.getElementById("bio-name-raw");
 
+      let entitySummary = null;
+      if (currentEpisodeDetail && currentEpisodeDetail.EntitySummaries) {
+        const map = currentEpisodeDetail.EntitySummaries;
+        if (map[name] != null) {
+          entitySummary = map[name];
+        } else {
+          const lowerName = name.toLowerCase();
+          for (const key in map) {
+            if (Object.prototype.hasOwnProperty.call(map, key)) {
+              if (key.toLowerCase() === lowerName) {
+                entitySummary = map[key];
+                break;
+              }
+            }
+          }
+        }
+      }
+
       const key = name.toLowerCase();
       const bio = biosByKey[key];
 
-      if (!biosLoaded) {
+      if (entitySummary) {
+        nameEl.textContent = name;
+        roleEl.textContent = "";
+        summaryEl.textContent = entitySummary;
+        fallbackWrapper.style.display = "none";
+      } else if (!biosLoaded) {
         nameEl.textContent = name;
         roleEl.textContent = "";
         summaryEl.textContent = "Summary data is not loaded or unavailable.";
@@ -1788,7 +1836,7 @@ function groupEpisodesBySeries(episodes) {
       modal.classList.add("active");
     }
 
-    function init() {
+function init() {
       initBioModal();
       fetchEpisodes();
       fetchBios();
