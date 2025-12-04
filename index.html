@@ -943,7 +943,9 @@
       "PIC": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/PIC-Episodes.json",
       "SNW": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/SNW-Episodes.json",
       "ENT": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/ENT-Episodes.json",
-      "PRO": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/PRO-Episodes.json"
+      "PRO": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/PRO-Episodes.json",
+      "LD": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/LD-Episodes.json",
+      "DIS": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/DIS-Episodes.json"
     };
     const SUMMARY_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
     const BIO_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
@@ -960,7 +962,14 @@
 
     const ALL_SERIES = ["TOS","TAS","TNG","DS9","VOY","ENT","DIS","PIC","SNW","LD","PRO"];
 
-    const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.";
+    
+    function normalizeSeriesCode(code) {
+      if (!code) return "";
+      if (code === "LDS") return "LD";
+      return code;
+    }
+
+const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.";
 
 
     let biosByKey = {};
@@ -1037,11 +1046,11 @@
         index.push({
           type: "episode",
           id: ep.ID,
-          series: ep.Series || "",
+          series: normalizeSeriesCode(ep.Series || ""),
           season: ep.Season,
           episode: ep.Episode,
           title: ep.Title || "",
-          label: (ep.Series || "") + " S" + ep.Season + "E" + ep.Episode + " – " + (ep.Title || "")
+          label: normalizeSeriesCode(ep.Series || "") + " S" + ep.Season + "E" + ep.Episode + " – " + (ep.Title || "")
         });
       });
       searchIndex = index;
@@ -1112,7 +1121,7 @@
 function groupEpisodesBySeries(episodes) {
       const grouped = {};
       episodes.forEach(ep => {
-        const key = ep.Series || "Unknown";
+        const key = normalizeSeriesCode(ep.Series || "Unknown");
         if (!grouped[key]) {
           grouped[key] = [];
         }
@@ -1416,7 +1425,7 @@ function groupEpisodesBySeries(episodes) {
 
         const tag = document.createElement("div");
         tag.className = "episode-tag";
-        tag.textContent = ep.Series || "";
+        tag.textContent = normalizeSeriesCode(ep.Series || "");
 
         const meta = document.createElement("div");
         meta.className = "episode-meta";
@@ -1483,7 +1492,7 @@ function groupEpisodesBySeries(episodes) {
       const notesBlock = document.getElementById("notes-block");
 
       if (consoleTitle) {
-        consoleTitle.textContent = ep.Series + " • S" + ep.Season + "E" + ep.Episode;
+        consoleTitle.textContent = normalizeSeriesCode(ep.Series) + " • S" + ep.Season + "E" + ep.Episode;
       }
       if (consoleSub) {
         consoleSub.textContent = ep.Title || "";
