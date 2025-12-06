@@ -283,7 +283,37 @@
       font-size: 12px;
       color: var(--text-soft);
     }
-    .search-results {
+    
+    
+    .bio-link-body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80px;
+    }
+    .bio-link-button {
+      padding: 9px 22px 11px;
+      border-radius: 999px;
+      border: 1px solid rgba(93,107,180,0.95);
+      background:
+        radial-gradient(circle at 10% 0%, rgba(255,255,255,0.18), transparent 55%),
+        linear-gradient(145deg, #181f35, #0b1023);
+      color: #f5f7ff;
+      font-size: 12px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow:
+        0 4px 12px rgba(0,0,0,0.9),
+        0 0 18px rgba(100,211,255,0.6);
+    }
+    .bio-link-button:hover {
+      background:
+        radial-gradient(circle at 10% 0%, rgba(255,255,255,0.26), transparent 55%),
+        linear-gradient(145deg, #222b47, #0f172f);
+    }
+
+.search-results {
       margin-top: 8px;
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -876,6 +906,11 @@
         <input id="search-input" type="text" class="search-input" placeholder="Search by series (TNG), title (The Man Trap), or ID (toss1e1)…" autocomplete="off">
         <div id="search-help" class="search-help">Type at least 2 characters to see matching series and episodes.</div>
         <div id="search-results" class="search-results"></div>
+      </div>
+        </section>
+    <section id="bio-link-section" class="strip">
+      <div class="bio-link-body">
+        <button id="go-to-bio-page" type="button" class="bio-link-button" onclick="window.open('https://bigbird7827.github.io/Bio-Trek/', '_blank', 'noopener')">Go to Biographies Page</button>
       </div>
     </section>
     <section id="episodes-section" class="strip">
@@ -1794,7 +1829,8 @@ function groupEpisodesBySeries(episodes) {
       });
     }
 
-    function openBioModal(name) {
+
+        function openBioModal(name) {
       const modal = document.getElementById("bio-modal");
       const nameEl = document.getElementById("bio-name");
       const roleEl = document.getElementById("bio-role");
@@ -1836,7 +1872,7 @@ function groupEpisodesBySeries(episodes) {
       } else if (!bio) {
         nameEl.textContent = "No summary available";
         roleEl.textContent = "";
-        summaryEl.textContent = "There is currently no summary entry for this name in the summaries JSON.";
+        summaryEl.textContent = "No summary available for this link";
         fallbackWrapper.style.display = "block";
         fallbackName.textContent = name;
       } else {
@@ -1889,7 +1925,7 @@ function init() {
       }
     }
 
-    document.addEventListener("DOMContentLoaded", init);
+        document.addEventListener("DOMContentLoaded", init);
   </script>
 </body>
 </html>
