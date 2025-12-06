@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Star Trek Episode Companion - Episode-Build 58</title>
+  <title>Star Trek Episode Companion - Episode-Build 13</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     :root {
@@ -134,6 +134,16 @@
       display: flex;
       gap: 10px;
       align-items: center;
+    }
+
+    .brand-image-wrap {
+      justify-self: end;
+      align-self: center;
+    }
+    .brand-image-wrap img {
+      max-width: 260px;
+      height: auto;
+      display: block;
     }
 
     .data-block {
@@ -835,13 +845,15 @@
         </div>
         <div class="brand-caption"></div>
         <div class="brand-title">Episode console</div>
-        <div class="brand-sub" id="brand-sub">Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.</div>
+        <div class="brand-sub" id="brand-sub">Select a series, skim the episode deck, then dive into story beats, characters, ethics, continuity, and themes.</div>
         <div class="brand-nav" id="brand-nav">
           <button id="detail-back-episodes" type="button" class="back-link console-back-link">← Back to episodes</button>
           <button id="detail-back-series" type="button" class="back-link console-back-link">← Back to series</button>
         </div>
       </div>
-      
+      <div class="brand-image-wrap">
+        <img class="brand-image" src="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Enterprise%20NCC-1701.png" alt="USS Enterprise NCC-1701">
+      </div>
     </header>
 
     <section id="series-section" class="strip">
@@ -939,6 +951,7 @@
     const EPISODE_URLS = {
       "TOS": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TOS-Episodes.json",
       "TNG": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TNG-Episodes.json",
+      "DS9": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/DS9-Episodes.json",
       "TAS": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TAS-Episodes.json",
       "PIC": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/PIC-Episodes.json",
       "SNW": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/SNW-Episodes.json",
