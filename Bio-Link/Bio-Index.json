@@ -1,0 +1,494 @@
+[
+  {
+    "name": "James T. Kirk",
+    "series": "TOS",
+    "role": "Commanding officer, USS Enterprise (NCC-1701)",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Spock",
+    "series": "TOS",
+    "role": "First officer and science officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Leonard McCoy",
+    "series": "TOS",
+    "role": "Chief medical officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Montgomery Scott",
+    "series": "TOS",
+    "role": "Chief engineer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Nyota Uhura",
+    "series": "TOS",
+    "role": "Communications officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Hikaru Sulu",
+    "series": "TOS",
+    "role": "Helmsman, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Pavel Chekov",
+    "series": "TOS",
+    "role": "Navigator and security officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Christine Chapel",
+    "series": "TOS",
+    "role": "Head nurse and medical staff, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Arex",
+    "series": "TAS",
+    "role": "Navigator, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "M'Ress",
+    "series": "TAS",
+    "role": "Communications officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Jean-Luc Picard",
+    "series": "TNG",
+    "role": "Commanding officer, USS Enterprise (NCC-1701-D)",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "William T. Riker",
+    "series": "TNG",
+    "role": "First officer, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Data",
+    "series": "TNG",
+    "role": "Operations officer and second officer, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Geordi La Forge",
+    "series": "TNG",
+    "role": "Chief engineer, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Worf",
+    "series": "TNG",
+    "role": "Tactical officer and chief of security, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Deanna Troi",
+    "series": "TNG",
+    "role": "Ship's counselor and bridge officer, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Beverly Crusher",
+    "series": "TNG",
+    "role": "Chief medical officer, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Tasha Yar",
+    "series": "TNG",
+    "role": "Chief of security, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Wesley Crusher",
+    "series": "TNG",
+    "role": "Acting ensign and flight control, USS Enterprise-D",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Benjamin Sisko",
+    "series": "DS9",
+    "role": "Commanding officer, Deep Space 9",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Kira Nerys",
+    "series": "DS9",
+    "role": "Bajoran liaison officer and first officer, Deep Space 9",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Jadzia Dax",
+    "series": "DS9",
+    "role": "Science officer, Deep Space 9",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Ezri Dax",
+    "series": "DS9",
+    "role": "Counselor, Deep Space 9",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Odo",
+    "series": "DS9",
+    "role": "Chief of security, Deep Space 9",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Julian Bashir",
+    "series": "DS9",
+    "role": "Chief medical officer, Deep Space 9",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Miles O'Brien",
+    "series": "DS9",
+    "role": "Chief of operations, Deep Space 9",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Quark",
+    "series": "DS9",
+    "role": "Civilian bar owner, key station figure",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Jake Sisko",
+    "series": "DS9",
+    "role": "Civilian journalist and Sisko's son",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Kathryn Janeway",
+    "series": "VOY",
+    "role": "Commanding officer, USS Voyager",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Chakotay",
+    "series": "VOY",
+    "role": "First officer, USS Voyager",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Tuvok",
+    "series": "VOY",
+    "role": "Chief of security and tactical officer, USS Voyager",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Tom Paris",
+    "series": "VOY",
+    "role": "Chief helmsman, USS Voyager",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Harry Kim",
+    "series": "VOY",
+    "role": "Operations officer, USS Voyager",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "B'Elanna Torres",
+    "series": "VOY",
+    "role": "Chief engineer, USS Voyager",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "The Doctor",
+    "series": "VOY",
+    "role": "Emergency medical hologram, chief medical officer",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Kes",
+    "series": "VOY",
+    "role": "Medical assistant and Ocampan crew member",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Seven of Nine",
+    "series": "VOY",
+    "role": "Astrometrics and systems specialist, former Borg",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Neelix",
+    "series": "VOY",
+    "role": "Morale officer and cook, USS Voyager",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Jonathan Archer",
+    "series": "ENT",
+    "role": "Commanding officer, Enterprise (NX-01)",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "T'Pol",
+    "series": "ENT",
+    "role": "Science officer and first officer, Enterprise NX-01",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Charles Tucker III",
+    "series": "ENT",
+    "role": "Chief engineer, Enterprise NX-01",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Malcolm Reed",
+    "series": "ENT",
+    "role": "Armory officer and tactical, Enterprise NX-01",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Travis Mayweather",
+    "series": "ENT",
+    "role": "Helmsman, Enterprise NX-01",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Hoshi Sato",
+    "series": "ENT",
+    "role": "Communications officer, Enterprise NX-01",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Phlox",
+    "series": "ENT",
+    "role": "Chief medical officer, Enterprise NX-01",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Michael Burnham",
+    "series": "DIS",
+    "role": "Science specialist and later commanding officer, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Saru",
+    "series": "DIS",
+    "role": "Science officer and later captain, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Gabriel Lorca",
+    "series": "DIS",
+    "role": "Commanding officer, USS Discovery (mirror counterpart)",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Christopher Pike",
+    "series": "DIS",
+    "role": "Interim commanding officer, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Paul Stamets",
+    "series": "DIS",
+    "role": "Astromycologist and spore drive specialist, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Sylvia Tilly",
+    "series": "DIS",
+    "role": "Operations officer and later instructor, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Hugh Culber",
+    "series": "DIS",
+    "role": "Chief medical officer, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Cleveland Booker",
+    "series": "DIS",
+    "role": "Kwejian courier and Discovery ally",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Keyla Detmer",
+    "series": "DIS",
+    "role": "Helmsman, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Joann Owosekun",
+    "series": "DIS",
+    "role": "Operations and bridge officer, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Adira Tal",
+    "series": "DIS",
+    "role": "Joined Trill and systems specialist, USS Discovery",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Jean-Luc Picard",
+    "series": "PIC",
+    "role": "Retired admiral and later commanding officer of various ships",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Raffi Musiker",
+    "series": "PIC",
+    "role": "Former Starfleet intelligence officer and Picard's ally",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Cristobal Rios",
+    "series": "PIC",
+    "role": "Captain of La Sirena",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Agnes Jurati",
+    "series": "PIC",
+    "role": "Cyberneticist and mission specialist",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Soji Asha",
+    "series": "PIC",
+    "role": "Synthetic ambassador and central figure of Season 1",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Elnor",
+    "series": "PIC",
+    "role": "Qowat Milat warrior and protector",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Seven of Nine",
+    "series": "PIC",
+    "role": "Fenris Ranger and later Starfleet officer",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "William T. Riker",
+    "series": "PIC",
+    "role": "Starfleet captain and Picard's longtime first officer",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Deanna Troi",
+    "series": "PIC",
+    "role": "Ship's counselor and Starfleet commander",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Geordi La Forge",
+    "series": "PIC",
+    "role": "Commodore and museum curator, former chief engineer",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Worf",
+    "series": "PIC",
+    "role": "Starfleet intelligence operative, former security chief",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Beverly Crusher",
+    "series": "PIC",
+    "role": "Doctor and independent medical operator",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Jack Crusher",
+    "series": "PIC",
+    "role": "Picard and Beverly's son, Starfleet officer",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Sidney La Forge",
+    "series": "PIC",
+    "role": "Helm officer and Geordi's daughter",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Alandra La Forge",
+    "series": "PIC",
+    "role": "Engineer and Geordi's daughter",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Christopher Pike",
+    "series": "SNW",
+    "role": "Commanding officer, USS Enterprise (NCC-1701)",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Una Chin-Riley",
+    "series": "SNW",
+    "role": "First officer and Number One, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Spock",
+    "series": "SNW",
+    "role": "Science officer and bridge officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "La'an Noonien-Singh",
+    "series": "SNW",
+    "role": "Chief of security, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Erica Ortegas",
+    "series": "SNW",
+    "role": "Helmsman, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Nyota Uhura",
+    "series": "SNW",
+    "role": "Communications officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Joseph M'Benga",
+    "series": "SNW",
+    "role": "Chief medical officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Christine Chapel",
+    "series": "SNW",
+    "role": "Nurse and medical officer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Hemmer",
+    "series": "SNW",
+    "role": "Chief engineer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Pelia",
+    "series": "SNW",
+    "role": "Chief engineer, USS Enterprise",
+    "category": "bridge-crew"
+  },
+  {
+    "name": "Sam Kirk",
+    "series": "SNW",
+    "role": "Life sciences officer, USS Enterprise",
+    "category": "bridge-crew"
+  }
+]
