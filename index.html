@@ -1031,6 +1031,7 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
       const searchResultsSection = document.getElementById("search-results-section");
       const episodesSection = document.getElementById("episodes-section");
       const detailsSection = document.getElementById("details-section");
+      const bioLinkSection = document.getElementById("bio-link-section");
       const brandSub = document.getElementById("brand-sub");
       const brandNav = document.getElementById("brand-nav");
       const backEpisodes = document.getElementById("detail-back-episodes");
@@ -1050,6 +1051,9 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
       }
       if (detailsSection) {
         detailsSection.classList.toggle("hidden", page !== "details");
+      }
+      if (bioLinkSection) {
+        bioLinkSection.classList.toggle("hidden", page !== "series");
       }
 
       if (brandSub) {
