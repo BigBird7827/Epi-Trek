@@ -1585,20 +1585,32 @@ function groupEpisodesBySeries(episodes) {
         text.textContent = summaryText;
         summary.appendChild(text);
       }
-      if (storyStack) {
-        storyStack.innerHTML = "";
-        (ep.StorySections || []).forEach(section => {
-          const card = document.createElement("article");
-          card.className = "story-card";
-          const h = document.createElement("h3");
-          h.textContent = section.Header;
-          const p = document.createElement("p");
-          p.textContent = section.Text;
-          card.appendChild(h);
-          card.appendChild(p);
-          storyStack.appendChild(card);
-        });
-      }
+      
+        if (storyStack) {
+          storyStack.innerHTML = "";
+
+          let storySections = ep.StorySections || [];
+
+          if (!Array.isArray(storySections) && storySections && typeof storySections === "object") {
+            const order = ["Teaser", "Act I", "Act II", "Act III", "Act IV", "Tag"];
+            storySections = order
+              .filter(key => storySections[key])
+              .map(key => ({ Header: key, Text: storySections[key] }));
+          }
+
+          storySections.forEach(section => {
+            const card = document.createElement("article");
+            card.className = "story-card";
+            const h = document.createElement("h3");
+            h.textContent = section.Header;
+            const p = document.createElement("p");
+            p.textContent = section.Text;
+            card.appendChild(h);
+            card.appendChild(p);
+            storyStack.appendChild(card);
+          });
+        }
+
       if (chipKey) {
         chipKey.innerHTML = "";
         (ep.KeyCharacters || []).forEach(name => {
