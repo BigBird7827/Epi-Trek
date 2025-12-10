@@ -484,6 +484,13 @@
       padding: 4px 2px 6px;
       scrollbar-width: thin;
     }
+
+
+    #reviews-grid {
+      max-height: 330px;
+    }
+
+
     .episode-card {
       position: relative;
       flex-shrink: 0;
@@ -552,7 +559,112 @@
       font-size: 11px;
       color: var(--text-soft);
     }
-    .console {
+    
+    
+    
+        .review-card {
+      position: relative;
+      flex: 0 1 18%;
+      max-
+      padding: 10px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, #050814, #0b1024);
+      border: 2px solid #fbd77a;
+      box-shadow:
+        0 10px 24px rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      transition:
+        transform 0.16s,
+        box-shadow 0.16s,
+        border-color 0.16s;
+    }
+    .review-card::after {
+      content: "";
+      display: none;
+    }
+    .review-card:hover {
+      transform: translateY(-3px) scale(1.015);
+      box-shadow:
+        0 14px 30px rgba(0, 0, 0, 0.95);
+      border-color: #ffe9a5;
+    }
+
+    
+    .review-card-inner {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-height: 72px;
+      text-align: left;
+      align-items: flex-start;
+      padding: 1.6rem 1.1rem 1.0rem 2.5rem;
+      border-radius: 18px;
+      background: radial-gradient(circle at 110% -10%, rgba(255,255,255,0.18), transparent 55%), #050814;
+      box-shadow:
+        0 0 0 1px #b8911f,
+        0 12px 22px rgba(0,0,0,0.8),
+        inset 0 1px 0 rgba(255,255,255,0.24);
+      width: calc(100% - 10px);
+      margin: 0 auto;
+    }
+.review-card-inner::before {
+      content: "";
+      position: absolute;
+      left: 0.8rem;
+      top: 0.7rem;
+      bottom: 0.7rem;
+      width: 11px;
+      border-radius: 999px;
+      background: linear-gradient(
+        to bottom,
+        #ff9b1a 0%,
+        #ff9b1a 32%,
+        #ff6ec7 32%,
+        #ff6ec7 60%,
+        #6ec1ff 60%,
+        #6ec1ff 100%
+      );
+    }
+    .review-card-inner::after {
+      content: "";
+      position: absolute;
+      left: 2.3rem;
+      right: 1.0rem;
+      top: 0.7rem;
+      height: 8px;
+      border-radius: 999px;
+      background: #ff9b1a;
+    }
+    .revie    .review-card-inner::before {
+      content: "";
+      display: none;
+    }
+    .review-card-inner::after {
+      content: "";
+      display: none;
+    }
+    
+    em;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      color: #ffd67f;
+      text-transform: uppercase;
+      -webkit-text-stroke: 0.4px #000000;
+      text-shadow:
+        0 0 1px #000000,
+        0 0 2px rgba(0,0,0,0.7);
+    }
+    .review-card-meta {
+      font-size: 0.78rem;
+      color: #e0f3ff;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+.console {
       flex: 1;
       padding: 10px 18px 16px;
       display: grid;
@@ -878,6 +990,7 @@
         <div class="brand-sub" id="brand-sub">Select a series, skim the episode deck, then dive into story beats, characters, ethics, continuity, and themes.</div>
         <div class="brand-nav" id="brand-nav">
           <button id="detail-back-episodes" type="button" class="back-link console-back-link">← Back to episodes</button>
+          <button id="detail-back-reviews" type="button" class="back-link console-back-link">← Back to focus reviews</button>
           <button id="detail-back-series" type="button" class="back-link console-back-link">← Back to series</button>
         </div>
       </div>
@@ -905,10 +1018,10 @@
       <div class="search-body">
         <input id="search-input" type="text" class="search-input" placeholder="Search by series (TNG), title (The Man Trap), or ID (toss1e1)…" autocomplete="off">
         <div id="search-help" class="search-help">Type at least 2 characters to see matching series and episodes.</div>
+        
         <div id="search-results" class="search-results"></div>
       </div>
-        </section>
-    <section id="bio-link-section" class="strip">
+        </section>    <section id="bio-link-section" class="strip">
       <div class="bio-link-body">
         <button id="go-to-bio-page" type="button" class="bio-link-button" onclick="window.open('https://bigbird7827.github.io/Bio-Trek/', '_blank', 'noopener')">Biography Console</button>
       </div>
@@ -923,6 +1036,19 @@
       </div>
       <div id="episodes-strip" class="episodes-strip">
         <div class="placeholder">Select a season to view episodes.</div>
+      </div>
+    </section>
+
+
+    
+
+    <section id="reviews-section" class="strip hidden">
+      <div class="strip-label-row">
+        <div class="strip-label-main">Character focus reviews</div>
+        <div id="reviews-panel-subtitle" class="strip-label-sub">Select a focus review to open in-depth analysis.</div>
+      </div>
+      <div id="reviews-grid" class="episodes-strip">
+        <div class="placeholder">No focus reviews are available yet.</div>
       </div>
     </section>
 
@@ -999,13 +1125,17 @@
     const SUMMARY_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
     const BIO_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
 
+    const REVIEW_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Review-Episodes.json";
+
     let allEpisodes = [];
     let episodesBySeries = {};
     let currentSeries = null;
     let currentSeason = null;
     let currentEpisodeID = null;
     let currentEpisodeDetail = null;
+    let currentDetailKind = "episode";
     let summariesById = {};
+    let focusReviews = [];
 
     let searchIndex = [];
 
@@ -1031,10 +1161,12 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
       const searchResultsSection = document.getElementById("search-results-section");
       const episodesSection = document.getElementById("episodes-section");
       const detailsSection = document.getElementById("details-section");
+      const reviewsSection = document.getElementById("reviews-section");
       const bioLinkSection = document.getElementById("bio-link-section");
       const brandSub = document.getElementById("brand-sub");
       const brandNav = document.getElementById("brand-nav");
       const backEpisodes = document.getElementById("detail-back-episodes");
+      const backReviews = document.getElementById("detail-back-reviews");
       const backSeries = document.getElementById("detail-back-series");
 
       if (seriesSection) {
@@ -1048,6 +1180,9 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
       }
       if (episodesSection) {
         episodesSection.classList.toggle("hidden", page !== "episodes");
+      }
+      if (reviewsSection) {
+        reviewsSection.classList.toggle("hidden", page !== "reviews");
       }
       if (detailsSection) {
         detailsSection.classList.toggle("hidden", page !== "details");
@@ -1067,13 +1202,20 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
       if (brandNav && backEpisodes && backSeries) {
         if (page === "series") {
           brandNav.style.display = "none";
-        } else if (page === "episodes") {
+        } else if (page === "episodes" || page === "reviews") {
           brandNav.style.display = "flex";
-          backEpisodes.style.display = "none";
+          backEpisodes.style.display = page === "episodes" ? "inline-flex" : "none";
+          if (backReviews) backReviews.style.display = "none";
           backSeries.style.display = "inline-flex";
         } else if (page === "details") {
           brandNav.style.display = "flex";
-          backEpisodes.style.display = "inline-flex";
+          if (typeof currentDetailKind !== "undefined" && currentDetailKind === "review") {
+            backEpisodes.style.display = "none";
+            if (backReviews) backReviews.style.display = "inline-flex";
+          } else {
+            backEpisodes.style.display = "inline-flex";
+            if (backReviews) backReviews.style.display = "none";
+          }
           backSeries.style.display = "inline-flex";
         }
       }
@@ -1107,6 +1249,16 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
           label: normalizeSeriesCode(ep.Series || "") + " S" + ep.Season + "E" + ep.Episode + " – " + (ep.Title || "")
         });
       });
+      (focusReviews || []).forEach(r => {
+        index.push({
+          type: "review",
+          key: r.FocusKey || "",
+          character: r.Character || "",
+          series: normalizeSeriesCode(r.Series || ""),
+          episodeTitle: r.EpisodeTitle || "",
+          label: "[Review] " + (r.Character || "") + " – " + (r.EpisodeTitle || "")
+        });
+      });
       searchIndex = index;
     }
 
@@ -1131,9 +1283,12 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
         if (item.type === "series") {
           main.textContent = item.label;
           meta.textContent = "Jump to " + item.series + " episode list";
-        } else {
+        } else if (item.type === "episode") {
           main.textContent = item.label;
           meta.textContent = "Open episode details";
+        } else if (item.type === "review") {
+          main.textContent = item.label;
+          meta.textContent = "Open focus review";
         }
 
         div.appendChild(main);
@@ -1148,6 +1303,10 @@ const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive int
             }
             if (item.id) {
               selectEpisode(item.id);
+            }
+          } else if (item.type === "review") {
+            if (item.key) {
+              selectReview(item.key);
             }
           }
         });
@@ -1218,6 +1377,15 @@ function groupEpisodesBySeries(episodes) {
         });
         container.appendChild(btn);
       });
+
+      const reviewBtn = document.createElement("button");
+      reviewBtn.type = "button";
+      reviewBtn.className = "series-chip";
+      reviewBtn.innerHTML = "Focus Reviews<span>Reviews</span>";
+      reviewBtn.addEventListener("click", () => {
+        showPage("reviews");
+      });
+      container.appendChild(reviewBtn);
     }
 
     function renderSeriesStrip() {
@@ -1243,6 +1411,13 @@ function groupEpisodesBySeries(episodes) {
         chip.addEventListener("click", () => selectSeries(key));
         container.appendChild(chip);
       });
+
+      const reviewChip = document.createElement("button");
+      reviewChip.className = "series-chip";
+      reviewChip.textContent = "Focus Reviews";
+      reviewChip.addEventListener("click", () => showPage("reviews"));
+      container.appendChild(reviewChip);
+
       if (status) {
         status.textContent = "Loaded " + keys.length + " series. Select one to begin.";
       }
@@ -1499,6 +1674,7 @@ function groupEpisodesBySeries(episodes) {
 
     function selectEpisode(id) {
       currentEpisodeID = id;
+      currentDetailKind = "episode";
       const seriesEpisodes = episodesBySeries[currentSeries] || [];
       const episode = seriesEpisodes.find(e => e.ID === id);
       if (!episode) {
@@ -1703,6 +1879,142 @@ function groupEpisodesBySeries(episodes) {
 
     }
 
+    function selectReview(focusKey) {
+      if (!focusKey || !Array.isArray(focusReviews) || !focusReviews.length) {
+        return;
+      }
+      const review = focusReviews.find(r => r.FocusKey === focusKey);
+      if (!review) {
+        return;
+      }
+      currentDetailKind = "review";
+      renderReviewDetail(review);
+      showPage("details");
+    }
+
+    function renderReviewDetail(review) {
+      currentEpisodeDetail = null;
+
+      const consoleTitle = document.getElementById("console-title");
+      const consoleSub = document.getElementById("console-sub");
+      const metaRow = document.getElementById("episode-meta-row");
+      const summary = document.getElementById("episode-summary");
+      const storyStack = document.getElementById("episode-story");
+      const chipKey = document.getElementById("chip-key");
+      const chipGuest = document.getElementById("chip-guest");
+      const chipAnt = document.getElementById("chip-ant");
+      const ethicalBlock = document.getElementById("ethical-block");
+      const ethicalList = document.getElementById("ethical-list");
+      const notesBlock = document.getElementById("notes-block");
+
+      if (consoleTitle) {
+        consoleTitle.textContent = (review.Character || "") + " • Focus Review";
+      }
+      if (consoleSub) {
+        consoleSub.textContent = review.EpisodeTitle || "";
+      }
+
+      if (metaRow) {
+        metaRow.innerHTML = "";
+        const addMeta = (label, value) => {
+          if (!value) {
+            return;
+          }
+          const chip = document.createElement("div");
+          chip.className = "meta-chip";
+          const spanLabel = document.createElement("span");
+          spanLabel.className = "meta-label";
+          spanLabel.textContent = label;
+          const spanValue = document.createElement("span");
+          spanValue.className = "meta-value";
+          spanValue.textContent = value;
+          chip.appendChild(spanLabel);
+          chip.appendChild(spanValue);
+          metaRow.appendChild(chip);
+        };
+        addMeta("Series", normalizeSeriesCode(review.Series || ""));
+        addMeta("Character", review.Character || "");
+        addMeta("Episode", review.EpisodeTitle || "");
+      }
+
+      if (summary) {
+        const r = review.Review || {};
+        summary.textContent = r.Overview || "";
+      }
+
+      if (storyStack) {
+        storyStack.innerHTML = "";
+        const r = review.Review || {};
+        const addSection = (title, text) => {
+          if (!text) {
+            return;
+          }
+          const card = document.createElement("article");
+          card.className = "story-card";
+          const h = document.createElement("div");
+          h.className = "story-card-header";
+          h.textContent = title;
+          const body = document.createElement("div");
+          body.className = "story-card-body";
+          body.textContent = text;
+          card.appendChild(h);
+          card.appendChild(body);
+          storyStack.appendChild(card);
+        };
+        addSection("Character Context", r.CharacterContext || "");
+        addSection("Character Arc", r.CharacterArc || "");
+        addSection("Key Scenes", r.KeyScenesForCharacter || "");
+      }
+
+      if (chipKey) {
+        chipKey.innerHTML = "";
+      }
+      if (chipGuest) {
+        chipGuest.innerHTML = "";
+      }
+      if (chipAnt) {
+        chipAnt.innerHTML = "";
+      }
+
+      if (ethicalBlock && ethicalList) {
+        ethicalList.innerHTML = "";
+        const r = review.Review || {};
+        const text = r.EthicalIssues || "";
+        if (!text) {
+          ethicalBlock.style.display = "none";
+        } else {
+          ethicalBlock.style.display = "block";
+          const li = document.createElement("li");
+          li.textContent = text;
+          ethicalList.appendChild(li);
+        }
+      }
+
+      if (notesBlock) {
+        notesBlock.innerHTML = "";
+        const r = review.Review || {};
+        const addNotesBlock = (title, text) => {
+          if (!text) {
+            return;
+          }
+          const label = document.createElement("div");
+          label.className = "block-label block-label-accent";
+          label.textContent = title;
+          notesBlock.appendChild(label);
+          const card = document.createElement("article");
+          card.className = "note-card";
+          const p = document.createElement("p");
+          p.textContent = text;
+          card.appendChild(p);
+          notesBlock.appendChild(card);
+        };
+        addNotesBlock("Themes", r.Themes || "");
+        addNotesBlock("Continuity", r.Continuity || "");
+        addNotesBlock("Behind the Scenes", r.ProductionNotes || "");
+      }
+    }
+
+
     function showEpisodesError(message) {
       const subtitle = document.getElementById("episodes-panel-subtitle");
       if (subtitle) {
@@ -1775,7 +2087,95 @@ function groupEpisodesBySeries(episodes) {
           showEpisodesError(err.message);
         });
     }
-    function fetchSummaries() {
+
+    
+    
+    
+    
+function renderReviewGrid() {
+      const container = document.getElementById("reviews-grid");
+      if (!container) return;
+      container.innerHTML = "";
+      if (!focusReviews || !focusReviews.length) {
+        const div = document.createElement("div");
+        div.className = "placeholder";
+        div.textContent = "No focus reviews are available yet.";
+        container.appendChild(div);
+        return;
+      }
+      focusReviews.forEach(review => {
+        const card = document.createElement("div");
+        card.className = "review-card";
+        card.dataset.series = review.Series || "";
+        card.dataset.character = review.Character || "";
+
+        const inner = document.createElement("div");
+        inner.className = "review-card-inner";
+
+        const header = document.createElement("div");
+        header.className = "review-card-header";
+
+        const character = document.createElement("div");
+        character.className = "review-card-character";
+        character.textContent = review.Character || "";
+
+        const series = document.createElement("div");
+        series.className = "review-card-series";
+        series.textContent = review.Series || "";
+
+        header.appendChild(character);
+        header.appendChild(series);
+
+        const title = document.createElement("div");
+        title.className = "review-card-episode";
+        title.textContent = review.EpisodeTitle || "";
+
+        const meta = document.createElement("div");
+        meta.className = "review-card-meta";
+        meta.textContent = "Character focus review";
+
+        inner.appendChild(header);
+        inner.appendChild(title);
+        inner.appendChild(meta);
+        card.appendChild(inner);
+
+        card.addEventListener("click", () => {
+          if (review.FocusKey) {
+            selectReview(review.FocusKey);
+          }
+        });
+
+        container.appendChild(card);
+      });
+    }
+
+function fetchReviews() {
+      return fetch(REVIEW_URL)
+        .then(resp => {
+          if (!resp.ok) {
+            console.error("Failed to fetch reviews:", resp.status);
+            return [];
+          }
+          return resp.json();
+        })
+        .then(data => {
+          if (Array.isArray(data)) {
+            focusReviews = data;
+          } else {
+            focusReviews = [];
+          }
+          buildSearchIndex();
+          renderReviewGrid();
+        })
+        .catch(err => {
+          console.error("Error loading reviews:", err);
+          focusReviews = [];
+        });
+    }
+
+
+    
+function fetchSummaries() {
       return fetch(SUMMARY_URL)
         .then(resp => {
           if (!resp.ok) {
@@ -1906,6 +2306,7 @@ function init() {
       fetchEpisodes();
       fetchBios();
       fetchSummaries();
+      fetchReviews();
       showPage("series");
 
       const backBtn = document.getElementById("back-to-series");
@@ -1924,6 +2325,14 @@ function init() {
           } else {
             showPage("series");
           }
+        });
+      }
+
+      const detailBackReviews = document.getElementById("detail-back-reviews");
+      if (detailBackReviews) {
+        detailBackReviews.addEventListener("click", () => {
+          currentDetailKind = "review";
+          showPage("reviews");
         });
       }
 
