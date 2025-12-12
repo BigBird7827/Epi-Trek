@@ -1,35 +1,28 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Star Trek Episode Companion - Episode-Build 13</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bio-Trek</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<style>
     :root {
       --bg: #02030a;
       --bg-alt: #050818;
       --bg-panel: #0b1024;
       --bg-panel-soft: #101632;
       --accent-gold: #f8c66a;
-      --accent-gold-soft: rgba(248,198,106,0.2);
       --accent-blue: #64d3ff;
-      --accent-blue-soft: rgba(100,211,255,0.18);
-      --accent-rose: #ff7b9c;
-      --rail-a: #f2975c;
-      --rail-b: #f4d96d;
-      --rail-c: #8fd3ff;
       --border-soft: #2a3556;
-      --border-strong: #475483;
       --text-main: #f7f8ff;
       --text-muted: #b3bee4;
       --text-soft: #8c94b7;
     }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
     body {
+      margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
         radial-gradient(circle at -10% 0%, rgba(255,123,156,0.28), transparent 55%),
@@ -38,15 +31,15 @@
       color: var(--text-main);
       min-height: 100vh;
       display: flex;
+      align-items: center;
       justify-content: center;
-      align-items: stretch;
-      padding: 18px 12px;
-      font-size: 16px;
+      padding: 10px;
+      box-sizing: border-box;
     }
     .shell {
-      max-width: 1240px;
+      max-width: 1400px;
       width: 100%;
-      min-height: 640px;
+      min-height: 600px;
       background:
         radial-gradient(circle at 0% 0%, rgba(100,211,255,0.16), transparent 60%),
         radial-gradient(circle at 100% 100%, rgba(242,151,92,0.2), transparent 60%),
@@ -54,27 +47,20 @@
       border-radius: 26px;
       border: 2px solid rgba(112,138,235,0.85);
       box-shadow:
-        0 26px 75px rgba(0,0,0,0.95),
-        0 0 0 1px rgba(7,9,22,0.95),
-        0 0 60px rgba(100,211,255,0.3),
-        0 0 80px rgba(242,151,92,0.4);
+        0 24px 80px rgba(0,0,0,0.96),
+        0 0 0 1px rgba(0,0,0,0.85);
+      overflow: hidden;
       display: flex;
       flex-direction: column;
-      overflow: hidden;
     }
     .shell-header {
       display: grid;
       grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);
       gap: 18px;
-      padding: 14px 18px 10px;
+      padding: 10px 18px 6px;
       border-bottom: 1px solid rgba(71,84,135,0.85);
       background:
         linear-gradient(180deg, rgba(10,14,39,0.96), rgba(6,8,24,0.96));
-    }
-    @media (max-width: 900px) {
-      .shell-header {
-        grid-template-columns: minmax(0, 1fr);
-      }
     }
     .brand-block {
       display: flex;
@@ -86,38 +72,43 @@
       align-items: center;
       gap: 10px;
     }
-    .brand-pill {
-      padding: 4px 13px;
+    .brand-dot {
+      width: 14px;
+      height: 14px;
       border-radius: 999px;
       background:
-        radial-gradient(circle at 10% 0%, rgba(248,198,106,0.3), #151a3a);
-      border: 1px solid rgba(166,141,255,0.9);
-      font-size: 11px;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--text-muted);
+        radial-gradient(circle at 30% 20%, #ffffff, transparent 55%),
+        radial-gradient(circle at 70% 80%, #f8c66a, transparent 60%);
       box-shadow:
-        0 0 0 1px rgba(7,9,27,0.96),
-        0 0 16px rgba(248,198,106,0.75);
+        0 0 16px rgba(248,198,106,0.8),
+        0 0 4px rgba(0,0,0,0.9);
+      border: 1px solid rgba(255,255,255,0.5);
     }
-    .brand-dot {
-      width: 18px;
-      height: 18px;
-      border-radius: 12px;
+    .brand-pill {
+      padding: 3px 12px 5px;
+      border-radius: 999px;
+      border: 1px solid rgba(248,198,106,0.7);
       background:
-        conic-gradient(from 0deg, #f2975c, #f4d96d, #8fd3ff, #ff7b9c, #f2975c);
-      box-shadow:
-        0 0 18px rgba(242,151,92,1),
-        0 0 28px rgba(100,211,255,0.85);
+        radial-gradient(circle at 0% 0%, rgba(255,255,255,0.35), transparent 55%),
+        linear-gradient(135deg, #21140a, #543216);
+      font-family: "Orbitron", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      text-shadow:
+        0 0 2px rgba(0,0,0,0.9),
+        0 0 12px rgba(0,0,0,0.9);
+      white-space: nowrap;
     }
     .brand-caption {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: var(--accent-blue);
+      font-size: 13px;
+      color: var(--text-soft);
     }
     .brand-title {
-      font-size: 24px;
+      margin-top: 2px;
+      font-family: "Orbitron", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 26px;
       letter-spacing: 0.22em;
       text-transform: uppercase;
       color: var(--accent-gold);
@@ -126,451 +117,165 @@
         0 0 12px rgba(0,0,0,0.9);
     }
     .brand-sub {
-      font-size: 17px;
+      font-size: 15px;
       color: #f5f5fa;
+      max-width: 640px;
     }
     .brand-nav {
       margin-top: 6px;
       display: flex;
       gap: 10px;
       align-items: center;
+      flex-wrap: wrap;
     }
-
+    .back-link {
+      padding: 4px 10px 5px;
+      border-radius: 999px;
+      border: 1px solid var(--border-soft);
+      background-color: rgba(3,6,25,0.96);
+      color: var(--text-soft);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .back-link:hover {
+      border-color: var(--accent-gold);
+      color: var(--accent-gold);
+    }
     .brand-image-wrap {
       justify-self: end;
       align-self: center;
     }
-    .brand-image-wrap img {
+    .brand-image {
       max-width: 260px;
       height: auto;
       display: block;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.16);
+      box-shadow:
+        0 18px 40px rgba(0,0,0,0.9),
+        0 0 0 1px rgba(0,0,0,0.9);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(255,255,255,0.4), transparent 60%),
+        linear-gradient(135deg, #050816, #040312);
     }
-
-    .data-block {
+    main {
+      flex: 1;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      gap: 4px;
-      font-size: 12px;
-      color: var(--text-soft);
-      text-align: right;
-    }
-    
-    
-    .data-block a {
-      color: var(--accent-blue);
-      text-decoration: none;
-    }
-    .data-block a:hover {
-      text-decoration: underline;
-    }
-    .data-label {
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      font-size: 11px;
-      color: var(--text-muted);
-    }
-    .strip {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      padding: 10px 18px 10px;
       background:
         linear-gradient(180deg, rgba(10,14,38,0.96), rgba(6,9,30,0.96));
-      border-bottom: 1px solid rgba(65,79,131,0.9);
     }
-    .strip-label-row {
+    .view {
+      display: none;
+      flex: 1;
+      padding: 6px 18px 8px;
+      box-sizing: border-box;
+      overflow: auto;
+    }
+    .view.active {
+      display: block;
+    }
+    .view-header-row {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      gap: 12px;
+      gap: 10px;
+      margin-bottom: 8px;
     }
-    .strip-label-main {
+    .view-label-main {
       font-size: 12px;
       text-transform: uppercase;
       letter-spacing: 0.22em;
       color: var(--text-muted);
     }
-    .strip-label-sub {
+    .view-label-sub {
       font-size: 12px;
       color: var(--text-soft);
     }
-    .back-link {
-      background: none;
-      border: none;
-      padding: 0;
-      margin-right: 10px;
-      font-size: 12px;
-      color: var(--accent-blue);
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .back-link:hover {
-      text-decoration: underline;
-    }
-    .console-nav {
-      margin-top: 6px;
+    .view-actions {
       display: flex;
       gap: 8px;
-      font-size: 12px;
-    }
-    .console-back-link {
-      font-size: 12pt;
-      font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: #f8c66a;
-      border: 1px solid rgba(255,255,255,0.85);
-      border-radius: 999px;
-      padding: 3px 12px 4px;
-      background: transparent;
-    }
-    .console-back-link:hover {
-      background: rgba(248,198,106,0.15);
-    }
-
-
-
-    .series-strip {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
       align-items: center;
-      gap: 12px 16px;
-      padding: 10px 0 16px;
     }
-    .series-info-body {
-      margin-top: 8px;
-      font-size: 12pt;
-      color: #ffffff;
-      line-height: 1.5;
-      max-width: 960px;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    #series-info .strip-label-main {
-      font-size: 14pt;
-      color: #f8c66a;
-      text-align: center;
-    }
-    #series-info .strip-label-sub {
-      font-size: 12pt;
-      color: #ffffff;
-      text-align: center;
-    }
-    .search-body {
-      margin-top: 8px;
-      max-width: 960px;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-    }
-    .search-input {
-      width: 100%;
-      max-width: 520px;
-      padding: 8px 12px;
+    .btn-ghost {
+      padding: 4px 10px 5px;
       border-radius: 999px;
-      border: 1px solid rgba(248,198,106,0.8);
-      background: rgba(8,8,24,0.9);
-      color: var(--text-main);
-      font-size: 13px;
-    }
-    .search-input:focus {
-      outline: none;
-      box-shadow: 0 0 0 1px rgba(248,198,106,0.9), 0 0 16px rgba(248,198,106,0.85);
-    }
-    .search-help {
-      margin-top: 6px;
-      font-size: 12px;
+      border: 1px solid var(--border-soft);
+      background-color: rgba(3,6,25,0.96);
       color: var(--text-soft);
-    }
-    
-    
-    .bio-link-body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 80px;
-    }
-    .bio-link-button {
-      padding: 9px 22px 11px;
-      border-radius: 999px;
-      border: 1px solid rgba(93,107,180,0.95);
-      background:
-        radial-gradient(circle at 10% 0%, rgba(255,255,255,0.18), transparent 55%),
-        linear-gradient(145deg, #181f35, #0b1023);
-      color: #f5f7ff;
-      font-size: 12px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      cursor: pointer;
-      box-shadow:
-        0 4px 12px rgba(0,0,0,0.9),
-        0 0 18px rgba(100,211,255,0.6);
-    }
-    .bio-link-body .bio-link-button + .bio-link-button {
-      margin-left: 20px;
-    }
-
-    .bio-link-button:hover {
-      background:
-        radial-gradient(circle at 10% 0%, rgba(255,255,255,0.26), transparent 55%),
-        linear-gradient(145deg, #222b47, #0f172f);
-    }
-
-.search-results {
-      margin-top: 8px;
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 8px;
-      align-items: stretch;
-    }
-    .search-result-item {
-      width: 100%;
-      max-width: none;
-      padding: 6px 10px;
-      border-radius: 8px;
-      background: rgba(8,8,24,0.85);
-      border: 1px solid rgba(248,198,106,0.5);
-      color: var(--text-main);
-      font-size: 12px;
-      text-align: left;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      gap: 8px;
-    }
-    .search-result-main {
-      font-weight: 600;
-    }
-    .search-result-meta {
       font-size: 11px;
-      color: var(--text-soft);
-      white-space: nowrap;
-    }
-
-
-
-    .series-chip {
-      position: relative;
-      flex-shrink: 0;
-      min-width: 130px;
-      padding: 9px 22px 11px;
-      border-radius: 999px;
-      background:
-        radial-gradient(circle at 10% 0%, rgba(255,255,255,0.22), transparent 60%),
-        linear-gradient(145deg, #fff4c7, #f0c664 40%, #9b6518 100%);
-      border: 1px solid rgba(28,18,4,0.96);
-      color: #1f1204;
-      font-size: 14px;
-      font-weight: 700;
-      letter-spacing: 0.22em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       cursor: pointer;
-      box-shadow:
-        0 4px 14px rgba(0,0,0,0.9),
-        0 0 0 1px rgba(0,0,0,0.9),
-        0 0 24px rgba(248,198,106,0.9),
-        inset 0 0 0 1px rgba(255,255,255,0.45),
-        inset 0 16px 26px rgba(255,255,255,0.18);
-      transition:
-        transform 0.1s ease,
-        box-shadow 0.1s ease,
-        border-color 0.1s ease,
-        background 0.12s ease,
-        filter 0.12s ease;
-      text-align: center;
-      backdrop-filter: blur(2px);
     }
-    .series-chip span {
-      display: block;
-      font-size: 10px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--text-soft);
-      margin-top: 2px;
-    }
-    .series-chip::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border-radius: inherit;
-      background:
-        linear-gradient(120deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.18) 18%, transparent 40%),
-        radial-gradient(circle at 0 0, rgba(100,211,255,0.35), transparent 60%);
-      opacity: 0;
-      transform: translateX(-40%);
-      transition: opacity 0.12s ease, transform 0.25s ease;
-      pointer-events: none;
-      mix-blend-mode: screen;
-    }
-    .series-chip:hover::before {
-      opacity: 1;
-      transform: translateX(10%);
-    }
-    .series-chip:hover {
-      transform: translateY(-3px) scale(1.02);
-      border-color: rgba(255,255,255,0.95);
-      box-shadow:
-        0 8px 22px rgba(0,0,0,0.98),
-        0 0 30px rgba(248,198,106,1);
-      filter: saturate(1.08);
-    }
-    .series-chip.active {
-      background:
-        radial-gradient(circle at 16% 0%, rgba(255,255,255,0.3), transparent 55%),
-        linear-gradient(145deg, #fff7cf, #f3cb6a 40%, #af7420 100%);
-      border-color: rgba(255,255,255,0.95);
-      color: #140b03;
-      box-shadow:
-        0 5px 20px rgba(0,0,0,0.98),
-        0 0 32px rgba(248,198,106,1),
-        inset 0 0 0 1px rgba(255,255,255,0.65);
-    }
-
-    .series-chip.active span {
-      color: #251021;
-    }
-    
-    .season-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      padding: 4px 2px 4px;
-      margin-bottom: 4px;
-      min-height: 40px;
-    }
-    .season-chip {
-      position: relative;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 4px 12px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.2);
-      background: #76a5af;
-      color: #140b03;
-      box-shadow:
-        0 3px 10px rgba(0,0,0,0.9),
-        0 0 12px rgba(109,128,214,0.6);
-      font-size: 13px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
-    }
-    .season-chip:hover {
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.7);
-      box-shadow:
-        0 6px 18px rgba(0,0,0,0.95),
-        0 0 18px rgba(139,158,234,0.9);
-    }
-    .season-chip.active {
-      background:
-        radial-gradient(circle at 16% 0%, rgba(255,255,255,0.3), transparent 55%),
-        linear-gradient(145deg, #fff7cf, #f3cb6a 40%, #af7420 100%);
-      border-color: rgba(255,255,255,0.95);
-      color: #140b03;
-      box-shadow:
-        0 5px 20px rgba(0,0,0,0.98),
-        0 0 32px rgba(248,198,106,1),
-        inset 0 0 0 1px rgba(255,255,255,0.65);
-    }
-    .season-chip.active span {
-      color: #251021;
-    }
-    .episodes-strip {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 10px;
-      max-height: 280px;
-      overflow-y: auto;
-      padding: 4px 2px 6px;
-      scrollbar-width: thin;
-    }
-
-
-    #reviews-grid {
-      max-height: 330px;
-    }
-
-
-    .episode-card {
-      position: relative;
-      flex-shrink: 0;
-      min-width: 220px;
-      max-width: 320px;
-      padding: 9px 11px;
-      border-radius: 18px;
-      background:
-        linear-gradient(135deg, #101633, #060b20);
-      border: 1px solid rgba(109,128,214,0.95);
-      cursor: pointer;
-      box-shadow:
-        0 3px 12px rgba(0,0,0,0.95),
-        0 0 18px rgba(109,128,214,0.6);
-      transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease, background 0.08s ease;
-      font-size: 14px;
-    }
-    .episode-card::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border-radius: inherit;
-      background: radial-gradient(circle at 0 0, rgba(100,211,255,0.26), transparent 65%);
-      opacity: 0;
-      transition: opacity 0.08s ease;
-    }
-    .episode-card:hover::before {
-      opacity: 1;
-    }
-    .episode-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(139,158,234,1);
-      box-shadow:
-        0 5px 18px rgba(0,0,0,0.98),
-        0 0 24px rgba(109,128,214,0.9);
-      background:
-        linear-gradient(135deg, #141c3d, #070e24);
-    }
-    .episode-card.active {
-      background:
-        radial-gradient(circle at 0 0, rgba(248,198,106,0.32), transparent 70%),
-        linear-gradient(135deg, #192143, #0b112a);
+    .btn-ghost:hover {
       border-color: var(--accent-gold);
-      box-shadow:
-        0 0 0 1px rgba(248,198,106,0.9),
-        0 0 26px rgba(248,198,106,0.95);
+      color: var(--accent-gold);
     }
-    .episode-line-1 {
-      font-size: 15px;
-      margin-bottom: 3px;
-    }
-    .episode-line-2 {
+    .character-grid {
       display: flex;
-      justify-content: space-between;
-      gap: 6px;
-      font-size: 11px;
-      color: var(--text-soft);
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-top: 4px;
     }
-    .episode-tag {
-      font-size: 11px;
+    .character-card {
+      position: relative;
+      flex: 0 1 calc(16.66% - 8px);
+      min-width: 150px;
+      max-width: 180px;
+      padding: 8px 9px 9px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #050814, #0b1024);
+      border: 2px solid #fbd77a;
+      box-shadow:
+        0 10px 24px rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      transition:
+        transform 0.16s,
+        box-shadow 0.16s,
+        border-color 0.16s,
+        background 0.16s;
+    }
+    .character-card:hover {
+      transform: translateY(-2px);
+      box-shadow:
+        0 18px 32px rgba(0,0,0,0.94),
+        0 0 24px rgba(248,198,106,0.75);
+      border-color: #ffe6a8;
+    }
+    .character-series {
+      font-size: 9px;
       text-transform: uppercase;
       letter-spacing: 0.16em;
       color: var(--accent-blue);
+      margin-bottom: 1px;
     }
-    .episode-meta {
-      font-size: 11px;
+    .character-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent-gold);
+      margin-bottom: 2px;
+    }
+    .character-meta {
+      font-size: 10px;
       color: var(--text-soft);
     }
-    
-    
-    
-        .review-card {
+    .relationship-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-top: 4px;
+    }
+    .relationship-card {
       position: relative;
-      flex: 0 1 18%;
-      max-
-      padding: 10px;
+      flex: 0 1 calc(25% - 10px);
+      min-width: 210px;
+      padding: 10px 11px 11px;
       border-radius: 22px;
       background: linear-gradient(135deg, #050814, #0b1024);
       border: 2px solid #fbd77a;
@@ -583,1779 +288,1660 @@
       transition:
         transform 0.16s,
         box-shadow 0.16s,
-        border-color 0.16s;
+        border-color 0.16s,
+        background 0.16s;
     }
-    .review-card::after {
-      content: "";
-      display: none;
-    }
-    .review-card:hover {
-      transform: translateY(-3px) scale(1.015);
+    .relationship-card:hover {
+      transform: translateY(-2px);
       box-shadow:
-        0 14px 30px rgba(0, 0, 0, 0.95);
-      border-color: #ffe9a5;
+        0 18px 32px rgba(0,0,0,0.94),
+        0 0 24px rgba(248,198,106,0.75);
+      border-color: #ffe6a8;
     }
-
-    
-    .review-card-inner {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      min-height: 72px;
-      text-align: left;
-      align-items: flex-start;
-      padding: 1.6rem 1.1rem 1.0rem 2.5rem;
-      border-radius: 18px;
-      background: radial-gradient(circle at 110% -10%, rgba(255,255,255,0.18), transparent 55%), #050814;
-      box-shadow:
-        0 0 0 1px #b8911f,
-        0 12px 22px rgba(0,0,0,0.8),
-        inset 0 1px 0 rgba(255,255,255,0.24);
-      width: calc(100% - 10px);
-      margin: 0 auto;
-    }
-.review-card-inner::before {
-      content: "";
-      position: absolute;
-      left: 0.8rem;
-      top: 0.7rem;
-      bottom: 0.7rem;
-      width: 11px;
-      border-radius: 999px;
-      background: linear-gradient(
-        to bottom,
-        #ff9b1a 0%,
-        #ff9b1a 32%,
-        #ff6ec7 32%,
-        #ff6ec7 60%,
-        #6ec1ff 60%,
-        #6ec1ff 100%
-      );
-    }
-    .review-card-inner::after {
-      content: "";
-      position: absolute;
-      left: 2.3rem;
-      right: 1.0rem;
-      top: 0.7rem;
-      height: 8px;
-      border-radius: 999px;
-      background: #ff9b1a;
-    }
-    .revie    .review-card-inner::before {
-      content: "";
-      display: none;
-    }
-    .review-card-inner::after {
-      content: "";
-      display: none;
-    }
-    
-    em;
-      margin-top: 2px;
+    .relationship-series {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--accent-blue);
       margin-bottom: 2px;
-      color: #ffd67f;
-      text-transform: uppercase;
-      -webkit-text-stroke: 0.4px #000000;
-      text-shadow:
-        0 0 1px #000000,
-        0 0 2px rgba(0,0,0,0.7);
     }
-    .review-card-meta {
-      font-size: 0.78rem;
-      color: #e0f3ff;
-      text-transform: uppercase;
-      letter-spacing: 0.14em;
+    .relationship-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent-gold);
+      margin-bottom: 3px;
     }
-.console {
-      flex: 1;
-      padding: 10px 18px 16px;
+    .relationship-type {
+      font-size: 11px;
+      color: var(--text-soft);
+      margin-bottom: 4px;
+    }
+    .relationship-people {
+      font-size: 11px;
+      color: var(--text-soft);
+    }
+    .relationship-people span {
+      color: var(--text-main);
+    }
+    .detail-body {
       display: grid;
-      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1.1fr);
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
       gap: 14px;
+      padding-top: 4px;
     }
-    @media (max-width: 980px) {
-      .console {
-        grid-template-columns: minmax(0, 1fr);
-      }
-    }
-    .console-main {
-      background:
-        radial-gradient(circle at -10% 0%, var(--accent-blue-soft), transparent 70%),
-        radial-gradient(circle at 110% 100%, var(--accent-gold-soft), transparent 65%),
-        linear-gradient(145deg, #080d24, #050716);
-      border-radius: 22px;
-      border: 1px solid rgba(76,93,158,0.95);
-      box-shadow:
-        0 14px 34px rgba(0,0,0,0.98),
-        0 0 22px rgba(100,211,255,0.35);
-      padding: 12px 13px 13px;
+    .detail-column {
       display: flex;
       flex-direction: column;
       gap: 8px;
     }
-    .console-side {
-      background:
-        radial-gradient(circle at 100% 0%, rgba(255,123,156,0.26), transparent 70%),
-        linear-gradient(145deg, #0a0f26, #050717);
-      border-radius: 22px;
-      border: 1px solid rgba(90,102,170,0.95);
-      box-shadow:
-        0 14px 34px rgba(0,0,0,0.98),
-        0 0 20px rgba(255,123,156,0.35);
-      padding: 12px 13px 13px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .console-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      gap: 10px;
-      border-bottom: 1px solid rgba(84,96,156,0.95);
-      padding-bottom: 4px;
-    }
-    .console-title {
-      font-size: 17px;
-      text-transform: uppercase;
-      letter-spacing: 0.22em;
-      color: var(--accent-gold);
-    }
-    .console-sub {
-      font-size: 15px;
-      color: #ffffff;
-    }
-    .meta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
+    .detail-block {
+      background: linear-gradient(135deg, #050818, #0e1434);
+      border-radius: 16px;
+      border: 1px solid var(--border-soft);
+      padding: 8px 10px 9px;
       font-size: 13px;
-    }
-    .meta-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background:
-        linear-gradient(135deg, #111735, #070d22);
-      border: 1px solid rgba(118,133,212,0.9);
-      box-shadow:
-        0 2px 9px rgba(0,0,0,0.9),
-        0 0 14px rgba(100,211,255,0.32);
-    }
-    .meta-label {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--text-soft);
-    }
-    .meta-value {
-      font-size: 13px;
+      line-height: 1.5;
       color: var(--text-main);
-      font-weight: 500;
     }
-    .summary {
-      font-size: 14px;
-      color: var(--text-muted);
-    }
-    .story-stack {
-      display: flex;
-      flex-direction: column;
-      gap: 7px;
-      margin-top: 2px;
-    }
-    .story-card {
-      border-radius: 14px;
-      padding: 8px 10px;
-      background:
-        radial-gradient(circle at 0 0, rgba(248,198,106,0.28), transparent 70%),
-        linear-gradient(145deg, #141933, #080d22);
-      border: 1px solid rgba(248,198,106,0.4);
-      box-shadow:
-        0 3px 12px rgba(0,0,0,0.98),
-        0 0 18px rgba(248,198,106,0.45);
-    }
-    .story-card h3 {
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--accent-gold);
-      margin-bottom: 3px;
-    }
-    .story-card p {
-      font-size: 13px;
-      line-height: 1.5;
-      color: var(--text-muted);
-    }
-    .block-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--text-soft);
-      margin-bottom: 3px;
-    }
-
-    .block-label-accent {
-      font-size: 13px;
-      color: var(--accent-gold);
-    }
-    .chip-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
-    }
-    .chip {
-      display: inline-block;
-      padding: 2px 4px;
-      border-radius: 0;
-      background: none;
-      border: none;
-      font-size: 14px;
-      color: var(--accent-gold);
-      cursor: pointer;
-      white-space: nowrap;
-      text-decoration: underline;
-    }
-    .chip:hover {
-      color: #ffe6a8;
-      text-decoration: underline;
-    }
-    .text-list {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      font-size: 13px;
-      color: var(--text-muted);
-    }
-    .notes-stack {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .note-card {
-      border-radius: 12px;
-      border: 1px solid rgba(107,124,215,0.95);
-      padding: 7px 9px 8px;
-      background:
-        radial-gradient(circle at 0 0, rgba(100,211,255,0.26), transparent 70%),
-        linear-gradient(135deg, #111730, #080f22);
-      box-shadow:
-        0 3px 12px rgba(0,0,0,0.98),
-        0 0 18px rgba(100,211,255,0.5);
-    }
-    .note-card h4 {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: #cfd6ff;
-      margin-bottom: 3px;
-    }
-    .note-card p {
-      font-size: 13px;
-      line-height: 1.5;
-      color: var(--text-muted);
-    }
-    .placeholder {
-      font-size: 14px;
-      color: var(--text-soft);
-    }
-    .error-text {
-      font-size: 14px;
-      color: #ffb3b3;
-    }
-    .bio-modal {
-      position: fixed;
-      inset: 0;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 1000;
-    }
-    .bio-modal.active {
-      display: flex;
-    }
-    .bio-backdrop {
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at 0 0, rgba(0,0,0,0.9), rgba(0,0,0,0.98));
-    }
-    .bio-frame {
-      position: relative;
-      max-width: 540px;
-      width: calc(100% - 40px);
-      padding: 1px;
-      border-radius: 22px;
-      background:
-        conic-gradient(from 0deg, rgba(242,151,92,0.9), rgba(244,217,109,0.9), rgba(100,211,255,0.9), rgba(255,123,156,0.9), rgba(242,151,92,0.9));
-      box-shadow:
-        0 0 0 1px rgba(6,10,30,0.95),
-        0 20px 44px rgba(0,0,0,0.98),
-        0 0 40px rgba(100,211,255,0.9),
-        0 0 52px rgba(242,151,92,0.9);
-      z-index: 1001;
-    }
-    .bio-panel {
-      border-radius: 21px;
-      background:
-        radial-gradient(circle at 0 0, rgba(248,198,106,0.26), transparent 70%),
-        linear-gradient(145deg, #050814, #050712);
-      border: 1px solid rgba(248,198,106,0.8);
-      box-shadow:
-        inset 0 0 0 1px rgba(8,11,30,0.96),
-        inset 0 18px 38px rgba(255,255,255,0.03);
-      padding: 14px 15px 15px;
-    }
-    .bio-header-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 10px;
-      margin-bottom: 6px;
-      border-bottom: 1px solid rgba(93,107,180,0.95);
-      padding-bottom: 5px;
-    }
-    .bio-name {
-      font-size: 17px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: #fff5df;
-    }
-    .bio-role {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-bottom: 7px;
-    }
-    .bio-summary {
-      font-size: 13px;
-      color: var(--text-muted);
-      line-height: 1.5;
-    }
-    .bio-close-btn {
-      border: none;
-      border-radius: 999px;
-      width: 26px;
-      height: 26px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      background:
-        linear-gradient(135deg, #181f35, #0b1023);
-      color: #f5f7ff;
-      font-size: 16px;
-      cursor: pointer;
-      box-shadow:
-        0 0 0 1px rgba(90,106,183,0.95),
-        0 2px 8px rgba(0,0,0,0.85);
-    }
-    .bio-close-btn:hover {
-      background:
-        linear-gradient(135deg, #212a46, #101735);
-    }
-    .bio-label {
+    .detail-label {
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 0.18em;
-      color: var(--text-soft);
-      margin-bottom: 2px;
-    }
-    .bio-name-raw {
-      font-size: 13px;
-      color: var(--text-main);
+      color: var(--accent-gold);
       margin-bottom: 4px;
     }
-    .bio-fallback {
-      margin-top: 8px;
-      display: none;
-      border-top: 1px dashed rgba(82,94,154,0.95);
-      padding-top: 7px;
+    .detail-block p {
+      margin: 0 0 4px 0;
+    }
+    .detail-block ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .detail-block li {
+      margin-bottom: 3px;
+    }
+    .episode-title {
+      font-weight: 600;
+      color: var(--accent-blue);
+    }
+    .empty-detail {
+      font-size: 13px;
+      color: var(--text-soft);
+      padding-top: 4px;
+    }
+    @media (max-width: 960px) {
+      .shell-header {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .brand-image-wrap {
+        justify-self: flex-start;
+      }
+      .character-card {
+        flex: 0 1 calc(25% - 10px);
+      }
+      .relationship-card {
+        flex: 0 1 calc(50% - 10px);
+      }
+      .detail-body {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    @media (max-width: 640px) {
+      body {
+        padding: 10px;
+      }
+      .shell {
+        border-radius: 18px;
+      }
+      .character-card,
+      .relationship-card {
+        flex: 1 1 100%;
+      }
     }
   
-    .hidden {
-      display: none !important;
+
+    /* Bio-Trek additions */
+    .shell-main{
+      flex:1;
+      display:flex;
+      justify-content:center;
+      padding: 12px 14px 18px;
+      box-sizing:border-box;
+    }
+    .series-wrapper{
+      width:100%;
+      max-width: 1320px;
     }
 
-    
+    .series-grid{
+      display:flex;
+      flex-direction:column;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .button-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 10px;
+      justify-content:center;
+    }
+    .series-btn{
+      position:relative;
+      flex: 1 1 270px;
+      max-width: 390px;
+      min-width: 230px;
+      padding: 12px 14px 11px 16px;
+      border-radius: 20px;
+      background:
+        radial-gradient(circle at 0% 0%, rgba(100,211,255,0.14), transparent 60%),
+        linear-gradient(135deg, rgba(5,8,20,0.98), rgba(11,16,36,0.98));
+      border: 2px solid rgba(112,138,235,0.85);
+      box-shadow:
+        0 16px 34px rgba(0,0,0,0.92),
+        inset 0 0 0 1px rgba(255,255,255,0.06);
+      color: var(--text-main);
+      cursor:pointer;
+      display:flex;
+      flex-direction:column;
+      gap: 3px;
+      text-align:left;
+      transition: transform 0.16s, box-shadow 0.16s, border-color 0.16s;
+      overflow:hidden;
+    }
+    .series-btn::before{
+      content:"";
+      position:absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      width: 8px;
+      background: var(--accent-gold);
+      opacity: 0.9;
+      box-shadow: 0 0 18px rgba(248,198,106,0.75);
+    }
+    .series-btn:hover{
+      transform: translateY(-2px);
+      border-color: rgba(248,198,106,0.95);
+      box-shadow:
+        0 24px 44px rgba(0,0,0,0.95),
+        0 0 28px rgba(100,211,255,0.35),
+        0 0 26px rgba(248,198,106,0.55);
+    }
+    .series-btn.active{
+      border-color: rgba(100,211,255,0.95);
+      box-shadow:
+        0 24px 44px rgba(0,0,0,0.95),
+        0 0 30px rgba(100,211,255,0.55);
+    }
+    .btn-title{
+      font-family: "Orbitron", sans-serif;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      font-size: 13px;
+    }
+    .btn-subtitle{
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.3;
+    }
+
+    /* Series color strips (kept from Bio-Trek) */
+    .series-btn[data-series="The Original Series"]::before { background:#ffd700; }
+    .series-btn[data-series="The Animated Series"]::before { background:#ffa54a; }
+    .series-btn[data-series="The Next Generation"]::before { background:#4ad3ff; }
+    .series-btn[data-series="Deep Space Nine"]::before { background:#ff4b4b; }
+    .series-btn[data-series="Voyager"]::before { background:#d18cff; }
+    .series-btn[data-series="Enterprise"]::before { background:#998209; }
+    .series-btn[data-series="Picard"]::before { background:#ffff00; }
+    .series-btn[data-series="Strange New Worlds"]::before { background:#89acd1; }
+    .series-btn[data-series="Lower Decks"]::before { background:#57ff6f; }
+    .series-btn[data-series="Prodigy"]::before { background:#ff7b9c; }
+    .series-btn[data-series="Films"]::before { background:#f2975c; }
+    .series-btn[data-series="Producers & Creatives"]::before { background:#f8c66a; }
+    .series-btn[data-series="Stunts & Stand-ins"]::before { background:#b3bee4; }
+    .series-btn[data-series="Story Arcs"]::before { background:#64d3ff; }
+    .series-btn[data-series="Best Episodes"]::before { background:#f8c66a; }
+    .series-btn[data-series="Worst Episodes"]::before { background:#ff7b9c; }
+    .series-btn[data-series="Episode Console"]::before { background:#ff4b4b; }
+    .series-btn[data-series="Relationships Console"]::before { background:#3dd8ff; }
+
+    .return-link{
+      display:none;
+      margin: 12px auto 0;
+    }
+
+    .cards-grid{
+      display:none;
+      margin-top: 18px;
+    }
+    .cards-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+      justify-content:center;
+    }
+    .character-card{
+      position:relative;
+      flex: 0 1 calc(16.66% - 12px);
+      min-width: 160px;
+      max-width: 210px;
+      padding: 12px 12px 12px;
+      border-radius: 20px;
+      background:
+        radial-gradient(circle at 0% 0%, rgba(248,198,106,0.12), transparent 55%),
+        linear-gradient(135deg, rgba(5,8,20,0.98), rgba(11,16,36,0.98));
+      border: 2px solid rgba(248,198,106,0.85);
+      box-shadow: 0 14px 26px rgba(0,0,0,0.92);
+      cursor:pointer;
+      transition: transform 0.16s, box-shadow 0.16s, border-color 0.16s;
+    }
+    .character-card:hover{
+      transform: translateY(-2px);
+      border-color: rgba(255,230,168,0.95);
+      box-shadow:
+        0 20px 34px rgba(0,0,0,0.95),
+        0 0 22px rgba(248,198,106,0.55);
+    }
+    .card-text{
+      display:flex;
+      flex-direction:column;
+      gap: 6px;
+    }
+    .character-name{
+      font-family: "Orbitron", sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      text-decoration:none;
+    }
+    .character-name:hover{ text-decoration: underline; }
+    .character-title{
+      margin:0;
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.35;
+    }
+    .character-actor{
+      font-size: 12px;
+      color: var(--accent-blue);
+      text-decoration:none;
+    }
+    .character-actor:hover{ text-decoration: underline; }
+
+    /* Bio overlay (renderBio) */
+    #bio-overlay{
+      display:none;
+      width:100%;
+      max-width: 1200px;
+      margin: 14px auto 0;
+      padding: 0;
+    }
+    .bio-overlay-wrap{
+      border-radius: 22px;
+      border: 2px solid rgba(112,138,235,0.85);
+      background:
+        radial-gradient(circle at 0% 0%, rgba(100,211,255,0.14), transparent 60%),
+        linear-gradient(145deg, #050920, #050717);
+      box-shadow:
+        0 24px 56px rgba(0,0,0,0.95),
+        0 0 48px rgba(100,211,255,0.22);
+      overflow:hidden;
+    }
+    .bio-overlay-header{
+      display:flex;
+      align-items:center;
+      gap: 14px;
+      padding: 14px 16px 12px;
+      border-bottom: 1px solid rgba(71,84,135,0.85);
+      background: linear-gradient(180deg, rgba(10,14,39,0.96), rgba(6,8,24,0.96));
+    }
+    .bio-overlay-title{
+      font-family:"Orbitron", sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      margin: 0;
+    }
+    .bio-overlay-subtitle{
+      margin: 6px 0 0;
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.45;
+      max-width: 900px;
+    }
+    .bio-overlay-main{
+      padding: 14px 16px 16px;
+    }
+    .bio-overlay-section{
+      padding: 12px 0 0;
+      border-top: 1px solid rgba(42,53,86,0.7);
+      margin-top: 12px;
+    }
+    .bio-overlay-section:first-child{
+      border-top: none;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    .bio-overlay-h{
+      font-family:"Orbitron", sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-soft);
+      margin: 0 0 6px;
+    }
+    .bio-overlay-p{
+      margin: 0;
+      color: var(--text-main);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+    .bio-overlay-footer{
+      display:flex;
+      gap: 10px;
+      justify-content:center;
+      padding: 12px 16px 14px;
+      border-top: 1px solid rgba(71,84,135,0.85);
+      background: rgba(3,6,25,0.66);
+    }
+    .overlay-link{
+      padding: 5px 12px 6px;
+      border: 1px solid var(--border-soft);
+      background-color: rgba(3,6,25,0.96);
+      color: var(--text-soft);
+      border-radius: 999px;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      cursor:pointer;
+    }
+    .overlay-link.primary{
+      border-color: rgba(248,198,106,0.85);
+      color: var(--accent-gold);
+      box-shadow: 0 0 18px rgba(248,198,106,0.25);
+    }
+
+    @media (max-width: 900px){
+      .series-btn{ max-width: none; }
+      .character-card{ flex: 0 1 calc(33.33% - 12px); }
+      #bio-overlay{ padding: 0; }
+    }
+    @media (max-width: 520px){
+      .character-card{ flex: 0 1 calc(50% - 12px); }
+    }
 </style>
 </head>
 <body>
-  <div class="shell">
-    <header class="shell-header">
-      <div class="brand-block">
-        <div class="brand-row">
-          <div class="brand-dot"></div>
-          <div class="brand-pill">Star Trek Episode Companion</div>
-        </div>
-        <div class="brand-caption"></div>
-        <div class="brand-title">Episode console</div>
-        <div class="brand-sub" id="brand-sub">Select a series, skim the episode deck, then dive into story beats, characters, ethics, continuity, and themes.</div>
-        <div class="brand-nav" id="brand-nav">
-          <button id="detail-back-episodes" type="button" class="back-link console-back-link">← Back to episodes</button>
-          <button id="detail-back-reviews" type="button" class="back-link console-back-link">← Back to focus reviews</button>
-          <button id="detail-back-series" type="button" class="back-link console-back-link">← Back to series</button>
-        </div>
-      </div>
-      <div class="brand-image-wrap">
-        <img class="brand-image" src="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Enterprise%20NCC-1701.png" alt="USS Enterprise NCC-1701">
-      </div>
-    </header>
+<div class="shell">
+<header class="shell-header"><div class="brand-block"><div class="brand-row"><div class="brand-dot"></div><div class="brand-pill">Star Trek Biography Console</div></div><div class="brand-caption">Bio-Trek</div><div class="brand-title" id="brand-title">Biography console</div><div class="brand-sub" id="brand-sub">Select a series, then open a crew or actor card for the full biography.</div><div class="brand-nav"><button class="back-link" onclick="window.open('https://bigbird7827.github.io/Epi-Trek/','_blank','noopener')" type="button">← Episode Console</button><button class="back-link" onclick="window.open('https://bigbird7827.github.io/Rel-Trek/','_blank','noopener')" type="button">← Relationships Console</button></div></div><div class="brand-image-wrap"><img alt="USS Enterprise NCC-1701" class="brand-image" src="https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Enterprise%20NCC-1701.png"/></div></header>
+<main class="shell-main">
+<div class="series-wrapper">
+<div class="back-link return-link" id="return-menu">Return to Main Menu</div>
+<div class="series-grid">
+<div class="button-row">
+<button class="series-btn series-btn-people" data-series="The Original Series" type="button">
+<span class="btn-title">The Original Series</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+<button class="series-btn series-btn-people" data-series="The Next Generation" type="button">
+<span class="btn-title">The Next Generation</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+<button class="series-btn series-btn-people" data-series="Deep Space Nine" type="button">
+<span class="btn-title">Deep Space Nine</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+</div>
+<div class="button-row">
+<button class="series-btn series-btn-people" data-series="Voyager" type="button">
+<span class="btn-title">Voyager</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+<button class="series-btn series-btn-people" data-series="Enterprise" type="button">
+<span class="btn-title">Enterprise</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+<button class="series-btn series-btn-people" data-series="Discovery" type="button">
+<span class="btn-title">Discovery</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+</div>
+<div class="button-row">
+<button class="series-btn series-btn-people" data-series="Picard" type="button">
+<span class="btn-title">Picard</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+<button class="series-btn series-btn-people" data-series="Strange New Worlds" type="button">
+<span class="btn-title">Strange New Worlds</span>
+<span class="btn-subtitle">Crew &amp; actor bios</span>
+</button>
+<button class="series-btn series-btn-people" data-series="Guest List" type="button">
+<span class="btn-title">Guest List</span>
+<span class="btn-subtitle">Recurring &amp; guest characters</span>
+</button>
+</div>
+<div class="button-row">
+<button class="series-btn series-btn-people stunts-btn" data-series="Stunts &amp; Stand-Ins" type="button">
+<span class="btn-title">Stunts &amp; Stand-Ins</span>
+<span class="btn-subtitle">Stunt performers &amp; stand-ins</span>
+</button>
+<button class="series-btn series-btn-people production-btn" data-series="Behind the Camera" type="button">
+<span class="btn-title">Behind the Camera</span>
+<span class="btn-subtitle">Writers, producers &amp; creatives</span>
+</button>
+</div>
+<div class="button-row">
+<button class="series-btn series-btn-stories story-arcs-btn" data-series="Story Arcs" type="button">
+<span class="btn-title">Story Arcs</span>
+<span class="btn-subtitle">Multi-episode narrative threads</span>
+</button>
+</div>
+<div class="button-row">
+<button class="series-btn series-btn-episodes episode-guide-btn" data-series="Best Episodes" type="button">
+<span class="btn-title">Best Episodes</span>
+<span class="btn-subtitle">Hall of Fame episodes</span>
+</button>
+<button class="series-btn series-btn-episodes episode-guide-btn" data-series="Worst Episodes" type="button">
+<span class="btn-title">Worst Episodes</span>
+<span class="btn-subtitle">Hall of Shame episodes</span>
+</button>
+</div>
+</div>
+<div class="cards-grid">
+<div class="cards-row">
+<article class="character-card" id="card-1">
+<div class="card-text" id="card-1-text"></div>
+</article>
+<article class="character-card" id="card-2">
+<div class="card-text" id="card-2-text"></div>
+</article>
+<article class="character-card" id="card-3">
+<div class="card-text" id="card-3-text"></div>
+</article>
+<article class="character-card tos-only">
+<div class="card-text">
+<a class="character-name" href="#">Montgomery Scott</a>
+<p class="character-title">Chief Engineer</p>
+<a class="character-actor" href="#">James Doohan</a>
+</div>
+</article>
+<article class="character-card tos-only">
+<div class="card-text">
+<a class="character-name" href="#">Nyota Uhura</a>
+<p class="character-title">Communications Officer</p>
+<a class="character-actor" href="#">Nichelle Nichols</a>
+</div>
+</article>
+<article class="character-card tos-only">
+<div class="card-text">
+<a class="character-name" href="#">Hikaru Sulu</a>
+<p class="character-title">Helmsman</p>
+<a class="character-actor" href="#">George Takei</a>
+</div>
+</article>
+<article class="character-card tos-only">
+<div class="card-text">
+<a class="character-name" href="#">Pavel Chekov</a>
+<p class="character-title">Navigator</p>
+<a class="character-actor" href="#">Walter Koenig</a>
+</div>
+</article>
+<article class="character-card tos-only">
+<div class="card-text">
+<a class="character-name" href="#">Yeoman Janice Rand</a>
+<p class="character-title">Yeoman</p>
+<a class="character-actor" href="#">Grace Lee Whitney</a>
+</div>
+</article>
+<article class="character-card tos-only">
+<div class="card-text">
+<a class="character-name" href="#">Nurse Christine Chapel</a>
+<p class="character-title">Nurse</p>
+<a class="character-actor" href="#">Majel Barett Roddenberry</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</main>
+</div>
+<div id="bio-overlay"></div>
+<script type="module">
 
-    <section id="series-section" class="strip">
-      <div class="strip-label-row">
-        <div class="strip-label-main">Series</div>
-        <div id="series-status" class="strip-label-sub">Waiting for data…</div>
-      </div>
-      <div id="series-strip" class="series-strip"></div>
-    </section>
+    const $  = (s, r=document) => r.querySelector(s);
+    const $$ = (s, r=document) => r.querySelectorAll(s);
 
+    const titleEl = $(".title-main");
+    const subtitleEl = $(".subtitle-main");
+    const seriesMenu = $(".series-grid");
+
+    const epiBtn = document.getElementById("go-to-epi-page");
+    if (epiBtn) {
+      epiBtn.addEventListener("click", () => {
+        window.open("https://bigbird7827.github.io/Epi-Trek/", "_blank", "noopener");
+      });
+    }
+
+    const cardsGrid  = $(".cards-grid");
+    const returnMenu = $("#return-menu");
+    const bioOverlay = $("#bio-overlay");
+    const headerShip = $(".header-ship");
+    const headerNavLeft = $(".header-nav-btn-left");
+    const headerNavRight = $(".header-nav-btn-right");
+    let bioLinkState = null;
+    let currentSeriesKey = "";
+    let currentEpisodeMode = "best";
+    let cachedEpisodesBest = null;
+    let cachedEpisodesWorst = null;
+    let cachedProdStunts = null;
+    const PROD_STUNTS_URL = "https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Production%20and%20Stunts.json";
+
+    function esc(s){ return String(s).replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[m])); }
+    function simpleNorm(s){ return String(s||'').toLowerCase().normalize('NFKD').replace(/[\\u0300-\\u036f]/g,'').replace(/['’`\\.\\-]/g,'').replace(/\\s+/g,'').trim(); }
 
     
-
-    <section id="search-section" class="strip">
-      <div class="strip-label-row">
-        <div class="strip-label-main">Search episodes</div>
-        <div class="strip-label-sub">Start typing a series name, episode title, or ID</div>
-      </div>
-      <div class="search-body">
-        <input id="search-input" type="text" class="search-input" placeholder="Search by series (TNG), title (The Man Trap), or ID (toss1e1)…" autocomplete="off">
-        <div id="search-help" class="search-help">Type at least 2 characters to see matching series and episodes.</div>
-        
-        <div id="search-results" class="search-results"></div>
-      </div>
-        </section>    <section id="bio-link-section" class="strip">
-      <div class="bio-link-body">
-        <button id="go-to-bio-page" type="button" class="bio-link-button" onclick="window.open('https://bigbird7827.github.io/Bio-Trek/', '_blank', 'noopener')">Biography Console</button>
-        <button id="go-to-rel-page" type="button" class="bio-link-button" onclick="window.open('https://bigbird7827.github.io/Rel-Trek/', '_blank', 'noopener')">Relationships Console</button>
-      </div>
-    </section>
-    <section id="episodes-section" class="strip">
-      <div class="strip-label-row">
-        <div class="strip-label-main">Episodes</div>
-        <div id="episodes-panel-subtitle" class="strip-label-sub">Select a series to view seasons.</div>
-      </div>
-      <div id="season-row" class="season-row">
-        <div class="placeholder">Select a series above to view seasons.</div>
-      </div>
-      <div id="episodes-strip" class="episodes-strip">
-        <div class="placeholder">Select a season to view episodes.</div>
-      </div>
-    </section>
-
-
-    
-
-    <section id="reviews-section" class="strip hidden">
-      <div class="strip-label-row">
-        <div class="strip-label-main">Character focus reviews</div>
-        <div id="reviews-panel-subtitle" class="strip-label-sub">Select a focus review to open in-depth analysis.</div>
-      </div>
-      <div id="reviews-grid" class="episodes-strip">
-        <div class="placeholder">No focus reviews are available yet.</div>
-      </div>
-    </section>
-
-
-    
-
-    <section id="details-section" class="console">
-      <div class="console-main">
-        <div class="console-header">
-          <div id="console-title" class="console-title">No episode selected</div>
-          <div id="console-sub" class="console-sub">Choose a series and an episode above.</div>
-        </div>
-        <div id="episode-meta" class="meta-row"></div>
-        <div id="episode-summary" class="summary">
-          <div class="placeholder">When you select an episode, an overview and story structure will appear here.</div>
-        </div>
-        <div id="episode-story" class="story-stack"></div>
-      </div>
-      <div class="console-side">
-        <div>
-          <div class="block-label">Key Characters</div>
-          <div id="chip-key" class="chip-row"></div>
-        </div>
-        <div>
-          <div class="block-label">Guest Characters</div>
-          <div id="chip-guest" class="chip-row"></div>
-        </div>
-        <div>
-          <div class="block-label">Antagonists</div>
-          <div id="chip-ant" class="chip-row"></div>
-        </div>
-        <div id="ethical-block">
-          <div class="block-label">Ethical Issues</div>
-          <ul id="ethical-list" class="text-list"></ul>
-        </div>
-        <div id="notes-block" class="notes-stack"></div>
-      </div>
-    </section>
-  </div>
-
-  <div id="bio-modal" class="bio-modal">
-    <div id="bio-backdrop" class="bio-backdrop"></div>
-    <div class="bio-frame">
-      <div class="bio-panel">
-        <div class="bio-header-row">
-          <div id="bio-name" class="bio-name"></div>
-          <button id="bio-close" class="bio-close-btn" type="button">×</button>
-        </div>
-        <div id="bio-role" class="bio-role"></div>
-        <div id="bio-summary" class="bio-summary"></div>
-        <div id="bio-fallback" class="bio-fallback">
-          <div class="bio-label">Requested name</div>
-          <div id="bio-name-raw" class="bio-name-raw"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    const DATA_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Epi-Trek";
-    const EPISODE_URLS = {
-      "TOS": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TOS-Episodes.json",
-      "TNG": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TNG-Episodes.json",
-      "DS9": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/DS9-Episodes.json",
-      "TAS": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/TAS-Episodes.json",
-      "PIC": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/PIC-Episodes.json",
-      "SNW": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/SNW-Episodes.json",
-      "ENT": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/ENT-Episodes.json",
-      "PRO": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/PRO-Episodes.json",
-      "LD": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/LD-Episodes.json",
-      "DIS": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/DIS-Episodes.json",
-      "VOY": "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/VOY-Episodes.json"
+    const PROD_TITLES = {
+      "Gene Roddenberry": "Creator",
+      "Lucille Ball": "Studio Head",
+      "D.C. Fontana": "Writer/Producer",
+      "Nicholas Meyer": "Director/Co-Writer",
+      "Michael Piller": "Writer/Exec Producer",
+      "Ira Steven Behr": "Exec Producer",
+      "Jeri Taylor": "Writer/Producer",
+      "Brannon Braga": "Writer/Exec Producer",
+      "Ronald D. Moore": "Writer/Producer",
+      "Rick Berman": "Exec Producer/Franchise Head",
+      "Andre Bormanis": "Science Consultant/Writer",
+      "Marc Okrand": "Linguist (Klingon)",
+      "Michael Okuda": "Scenic/Graphic Designer",
+      "Alex Kurtzman": "Co-Writer/Exec Producer"
     };
-    const SUMMARY_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
-    const BIO_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Summaries/summaries.json";
 
-    const REVIEW_URL = "https://raw.githubusercontent.com/BigBird7827/Epi-Trek/main/Episodes/Review-Episodes.json";
-
-    let allEpisodes = [];
-    let episodesBySeries = {};
-    let currentSeries = null;
-    let currentSeason = null;
-    let currentEpisodeID = null;
-    let currentEpisodeDetail = null;
-    let currentDetailKind = "episode";
-    let summariesById = {};
-    let focusReviews = [];
-
-    let searchIndex = [];
-
-
-    const ALL_SERIES = ["TOS","TAS","TNG","DS9","VOY","ENT","DIS","PIC","SNW","LD","PRO"];
-
-    
-    function normalizeSeriesCode(code) {
-      if (!code) return "";
-      if (code === "LDS") return "LD";
-      return code;
+    const STUNT_TITLES = {
+      "Paul Baxley": "Stunt Coordinator/Stunt Performer",
+      "Bob Herron": "Stuntman/Stunt Double",
+      "B. J. Davis": "Stunt Performer",
+      "Chuck Borden": "Stunt Performer",
+      "Dennis \"Danger\" Madalone": "Lead Stuntman",
+      "Leslie Hoffman": "Stuntwoman/Stunt Double",
+      "Tom Morga": "Stunt Performer/Stunt Double",
+      "Leon \"Rusty\" McClennon": "Stunt Performer/Stunt Double",
+      "William \"Bill\" Blackburn": "Stand-In/Background Extra",
+      "Eddie Paskey": "Stand-In/Body Double",
+      "David Keith Anderson": "Stand-In/Photo Double",
+      "Guy Vardaman": "Stand-In"
+    };
+const SERIES = {
+      TOS: [
+        { name:"James T. Kirk",           role:"Captain",              actor:"William Shatner",               img:"" },
+        { name:"Spock",   role:"First Officer",        actor:"Leonard Nimoy",                 img:"" },
+        { name:"Leonard (Bones) McCoy",   role:"Chief Medical Officer",               actor:"DeForest Kelley",               img:"" },
+        { name:"Montgomery Scott",        role:"Chief Engineer",       actor:"James Doohan",                  img:"" },
+        { name:"Nyota Uhura",             role:"Communications Officer",actor:"Nichelle Nichols",             img:"" },
+        { name:"Hikaru Sulu",             role:"Helmsman",             actor:"George Takei",                  img:"" },
+        { name:"Pavel Chekov",            role:"Navigator",            actor:"Walter Koenig",                 img:"" },
+        { name:"Yeoman Janice Rand",   role:"Captain's Yeoman",               actor:"Grace Lee Whitney",             img:"" },
+        { name:"Nurse Christine Chapel",   role:"Head Nurse",                actor:"Majel Barett Roddenberry",      img:"" }
+      ],
+      TNG: [
+        { name:"Jean-Luc Picard",    role:"Captain",             actor:"Patrick Stewart",        img:"" },
+        { name:"William T. Riker",   role:"First Officer",       actor:"Jonathan Frakes",        img:"" },
+        { name:"Data",               role:"Operations",          actor:"Brent Spiner",           img:"" },
+        { name:"Reginald Barclay",   role:"Engineer",            actor:"Dwight Schultz",         img:"" },
+        { name:"Beverly Crusher",    role:"Chief Medical Officer", actor:"Gates McFadden",      img:"" },
+        { name:"Miles O'Brien",      role:"Transporter Chief",   actor:"Colm Meaney",            img:"https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Images/Chief%20O'Brien%20(TNG).png" },
+        { name:"Guinan",             role:"Ten Forward Host",    actor:"Whoopi Goldberg",        img:"" },
+        { name:"Tasha Yar",          role:"Security Chief",      actor:"Denise Crosby",          img:"" },
+        { name:"Deanna Troi",        role:"Counselor",           actor:"Marina Sirtis",          img:"" },
+        { name:"Worf",               role:"Tactical/Security",   actor:"Michael Dorn",           img:"" }
+      ],
+      DS9: [
+        { name:"Benjamin Sisko",     role:"Commander/Captain",   actor:"Avery Brooks",           img:"" },
+        { name:"Kira Nerys",         role:"First Officer",       actor:"Nana Visitor",           img:"" },
+        { name:"Worf",               role:"Strategic Ops",       actor:"Michael Dorn",           img:"" },
+        { name:"Jadzia Dax",         role:"Science Officer",     actor:"Terry Farrell",          img:"" },
+        { name:"Dr. Julian Bashir",  role:"Chief Medical Officer", actor:"Alexander Siddig",   img:"" },
+        { name:"Miles O'Brien",      role:"Chief of Operations", actor:"Colm Meaney",            img:"https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Images/Chief%20O'Brien%20(DS9).png" },
+        { name:"Odo",                role:"Security Chief",      actor:"Ren\u00e9 Auberjonois",  img:"" },
+        { name:"Quark",              role:"Bartender",           actor:"Armin Shimerman",        img:"" }
+      ],
+      VOY: [
+        { name:"Kathryn Janeway",    role:"Captain",             actor:"Kate Mulgrew",           img:"" },
+        { name:"Chakotay",           role:"First Officer",       actor:"Robert Beltran",         img:"" },
+        { name:"Tuvok",              role:"Security/Tactical",   actor:"Tim Russ",               img:"" },
+        { name:"Tom Paris",          role:"Helmsman",            actor:"Robert Duncan McNeill",  img:"" },
+        { name:"B'Elanna Torres",    role:"Chief Engineer",      actor:"Roxann Dawson",          img:"https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Images/B'Elanna%20Torres%20(VOY).png" },
+        { name:"Harry Kim",          role:"Operations",          actor:"Garrett Wang",           img:"" },
+        { name:"Seven of Nine",      role:"Astrometrics",        actor:"Jeri Ryan",              img:"" },
+        { name:"The Doctor",         role:"Chief Medical Officer", actor:"Robert Picardo",      img:"" },
+        { name:"Neelix",             role:"Morale Officer",      actor:"Ethan Phillips",         img:"" }
+      ],
+      ENT: [
+        { name:"Jonathan Archer",    role:"Captain",             actor:"Scott Bakula",           img:"" },
+        { name:"Charles \"Trip\" Tucker III", role:"Chief Engineer", actor:"Connor Trinneer",   img:"" },
+        { name:"T'Pol",             role:"Science Officer",      actor:"Jolene Blalock",         img:"" },
+        { name:"Malcolm Reed",      role:"Tactical Officer",     actor:"Dominic Keating",        img:"" },
+        { name:"Travis Mayweather", role:"Helmsman",             actor:"Anthony Montgomery",     img:"" },
+        { name:"Hoshi Sato",        role:"Communications Officer", actor:"Linda Park",          img:"" },
+        { name:"Doctor Phlox",      role:"Chief Medical Officer", actor:"John Billingsley",     img:"" }
+      ],
+DIS: [
+        { name:"Michael Burnham",  role:"Captain, USS Discovery",          actor:"Sonequa Martin-Green", img:"" },
+        { name:"Saru",             role:"Kelpien Captain",                 actor:"Doug Jones",           img:"" },
+        { name:"Philippa Georgiou",role:"Captain, USS Shenzhou",          actor:"Michelle Yeoh",        img:"" },
+        { name:"Sylvia Tilly",     role:"Starfleet Officer & Instructor",  actor:"Mary Wiseman",         img:"" },
+        { name:"Hugh Culber",      role:"Chief Medical Officer",           actor:"Wilson Cruz",          img:"" },
+        { name:"Paul Stamets",     role:"Spore Drive Scientist",           actor:"Anthony Rapp",         img:"" },
+        { name:"Jett Reno",        role:"Engineer",                        actor:"Tig Notaro",           img:"" },
+        { name:"Adira Tal",        role:"Joined Specialist",               actor:"Blu del Barrio",       img:"" },
+        { name:"Joann Owosekun",   role:"Operations Officer",              actor:"Oyin Oladejo",         img:"" },
+        { name:"Keyla Detmer",     role:"Helm Officer",                    actor:"Emily Coutts",         img:"" },
+        { name:"Gabriel Lorca",    role:"Captain, USS Discovery",          actor:"Jason Isaacs",         img:"" }
+      ], PIC: [
+        { name:"Deanna Troi",      role:"Counselor",        actor:"Marina Sirtis",      img:"" },
+        { name:"Jean-Luc Picard",  role:"Retired Starfleet Admiral",        actor:"Patrick Stewart",    img:"" },
+        { name:"Worf",             role:"Starfleet Intelligence",        actor:"Michael Dorn",       img:"" },
+        { name:"William T. Riker", role:"Starfleet Veteran", actor:"Jonathan Frakes",    img:"" },
+        { name:"Data",             role:"Soong-Type Android",        actor:"Brent Spiner",       img:"" },
+        { name:"Elnor",            role:"Qowat Milat Swordsman",        actor:"Evan Evagora",       img:"" },
+        { name:"Guinan",           role:"El-Aurian Listener",        actor:"Ito Aghayere",       img:"" },
+        { name:"Jack Crusher",     role:"Frontier Pilot",        actor:"Ed Speleers",        img:"" },
+        { name:"Beverly Crusher",  role:"Frontier Doctor", actor:"Gates McFadden",    img:"" },
+        { name:"Q",                role:"Omnipotent Influencer",        actor:"John de Lancie",     img:"" },
+        { name:"Seven of Nine",    role:"Fenris Ranger",        actor:"Jeri Ryan",          img:"" },
+        { name:"Soji Asha",        role:"Synthetic Advocate",        actor:"Isa Briones",        img:"" },
+        { name:"Vadic",            role:"Changeling Warlord",        actor:"Amanda Plummer",     img:"" },
+        { name:"Agnes Jurati",     role:"Cyberneticist / Borg Queen",        actor:"Alison Pill",        img:"" },
+        { name:"Cristóbal \"Chris\" Rios", role:"Captain of La Sirena", actor:"Santiago Cabrera",  img:"" }
+      ], GUEST: [
+  { name:"Borg Queen", role:"Collective Leader", img:"", actor:"Susanna Thompson" },
+  { name:"Edith Keeler", role:"Social Worker", img:"", actor:"Joan Collins" },
+  { name:"Gary Seven", role:"Temporal Guardian", img:"", actor:"Robert Lansing" },
+  { name:"Q", role:"Omnipotent Influencer", img:"", actor:"John De Lancie" },
+  { name:"Roberta Lincoln", role:"Temporal Secretary", img:"", actor:"Teri Garr" },
+  { name:"Timicin", role:"Conflicted Scientist", img:"", actor:"David Ogden Stiers" },
+  { name:"Captain Morgan Bateson", role:"Time Traveler", img:"", actor:"Kelsey Grammer" },
+  { name:"General Martok", role:"Honorable Warrior", img:"", actor:"J. G. Hertzler" },
+  { name:"Harry Mudd", role:"Interstellar Con Man", img:"", actor:"Roger C. Carmel" },
+  { name:"Jett Reno", role:"Sarcastic Engineer", img:"", actor:"Tig Notaro" },
+  { name:"John Frederick Paxton", role:"Xenophobic Extremist", img:"", actor:"Peter Weller" },
+  { name:"Kai Winn Adami", role:"Religious Opportunist", img:"", actor:"Louise Fletcher" },
+  { name:"Kovich", role:"Enigmatic Operative", img:"", actor:"David Cronenberg" },
+  { name:"Kurn and Elder Jake Sisko", role:"Burdened Brothers", img:"", actor:"Tony Todd" },
+  { name:"Kurros", role:"Manipulative Genius", img:"", actor:"Jason Alexander" },
+  { name:"Pelia", role:"Eccentric Immortal", img:"", actor:"Carol Kane" },
+  { name:"Pendari Champion", role:"Seven's Challenger", img:"", actor:"Dwayne \"The Rock\" Johnson" },
+  { name:"Sarek", role:"Vulcan Ambassador", img:"", actor:"Mark Lenard" },
+  { name:"Weyoun, Brunt and Shran", role:"Multiple Faces", img:"", actor:"Jeffrey Combs" }
+], SNW: [
+        { name:"Christopher Pike", role:"Captain", actor:"Anson Mount", img:"" },
+        { name:"Una Chin Riley", role:"First Officer", actor:"Rebecca Romijn", img:"" },
+        { name:"Spock", role:"Science Officer", actor:"Ethan Peck", img:"" },
+        { name:"Erica Ortegas", role:"Helm Officer", actor:"Melissa Navia", img:"" },
+        { name:"La'An Noonien-Singh", role:"Security Chief", actor:"Christina Chong", img:"" },
+        { name:"Nyota Uhura", role:"Communications", actor:"Celia Rose Gooding", img:"" },
+        { name:"Christine Chapel", role:"Nurse", actor:"Jess Bush", img:"" },
+        { name:"Doctor M'Benga", role:"Chief Medical Officer", actor:"Babs Olusanmokun", img:"https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Images/Doctor%20M'Benga.png" }
+      ],
+      ARCS: [
+        {
+          name:"Borg Collective & Resistance",
+          role:"Borg vs. Federation",
+          actor:"Borg Story Arc",
+          img:""
+        },
+        {
+          name:"Q & the Trial of Humanity",
+          role:"Q and the Captains",
+          actor:"Q Story Arc",
+          img:""
+        },
+        {
+          name:"Khan & the Augment Legacy",
+          role:"Genetic Engineering",
+          actor:"Khan Story Arc",
+          img:""
+        },
+        {
+          name:"Synthetic Life & Personhood",
+          role:"Androids, Holograms, Synths",
+          actor:"Synthetic Life Arc",
+          img:""
+        },
+        {
+          name:"Founding of the Federation & Core Worlds",
+          role:"Birth of the Federation",
+          actor:"Founding Arc",
+          img:""
+        },
+        {
+          name:"Klingon–Federation Conflict & Alliance",
+          role:"Warriors and Allies",
+          actor:"Klingon–Federation Arc",
+          img:""
+        },
+        {
+          name:"Dominion War & the Gamma Quadrant Powers",
+          role:"Alpha Quadrant at War",
+          actor:"Dominion War Arc",
+          img:""
+        },
+        {
+          name:"Mirror Universe & the Terran Empire",
+          role:"Terran Empire Reflections",
+          actor:"Mirror Universe Arc",
+          img:""
+        },
+        {
+          name:"Time Travel, Temporal Cold War & Temporal Law",
+          role:"Temporal Paradoxes",
+          actor:"Time Travel Arc",
+          img:""
+        },
+{
+  name:"Articles of the Federation",
+  role:"Prime Directive & Starfleet Law",
+  actor:"Articles of the Federation Arc",
+  img:""
+},
+        {
+          name:"Section 31 & the Federation's Shadow",
+          role:"Covert Federation Operations",
+          actor:"Section 31 Arc",
+          img:""
+        }
+      ]
+    };    
+    function resolveArc(arcs, title){
+      if (!arcs || !Array.isArray(arcs)) return null;
+      const t = (title || "").toLowerCase().trim();
+      let arc = arcs.find(a => (a.title || "").toLowerCase() === t);
+      if (!arc) {
+        arc = arcs.find(a => (a.id || "").toLowerCase() === t.replace(/\s+/g, "_"));
+      }
+      return arc || null;
     }
 
-const TAGLINE_TEXT = "Select a series, skim the episode deck, then deep-dive into story beats, characters, ethics, continuity, and themes.";
+    function sectionsFromArc(arc){
+      if (!arc) return [{ header: "Story Arc", text: "Details not found." }];
+      const out = [];
+      if (arc.overview) {
+        out.push({ header: "Overview", text: arc.overview });
+      }
+      if (Array.isArray(arc.chapters)) {
+        arc.chapters.forEach((ch) => {
+          out.push({ header: ch.title || "", text: ch.body || "" });
+        });
+      }
+      if (Array.isArray(arc.key_themes) && arc.key_themes.length) {
+        out.push({ header: "Key Themes", text: arc.key_themes.join("; ") });
+      }
+      if (arc.key_characters && Array.isArray(arc.key_characters.crew) && arc.key_characters.crew.length) {
+        const crewLinks = arc.key_characters.crew.map((name) => {
+          const safe = esc(name);
+          return `<a href="#" data-related-bio="crew" data-name="${safe}">${safe}</a>`;
+        }).join(" • ");
+        out.push({ header: "Related Crew", html: crewLinks });
+      }
+      if (arc.key_characters && Array.isArray(arc.key_characters.actors) && arc.key_characters.actors.length) {
+        const actorLinks = arc.key_characters.actors.map((name) => {
+          const safe = esc(name);
+          return `<a href="#" data-related-bio="actor" data-name="${safe}">${safe}</a>`;
+        }).join(" • ");
+        out.push({ header: "Related Actors", html: actorLinks });
+      }
+      return out;
+    }
 
-
-    let biosByKey = {};
-    let biosLoaded = false;
-
-    function showPage(page) {
-      const seriesSection = document.getElementById("series-section");
-      const searchSection = document.getElementById("search-section");
-      const searchResultsSection = document.getElementById("search-results-section");
-      const episodesSection = document.getElementById("episodes-section");
-      const detailsSection = document.getElementById("details-section");
-      const reviewsSection = document.getElementById("reviews-section");
-      const bioLinkSection = document.getElementById("bio-link-section");
-      const brandSub = document.getElementById("brand-sub");
-      const brandNav = document.getElementById("brand-nav");
-      const backEpisodes = document.getElementById("detail-back-episodes");
-      const backReviews = document.getElementById("detail-back-reviews");
-      const backSeries = document.getElementById("detail-back-series");
-
-      if (seriesSection) {
-        seriesSection.classList.toggle("hidden", page !== "series");
-      }
-      if (searchSection) {
-        searchSection.classList.toggle("hidden", page !== "series");
-      }
-      if (searchResultsSection) {
-        searchResultsSection.classList.toggle("hidden", page !== "series");
-      }
-      if (episodesSection) {
-        episodesSection.classList.toggle("hidden", page !== "episodes");
-      }
-      if (reviewsSection) {
-        reviewsSection.classList.toggle("hidden", page !== "reviews");
-      }
-      if (detailsSection) {
-        detailsSection.classList.toggle("hidden", page !== "details");
-      }
-      if (bioLinkSection) {
-        bioLinkSection.classList.toggle("hidden", page !== "series");
-      }
-
-      if (brandSub) {
-        if (page === "series") {
-          brandSub.textContent = TAGLINE_TEXT;
-        } else {
-          brandSub.textContent = "";
+    const ALIASES = {
+      TOS: {
+        crew: {
+          "James T. Kirk":"James T Kirk",
+          "Leonard (Bones) McCoy":"Doctor McCoy",
+          "Nyota Uhura":"Uhura",
+          "Hikaru Sulu":"Sulu",
+          "Pavel Chekov":"Chekov",
+          "Yeoman Janice Rand":"Yeoman Rand",
+          "Nurse Christine Chapel":"Nurse Chapel",
+          "Montgomery Scott":"Scotty"
+        },
+        actor: {
+          "Majel Barett Roddenberry":"Majel Barett Roddenberry",
+          "Majel Barrett":"Majel Barett Roddenberry",
+          "Majel-Barett Roddenberry":"Majel Barett Roddenberry"
         }
+      },
+      DS9: {
+        crew: {
+          "Lt. Commander Worf":"Worf",
+          "Elim Garak":"Garak"
+        },
+        actor: {}
+      },
+      TNG: {
+        crew: {
+          "William T. Riker":"William Riker",
+          "Reginald Barclay":"Barclay",
+          "Miles O'Brien":"Miles O'Brien",
+          "Lt. Commander Worf":"Worf",
+          "Chief O'Brien":"Miles O'Brien"
+        },
+        actor: {}
+      },
+      ENT: {
+        crew: {
+          "Doctor Phlox":"Phlox",
+          "Dr. Phlox":"Phlox",
+          "Dr Phlox":"Phlox",
+          "Charles \"Trip\" Tucker III":"Charles \"Trip\" Tucker III",
+          "Trip Tucker":"Charles \"Trip\" Tucker III"
+        },
+        actor: {}
+      },
+      SNW: {
+        crew: {
+          "Una Chin Riley":"Una Chin-Riley",
+          "Una":"Una Chin-Riley",
+          "Number One":"Una Chin-Riley",
+          "Doctor M'Benga":"Dr. Joseph M'Benga",
+          "Dr. M'Benga":"Dr. Joseph M'Benga",
+          "M'Benga":"Dr. Joseph M'Benga"
+        },
+        actor: {}
+      },
+      PIC: {
+        crew: {},
+        actor: {}
+      }
+};
+
+    async function fetchJSON(url) {
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) throw new Error("" + r.status);
+      const d = await r.json();
+      return (d && d.bios) ? d.bios : d;
+    }
+
+    async function loadTOS() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-TOS.json");
+    }
+
+    async function loadDS9() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-DS9.json");
+    }
+
+    async function loadTNG() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-TNG.json");
+    }
+
+    async function loadENT() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-ENT.json");
+    }
+
+    async function loadSNW() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-SNW.json");
+    }
+
+    async function loadPIC() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-PIC.json");
+    }
+
+    async function loadVOY() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-VOY.json");
+    }
+
+    async function loadDIS() {
+      return fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-DIS.json");
+    }
+
+        async function loadProdStunts() {
+      if (cachedProdStunts) return cachedProdStunts;
+      const data = await fetchJSON(PROD_STUNTS_URL);
+      cachedProdStunts = data || {};
+      return cachedProdStunts;
+    }
+
+async function loadARCS() {
+      try {
+        const tag = document.getElementById("arcs-json");
+        if (tag && tag.textContent) {
+          const d = JSON.parse(tag.textContent);
+          const arcs = d && d.arcs ? d.arcs : [];
+          console.log("Story Arcs: loaded from embedded JSON", arcs.length);
+          if (arcs.length) return arcs;
+        }
+      } catch (e) {
+        console.log("Story Arcs: error parsing embedded JSON", e);
+      }
+      console.log("Story Arcs: fetching from URL");
+      const d = await fetchJSON("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Story%20Arcs/Story%20Arcs.json");
+      const arcs = d && d.arcs ? d.arcs : [];
+      console.log("Story Arcs: fetched from URL", arcs.length);
+      return arcs;
+    }
+
+    async function loadEPISODES(mode) {
+      const which = (mode || currentEpisodeMode || "best");
+      const cached = which === "worst" ? cachedEpisodesWorst : cachedEpisodesBest;
+      if (cached && Array.isArray(cached)) {
+        return cached;
+      }
+      try {
+        const url = which === "worst"
+          ? "https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Episode%20Guide/Curated%20Episodes%20-%20Worst.json"
+          : "https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Episode%20Guide/Curated%20Episodes.json";
+        console.log("Curated Episodes (" + which + "): fetching from URL");
+        const d = await fetchJSON(url);
+        const episodes = d && Array.isArray(d.episodes) ? d.episodes : (Array.isArray(d) ? d : []);
+        console.log("Curated Episodes (" + which + "): fetched from URL", episodes.length);
+        if (which === "worst") cachedEpisodesWorst = episodes;
+        else cachedEpisodesBest = episodes;
+        return episodes;
+      } catch (e) {
+        console.error("Curated Episodes (" + which + "): error fetching", e);
+        return [];
+      }
+    }
+
+
+    function buildEpisodeCards(episodes) {
+      if (!Array.isArray(episodes)) return [];
+      const episodeImgMap = {
+        "The City on the Edge of Forever": "",
+        "Space Seed": "",
+        "The Inner Light": "",
+        "Chain of Command": "",
+        "Chain of Command, Parts I–II": "",
+        "The Visitor": "",
+        "Far Beyond the Stars": "",
+        "Scorpion": "",
+        "Scorpion, Parts I–II": "",
+        "Living Witness": "",
+        "Dear Doctor": "",
+        "Carbon Creek": "",
+        "Strange New Worlds": "",
+        "Tomorrow and Tomorrow and Tomorrow": "",
+        "Tomorrow, and Tomorrow and Tomorrow": "",
+        "Magic to Make the Sanest Man Go Mad": "",
+        "An Obol for Charon": "",
+        "Nepenthe": "",
+        "No Win Scenario": ""
+      };
+      return episodes.map((ep) => {
+        const series = ep.series || "";
+        const season = ep.season;
+        const nums = Array.isArray(ep.episodes) ? ep.episodes.slice().sort((a, b) => a - b) : [];
+        let epPart = "";
+        if (season && nums.length) {
+          const first = nums[0];
+          const last = nums[nums.length - 1];
+          if (first === last) epPart = "Season " + season + ", Episode " + first;
+          else epPart = "Season " + season + ", Episodes " + first + "–" + last;
+        } else if (season) {
+          epPart = "Season " + season;
+        }
+        const rolePieces = [];
+        if (series) rolePieces.push(series);
+        if (epPart) rolePieces.push(epPart);
+        const role = rolePieces.join(" • ") || "Curated Episode";
+        const title = ep.title || "";
+        const img = episodeImgMap[title] || "";
+        return {
+          name: title,
+          role,
+          actor: "Curated Episode",
+          img
+        };
+      });
+    }
+
+    function mapDs9Alias(n) {
+      return n;
+    }
+
+    async function loadGUEST() {
+      try {
+        const tag = document.getElementById("guests-json");
+        if (tag && tag.textContent) {
+          const parsed = JSON.parse(tag.textContent);
+          return (parsed && parsed.bios) ? parsed.bios : parsed;
+        }
+      } catch (e) {
+      }
+      const r = await fetch("https://raw.githubusercontent.com/BigBird7827/Bio-Trek/main/Biographies/Bios-Guests.json", { cache: "no-store" });
+      if (!r.ok) throw new Error("" + r.status);
+      const d = await r.json();
+      return (d && d.bios) ? d.bios : d;
+    }
+
+    function resolve(ds, name, which, seriesKey){
+      const display = (name||'').trim();
+
+      const seriesAliases = (ALIASES[seriesKey] && ALIASES[seriesKey][which]) || {};
+      const aliased = seriesAliases[display] || display;
+
+      const cset = new Set();
+      const straight = aliased.replace(/[’`]/g, "'");
+      const curly   = straight.replace(/'/g, "’");
+      const noHyphen = straight.replace(/-/g, " ");
+      const withHyphen = straight.replace(/\s+/g, " ").replace(/\b([A-Za-z])\s*-\s*([A-Za-z])/g, "$1-$2");
+      const baseVariants = new Set([straight, curly, noHyphen, withHyphen]);
+      baseVariants.forEach(v => {
+        cset.add(v);
+        cset.add(v.replace(/^Doctor\s+/i, "Dr. "));
+        cset.add(v.replace(/^Dr\.\s+/i, "Doctor "));
+        cset.add(v.replace(/^Dr\s+/i, "Dr. "));
+      });
+      const candidates = Array.from(cset);
+
+      const dicts = which==='actor' ? [ds?.Actors, ds?.actors, ds?.actorBios, ds] : [ds?.Crew, ds?.crew, ds?.characters, ds];
+
+      for (const cand of candidates){
+        for (const d of dicts){ if (d && d[cand]) return d[cand]; }
       }
 
-      if (brandNav && backEpisodes && backSeries) {
-        if (page === "series") {
-          brandNav.style.display = "none";
-        } else if (page === "episodes" || page === "reviews") {
-          brandNav.style.display = "flex";
-          backEpisodes.style.display = page === "episodes" ? "inline-flex" : "none";
-          if (backReviews) backReviews.style.display = "none";
-          backSeries.style.display = "inline-flex";
-        } else if (page === "details") {
-          brandNav.style.display = "flex";
-          if (typeof currentDetailKind !== "undefined" && currentDetailKind === "review") {
-            backEpisodes.style.display = "none";
-            if (backReviews) backReviews.style.display = "inline-flex";
-          } else {
-            backEpisodes.style.display = "inline-flex";
-            if (backReviews) backReviews.style.display = "none";
+      const norm = (s)=> String(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/['’`\.\-]/g,'').replace(/\s+/g,'').trim();
+      for (const d of dicts){
+        if (!d) continue;
+        const keys = Object.keys(d);
+        for (const k of keys){
+          const nk = norm(k);
+          for (const cand of candidates){
+            if (norm(cand) === nk) return d[k];
           }
-          backSeries.style.display = "inline-flex";
         }
       }
+      return null;
     }
 
-    
-
-    
-
-    
-
-
-    
-    function buildSearchIndex() {
-      const index = [];
-      ALL_SERIES.forEach(series => {
-        index.push({
-          type: "series",
-          series: series,
-          label: series + " (series)"
-        });
-      });
-      allEpisodes.forEach(ep => {
-        index.push({
-          type: "episode",
-          id: ep.ID,
-          series: normalizeSeriesCode(ep.Series || ""),
-          season: ep.Season,
-          episode: ep.Episode,
-          title: ep.Title || "",
-          label: normalizeSeriesCode(ep.Series || "") + " S" + ep.Season + "E" + ep.Episode + " – " + (ep.Title || "")
-        });
-      });
-      (focusReviews || []).forEach(r => {
-        index.push({
-          type: "review",
-          key: r.FocusKey || "",
-          character: r.Character || "",
-          series: normalizeSeriesCode(r.Series || ""),
-          episodeTitle: r.EpisodeTitle || "",
-          label: "[Review] " + (r.Character || "") + " – " + (r.EpisodeTitle || "")
-        });
-      });
-      searchIndex = index;
-    }
-
-    function renderSearchResults(results) {
-      const container = document.getElementById("search-results");
-      const help = document.getElementById("search-help");
-      if (!container || !help) return;
-      container.innerHTML = "";
-      if (!results || results.length === 0) {
-        help.textContent = "No matches. Try a different series name, title, or ID.";
-        return;
-      }
-      help.textContent = "Showing " + results.length + " result" + (results.length === 1 ? "" : "s") + ".";
-      results.slice(0, 30).forEach(item => {
-        const div = document.createElement("div");
-        div.className = "search-result-item";
-        const main = document.createElement("div");
-        main.className = "search-result-main";
-        const meta = document.createElement("div");
-        meta.className = "search-result-meta";
-
-        if (item.type === "series") {
-          main.textContent = item.label;
-          meta.textContent = "Jump to " + item.series + " episode list";
-        } else if (item.type === "episode") {
-          main.textContent = item.label;
-          meta.textContent = "Open episode details";
-        } else if (item.type === "review") {
-          main.textContent = item.label;
-          meta.textContent = "Open focus review";
-        }
-
-        div.appendChild(main);
-        div.appendChild(meta);
-
-        div.addEventListener("click", () => {
-          if (item.type === "series") {
-            selectSeries(item.series);
-          } else if (item.type === "episode") {
-            if (item.series) {
-              selectSeries(item.series);
-            }
-            if (item.id) {
-              selectEpisode(item.id);
-            }
-          } else if (item.type === "review") {
-            if (item.key) {
-              selectReview(item.key);
-            }
-          }
-        });
-
-        container.appendChild(div);
-      });
-    }
-
-    function handleSearchInput(event) {
-      const q = (event.target.value || "").trim().toLowerCase();
-      const help = document.getElementById("search-help");
-      const container = document.getElementById("search-results");
-      if (!help || !container) return;
-      if (q.length < 2) {
-        help.textContent = "Type at least 2 characters to see matching series and episodes.";
-        container.innerHTML = "";
-        return;
-      }
-      const results = searchIndex.filter(item => {
-        const haystack = item.label.toLowerCase();
-        return haystack.includes(q);
-      });
-      renderSearchResults(results);
-    }
-function groupEpisodesBySeries(episodes) {
-      const grouped = {};
-      episodes.forEach(ep => {
-        const key = normalizeSeriesCode(ep.Series || "Unknown");
-        if (!grouped[key]) {
-          grouped[key] = [];
-        }
-        grouped[key].push(ep);
-      });
-      Object.keys(grouped).forEach(key => {
-        grouped[key].sort((a, b) => {
-          if (a.Season !== b.Season) {
-            return a.Season - b.Season;
-          }
-          return a.Episode - b.Episode;
-        });
-      });
-      return grouped;
-    }
-
-    
-    function renderSeriesMenuButtons() {
-      const container = document.getElementById("series-main-buttons");
-      if (!container) {
-        return;
-      }
-      container.innerHTML = "";
-      const keys = ALL_SERIES;
-      if (keys.length === 0) {
-        const div = document.createElement("div");
-        div.className = "placeholder";
-        div.textContent = "No series available.";
-        container.appendChild(div);
-        return;
-      }
-      keys.forEach(key => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "series-chip";
-        btn.dataset.series = key;
-        btn.innerHTML = key + "<span>Series</span>";
-        btn.addEventListener("click", () => {
-          selectSeries(key);
-        });
-        container.appendChild(btn);
-      });
-
-      const reviewBtn = document.createElement("button");
-      reviewBtn.type = "button";
-      reviewBtn.className = "series-chip";
-      reviewBtn.innerHTML = "Focus Reviews<span>Reviews</span>";
-      reviewBtn.addEventListener("click", () => {
-        showPage("reviews");
-      });
-      container.appendChild(reviewBtn);
-    }
-
-    function renderSeriesStrip() {
-      const container = document.getElementById("series-strip");
-      const status = document.getElementById("series-status");
-      container.innerHTML = "";
-      const keys = ALL_SERIES;
-      if (keys.length === 0) {
-        const span = document.createElement("span");
-        span.className = "placeholder";
-        span.textContent = "No series found in data.";
-        container.appendChild(span);
-        if (status) {
-          status.textContent = "No series available.";
-        }
-        return;
-      }
-      keys.forEach(key => {
-        const chip = document.createElement("button");
-        chip.className = "series-chip";
-        chip.dataset.series = key;
-        chip.textContent = key;
-        chip.addEventListener("click", () => selectSeries(key));
-        container.appendChild(chip);
-      });
-
-      const reviewChip = document.createElement("button");
-      reviewChip.className = "series-chip";
-      reviewChip.textContent = "Focus Reviews";
-      reviewChip.addEventListener("click", () => showPage("reviews"));
-      container.appendChild(reviewChip);
-
-      if (status) {
-        status.textContent = "Loaded " + keys.length + " series. Select one to begin.";
-      }
-    }
-
-    
-    function selectSeries(seriesKey) {
-      currentSeries = seriesKey;
-      currentSeason = null;
-      currentEpisodeID = null;
-
-      const chips = document.querySelectorAll(".series-chip");
-      chips.forEach(chip => {
-        if (chip.dataset.series === seriesKey) {
-          chip.classList.add("active");
+    function setTitles(key){
+      if (titleEl)   titleEl.textContent = "Star Trek";
+      if (subtitleEl) {
+        let subtitleText = "";
+        if (key === 'EPISODES') {
+          subtitleText = (currentEpisodeMode === "worst")
+            ? "Hall of Shame (Episodes)"
+            : "Hall of Fame (Episodes)";
         } else {
-          chip.classList.remove("active");
+          subtitleText =
+            key==='TOS' ? "The Original Series" :
+            key==='TNG' ? "The Next Generation" :
+            key==='DS9' ? "Deep Space Nine" :
+            key==='VOY' ? "Voyager" :
+            key==='ENT' ? "Enterprise" :
+            key==='DIS' ? "Discovery" :
+            key==='PIC' ? "Picard" :
+            key==='SNW' ? "Strange New Worlds" :
+            key==='ARCS' ? "Story Arcs" :
+            key==='GUEST' ? "Guest List" :
+            key==='PROD' ? "Production & Behind-the-Scenes" :
+            key==='STUNTS' ? "Stunts & Stand-Ins" : "";
         }
-      });
-
-      renderSeasonRow();
-      renderEpisodeStrip();
-
-      const consoleTitle = document.getElementById("console-title");
-      const consoleSub = document.getElementById("console-sub");
-      const metaRow = document.getElementById("episode-meta");
-      const summary = document.getElementById("episode-summary");
-      const storyStack = document.getElementById("episode-story");
-      const chipKey = document.getElementById("chip-key");
-      const chipGuest = document.getElementById("chip-guest");
-      const chipAnt = document.getElementById("chip-ant");
-      const ethicalList = document.getElementById("ethical-list");
-      const notesBlock = document.getElementById("notes-block");
-
-      if (consoleTitle) {
-        consoleTitle.textContent = "No episode selected";
-      }
-      if (consoleSub) {
-        consoleSub.textContent = "Series " + seriesKey + " loaded. Choose a season, then an episode.";
-      }
-      if (metaRow) {
-        metaRow.innerHTML = "";
-      }
-      if (summary) {
-        summary.innerHTML = "";
-        const p = document.createElement("div");
-        p.className = "placeholder";
-        p.textContent = "Select a season, then an episode, to view its structure.";
-        summary.appendChild(p);
-      }
-      if (storyStack) {
-        storyStack.innerHTML = "";
-      }
-      if (chipKey) {
-        chipKey.innerHTML = "";
-      }
-      if (chipGuest) {
-        chipGuest.innerHTML = "";
-      }
-      if (chipAnt) {
-        chipAnt.innerHTML = "";
-      }
-      if (ethicalList) {
-        ethicalList.innerHTML = "";
-      }
-      if (notesBlock) {
-        notesBlock.innerHTML = "";
-      }
-
-      const status = document.getElementById("series-status");
-      if (status) {
-        status.textContent = "Series " + seriesKey + " selected.";
-      }
-
-      showPage("episodes");
-    }
-
-    function renderSeasonRow() {
-      const row = document.getElementById("season-row");
-      const subtitle = document.getElementById("episodes-panel-subtitle");
-      if (!row) {
-        return;
-      }
-      row.innerHTML = "";
-
-      if (!currentSeries) {
-        if (subtitle) {
-          subtitle.textContent = "Select a series to view seasons.";
-        }
-        const div = document.createElement("div");
-        div.className = "placeholder";
-        div.textContent = "Select a series above to view seasons.";
-        row.appendChild(div);
-        return;
-      }
-
-      const seriesEpisodes = episodesBySeries[currentSeries] || [];
-      const seasonSet = new Set();
-      seriesEpisodes.forEach(ep => {
-        if (typeof ep.Season === "number") {
-          seasonSet.add(ep.Season);
-        }
-      });
-      const seasons = Array.from(seasonSet).sort((a, b) => a - b);
-
-      if (seasons.length === 0) {
-        if (subtitle) {
-          subtitle.textContent = "No seasons found for " + currentSeries + ".";
-        }
-        const div = document.createElement("div");
-        div.className = "placeholder";
-        div.textContent = "No seasons found for this series.";
-        row.appendChild(div);
-        return;
-      }
-
-      seasons.forEach(seasonNumber => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "season-chip" + (seasonNumber === currentSeason ? " active" : "");
-        btn.dataset.season = String(seasonNumber);
-        btn.textContent = "Season " + seasonNumber;
-        btn.addEventListener("click", () => selectSeason(seasonNumber));
-        row.appendChild(btn);
-      });
-
-      if (subtitle) {
-        if (currentSeason === null) {
-          subtitle.textContent = "Series " + currentSeries + " – choose a season.";
-        } else {
-          subtitle.textContent = "Series " + currentSeries + " • Season " + currentSeason;
-        }
+        subtitleEl.textContent = subtitleText;
       }
     }
-
-    function selectSeason(seasonNumber) {
-      currentSeason = seasonNumber;
-      currentEpisodeID = null;
-      renderSeasonRow();
-      renderEpisodeStrip();
-
-      const consoleTitle = document.getElementById("console-title");
-      const consoleSub = document.getElementById("console-sub");
-      const metaRow = document.getElementById("episode-meta");
-      const summary = document.getElementById("episode-summary");
-      const storyStack = document.getElementById("episode-story");
-      const chipKey = document.getElementById("chip-key");
-      const chipGuest = document.getElementById("chip-guest");
-      const chipAnt = document.getElementById("chip-ant");
-      const ethicalList = document.getElementById("ethical-list");
-      const notesBlock = document.getElementById("notes-block");
-
-      if (consoleTitle) {
-        consoleTitle.textContent = "No episode selected";
-      }
-      if (consoleSub) {
-        consoleSub.textContent = "Season " + seasonNumber + " loaded. Choose an episode.";
-      }
-      if (metaRow) {
-        metaRow.innerHTML = "";
-      }
-      if (summary) {
-        summary.innerHTML = "";
-        const p = document.createElement("div");
-        p.className = "placeholder";
-        p.textContent = "Select an episode from this season to view its structure.";
-        summary.appendChild(p);
-      }
-      if (storyStack) {
-        storyStack.innerHTML = "";
-      }
-      if (chipKey) {
-        chipKey.innerHTML = "";
-      }
-      if (chipGuest) {
-        chipGuest.innerHTML = "";
-      }
-      if (chipAnt) {
-        chipAnt.innerHTML = "";
-      }
-      if (ethicalList) {
-        ethicalList.innerHTML = "";
-      }
-      if (notesBlock) {
-        notesBlock.innerHTML = "";
+    function showCards(){
+      seriesMenu.style.display = "none";
+      cardsGrid.style.display  = "flex";
+      returnMenu.style.display = "inline-flex";
+      if (headerNavLeft) headerNavLeft.style.display = "none";
+      if (headerNavRight) headerNavRight.style.display = "none";
+      document.documentElement.classList.toggle("series-non-tos", subtitleEl.textContent !== "The Original Series");
+      window.scrollTo({top:0, behavior:"instant"});
+    }
+    function clearTopThree(){
+      const host = $(".cards-row");
+      if (host) {
+        host.innerHTML = "";
       }
     }
-
-    function renderEpisodeStrip() {
-      const strip = document.getElementById("episodes-strip");
-      if (!strip) {
-        return;
-      }
-      strip.innerHTML = "";
-
-      if (!currentSeries) {
-        const div = document.createElement("div");
-        div.className = "placeholder";
-        div.textContent = "Select a series above to view episodes.";
-        strip.appendChild(div);
-        return;
-      }
-
-      if (currentSeason === null) {
-        const div = document.createElement("div");
-        div.className = "placeholder";
-        div.textContent = "Select a season to view episodes.";
-        strip.appendChild(div);
-        return;
-      }
-
-      const allEpisodes = episodesBySeries[currentSeries] || [];
-      const seriesEpisodes = allEpisodes.filter(ep => ep.Season === currentSeason);
-
-      if (seriesEpisodes.length === 0) {
-        const div = document.createElement("div");
-        div.className = "placeholder";
-        div.textContent = "No episodes found for this season.";
-        strip.appendChild(div);
-        return;
-      }
-
-      seriesEpisodes.forEach(ep => {
-        const card = document.createElement("div");
-        card.className = "episode-card";
-        card.dataset.id = ep.ID;
-
-        const line1 = document.createElement("div");
-        line1.className = "episode-line-1";
-        line1.textContent = "S" + ep.Season + "E" + ep.Episode + " – " + ep.Title;
-
-        const line2 = document.createElement("div");
-        line2.className = "episode-line-2";
-
-        const tag = document.createElement("div");
-        tag.className = "episode-tag";
-        tag.textContent = normalizeSeriesCode(ep.Series || "");
-
-        const meta = document.createElement("div");
-        meta.className = "episode-meta";
-        meta.textContent = ep.StardateOrYear || ep.AirDate || "";
-
-        line2.appendChild(tag);
-        line2.appendChild(meta);
-
-        card.appendChild(line1);
-        card.appendChild(line2);
-
-        card.addEventListener("click", () => selectEpisode(ep.ID));
-
-        strip.appendChild(card);
-      });
+    function setTopThree(people){
     }
-
-    function selectEpisode(id) {
-      currentEpisodeID = id;
-      currentDetailKind = "episode";
-      const seriesEpisodes = episodesBySeries[currentSeries] || [];
-      const episode = seriesEpisodes.find(e => e.ID === id);
-      if (!episode) {
-        return;
-      }
-
-      if (typeof episode.Season === "number" && currentSeason !== episode.Season) {
-        currentSeason = episode.Season;
-        renderSeasonRow();
-        renderEpisodeStrip();
-      }
-
-      const cards = document.querySelectorAll(".episode-card");
-      cards.forEach(card => {
-        if (card.dataset.id === id) {
-          card.classList.add("active");
-        } else {
-          card.classList.remove("active");
+    function clearExtras(){
+    }
+    function renderExtras(people, key){
+      const host = $(".cards-row");
+      if (!host) return;
+      host.innerHTML = "";
+      const list = Array.isArray(people) ? people : [];
+      list.forEach((p) => {
+        const card = document.createElement("article");
+        card.className = "character-card series-dynamic";
+        if (key && typeof key === "string") {
+          card.className += " " + key.toLowerCase() + "-only";
         }
-      });
-
-      renderEpisodeDetail(episode);
-      showPage("details");
-    }
-
-    function makeCharacterChip(name) {
-      const chip = document.createElement("span");
-      chip.className = "chip";
-      chip.textContent = name;
-      chip.addEventListener("click", () => openBioModal(name));
-      return chip;
-    }
-
-    function renderEpisodeDetail(ep) {
-      currentEpisodeDetail = ep;
-
-      const consoleTitle = document.getElementById("console-title");
-      const consoleSub = document.getElementById("console-sub");
-      const metaRow = document.getElementById("episode-meta");
-      const summary = document.getElementById("episode-summary");
-      const storyStack = document.getElementById("episode-story");
-      const chipKey = document.getElementById("chip-key");
-      const chipGuest = document.getElementById("chip-guest");
-      const chipAnt = document.getElementById("chip-ant");
-      const ethicalBlock = document.getElementById("ethical-block");
-      const ethicalList = document.getElementById("ethical-list");
-      const notesBlock = document.getElementById("notes-block");
-
-      if (consoleTitle) {
-        consoleTitle.textContent = normalizeSeriesCode(ep.Series) + " • S" + ep.Season + "E" + ep.Episode;
-      }
-      if (consoleSub) {
-        consoleSub.textContent = ep.Title || "";
-      }
-      if (metaRow) {
-        metaRow.innerHTML = "";
-        function addMeta(label, value) {
-          if (value === undefined || value === null || value === "") {
-            return;
-          }
-          const chip = document.createElement("div");
-          chip.className = "meta-chip";
-          const spanLabel = document.createElement("span");
-          spanLabel.className = "meta-label";
-          spanLabel.textContent = label;
-          const spanValue = document.createElement("span");
-          spanValue.className = "meta-value";
-          spanValue.textContent = value;
-          chip.appendChild(spanLabel);
-          chip.appendChild(spanValue);
-          metaRow.appendChild(chip);
-        }
-        addMeta("ID", ep.ID);
-        addMeta("Prod", ep.ProductionCode);
-        addMeta("Air date", ep.AirDate);
-        addMeta("Stardate/Year", ep.StardateOrYear);
-      }
-      if (summary) {
-        summary.innerHTML = "";
         const text = document.createElement("div");
-        text.className = "summary";
-        const entry = (summariesById && ep.ID) ? summariesById[ep.ID] : null;
-        const summaryText = (entry && entry.Summary) || ep.OneLineSummary || "";
-        text.textContent = summaryText;
-        summary.appendChild(text);
-      }
-      
-        if (storyStack) {
-          storyStack.innerHTML = "";
-
-          let storySections = ep.StorySections || [];
-
-          if (!Array.isArray(storySections) && storySections && typeof storySections === "object") {
-            const order = ["Teaser", "Act I", "Act II", "Act III", "Act IV", "Tag"];
-            storySections = order
-              .filter(key => storySections[key])
-              .map(key => ({ Header: key, Text: storySections[key] }));
-          }
-
-          storySections.forEach(section => {
-            const card = document.createElement("article");
-            card.className = "story-card";
-            const h = document.createElement("h3");
-            h.textContent = section.Header;
-            const p = document.createElement("p");
-            p.textContent = section.Text;
-            card.appendChild(h);
-            card.appendChild(p);
-            storyStack.appendChild(card);
-          });
-        }
-
-      if (chipKey) {
-        chipKey.innerHTML = "";
-        (ep.KeyCharacters || []).forEach(name => {
-          chipKey.appendChild(makeCharacterChip(name));
-        });
-      }
-      if (chipGuest) {
-        chipGuest.innerHTML = "";
-        (ep.GuestCharacters || []).forEach(name => {
-          chipGuest.appendChild(makeCharacterChip(name));
-        });
-      }
-      if (chipAnt) {
-        chipAnt.innerHTML = "";
-        (ep.Antagonists || []).forEach(name => {
-          chipAnt.appendChild(makeCharacterChip(name));
-        });
-      }
-      const ethics = ep.EthicalIssues || [];
-      if (ethicalBlock && ethicalList) {
-        ethicalList.innerHTML = "";
-        if (ethics.length === 0) {
-          ethicalBlock.style.display = "none";
-        } else {
-          ethicalBlock.style.display = "block";
-          ethics.forEach(text => {
-            const li = document.createElement("li");
-            li.textContent = "• " + text;
-            ethicalList.appendChild(li);
-          });
-        }
-      }
-      if (notesBlock) {
-        notesBlock.innerHTML = "";
-        const continuity = ep.ContinuityNotes || [];
-        const themes = ep.ThematicNotes || [];
-        const bts = ep.BehindTheScenes || [];
-
-        const makeNoteCard = (note) => {
-          const card = document.createElement("article");
-          card.className = "note-card";
-          const h = document.createElement("h4");
-          const p = document.createElement("p");
-
-          if (note && typeof note === "object") {
-            h.textContent = note.Header || "";
-            p.textContent = note.Text || "";
-          } else {
-            h.textContent = "";
-            p.textContent = String(note);
-          }
-
-          if (h.textContent) {
-            card.appendChild(h);
-          }
-          card.appendChild(p);
-          return card;
-        };
-
-        if (continuity.length > 0) {
-          const label = document.createElement("div");
-          label.className = "block-label block-label-accent";
-          label.textContent = "Continuity Notes";
-          notesBlock.appendChild(label);
-          continuity.forEach(note => {
-            notesBlock.appendChild(makeNoteCard(note));
-          });
-        }
-
-        if (themes.length > 0) {
-          const label = document.createElement("div");
-          label.className = "block-label block-label-accent";
-          label.textContent = "Themes";
-          notesBlock.appendChild(label);
-          themes.forEach(note => {
-            notesBlock.appendChild(makeNoteCard(note));
-          });
-        }
-
-        if (bts.length > 0) {
-          const label = document.createElement("div");
-          label.className = "block-label block-label-accent";
-          label.textContent = "Behind the Scenes";
-          notesBlock.appendChild(label);
-          bts.forEach(note => {
-            notesBlock.appendChild(makeNoteCard(note));
-          });
-        }
-      }
-
-    }
-
-    function selectReview(focusKey) {
-      if (!focusKey || !Array.isArray(focusReviews) || !focusReviews.length) {
-        return;
-      }
-      const review = focusReviews.find(r => r.FocusKey === focusKey);
-      if (!review) {
-        return;
-      }
-      currentDetailKind = "review";
-      renderReviewDetail(review);
-      showPage("details");
-    }
-
-    function renderReviewDetail(review) {
-      currentEpisodeDetail = null;
-
-      const consoleTitle = document.getElementById("console-title");
-      const consoleSub = document.getElementById("console-sub");
-      const metaRow = document.getElementById("episode-meta-row");
-      const summary = document.getElementById("episode-summary");
-      const storyStack = document.getElementById("episode-story");
-      const chipKey = document.getElementById("chip-key");
-      const chipGuest = document.getElementById("chip-guest");
-      const chipAnt = document.getElementById("chip-ant");
-      const ethicalBlock = document.getElementById("ethical-block");
-      const ethicalList = document.getElementById("ethical-list");
-      const notesBlock = document.getElementById("notes-block");
-
-      if (consoleTitle) {
-        consoleTitle.textContent = (review.Character || "") + " • Focus Review";
-      }
-      if (consoleSub) {
-        consoleSub.textContent = review.EpisodeTitle || "";
-      }
-
-      if (metaRow) {
-        metaRow.innerHTML = "";
-        const addMeta = (label, value) => {
-          if (!value) {
-            return;
-          }
-          const chip = document.createElement("div");
-          chip.className = "meta-chip";
-          const spanLabel = document.createElement("span");
-          spanLabel.className = "meta-label";
-          spanLabel.textContent = label;
-          const spanValue = document.createElement("span");
-          spanValue.className = "meta-value";
-          spanValue.textContent = value;
-          chip.appendChild(spanLabel);
-          chip.appendChild(spanValue);
-          metaRow.appendChild(chip);
-        };
-        addMeta("Series", normalizeSeriesCode(review.Series || ""));
-        addMeta("Character", review.Character || "");
-        addMeta("Episode", review.EpisodeTitle || "");
-      }
-
-      if (summary) {
-        const r = review.Review || {};
-        summary.textContent = r.Overview || "";
-      }
-
-      if (storyStack) {
-        storyStack.innerHTML = "";
-        const r = review.Review || {};
-        const addSection = (title, text) => {
-          if (!text) {
-            return;
-          }
-          const card = document.createElement("article");
-          card.className = "story-card";
-          const h = document.createElement("div");
-          h.className = "story-card-header";
-          h.textContent = title;
-          const body = document.createElement("div");
-          body.className = "story-card-body";
-          body.textContent = text;
-          card.appendChild(h);
-          card.appendChild(body);
-          storyStack.appendChild(card);
-        };
-        addSection("Character Context", r.CharacterContext || "");
-        addSection("Character Arc", r.CharacterArc || "");
-        addSection("Key Scenes", r.KeyScenesForCharacter || "");
-      }
-
-      if (chipKey) {
-        chipKey.innerHTML = "";
-      }
-      if (chipGuest) {
-        chipGuest.innerHTML = "";
-      }
-      if (chipAnt) {
-        chipAnt.innerHTML = "";
-      }
-
-      if (ethicalBlock && ethicalList) {
-        ethicalList.innerHTML = "";
-        const r = review.Review || {};
-        const text = r.EthicalIssues || "";
-        if (!text) {
-          ethicalBlock.style.display = "none";
-        } else {
-          ethicalBlock.style.display = "block";
-          const li = document.createElement("li");
-          li.textContent = text;
-          ethicalList.appendChild(li);
-        }
-      }
-
-      if (notesBlock) {
-        notesBlock.innerHTML = "";
-        const r = review.Review || {};
-        const addNotesBlock = (title, text) => {
-          if (!text) {
-            return;
-          }
-          const label = document.createElement("div");
-          label.className = "block-label block-label-accent";
-          label.textContent = title;
-          notesBlock.appendChild(label);
-          const card = document.createElement("article");
-          card.className = "note-card";
-          const p = document.createElement("p");
-          p.textContent = text;
-          card.appendChild(p);
-          notesBlock.appendChild(card);
-        };
-        addNotesBlock("Themes", r.Themes || "");
-        addNotesBlock("Continuity", r.Continuity || "");
-        addNotesBlock("Behind the Scenes", r.ProductionNotes || "");
-      }
-    }
-
-
-    function showEpisodesError(message) {
-      const subtitle = document.getElementById("episodes-panel-subtitle");
-      if (subtitle) {
-        subtitle.textContent = "Error loading data";
-      }
-      const strip = document.getElementById("episodes-strip");
-      if (strip) {
-        strip.innerHTML = "";
-        const div = document.createElement("div");
-        div.className = "error-text";
-        div.textContent = message;
-        strip.appendChild(div);
-      }
-      const status = document.getElementById("series-status");
-      if (status) {
-        status.textContent = "Error loading episode data.";
-      }
-    }
-
-    function fetchEpisodes() {
-      const entries = Object.entries(EPISODE_URLS || {});
-      if (!entries.length) {
-        showEpisodesError("No episode URLs configured.");
-        return;
-      }
-
-      const requests = entries.map(([seriesKey, url]) =>
-        fetch(url)
-          .then(response => {
-            if (!response.ok) {
-              throw new Error("HTTP " + response.status + " when fetching episode data for " + seriesKey + ".");
-            }
-            return response.json();
-          })
-          .then(data => {
-            if (!Array.isArray(data)) {
-              throw new Error("Expected an array of episodes in the JSON file for " + seriesKey + ".");
-            }
-            return data;
-          })
-          .catch(err => {
-            console.error("Error loading episodes for", seriesKey + ":", err);
-            return [];
-          })
-      );
-
-      Promise.all(requests)
-        .then(results => {
-          allEpisodes = [];
-          results.forEach(arr => {
-            if (Array.isArray(arr)) {
-              allEpisodes = allEpisodes.concat(arr);
-            }
-          });
-
-          if (!allEpisodes.length) {
-            showEpisodesError("No episode data loaded.");
-            return;
-          }
-
-          episodesBySeries = groupEpisodesBySeries(allEpisodes);
-          buildSearchIndex();
-          const subtitle = document.getElementById("episodes-panel-subtitle");
-          if (subtitle) {
-            subtitle.textContent = "Data loaded (" + allEpisodes.length + " episode(s))";
-          }
-          renderSeriesStrip();
-        })
-        .catch(err => {
-          showEpisodesError(err.message);
-        });
-    }
-
-    
-    
-    
-    
-function renderReviewGrid() {
-      const container = document.getElementById("reviews-grid");
-      if (!container) return;
-      container.innerHTML = "";
-      if (!focusReviews || !focusReviews.length) {
-        const div = document.createElement("div");
-        div.className = "placeholder";
-        div.textContent = "No focus reviews are available yet.";
-        container.appendChild(div);
-        return;
-      }
-      focusReviews.forEach(review => {
-        const card = document.createElement("div");
-        card.className = "review-card";
-        card.dataset.series = review.Series || "";
-        card.dataset.character = review.Character || "";
-
-        const inner = document.createElement("div");
-        inner.className = "review-card-inner";
-
-        const header = document.createElement("div");
-        header.className = "review-card-header";
-
-        const character = document.createElement("div");
-        character.className = "review-card-character";
-        character.textContent = review.Character || "";
-
-        const series = document.createElement("div");
-        series.className = "review-card-series";
-        series.textContent = review.Series || "";
-
-        header.appendChild(character);
-        header.appendChild(series);
-
-        const title = document.createElement("div");
-        title.className = "review-card-episode";
-        title.textContent = review.EpisodeTitle || "";
-
-        const meta = document.createElement("div");
-        meta.className = "review-card-meta";
-        meta.textContent = "Character focus review";
-
-        inner.appendChild(header);
-        inner.appendChild(title);
-        inner.appendChild(meta);
-        card.appendChild(inner);
-
-        card.addEventListener("click", () => {
-          if (review.FocusKey) {
-            selectReview(review.FocusKey);
-          }
-        });
-
-        container.appendChild(card);
+        text.className = "card-text";
+        const name  = p && p.name  ? p.name  : "";
+        const role  = p && p.role  ? p.role  : "";
+        const actor = p && p.actor ? p.actor : "";
+        text.innerHTML = `
+          <a href="#" class="character-name">${name}</a>
+          <p class="character-title">${role}</p>
+          <a href="#" class="character-actor">${actor}</a>`;
+        card.appendChild(text);
+        host.appendChild(card);
       });
     }
 
-function fetchReviews() {
-      return fetch(REVIEW_URL)
-        .then(resp => {
-          if (!resp.ok) {
-            console.error("Failed to fetch reviews:", resp.status);
-            return [];
-          }
-          return resp.json();
-        })
-        .then(data => {
-          if (Array.isArray(data)) {
-            focusReviews = data;
-          } else {
-            focusReviews = [];
-          }
-          buildSearchIndex();
-          renderReviewGrid();
-        })
-        .catch(err => {
-          console.error("Error loading reviews:", err);
-          focusReviews = [];
-        });
+    function labelToKey(label){
+      const l=(label||"").toLowerCase();
+      if (l.includes("original")) return "TOS";
+      if (l.includes("next generation") || l.includes("tng")) return "TNG";
+      if (l.includes("deep space nine") || l.includes("ds9")) return "DS9";
+      if (l.includes("voyager") || l.includes("voy")) return "VOY";
+      if (l.includes("enterprise") || l.includes("ent")) return "ENT";
+      if (l.includes("discovery") || l.includes("dis")) return "DIS";
+      if (l.includes("picard") || l.includes("pic")) return "PIC";
+      if (l.includes("strange new worlds") || l.includes("snw")) return "SNW";
+      if (l.includes("best episodes") || l.includes("worst episodes") || l.includes("curated episode") || l.includes("episode guide") || l.includes("hall of fame") || l.includes("hall of shame")) return "EPISODES";
+      if (l.includes("story arcs") || l.includes("story arc") || l.includes("arcs")) return "ARCS";
+      if (l.includes("guest")) return "GUEST";
+      return "";
     }
 
+        async function showProduction() {
+      currentSeriesKey = "PROD";
+      setTitles("PROD");
+      showCards();
+      clearTopThree();
+      clearExtras();
+      try {
+        const data = await loadProdStunts();
+        const section = (data && data.Production) ? data.Production : {};
+        const names = Object.keys(section).sort((a, b) => a.localeCompare(b));
+        const people = names.map((name) => ({
+          name,
+          role: PROD_TITLES[name] || "Production",
+          actor: "",
+          img: ""
+        }));
+        setTopThree(people);
+        renderExtras(people, "PROD");
+      } catch (e) {
+        console.error("Production load error", e);
+        setTopThree([]);
+        renderExtras([], "PROD");
+      }
+    }
+
+
+    async function showStunts() {
+      currentSeriesKey = "STUNTS";
+      setTitles("STUNTS");
+      showCards();
+      clearTopThree();
+      clearExtras();
+      try {
+        const data = await loadProdStunts();
+        const section = (data && data.Stunts) ? data.Stunts : {};
+        const names = Object.keys(section).sort((a, b) => a.localeCompare(b));
+        const people = names.map((name) => ({
+          name,
+          role: STUNT_TITLES[name] || "Stunts & Stand-Ins",
+          actor: "",
+          img: ""
+        }));
+        setTopThree(people);
+        renderExtras(people, "STUNTS");
+      } catch (e) {
+        console.error("Stunts load error", e);
+        setTopThree([]);
+        renderExtras([], "STUNTS");
+      }
+    }
+
+
+function applySeries(key){
+
+      currentSeriesKey = key;
+      setTitles(key);
+
+      showCards();
+      clearTopThree();
+      clearExtras();
+
+      const isTOS = key === "TOS";
+      $$(".character-card.tos-only").forEach(c => c.style.display = isTOS ? "flex" : "none");
+
+      if (key === "EPISODES") {
+        loadEPISODES().then((episodes) => {
+          const list = Array.isArray(episodes) ? episodes : [];
+          const people = buildEpisodeCards(list);
+          setTopThree(people);
+          renderExtras(people, key);
+        }).catch((err) => {
+          console.error("Curated Episodes load error", err);
+          setTopThree([]);
+          renderExtras([], key);
+        });
+        return;
+      }
+
+      const people = SERIES[key] || [];
+      setTopThree(people);
+      renderExtras(people, key);
+      if (key === "SNW") {
+        const cards = document.querySelectorAll(".cards-row .character-card");
+        cards.forEach(async (card) => {
+          const nameEl = card.querySelector(".character-name");
+          const imgEl  = card.querySelector("img");
+          if (!nameEl || !imgEl) return;
+
+          const isPlaceholder = (imgEl.src || "").startsWith("data:image/svg+xml");
+          if (!isPlaceholder) return;
+          const n = nameEl.textContent.trim();
+          const found = await findSnwImage(n);
+          if (found) { imgEl.src = found; }
+        });
+      }
+    }
 
     
-function fetchSummaries() {
-      return fetch(SUMMARY_URL)
-        .then(resp => {
-          if (!resp.ok) {
-            throw new Error("Failed to fetch summaries: " + resp.status);
-          }
-          return resp.json();
-        })
-        .then(data => {
-          const map = {};
-          (data || []).forEach(entry => {
-            if (entry && entry.ID) {
-              map[entry.ID] = entry;
-            }
-          });
-          summariesById = map;
-        })
-        .catch(err => {
-          console.error("Error loading summaries", err);
-          summariesById = {};
-        });
+    function renderBio(title, sections, imgUrl){
+      const fallbackImg = imgUrl || '';
+      const blocks = Array.isArray(sections) ? sections : [{header:"Biography", text:"No biography available."}];
+      const seriesSubtitle = (subtitleEl && subtitleEl.textContent) ? subtitleEl.textContent.toLowerCase() : "";
+      const isEpisodes = seriesSubtitle.includes("hall of fame") || seriesSubtitle.includes("hall of shame") || seriesSubtitle.includes("episode");
+      const isArc = !isEpisodes && Array.isArray(blocks) && blocks.length && blocks[0].header === "Overview";
+
+            const isProd = seriesSubtitle.includes("production") || seriesSubtitle.includes("behind-the-scenes") || seriesSubtitle.includes("behind the scenes") || seriesSubtitle.includes("behind the camera");
+      const isStunts = seriesSubtitle.includes("stunts") || seriesSubtitle.includes("stand-ins") || seriesSubtitle.includes("stand in");
+      const isProdStunts = isProd || isStunts;
+      const hasToggle = !isArc && !isEpisodes && !isProdStunts && !!(bioLinkState && bioLinkState.crewEl && bioLinkState.actorEl);
+      const which = bioLinkState && bioLinkState.which === "actor" ? "actor" : "crew";
+      const toggleLabel = hasToggle
+        ? (which === "crew" ? "View Actor Biography" : "View Character Biography")
+        : "";
+      const subtitle = isArc
+        ? "Story Arc"
+        : (isEpisodes
+          ? (currentEpisodeMode === "worst" ? "Hall of Shame" : "Hall of Fame")
+          : (isProd
+            ? "Production Crew"
+            : (isStunts
+              ? "Stunts/Stand-Ins"
+              : (which === "crew" ? "Character Biography" : "Actor Biography"))));
+
+      const headerHtml = `
+        <div class="bio-overlay-inner">
+          <header class="bio-overlay-header">
+            <div class="bio-overlay-title">
+              <div class="bio-overlay-title-main">${esc(title)}</div>
+              <div class="bio-overlay-title-sub">${subtitle}</div>
+            </div>
+          </header>
+      `;
+
+      const crewEl = bioLinkState && bioLinkState.crewEl ? bioLinkState.crewEl : null;
+      const actorEl = bioLinkState && bioLinkState.actorEl ? bioLinkState.actorEl : null;
+      const roleEl = crewEl && crewEl.parentElement
+        ? crewEl.parentElement.querySelector(".character-title")
+        : null;
+
+      const crewName = crewEl ? crewEl.textContent.trim() : title;
+      const actorName = actorEl ? actorEl.textContent.trim() : "";
+      const roleText = roleEl
+        ? roleEl.textContent.trim()
+        : (isArc
+          ? "Story Arc"
+          : (isEpisodes
+            ? (currentEpisodeMode === "worst" ? "Hall of Shame" : "Hall of Fame")
+            : subtitle));
+
+      const topIsActor = which === "actor";
+
+      const topName = topIsActor ? (actorName || crewName) : crewName;
+      const bottomName = topIsActor ? crewName : actorName;
+
+      const nameHtml = topName
+        ? `<div class="badge-2-name">${esc(topName)}</div>`
+        : "";
+      const roleHtml = roleText
+        ? `<div class="badge-2-role">${esc(roleText)}</div>`
+        : "";
+      const actorHtml = bottomName
+        ? `<div class="badge-2-actor">${esc(bottomName)}</div>`
+        : "";
+
+      const imageHtml = [
+            `<div class="bio-image-col">`,
+            `<div class="badge-2">`,
+            `<div class="badge-2-text">`,
+            nameHtml,
+            roleHtml,
+            actorHtml,
+            `</div>`,
+            `</div>`,
+            `</div>`
+          ].join("");
+
+      const bodyHtml = blocks.map((s) => {
+        const header = esc(s.header || "");
+        const rawText = s.text || "";
+        const body = s.html
+          ? s.html
+          : (isArc ? esc(rawText).replace(/\n\n+/g, "<br><br>") : esc(rawText));
+        return [
+          `<h3 class="bio-overlay-h">${header}</h3>`,
+          `<p class="bio-overlay-subtitle">${body}</p>`
+        ].join("");
+      }).join("");
+
+      const contentHtml = `
+          <main class="bio-overlay-main">
+            ${imageHtml}
+            <div class="bio-text-col">
+              ${bodyHtml}
+            </div>
+          </main>
+      `;
+
+      const buttonsHtml = [
+        hasToggle
+          ? `<button type="button" id="toggleBioView" class="overlay-link primary">${esc(toggleLabel)}</button>`
+          : "",
+        `<button type="button" id="returnToCrew" class="overlay-link">${isArc ? "Return to Story Arcs" : "Return to Crew"}</button>`
+      ].join("");
+
+      const footerHtml = `
+          <footer class="bio-overlay-footer">
+            ${buttonsHtml}
+          </footer>
+        </div>
+      `;
+
+      bioOverlay.innerHTML = headerHtml + contentHtml + footerHtml;
+      bioOverlay.style.display = "block";
+      cardsGrid.style.display = "none";
+      returnMenu.style.display = "inline-flex";
+      if (headerShip) headerShip.style.display = "block";
+      document.body.classList.add("bio-open");
+      window.scrollTo({ top: 0, behavior: "instant" });
     }
 
-
-    function fetchBios() {
-      fetch(BIO_URL)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("HTTP " + response.status + " when fetching summaries.");
-          }
-          return response.json();
-        })
-        .then(data => {
-          biosByKey = {};
-          if (Array.isArray(data)) {
-            data.forEach(bio => {
-              if (bio.Name) {
-                const mainKey = bio.Name.toLowerCase();
-                biosByKey[mainKey] = bio;
-              }
-              (bio.Alias || []).forEach(alias => {
-                const key = alias.toLowerCase();
-                biosByKey[key] = bio;
-              });
-            });
-            biosLoaded = true;
-          }
-        })
-        .catch(err => {
-          biosLoaded = false;
-          console.error("Error loading summaries:", err);
-        });
+function hideBio(){
+      bioOverlay.style.display = "none";
+      bioOverlay.innerHTML = "";
+      cardsGrid.style.display = "flex";
+      returnMenu.style.display = "inline-flex";
+      if (headerShip) headerShip.style.display = "none";
+      document.body.classList.remove("bio-open");
+      window.scrollTo({top:0, behavior:"instant"});
     }
 
-    function initBioModal() {
-      const modal = document.getElementById("bio-modal");
-      const backdrop = document.getElementById("bio-backdrop");
-      const closeBtn = document.getElementById("bio-close");
-      function close() {
-        modal.classList.remove("active");
-      }
-      backdrop.addEventListener("click", close);
-      closeBtn.addEventListener("click", close);
-      document.addEventListener("keydown", e => {
-        if (e.key === "Escape") {
-          close();
+    document.addEventListener("click", async (e) => {
+
+      const btn = e.target.closest(".series-btn");
+      if (btn && btn.hasAttribute("data-series")) {
+        e.preventDefault();
+        const rawLabel = btn.getAttribute("data-series") || btn.textContent || "";
+        const seriesLabel = rawLabel.toLowerCase();
+
+        if (seriesLabel.includes("stunts") || seriesLabel.includes("stand-ins") || seriesLabel.includes("stand ins")) {
+          await showStunts();
+          return;
         }
+
+        if (seriesLabel.includes("behind the camera")) {
+          await showProduction();
+          return;
+        }
+
+        if (seriesLabel.includes("best episodes")) {
+          currentEpisodeMode = "best";
+        } else if (seriesLabel.includes("worst episodes")) {
+          currentEpisodeMode = "worst";
+        }
+        applySeries(labelToKey(rawLabel));
+        return;
+      }
+
+      if (e.target.closest("#return-menu")) {
+        e.preventDefault();
+        bioOverlay.style.display = "none";
+        document.documentElement.classList.remove("series-non-tos");
+        if (headerShip) headerShip.style.display = "none";
+
+        titleEl.textContent = "Bio Trek";
+        subtitleEl.textContent = "Star Trek Biographies";
+
+        seriesMenu.style.display = "flex";
+        cardsGrid.style.display = "none";
+        returnMenu.style.display = "none";
+
+        if (headerNavLeft) headerNavLeft.style.display = "inline-flex";
+        if (headerNavRight) headerNavRight.style.display = "inline-flex";
+
+        return;
+      }
+
+      if (e.target && e.target.id === "toggleBioView") {
+        e.preventDefault();
+        if (bioLinkState) {
+          const target = bioLinkState.which === "crew"
+            ? bioLinkState.actorEl
+            : bioLinkState.crewEl;
+          if (target) {
+            target.click();
+          }
+        }
+        return;
+      }
+
+      if (e.target && e.target.id === "returnToCrew") {
+        e.preventDefault();
+        hideBio();
+        return;
+      }
+
+      const nameLink  = e.target.closest("a.character-name");
+      const actorLink = e.target.closest("a.character-actor");
+      if (!nameLink && !actorLink) return;
+      e.preventDefault();
+
+      const series = (subtitleEl.textContent || "").toLowerCase();
+      const isTOS  = series.includes("original");
+      const isDS9  = series.includes("deep space nine");
+      const isTNG  = series.includes("next generation") || series.includes("tng");
+      const isENT  = series.includes("enterprise") || series.includes("ent");
+      const isVOY  = series.includes("voyager") || series.includes("voy");
+      const isDIS  = series.includes("discovery") || series.includes("dis ");
+      const isSNW  = series.includes("strange new worlds") || series.includes("snw");
+      const isPIC  = series.includes("picard") || series.includes("pic");
+      const isGUEST = series.includes("guest");
+      const isPROD = series.includes("production") || series.includes("behind the") || series.includes("behind-the-scenes") || series.includes("behind the camera");
+      const isSTUNTS = series.includes("stunts") || series.includes("stand-ins") || series.includes("stand in");
+      const isARCS = series.includes("story arcs");
+      const isEPISODES = series.includes("curated episode") || series.includes("episode guide") || series.includes("hall of fame") || series.includes("hall of shame") || series.includes("episodes");
+      const isOther = !(isTOS || isDS9 || isTNG || isENT || isVOY || isDIS || isSNW || isPIC || isGUEST || isARCS || isEPISODES || isPROD || isSTUNTS);
+      if (isARCS && nameLink) {
+        return;
+      }
+      try {
+        const which = nameLink ? "crew" : "actor";
+        const text  = (nameLink ? nameLink : actorLink).textContent;
+        const linkEl = nameLink ? nameLink : actorLink;
+        const cardEl = linkEl.closest(".character-card");
+        const imgEl = cardEl ? cardEl.querySelector("img") : null;
+        const imgUrl = imgEl ? imgEl.src : "";
+        const crewEl = cardEl ? cardEl.querySelector("a.character-name") : null;
+        const actorEl = cardEl ? cardEl.querySelector("a.character-actor") : null;
+        bioLinkState = { which, crewEl, actorEl };
+        if (isEPISODES) {
+          const episodes = await loadEPISODES();
+          const titleElWithinCard = cardEl ? cardEl.querySelector("a.character-name") : null;
+          const titleText = titleElWithinCard ? titleElWithinCard.textContent : text;
+          const episode = resolveArc(episodes, titleText);
+          const sections = sectionsFromArc(episode);
+          console.log("Curated Episodes: click", { clicked:titleText, hasEpisode:!!episode, sections:sections.length });
+          bioLinkState = null;
+          renderBio(episode ? episode.title : titleText, sections, imgUrl);
+        } else if (isARCS) {
+          const arcs = await loadARCS();
+          const titleElWithinCard = cardEl ? cardEl.querySelector("a.character-name") : null;
+          const titleText = titleElWithinCard ? titleElWithinCard.textContent : text;
+          const arc = resolveArc(arcs, titleText);
+          const sections = sectionsFromArc(arc);
+          console.log("Story Arcs: click", { clicked:text, resolved:titleText, hasArc:!!arc, sections:sections.length });
+          bioLinkState = null;
+          renderBio(arc ? arc.title : titleText, sections, imgUrl);
+        } else if (isTOS) {
+          const ds = await loadTOS();
+          const sections = resolve(ds, text, which, "TOS") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isDS9) {
+          const ds = await loadDS9();
+          const sections = resolve(ds, text, which, "DS9") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isTNG) {
+          const ds = await loadTNG();
+          const sections = resolve(ds, text, which, "TNG") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isENT) {
+          const ds = await loadENT();
+          const sections = resolve(ds, text, which, "ENT") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isVOY) {
+          const ds = await loadVOY();
+          const sections = resolve(ds, text, which, "VOY") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isDIS) {
+          const ds = await loadDIS();
+          const sections = resolve(ds, text, which, "DIS") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isSNW) {
+          const ds = await loadSNW();
+          const sections = resolve(ds, text, which, "SNW") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isPIC) {
+          const ds = await loadPIC();
+          const sections = resolve(ds, text, which, "PIC") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isGUEST) {
+          const ds = await loadGUEST();
+          const sections = resolve(ds, text, which, "GUEST") || [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isPROD) {
+          const data = await loadProdStunts();
+          const section = data && data.Production ? data.Production[text] : null;
+          const sections = Array.isArray(section) ? section : [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else if (isSTUNTS) {
+          const data = await loadProdStunts();
+          const section = data && data.Stunts ? data.Stunts[text] : null;
+          const sections = Array.isArray(section) ? section : [{header:"Biography", text:"Not found."}];
+          renderBio(text, sections, imgUrl);
+        } else {
+          renderBio(text, [{header:"Biography", text:"This series is not wired to bios yet."}], imgUrl);
+        }
+      }
+
+catch (err) {
+        renderBio("Error", [{header:"Biography", text:"Failed to load biography data."}], imgUrl);
+      }
+    });
+  
+    
+
+    document.addEventListener("click", async (e) => {
+      const rel = e.target.closest && e.target.closest("[data-related-bio]");
+      if (!rel) return;
+      e.preventDefault();
+      const name = rel.getAttribute("data-name") || "";
+      const type = rel.getAttribute("data-related-bio") || "crew";
+      const which = type === "actor" ? "actor" : "crew";
+      const imgUrl = "";
+      try {
+        const seriesKeys = ["TOS","TNG","DS9","VOY","ENT","DIS","SNW","PIC","GUEST"];
+        for (const key of seriesKeys) {
+          let ds = null;
+          if (key === "TOS") ds = await loadTOS();
+          else if (key === "TNG") ds = await loadTNG();
+          else if (key === "DS9") ds = await loadDS9();
+          else if (key === "VOY") ds = await loadVOY();
+          else if (key === "ENT") ds = await loadENT();
+          else if (key === "DIS") ds = await loadDIS();
+          else if (key === "SNW") ds = await loadSNW();
+          else if (key === "PIC") ds = await loadPIC();
+          else if (key === "GUEST") ds = await loadGUEST();
+          if (!ds) continue;
+          const section = resolve(ds, name, which, key);
+          if (section) {
+            bioLinkState = { which, crewEl: null, actorEl: null };
+            renderBio(name, section, imgUrl);
+            return;
+          }
+        }
+        renderBio(name, [{ header: "Biography", text: "Biography not found in the current data files." }], imgUrl);
+      } catch (err) {
+        console.error("Related bio error", err);
+        renderBio(name, [{ header: "Biography", text: "Biography could not be loaded." }], imgUrl);
+      }
+    });
+
+    document.addEventListener("click", (e) => {
+      const a = e.target.closest && e.target.closest("a");
+      if (!a) return;
+      if (a.classList && (a.classList.contains("character-name") || a.classList.contains("character-actor"))) {
+
+      }
+    }, true);
+  
+
+    
+    function positionStoryArcsRow() {
+      const grid = document.querySelector(".series-grid");
+      if (!grid) return;
+      const rows = grid.querySelectorAll(".button-row");
+      if (rows.length < 6) return;
+
+      const aboveRow = rows[3];
+      const arcsRow = rows[4];
+      const fameRow = rows[5];
+
+      arcsRow.style.marginTop = "";
+
+      const aboveRect = aboveRow.getBoundingClientRect();
+      const fameRect = fameRow.getBoundingClientRect();
+      const arcsRect = arcsRow.getBoundingClientRect();
+
+      const gap = fameRect.top - aboveRect.bottom;
+      if (gap <= 0) return;
+
+      const targetTop = aboveRect.bottom + gap / 2 - arcsRect.height / 2;
+      const currentTop = arcsRect.top;
+      const computedMargin = parseFloat(window.getComputedStyle(arcsRow).marginTop) || 0;
+      const neededMargin = computedMargin + (targetTop - currentTop);
+
+      arcsRow.style.marginTop = neededMargin + "px";
+    }
+
+        if (headerNavLeft) {
+      headerNavLeft.addEventListener("click", (e) => {
+        e.preventDefault();
+        showStunts();
+      });
+    }
+    if (headerNavRight) {
+      headerNavRight.addEventListener("click", (e) => {
+        e.preventDefault();
+        showProduction();
       });
     }
 
+    if (headerNavLeft) headerNavLeft.style.display = "inline-flex";
+    if (headerNavRight) headerNavRight.style.display = "inline-flex";
 
-        function openBioModal(name) {
-      const modal = document.getElementById("bio-modal");
-      const nameEl = document.getElementById("bio-name");
-      const roleEl = document.getElementById("bio-role");
-      const summaryEl = document.getElementById("bio-summary");
-      const fallbackWrapper = document.getElementById("bio-fallback");
-      const fallbackName = document.getElementById("bio-name-raw");
+positionStoryArcsRow();
+    window.addEventListener("resize", positionStoryArcsRow);
 
-      let entitySummary = null;
-      if (currentEpisodeDetail && currentEpisodeDetail.EntitySummaries) {
-        const map = currentEpisodeDetail.EntitySummaries;
-        if (map[name] != null) {
-          entitySummary = map[name];
-        } else {
-          const lowerName = name.toLowerCase();
-          for (const key in map) {
-            if (Object.prototype.hasOwnProperty.call(map, key)) {
-              if (key.toLowerCase() === lowerName) {
-                entitySummary = map[key];
-                break;
-              }
-            }
-          }
-        }
-      }
 
-      const key = name.toLowerCase();
-      const bio = biosByKey[key];
+positionStoryArcsRow();
+    window.addEventListener("resize", positionStoryArcsRow);
 
-      if (entitySummary) {
-        nameEl.textContent = name;
-        roleEl.textContent = "";
-        summaryEl.textContent = entitySummary;
-        fallbackWrapper.style.display = "none";
-      } else if (!biosLoaded) {
-        nameEl.textContent = name;
-        roleEl.textContent = "";
-        summaryEl.textContent = "Summary data is not loaded or unavailable.";
-        fallbackWrapper.style.display = "none";
-      } else if (!bio) {
-        nameEl.textContent = "No summary available";
-        roleEl.textContent = "";
-        summaryEl.textContent = "No summary available for this link";
-        fallbackWrapper.style.display = "block";
-        fallbackName.textContent = name;
-      } else {
-        nameEl.textContent = bio.Name || name;
-        roleEl.textContent = bio.Role || "";
-        summaryEl.textContent = bio.Summary || "";
-        fallbackWrapper.style.display = "none";
-      }
-
-      modal.classList.add("active");
-    }
-
-function init() {
-      initBioModal();
-      fetchEpisodes();
-      fetchBios();
-      fetchSummaries();
-      fetchReviews();
-      showPage("series");
-
-      const backBtn = document.getElementById("back-to-series");
-      if (backBtn) {
-        backBtn.addEventListener("click", () => {
-          currentEpisodeID = null;
-          showPage("series");
-        });
-      }
-
-      const detailBackEpisodes = document.getElementById("detail-back-episodes");
-      if (detailBackEpisodes) {
-        detailBackEpisodes.addEventListener("click", () => {
-          if (currentSeries) {
-            showPage("episodes");
-          } else {
-            showPage("series");
-          }
-        });
-      }
-
-      const detailBackReviews = document.getElementById("detail-back-reviews");
-      if (detailBackReviews) {
-        detailBackReviews.addEventListener("click", () => {
-          currentDetailKind = "review";
-          showPage("reviews");
-        });
-      }
-
-      const detailBackSeries = document.getElementById("detail-back-series");
-      if (detailBackSeries) {
-        detailBackSeries.addEventListener("click", () => {
-          currentEpisodeID = null;
-          showPage("series");
-        });
-      }
-
-      const searchInput = document.getElementById("search-input");
-      if (searchInput) {
-        searchInput.addEventListener("input", handleSearchInput);
-      }
-    }
-
-        document.addEventListener("DOMContentLoaded", init);
-  </script>
-</body>
-</html>
+</script>
+</body></html>
