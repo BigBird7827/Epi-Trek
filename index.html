@@ -980,14 +980,15 @@
 
     
 </style>
-<style id="mainConsoleInlineStyle">
-  .main-console-inline{
+<style id="mainConsoleLeftStyle">
+  .mainConsoleLeftWrap{
     display:flex;
-    justify-content:center;
-    align-items:center;
+    justify-content:flex-start;
+    margin-top: 10px;
   }
-  .main-console-inline a{
-    text-decoration:none;
+  .mainConsoleLeftWrap a,
+  .mainConsoleLeftWrap button{
+    cursor:pointer;
   }
 </style>
 </head>
@@ -1001,9 +1002,9 @@
         </div>
         <div class="brand-caption"></div>
         <div class="brand-title">Episode console</div>
-        <div class="brand-sub" id="brand-sub">Select a series, skim the episode deck, then dive into story beats, characters, ethics, continuity, and themes.</div>
-          <div class="main-console-inline" style="margin-top:12px;"><a class="btn" href="https://bigbird7827.github.io/Main-Console/">MAIN CONSOLE</a></div>
+        <div class="mainConsoleLeftWrap" style="margin: 10px 0;"><button class="back-link console-back-link" type="button" onclick="window.location.href='https://bigbird7827.github.io/Main-Console/'">MAIN CONSOLE</button></div>
 
+        <div class="brand-sub" id="brand-sub">Select a series, skim the episode deck, then dive into story beats, characters, ethics, continuity, and themes.</div>
         <div class="brand-nav" id="brand-nav">
           <button id="detail-back-episodes" type="button" class="back-link console-back-link">← Back to episodes</button>
           <button id="detail-back-reviews" type="button" class="back-link console-back-link">← Back to focus reviews</button>
